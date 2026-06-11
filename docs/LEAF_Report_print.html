@@ -44,10 +44,7 @@ code{background:#f0f0f0;padding:1px 3px;border-radius:2px;font-size:9pt}
 <p>全球 7,000 种语言中超过 40% 面临濒危，主流大语言模型（GPT-4、GLM-4）对低资源语言的零样本翻译 BLEU 得分为 0。本文提出 <strong>LEAF（Layered Evaluation and Assurance Framework）</strong>，一个面向低资源语言翻译品质保证的 Multi-Agent 框架，以排湾语（Paiwan, ISO 639-3: pag）为验证语言。</p>
 <p>我们在 ReAct 架构中发现了一种稳定的失败模式——<strong>查询漂移（Query Drift）</strong>：LLM 在迭代推理中擅自改写检索查询，漂移率高达 35%，其中 71% 直接导致翻译错误。LEAF 通过四层品质保证（CoreVocab / RAG / Grammar / Verify）和 Multi-Agent 编排，将漂移率从 35% 降至 0%，翻译准确率从 65% 提升至 <strong>95%</strong>。消融实验证明，30pp 提升全部来自架构设计本身。</p>
 <p>实验在排湾语（5,923 条语料）和阿美语（6,413 条语料）上完成双语言交叉验证。<strong>关键词</strong>：低资源语言翻译、Multi-Agent、ReAct、查询漂移、消融实验</p>
-
-<div class="page-break"></div>
-
-<h1>1 引言</h1>
+<h1 class="page-break">1 引言</h1>
 
 <h2>1.1 问题背景</h2>
 <p>低资源语言面临双重困境：数字语料匮乏导致大语言模型无法直接处理，而语言濒危的紧迫性要求技术方案"少数据、快部署"。主流 LLM 的零样本翻译 BLEU 为 0.0（表 1）。</p>
@@ -80,7 +77,6 @@ code{background:#f0f0f0;padding:1px 3px;border-radius:2px;font-size:9pt}
 <li><strong>完整消融验证</strong>：8 配置 Truth Table + 双语言交叉验证</li>
 </ol>
 
-<div class="page-break"></div>
 
 <h1>2 相关工作</h1>
 <p><strong>低资源语言 NLP</strong>。传统统计机器翻译需大量平行语料（Koehn et al., 2007），零样本跨语言迁移（Conneau et al., 2020）依赖类型学相似性。</p>
@@ -99,7 +95,7 @@ code{background:#f0f0f0;padding:1px 3px;border-radius:2px;font-size:9pt}
 </ul>
 <p>简言之：Knowledge Agent 负责「找得到」，Quality Agent 负责「找对了」，Coordinator Agent 负责确保整个流程不会因 Query Drift 而偏离用户意图。</p>
 
-<p style="text-align:center;margin:12px 0"><img src="fig_architecture.png" alt="LEAF 系统架构" style="max-width:100%;height:auto"></p>
+<p style="text-align:center;margin:12px 0"><img src="fig_architecture.png" alt="LEAF 系统架构" style="max-width:60%;height:auto"></p>
 
 <h2>3.2 四层品质保证</h2>
 <table>
@@ -116,9 +112,8 @@ code{background:#f0f0f0;padding:1px 3px;border-radius:2px;font-size:9pt}
 <h2>3.4 架构级约束</h2>
 <p>核心不是 prompt engineering，而是<strong>架构设计</strong>：① 查询透传（代码层面确保原封不动）② 结构化工具调用（schema 约束参数）③ 失败回退（切换检索策略而非改写查询）。</p>
 
-<div class="page-break"></div>
 
-<h1>4 实验</h1>
+<h1 class="page-break">4 实验</h1>
 
 <h2>4.1 实验设置</h2>
 <p>排湾语（5,923 条）+ 阿美语（6,413 条）双语言验证。基座模型 GLM-4-Flash。测试集 20 题中文→排湾语。指标：BLEU、Exact Match、漂移率。</p>
@@ -138,7 +133,7 @@ code{background:#f0f0f0;padding:1px 3px;border-radius:2px;font-size:9pt}
 </table>
 <p>关键：#3→#4 唯一下降步骤——ReAct 引入反而降 15pp（查询漂移）。#4→#6 的 +25pp 为 Coordinator 架构约束的恢复。</p>
 
-<p style="text-align:center;margin:12px 0"><img src="fig_ablation_bars.png" alt="消融实验柱状图" style="max-width:90%;height:auto"></p>
+<p style="text-align:center;margin:12px 0"><img src="fig_ablation_bars.png" alt="消融实验柱状图" style="max-width:55%;height:auto"></p>
 
 <h2>4.3 实验 B：查询漂移量化</h2>
 <p><strong>表 4：漂移率对比</strong></p>
@@ -162,7 +157,6 @@ code{background:#f0f0f0;padding:1px 3px;border-radius:2px;font-size:9pt}
 <tr><td><strong>Architecture（→SA+ReAct）</strong></td><td><strong>65%</strong></td><td><strong>-30pp</strong></td></tr>
 </table>
 <p>归因：架构控制 +25pp，prompt +5pp，其余 0pp。</p>
-
 <h2>4.5 实验 D：四层消融（双语言）</h2>
 <table>
 <tr><th>实验组</th><th>排湾语</th><th>Δ</th><th>阿美语</th><th>Δ</th></tr>
@@ -187,15 +181,12 @@ code{background:#f0f0f0;padding:1px 3px;border-radius:2px;font-size:9pt}
 </ol>
 <p>核心洞察：<strong>架构设计优于 prompt engineering</strong>。</p>
 
-<h1>参考文献</h1>
+<h1 class="page-break">参考文献</h1>
 <p>[1] Conneau et al. (2020). Unsupervised cross-lingual representation learning at scale. <em>ACL</em>.</p>
 <p>[2] Koehn et al. (2007). Moses: Open source toolkit for SMT. <em>ACL</em>.</p>
 <p>[3] Lewis et al. (2020). Retrieval-augmented generation. <em>NeurIPS</em>.</p>
 <p>[4] Wu et al. (2023). AutoGen. <em>arXiv:2308.08155</em>.</p>
 <p>[5] Yao et al. (2023). ReAct. <em>ICLR</em>.</p>
-
-<div class="page-break"></div>
-
 <h1>附录 A：Query Drift 失败案例</h1>
 <table>
 <tr><th>#</th><th>原始</th><th>漂移后</th><th>类型</th><th>答案</th><th>SA+ReAct</th><th>MA</th></tr>
