@@ -38,3 +38,4 @@ paiwan_tts_v2/
 *.bak
 ~$*
 .DS_Store
+docs/LEAF_Report_user.pdf
