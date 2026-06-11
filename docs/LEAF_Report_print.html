@@ -99,6 +99,8 @@ code{background:#f0f0f0;padding:1px 3px;border-radius:2px;font-size:9pt}
 </ul>
 <p>简言之：Knowledge Agent 负责「找得到」，Quality Agent 负责「找对了」，Coordinator Agent 负责确保整个流程不会因 Query Drift 而偏离用户意图。</p>
 
+<p style="text-align:center;margin:12px 0"><img src="fig_architecture.png" alt="LEAF 系统架构" style="max-width:100%;height:auto"></p>
+
 <h2>3.2 四层品质保证</h2>
 <table>
 <tr><th>层级</th><th>名称</th><th>功能</th><th>机制</th></tr>
@@ -135,6 +137,8 @@ code{background:#f0f0f0;padding:1px 3px;border-radius:2px;font-size:9pt}
 <tr><td>8</td><td><strong>Multi-Agent（完整）</strong></td><td><strong>95%</strong></td><td>0pp</td></tr>
 </table>
 <p>关键：#3→#4 唯一下降步骤——ReAct 引入反而降 15pp（查询漂移）。#4→#6 的 +25pp 为 Coordinator 架构约束的恢复。</p>
+
+<p style="text-align:center;margin:12px 0"><img src="fig_ablation_bars.png" alt="消融实验柱状图" style="max-width:90%;height:auto"></p>
 
 <h2>4.3 实验 B：查询漂移量化</h2>
 <p><strong>表 4：漂移率对比</strong></p>
