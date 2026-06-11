@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+
 body, h1, h2, h3, h4, h5, h6, p, td, th, li, span, div, pre, code, blockquote, strong, em, a {
-  font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", "Heiti SC", "Microsoft YaHei", "Noto Sans SC", sans-serif !important;
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'STHeiti', 'Heiti SC', 'Microsoft YaHei', sans-serif !important;
 }

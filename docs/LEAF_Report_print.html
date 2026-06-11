@@ -340,100 +340,28 @@ hr { border: none; border-top: 1px solid #ddd; margin: 20px 0; }
 
 <div class="page-break"></div>
 
-<h1>附录 A：系统架构详细设计</h1>
-
-<h2>A.1 Agent 通信机制</h2>
-<p>Agent 间通过 AgentMessage 结构体通信，包含以下字段：</p>
-<pre>
-AgentMessage:
-  - type: MessageType (TRANSLATE / RETRIEVE / VERIFY / EVALUATE / ERROR)
-  - sender: str (agent role)
-  - receiver: str (target agent role)
-  - content: dict (structured data, NOT natural language)
-  - metadata: dict (trace info, timestamps)
-</pre>
-<p>MessageBus 负责路由和日志记录，确保所有 Agent 交互可追溯。</p>
-
-<h2>A.2 Orchestrator ReAct 循环</h2>
-<pre>
-1. 接收用户输入 → 保存原始查询 q_orig
-2. LLM 决策：选择工具 + 参数
-   - translate(text=q_orig, direction="c2p")  ← 查询原封不动
-   - rag_search(query=q_orig)                  ← 查询原封不动
-   - lookup(word=...)                           ← 从 RAG 结果提取
-3. 执行工具 → 获取结果
-4. 若结果有效 → 返回
-   若结果无效 → ReAct 自纠正（切换检索策略，不改写查询）
-5. 最多重试 3 次
-</pre>
-
-<h2>A.3 Quality Agent 反向验证 Pipeline</h2>
-<pre>
-1. 接收候选翻译 candidate = "kina"（声称是"母亲"的排湾语）
-2. 反向翻译：kina → (排湾语→中文) → "母亲"
-3. 比对：反向结果 ≈ 原文 "母亲" → PASS
-4. 反例：candidate = "tjina"
-   → 反向翻译：tjina → "???" ≠ "母亲" → FAIL → 触发重试
-</pre>
-
-<h1>附录 B：完整实验数据</h1>
-
-<h2>B.1 Query Drift 失败案例详细分析</h2>
+<h1>附录 A：Query Drift 失败案例</h1>
 <table>
-<tr><th>#</th><th>原始查询</th><th>漂移后查询</th><th>漂移类型</th><th>正确答案</th><th>SA+ReAct</th><th>MA</th></tr>
-<tr><td>q06</td><td>月亮</td><td>月亮的族语怎么说</td><td>扩展型</td><td>qiljas</td><td>❌</td><td>✅</td></tr>
-<tr><td>q12</td><td>父亲</td><td>爸爸的排湾语</td><td>改写型</td><td>ama</td><td>❌</td><td>✅</td></tr>
-<tr><td>q13</td><td>孩子</td><td>小孩子的怎么说</td><td>改写型</td><td>aljak</td><td>❌</td><td>✅</td></tr>
-<tr><td>q16</td><td>人</td><td>人的族语是什么</td><td>扩展型</td><td>caucau</td><td>❌</td><td>✅</td></tr>
-<tr><td>q17</td><td>朋友</td><td>朋友说什么语言</td><td>语义漂移型</td><td>kabang</td><td>❌</td><td>✅</td></tr>
-<tr><td>q19</td><td>名字</td><td>名字怎么念</td><td>改写型</td><td>ngadan</td><td>❌</td><td>✅</td></tr>
+<tr><th>#</th><th>原始查询</th><th>漂移后查询</th><th>类型</th><th>正确答案</th><th>SA+ReAct</th><th>MA</th></tr>
+<tr><td>q06</td><td>月亮</td><td>月亮的族语怎么说</td><td>扩展</td><td>qiljas</td><td>✗</td><td>✓</td></tr>
+<tr><td>q12</td><td>父亲</td><td>爸爸的排湾语</td><td>改写</td><td>ama</td><td>✗</td><td>✓</td></tr>
+<tr><td>q13</td><td>孩子</td><td>小孩子的怎么说</td><td>改写</td><td>aljak</td><td>✗</td><td>✓</td></tr>
+<tr><td>q16</td><td>人</td><td>人的族语是什么</td><td>扩展</td><td>caucau</td><td>✗</td><td>✓</td></tr>
+<tr><td>q17</td><td>朋友</td><td>朋友说什么语言</td><td>语义漂移</td><td>kabang</td><td>✗</td><td>✓</td></tr>
+<tr><td>q19</td><td>名字</td><td>名字怎么念</td><td>改写</td><td>ngadan</td><td>✗</td><td>✓</td></tr>
 </table>
 <p>所有 6 个漂移失败案例在 Multi-Agent 配置中全部恢复。</p>
 
-<h2>B.2 双语言消融详细数据</h2>
-
-<p><strong>排湾语</strong>（50 条测试，klokah 交叉验证）：</p>
+<h1>附录 B：双语言消融详细数据</h1>
 <table>
-<tr><th>配置</th><th>正确数</th><th>准确率</th></tr>
-<tr><td>四层全开</td><td>39.6/50</td><td>79.2%</td></tr>
-<tr><td>- CoreVocab</td><td>22.9/50</td><td>45.8%</td></tr>
-<tr><td>- Grammar</td><td>37.5/50</td><td>75.0%</td></tr>
-<tr><td>- Verify</td><td>41.7/50</td><td>83.3%</td></tr>
+<tr><th>配置</th><th>排湾语</th><th>阿美语</th></tr>
+<tr><td>四层全开（Control）</td><td>79.2%（39.6/50）</td><td>73.5%（36.8/50）</td></tr>
+<tr><td>- L1 CoreVocab</td><td>45.8%（-33.4pp）</td><td>38.8%（-34.7pp）</td></tr>
+<tr><td>- L3 Grammar</td><td>75.0%（-4.2pp）</td><td>73.5%（0pp）</td></tr>
+<tr><td>- L4 Verify</td><td>83.3%（+4.1pp）</td><td>73.5%（0pp）</td></tr>
 </table>
 
-<p><strong>阿美语</strong>（相同实验设置）：</p>
-<table>
-<tr><th>配置</th><th>正确数</th><th>准确率</th></tr>
-<tr><td>四层全开</td><td>36.8/50</td><td>73.5%</td></tr>
-<tr><td>- CoreVocab</td><td>19.4/50</td><td>38.8%</td></tr>
-<tr><td>- Grammar</td><td>36.8/50</td><td>73.5%</td></tr>
-<tr><td>- Verify</td><td>36.8/50</td><td>73.5%</td></tr>
-</table>
-
-<h1>附录 C：代码仓库结构</h1>
-<p>GitHub: https://github.com/yoanahappy2/LEAF</p>
-<pre>
-LEAF/
-├── src/                    # 框架核心代码
-│   ├── core/              # BaseAgent, MessageBus, ReAct Loop
-│   ├── agents/            # Orchestrator, Knowledge, Quality, Teaching
-│   └── rag_service.py     # RAG 检索服务
-├── benchmark/             # 评估套件
-│   ├── run_baseline.py    # 零样本基线
-│   ├── run_rag_benchmark.py # RAG 基线
-│   ├── run_benchmark_v2.1.py # 完整 Multi-Agent 评估
-│   ├── metrics.py         # BLEU + Exact Match
-│   └── results/           # 原始实验数据 (JSON)
-├── experiments/           # 消融实验脚本
-│   ├── ablation_v4.py     # 四层消融
-│   ├── agent_ablation.py  # Agent 级消融
-│   ├── constrained_react.py # 约束 ReAct 对比
-│   └── critical_experiment.py # Query Drift 复现
-├── data/                  # 语料库与语言资源
-│   ├── merged_corpus.json # 主语料 (4,844 条)
-│   └── grammar_rules.json # 排湾语语法规则
-└── docs/                  # 实验报告与分析
-</pre>
+<p><strong>附录 C：代码仓库</strong> — GitHub: https://github.com/yoanahappy2/LEAF</p>
 
 </body>
 </html>
