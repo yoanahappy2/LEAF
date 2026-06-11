@@ -37,3 +37,4 @@ paiwan_tts_v2/
 *.tmp
 *.bak
 ~$*
+.DS_Store
