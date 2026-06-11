@@ -1,0 +1,1284 @@
+{
+  "timestamp": "2026-05-30T21:19:02.003434",
+  "test_cases": 15,
+  "configs": {
+    "Full_System": {
+      "label": "4 Agent 全開（Control）",
+      "pass_rate": 93.33333333333333,
+      "pass_count": 14,
+      "fail_count": 1,
+      "tokens_used": 140554
+    },
+    "No_Quality": {
+      "label": "關掉 Quality Agent",
+      "pass_rate": 93.33333333333333,
+      "pass_count": 14,
+      "fail_count": 1,
+      "tokens_used": 127550
+    },
+    "No_Teaching": {
+      "label": "關掉 Teaching Agent",
+      "pass_rate": 93.33333333333333,
+      "pass_count": 14,
+      "fail_count": 1,
+      "tokens_used": 148192
+    },
+    "Single_Agent": {
+      "label": "單 Agent（Orchestrator 獨立處理）",
+      "pass_rate": 46.666666666666664,
+      "pass_count": 7,
+      "fail_count": 8,
+      "tokens_used": 7134
+    }
+  },
+  "details": {
+    "Full_System": {
+      "label": "4 Agent 全開（Control）",
+      "interactions": [
+        {
+          "id": "T01",
+          "input": "謝謝的排灣語怎麼說",
+          "category": "translate",
+          "reply": "\n謝謝的排灣語是「masalu」唷！",
+          "elapsed_ms": 37261,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T02",
+          "input": "你好嗎排灣語",
+          "category": "translate",
+          "reply": "\n你好嗎的排灣語是「na tarivak sun?」",
+          "elapsed_ms": 5696,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T03",
+          "input": "水用排灣語怎麼說",
+          "category": "translate",
+          "reply": "\n水用排湾语說是「zaljum」",
+          "elapsed_ms": 5706,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T04",
+          "input": "再見排灣語",
+          "category": "translate",
+          "reply": "\n再見的排灣語是「pacunan」",
+          "elapsed_ms": 5896,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T05",
+          "input": "朋友排灣語",
+          "category": "translate",
+          "reply": "\n朋友用排灣語說是「drangi」",
+          "elapsed_ms": 5114,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K01",
+          "input": "masalu 是什麼意思",
+          "category": "knowledge",
+          "reply": "\nmasalu 的意思是「謝謝」。",
+          "elapsed_ms": 3250,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K02",
+          "input": "排灣語的家族稱謂有哪些",
+          "category": "knowledge",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>family relatives parents children</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>10</arg_value>\n</tool_call>",
+          "elapsed_ms": 57841,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: kina",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K03",
+          "input": "排灣語的前綴有什麼",
+          "category": "knowledge",
+          "reply": "\n排灣語常見的前綴有：\n\n1. \"se\" - 表示「來自」或被動語態\n2. \"sa\" - 表示「想要」或「並且」\n3. \"ma\" - 動詞前綴\n4. \"a\" - 主格標記",
+          "elapsed_ms": 15312,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L01",
+          "input": "我想從零開始學排灣語",
+          "category": "teaching",
+          "reply": "\n很好！讓我們從基礎開始學習排灣語。\n\n第一個詞：**ku** (我)\n\n這是最基本的自我介紹詞。下次我們可以學習更多詞彙來組成簡單的句子！",
+          "elapsed_ms": 12839,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L02",
+          "input": "幫我出一道排灣語測驗題",
+          "category": "teaching",
+          "reply": "\n好的！我為你出一道排灣語測驗題：\n\n**測驗題：**\n請問這句排灣語的中文意思是什么？\n\"uri kemasi Taiciw a tjalju Panciaw aken.\"\n\n請選擇正確的答案：\nA. 我要從台中搭到板橋\nB. 我要從台北搭到台中  \nC. 我要從板橋搭到台中\nD. 我要從台中走到板橋\n\n你可以選擇答案，我會告訴你是否正確！",
+          "elapsed_ms": 10503,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L03",
+          "input": "推薦我下一個排灣語詞彙",
+          "category": "teaching",
+          "reply": "\n要推薦下一個排灣語詞彙，我需要先知道您的用戶ID。請提供您的用戶ID，這樣我就能根據您的學習歷史推薦最適合的下一個詞彙了。",
+          "elapsed_ms": 4013,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "Q01",
+          "input": "審核翻譯：原句「你好」→ 翻譯「djavadjavay」",
+          "category": "quality",
+          "reply": "\n翻譯審核結果顯示這個翻譯品質不佳（分數0.64）。雖然翻譯工具給出\"djavadjavay\"作為\"你好\"的翻譯，但審核發現長度不合理，建議尋找更自然的表達方式。\n\n建議你使用更簡潔的排灣語問候語，比如\"vuvu\"（奶奶/阿姨，也可作為尊敬的問候）或\"tjucu\"（你好）。",
+          "elapsed_ms": 14450,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "Q02",
+          "input": "審核翻譯：原句「謝謝」→ 翻譯「masalu」",
+          "category": "quality",
+          "reply": "\n翻譯審核結果：✅ 通過\n\n「謝謝」→「masalu」的翻譯品質很高，分數達到0.93。這個翻譯正確且自然。",
+          "elapsed_ms": 5170,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "M01",
+          "input": "你好",
+          "category": "chat",
+          "reply": "\n你好 → djavadjavay",
+          "elapsed_ms": 4223,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "M02",
+          "input": "排灣族有什麼文化",
+          "category": "chat",
+          "reply": "\n從知識庫中我找到了一些與排灣族文化相關的詞彙，但沒有找到詳細的文化介紹。以下是找到的相關詞彙：\n\n- **papaljizavan**：文物展\n- **ui, ayatua namasan kakudanan aicu ita nia palisian**：會，因為那是祭典的一部份\n- **kiqinaljan**：做部落\n- **calavi**：多良部落\n\n排灣族文化豐富多元，包括傳統祭典、工藝、部落組織等特色，但知識庫中目前沒有完整的文化介紹。如果您想了解特定方面的文化，我可以幫您搜尋更詳細的資訊。",
+          "elapsed_ms": 8231,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        }
+      ],
+      "tokens_used": 140554,
+      "pass_count": 14,
+      "fail_count": 1,
+      "pass_rate": 93.33333333333333
+    },
+    "No_Quality": {
+      "label": "關掉 Quality Agent",
+      "interactions": [
+        {
+          "id": "T01",
+          "input": "謝謝的排灣語怎麼說",
+          "category": "translate",
+          "reply": "\n謝謝的排灣語是「masalu」！",
+          "elapsed_ms": 5152,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T02",
+          "input": "你好嗎排灣語",
+          "category": "translate",
+          "reply": "\n你好嗎的排灣語是「na tarivak sun?」",
+          "elapsed_ms": 2809,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T03",
+          "input": "水用排灣語怎麼說",
+          "category": "translate",
+          "reply": "\n水的排灣語是「zaljum」。",
+          "elapsed_ms": 2839,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T04",
+          "input": "再見排灣語",
+          "category": "translate",
+          "reply": "\n再見的排灣語是「pacunan」。",
+          "elapsed_ms": 3297,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T05",
+          "input": "朋友排灣語",
+          "category": "translate",
+          "reply": "\n朋友在排灣語是「drangi」。",
+          "elapsed_ms": 3317,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K01",
+          "input": "masalu 是什麼意思",
+          "category": "knowledge",
+          "reply": "\nmasalu 的意思是「謝謝」。",
+          "elapsed_ms": 2945,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K02",
+          "input": "排灣語的家族稱謂有哪些",
+          "category": "knowledge",
+          "reply": "\n<tool_call>lookup\n<arg_key>word</arg_key>\n<arg_value>母親</arg_value>\n</tool_call>",
+          "elapsed_ms": 32477,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: kina",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K03",
+          "input": "排灣語的前綴有什麼",
+          "category": "knowledge",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>排灣語前綴詞綴</arg_value>\n</tool_call>",
+          "elapsed_ms": 8569,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L01",
+          "input": "我想從零開始學排灣語",
+          "category": "teaching",
+          "reply": "\n好的！我很高興你想學排灣語！為了幫你制定合適的學習計畫，我需要知道你的用戶ID，這樣我可以追蹤你的學習進度並推薦適合的詞彙。\n\n請提供你的用戶ID，我就可以為你開始推薦第一個學習詞彙了！",
+          "elapsed_ms": 4501,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L02",
+          "input": "幫我出一道排灣語測驗題",
+          "category": "teaching",
+          "reply": "\n好的！我來為你出一道排灣語測驗題：\n\n**測驗題：**\n排灣語「ti」的中文意思是什么？\n\n請選擇正確答案：\nA. 吃\nB. 叫\nC. 看\nD. 走\n\n答案是 B. 叫\n\n你答對了嗎？如果需要更多測驗題，我可以再為你出題！",
+          "elapsed_ms": 7948,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L03",
+          "input": "推薦我下一個排灣語詞彙",
+          "category": "teaching",
+          "reply": "\n我需要您的用戶ID才能為您推薦下一個排灣語詞彙。請提供您的用戶ID，這樣我就能根據您的學習歷史推薦最適合的下一個詞彙了。",
+          "elapsed_ms": 2937,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "Q01",
+          "input": "審核翻譯：原句「你好」→ 翻譯「djavadjavay」",
+          "category": "quality",
+          "reply": "\n根據翻譯結果，「你好」的排灣語翻譯「djavadjavay」是正確的！這是一個中等置信度的翻譯。\n\ndjavadjavay 確實是「你好」的排灣語表達方式。",
+          "elapsed_ms": 7686,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "Q02",
+          "input": "審核翻譯：原句「謝謝」→ 翻譯「masalu」",
+          "category": "quality",
+          "reply": "\n翻譯正確！「謝謝」的排灣語翻譯「masalu」是正確的，置信度為中等。",
+          "elapsed_ms": 9879,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "M01",
+          "input": "你好",
+          "category": "chat",
+          "reply": "\ndjavadjavay！我是 vuvu Maliq，排灣族語智慧教學系統的祖母。我可以幫助你學習排灣語，需要什麼幫助嗎？",
+          "elapsed_ms": 4056,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "M02",
+          "input": "排灣族有什麼文化",
+          "category": "chat",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>排灣族傳統社會結構</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>5</arg_value>\n</tool_call>",
+          "elapsed_ms": 26102,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        }
+      ],
+      "tokens_used": 127550,
+      "pass_count": 14,
+      "fail_count": 1,
+      "pass_rate": 93.33333333333333
+    },
+    "No_Teaching": {
+      "label": "關掉 Teaching Agent",
+      "interactions": [
+        {
+          "id": "T01",
+          "input": "謝謝的排灣語怎麼說",
+          "category": "translate",
+          "reply": "\n謝謝的排灣語是「masalu」",
+          "elapsed_ms": 5488,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T02",
+          "input": "你好嗎排灣語",
+          "category": "translate",
+          "reply": "\n你好嗎的排灣語是「na tarivak sun?」",
+          "elapsed_ms": 5048,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T03",
+          "input": "水用排灣語怎麼說",
+          "category": "translate",
+          "reply": "\n水用排灣語說是「zaljum」。",
+          "elapsed_ms": 4180,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T04",
+          "input": "再見排灣語",
+          "category": "translate",
+          "reply": "\n再見的排灣語是「pacunan」。",
+          "elapsed_ms": 3220,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T05",
+          "input": "朋友排灣語",
+          "category": "translate",
+          "reply": "\n朋友用排灣語說是「drangi」。",
+          "elapsed_ms": 5162,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K01",
+          "input": "masalu 是什麼意思",
+          "category": "knowledge",
+          "reply": "\nmasalu 是謝謝的意思。\n\n這個詞的結構是 ma- + salu，其中 ma- 是表示狀態的前綴。相關的詞還有 kipusalu（感謝）等。",
+          "elapsed_ms": 6682,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K02",
+          "input": "排灣語的家族稱謂有哪些",
+          "category": "knowledge",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>父親 母親 爺爺 奶奶 兒子 女兒</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>10</arg_value>\n</tool_call>",
+          "elapsed_ms": 34919,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: kina",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K03",
+          "input": "排灣語的前綴有什麼",
+          "category": "knowledge",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>前綴 ma pa ka sa 綴詞規則說明</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>10</arg_value>\n</tool_call>",
+          "elapsed_ms": 26332,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L01",
+          "input": "我想從零開始學排灣語",
+          "category": "teaching",
+          "reply": "\n根據前面的翻譯結果，我可以告訴你：\n\n排灣語的基本問候語有：\n- \"你好\" = \"djavadjavay\"\n- \"對不起\" = \"djavadjvay\" 或 \"itjen\"\n- \"謝謝\" = \"masalu\"\n\n這些是日常交流中最常用的基本詞彙，可以從這些開始學習。",
+          "elapsed_ms": 17689,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L02",
+          "input": "幫我出一道排灣語測驗題",
+          "category": "teaching",
+          "reply": "\n好的，我來為你出一道排灣語測驗題！\n\n**測驗題：**\n中文「你好」的排灣語是什麼？\n\n請選擇正確答案：\nA. masalu\nB. djavadjavay  \nC. itjen\nD. pazang\n\n記住，答錯也沒關係，學習就是一個過程！",
+          "elapsed_ms": 10587,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L03",
+          "input": "推薦我下一個排灣語詞彙",
+          "category": "teaching",
+          "reply": "\n我需要您的用戶ID才能為您推薦下一個學習詞彙。請提供您的用戶ID，這樣我就能根據您的學習歷史推薦合適的下一個詞彙了。",
+          "elapsed_ms": 2910,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "Q01",
+          "input": "審核翻譯：原句「你好」→ 翻譯「djavadjavay」",
+          "category": "quality",
+          "reply": "\n翻譯審核結果：\n- 品質分數：0.64（未通過）\n- 檢查項目：內容存在、長度不合理、無不確定標記\n- 建議：翻譯長度可能需要調整，建議重新檢查「你好」的排灣語正確翻譯",
+          "elapsed_ms": 11240,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "Q02",
+          "input": "審核翻譯：原句「謝謝」→ 翻譯「masalu」",
+          "category": "quality",
+          "reply": "\n翻譯審核結果：✅ 通過\n\n品質分數：0.93（優秀）\n\n檢查項目：\n- 內容存在：✅\n- 長度合理：✅  \n- 無不確定標記：✅\n\n「謝謝」翻譯為「masalu」的品質很高，符合排灣語表達習慣。",
+          "elapsed_ms": 7760,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "M01",
+          "input": "你好",
+          "category": "chat",
+          "reply": "\n你好！很高興見到你 😊\n\n需要我為你推薦下一個排灣語詞彙嗎？請提供你的用戶ID，這樣我就能根據你的學習歷史推薦合適的詞彙了。",
+          "elapsed_ms": 5408,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "M02",
+          "input": "排灣族有什麼文化",
+          "category": "chat",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>排灣族頭目制度</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>5</arg_value>\n</tool_call>",
+          "elapsed_ms": 14537,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        }
+      ],
+      "tokens_used": 148192,
+      "pass_count": 14,
+      "fail_count": 1,
+      "pass_rate": 93.33333333333333
+    },
+    "Single_Agent": {
+      "label": "單 Agent（Orchestrator 獨立處理）",
+      "interactions": [
+        {
+          "id": "T01",
+          "input": "謝謝的排灣語怎麼說",
+          "category": "translate",
+          "reply": "排湾语中\"谢谢\"通常说成\"drumail\"或\"drumail a sema\"。这是表达感谢的常用说法。",
+          "elapsed_ms": 4009,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: masalu",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T02",
+          "input": "你好嗎排灣語",
+          "category": "translate",
+          "reply": "Kamapuza? 排湾语中\"你好吗\"的表达。",
+          "elapsed_ms": 4501,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: tarivak",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T03",
+          "input": "水用排灣語怎麼說",
+          "category": "translate",
+          "reply": "排湾语中\"水\"是\"vavay\"。",
+          "elapsed_ms": 3644,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: zaljum",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T04",
+          "input": "再見排灣語",
+          "category": "translate",
+          "reply": "排湾语中\"再见\"是\"Vuvu\"。",
+          "elapsed_ms": 2560,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: pacunan",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "T05",
+          "input": "朋友排灣語",
+          "category": "translate",
+          "reply": "朋友在排灣語中是\"daviden\"或\"davidem\"。\n\n這是排灣族對朋友的稱謂。\n\n不同方言可能略有差異，但基本意思相同。",
+          "elapsed_ms": 2850,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: drangi",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K01",
+          "input": "masalu 是什麼意思",
+          "category": "knowledge",
+          "reply": "\"masalu\"在排灣族語中意思是「朋友」。",
+          "elapsed_ms": 1302,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: 謝謝",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K02",
+          "input": "排灣語的家族稱謂有哪些",
+          "category": "knowledge",
+          "reply": "排灣語家族稱謂包括：父親(tama)、母親(inai)、祖父(kakavuvu)、祖母(kakavuvu)、兄弟(kazangiljan)、姐妹(kazangiljan)。長輩稱謂有區別，如叔伯(tama a vuvu)、姑姨(in",
+          "elapsed_ms": 4432,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": false,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 3,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "缺少關鍵詞: kina",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "K03",
+          "input": "排灣語的前綴有什麼",
+          "category": "knowledge",
+          "reply": "排灣語的前綴有 ma-、pa-、ka-、na-、i-、sa-、ta- 和 ru- 等。這些前綴用於表示時態、語態、數量、否定等語法功能。例如 ma- 通常表示主動態，pa- 表示完成態。每個前綴都有特定的語法用途和搭配規則。",
+          "elapsed_ms": 3547,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L01",
+          "input": "我想從零開始學排灣語",
+          "category": "teaching",
+          "reply": "我可以幫助你從基礎發音和日常用語開始學習排灣語。建議先學習基本問候語和簡單詞彙，如 \"mavavaolu\" (你好) 和 \"salama\" (謝謝)。你可以尋找排灣語學習資源或與排灣族人交流來提升語言能力。堅持練習聽說會讓你進步更快。",
+          "elapsed_ms": 3349,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L02",
+          "input": "幫我出一道排灣語測驗題",
+          "category": "teaching",
+          "reply": "",
+          "elapsed_ms": 4445,
+          "scores": {
+            "has_reply": false,
+            "length_ok": false,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 2,
+          "score_max": 5,
+          "passed": false,
+          "issues": [
+            "無回覆",
+            "太短(0字)",
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "L03",
+          "input": "推薦我下一個排灣語詞彙",
+          "category": "teaching",
+          "reply": "推薦「kai」(是/對)，排灣語常用肯定詞，發音簡單易學。",
+          "elapsed_ms": 2191,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "Q01",
+          "input": "審核翻譯：原句「你好」→ 翻譯「djavadjavay」",
+          "category": "quality",
+          "reply": "\"djavadjavay\"是排湾语中\"你好\"的正确翻译。",
+          "elapsed_ms": 4673,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "Q02",
+          "input": "審核翻譯：原句「謝謝」→ 翻譯「masalu」",
+          "category": "quality",
+          "reply": "正確。排灣語中「masalu」確實是「謝謝」的意思，用於表達感謝之情。",
+          "elapsed_ms": 2177,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "M01",
+          "input": "你好",
+          "category": "chat",
+          "reply": "Suay! 我是指排灣族語教學助手，可以幫助您學習排灣族語言和文化。有什麼我可以幫助您的嗎？",
+          "elapsed_ms": 4028,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        },
+        {
+          "id": "M02",
+          "input": "排灣族有什麼文化",
+          "category": "chat",
+          "reply": "排灣族有豐富的文化傳統，包括精美的木雕、琉璃珠工藝和獨特的服飾。他們有明顯的社會階級制度，以頭目貴族為核心。排灣族有豐富的口傳文學和神話傳說，以及五年祭等重要祭典。他們的傳統建築和刺青文化也很有特色。",
+          "elapsed_ms": 6193,
+          "scores": {
+            "has_reply": true,
+            "length_ok": true,
+            "keyword_match": true,
+            "no_tool_leak": false,
+            "confidence": true
+          },
+          "score_total": 4,
+          "score_max": 5,
+          "passed": true,
+          "issues": [
+            "工具調用洩漏"
+          ]
+        }
+      ],
+      "tokens_used": 7134,
+      "pass_count": 7,
+      "fail_count": 8,
+      "pass_rate": 46.666666666666664
+    }
+  }
+}

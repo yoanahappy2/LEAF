@@ -1,0 +1,548 @@
+{
+  "timestamp": "2026-05-30T21:38:53.550571",
+  "experiment": "multi_agent_value",
+  "description": "複合教學任務對比：證明 Multi-Agent + Plan + Self-Judge 的價值",
+  "tasks": [
+    {
+      "id": "M01",
+      "task": "教我排灣語的問候語，從最基本的開始，我完全沒有基礎。教完後出一道測驗題考我。",
+      "requires": [
+        "translate",
+        "teach",
+        "quiz"
+      ]
+    },
+    {
+      "id": "M02",
+      "task": "我想學排灣語的數字一到五，學完後幫我審核我的發音「usa」「drusa」「tjelu」「sepatj」「lima」是否正確。",
+      "requires": [
+        "translate",
+        "teach",
+        "review"
+      ]
+    },
+    {
+      "id": "M03",
+      "task": "排灣語的家族稱謂有哪些？教我 kina（媽媽）和 kama（爸爸）的用法，然後出一道翻譯測驗。",
+      "requires": [
+        "knowledge",
+        "translate",
+        "teach",
+        "quiz"
+      ]
+    },
+    {
+      "id": "M04",
+      "task": "教我排灣語的水、火、山這三個自然詞彙，解釋文化意義，然後出一道填充題。",
+      "requires": [
+        "translate",
+        "knowledge",
+        "teach",
+        "quiz"
+      ]
+    }
+  ],
+  "configs": {
+    "Full_System": {
+      "avg_composite": 0.383,
+      "avg_word_coverage": 0.318,
+      "tokens_used": 66598,
+      "results": [
+        {
+          "id": "M01",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>排灣語 早安 晚安 問候語</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>5</arg_value>\n</tool_call>",
+          "elapsed_ms": 44078,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.4,
+              "has_quiz": 0.0,
+              "quiz_meaningful": 0.0,
+              "has_review": 1.0,
+              "structure": 0.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.27
+            },
+            "details": {
+              "taught_words_found": [
+                "早安",
+                "晚安"
+              ],
+              "taught_words_missing": [
+                "你好",
+                "謝謝",
+                "再見"
+              ],
+              "quiz_detected": false
+            }
+          }
+        },
+        {
+          "id": "M02",
+          "reply": "\n<tool_call>lookup\n<arg_key>word</arg_key>\n<arg_value>drusa</arg_value>\n</tool_call>",
+          "elapsed_ms": 61925,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.2,
+              "has_quiz": 1.0,
+              "has_review": 0.0,
+              "structure": 0.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.31
+            },
+            "details": {
+              "taught_words_found": [
+                "usa",
+                "drusa"
+              ],
+              "taught_words_missing": [
+                "一",
+                "二",
+                "三",
+                "四",
+                "五",
+                "tjelu",
+                "sepatj",
+                "lima"
+              ],
+              "review_detected": false
+            }
+          }
+        },
+        {
+          "id": "M03",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>排灣語 家人 父母 兄弟姐妹 祖父母</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>8</arg_value>\n</tool_call>",
+          "elapsed_ms": 8594,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.0,
+              "has_quiz": 0.0,
+              "quiz_meaningful": 0.0,
+              "has_review": 1.0,
+              "structure": 0.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.15
+            },
+            "details": {
+              "taught_words_found": [],
+              "taught_words_missing": [
+                "kina",
+                "kama",
+                "媽媽",
+                "爸爸"
+              ],
+              "quiz_detected": false
+            }
+          }
+        },
+        {
+          "id": "M04",
+          "reply": "\n根據之前的翻譯結果，我來教你排灣語的自然詞彙：\n\n1. 水：zaljum - 在排灣族文化中，水代表生命之源，是重要的祭祀元素\n2. 火：sapuy - 象徽溫暖與家族凝聚力，傳統家中的火塘是家族聚會中心\n3. 山：ljauasuak - 代表崇山峻嶺，在排灣族信仰中是神靈居住的聖地\n\n測驗題：請翻譯「山上的水」為排灣語。",
+          "elapsed_ms": 28304,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.67,
+              "has_quiz": 1.0,
+              "quiz_meaningful": 1.0,
+              "has_review": 1.0,
+              "structure": 1.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.801
+            },
+            "details": {
+              "taught_words_found": [
+                "水",
+                "火",
+                "山",
+                "zaljum"
+              ],
+              "taught_words_missing": [
+                "qaciljay",
+                "gadu"
+              ],
+              "quiz_detected": true
+            }
+          }
+        }
+      ]
+    },
+    "No_Plan_ReAct": {
+      "avg_composite": 0.198,
+      "avg_word_coverage": 0.118,
+      "tokens_used": 66184,
+      "results": [
+        {
+          "id": "M01",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>排灣語 你好 早上好 晚上好</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>10</arg_value>\n</tool_call>",
+          "elapsed_ms": 37377,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.2,
+              "has_quiz": 0.0,
+              "quiz_meaningful": 0.0,
+              "has_review": 1.0,
+              "structure": 0.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.21
+            },
+            "details": {
+              "taught_words_found": [
+                "你好"
+              ],
+              "taught_words_missing": [
+                "謝謝",
+                "再見",
+                "早安",
+                "晚安"
+              ],
+              "quiz_detected": false
+            }
+          }
+        },
+        {
+          "id": "M02",
+          "reply": "\n<tool_call>pronunciation_check\n<arg_key>recognized</arg_key>\n<arg_value>tjelu</arg_value>\n<arg_key>target</arg_key>\n<arg_value>tjelu</arg_value>\n</tool_call>",
+          "elapsed_ms": 11105,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.1,
+              "has_quiz": 1.0,
+              "has_review": 0.0,
+              "structure": 0.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.28
+            },
+            "details": {
+              "taught_words_found": [
+                "tjelu"
+              ],
+              "taught_words_missing": [
+                "一",
+                "二",
+                "三",
+                "四",
+                "五",
+                "usa",
+                "drusa",
+                "sepatj",
+                "lima"
+              ],
+              "review_detected": false
+            }
+          }
+        },
+        {
+          "id": "M03",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>排灣語 爸媽 兄弟 姐妹 家人</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>10</arg_value>\n</tool_call>",
+          "elapsed_ms": 8248,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.0,
+              "has_quiz": 0.0,
+              "quiz_meaningful": 0.0,
+              "has_review": 1.0,
+              "structure": 0.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.15
+            },
+            "details": {
+              "taught_words_found": [],
+              "taught_words_missing": [
+                "kina",
+                "kama",
+                "媽媽",
+                "爸爸"
+              ],
+              "quiz_detected": false
+            }
+          }
+        },
+        {
+          "id": "M04",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>排灣語 山 山脈</arg_value>\n<arg_key>top_k</arg_key>\n<arg_value>5</arg_value>\n</tool_call>",
+          "elapsed_ms": 7660,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.17,
+              "has_quiz": 0.0,
+              "quiz_meaningful": 0.0,
+              "has_review": 1.0,
+              "structure": 0.0,
+              "has_culture": 0.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.151
+            },
+            "details": {
+              "taught_words_found": [
+                "山"
+              ],
+              "taught_words_missing": [
+                "水",
+                "火",
+                "zaljum",
+                "qaciljay",
+                "gadu"
+              ],
+              "quiz_detected": false
+            }
+          }
+        }
+      ]
+    },
+    "No_Self_Judge": {
+      "avg_composite": 0.539,
+      "avg_word_coverage": 0.642,
+      "tokens_used": 60192,
+      "results": [
+        {
+          "id": "M01",
+          "reply": "\nvuvu Maliq 很高興教你排灣語的基本問候語！\n\n基本的問候語：\n- 你好：djavadjavay\n- 早安：medjama angata sun.\n\n記住這些詞語，下次見面時可以跟排灣族朋友打招呼了！\n\n測驗題：請問「早安」在排灣語中怎麼說？",
+          "elapsed_ms": 13370,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.4,
+              "has_quiz": 1.0,
+              "quiz_meaningful": 1.0,
+              "has_review": 1.0,
+              "structure": 0.6666666666666666,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.687
+            },
+            "details": {
+              "taught_words_found": [
+                "你好",
+                "早安"
+              ],
+              "taught_words_missing": [
+                "謝謝",
+                "再見",
+                "晚安"
+              ],
+              "quiz_detected": true
+            }
+          }
+        },
+        {
+          "id": "M02",
+          "reply": "\n太棒了！你的發音全部都是完美的！🎉\n\n**發音評估結果：**\n- usa (一)：100分 - Perfect！\n- drusa (二)：100分 - Perfect！  \n- tjelu (三)：100分 - Perfect！\n- sepatj (四)：100分 - Perfect！\n- lima (五)：100分 - Perfect！\n\n你的排灣語數字發音非常標準，記得很好！繼續保持這樣的學習態度，我們可以學更多詞彙了。",
+          "elapsed_ms": 11766,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 1.0,
+              "has_quiz": 1.0,
+              "has_review": 1.0,
+              "structure": 1.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.75
+            },
+            "details": {
+              "taught_words_found": [
+                "一",
+                "二",
+                "三",
+                "四",
+                "五",
+                "usa",
+                "drusa",
+                "tjelu",
+                "sepatj",
+                "lima"
+              ],
+              "taught_words_missing": [],
+              "review_detected": true
+            }
+          }
+        },
+        {
+          "id": "M03",
+          "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>媽媽 爸爸 家人</arg_value>\n</tool_call>",
+          "elapsed_ms": 28347,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.5,
+              "has_quiz": 0.0,
+              "quiz_meaningful": 0.0,
+              "has_review": 1.0,
+              "structure": 0.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.3
+            },
+            "details": {
+              "taught_words_found": [
+                "媽媽",
+                "爸爸"
+              ],
+              "taught_words_missing": [
+                "kina",
+                "kama"
+              ],
+              "quiz_detected": false
+            }
+          }
+        },
+        {
+          "id": "M04",
+          "reply": "\n排灣語的自然詞彙：\n- 水：zaljum\n- 火：sapui\n- 山：稍後為您查詢\n\n水的文化意義是生命之源，火代表温暖与力量，山象征祖先的庇护。請問「火」在排灣語中怎麼說？",
+          "elapsed_ms": 15427,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.67,
+              "has_quiz": 0.0,
+              "quiz_meaningful": 0.0,
+              "has_review": 1.0,
+              "structure": 0.6666666666666666,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.418
+            },
+            "details": {
+              "taught_words_found": [
+                "水",
+                "火",
+                "山",
+                "zaljum"
+              ],
+              "taught_words_missing": [
+                "qaciljay",
+                "gadu"
+              ],
+              "quiz_detected": false
+            }
+          }
+        }
+      ]
+    },
+    "Single_LLM_RAG": {
+      "avg_composite": 0.492,
+      "avg_word_coverage": 0.5,
+      "tokens_used": 0,
+      "results": [
+        {
+          "id": "M01",
+          "reply": "# 排灣語問候語教學\n\n## 基本問候語\n\n根據提供的語料，最基本的排灣語問候語是：\n\n- **djavadjavay a mapuljat** (大家好)\n\n這是最簡單的問候方式，適合初次見面或對一群人說。\n\n## 學習建議\n\n1. 反覆練習發音 \"djavadjavay a mapuljat\"\n2. 注意 \"dj\" 的發音類似英文的 \"j\"\n3. \"mapuljat\" 有集合、聚集的意思\n\n## 測驗題\n\n請問「大家好」的排灣語怎麼說？\n(提示：答案在課文中出現過)",
+          "elapsed_ms": 9276,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.0,
+              "has_quiz": 1.0,
+              "quiz_meaningful": 1.0,
+              "has_review": 1.0,
+              "structure": 1.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.6
+            },
+            "details": {
+              "taught_words_found": [],
+              "taught_words_missing": [
+                "你好",
+                "謝謝",
+                "再見",
+                "早安",
+                "晚安"
+              ],
+              "quiz_detected": true
+            }
+          }
+        },
+        {
+          "id": "M02",
+          "reply": "# 排灣語數字學習與發音審核\n\n## 檢索結果說明\n根據提供的語料，我沒有找到關於排灣語數字\"一到五\"的精確匹配資料。語料中主要包含日常對話和表達，但未涉及數詞內容。\n\n## 學習建議\n1. 由於語料中缺乏數字資料，建議尋找專門的排灣語數學教材或資源\n2. 可以嘗試查找排灣語兒童數學教材，通常會包含基本數詞\n3. 考虑尋求當地排灣族社群或語言專家的幫助\n\n## 發音審核說明\n基於排灣語語言學的一般知識（非來自提供的語料）：\n\n- **usa** (一)：發音近似\"烏薩\"，重音在第一音節\n- **drusa** (二)：發音近似\"d魯薩\"，\"d\"輕微濁音化\n- **tjelu** (三)：發音近似\"哲魯\"，\"tj\"發音類似\"che\"\n- **sepatj** (四)：發音近似\"se-patj\"，尾音輕微收縮\n- **lima** (五)：發音近似\"李瑪\"，與中文\"李瑪\"相似\n\n注意：以上發音審核基於排灣語一般規律，",
+          "elapsed_ms": 11453,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 1.0,
+              "has_quiz": 1.0,
+              "has_review": 1.0,
+              "structure": 1.0,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.75
+            },
+            "details": {
+              "taught_words_found": [
+                "一",
+                "二",
+                "三",
+                "四",
+                "五",
+                "usa",
+                "drusa",
+                "tjelu",
+                "sepatj",
+                "lima"
+              ],
+              "taught_words_missing": [],
+              "review_detected": true
+            }
+          }
+        },
+        {
+          "id": "M03",
+          "reply": "# 排灣語家族稱謂教學\n\n## 家族稱謂概覽\n根據提供的語料，排灣語中基本的家族稱謂包括：\n- kina（媽媽）\n- kama（爸爸）\n\n## kina（媽媽）的用法\n- kina 是排灣語中對母親的稱呼\n- 使用範例：\n  - \"kina, qivuivu amen a i tjumaq.\"（媽媽，我在家常說排灣語）\n  - 可以用來直接稱呼母親，或在句子中提及母親\n\n## kama（爸爸）的用法\n- kama 是排灣語中對父親的稱呼\n- 使用範例：\n  - \"kama, manu ka qaqunuan timadju na kitulu ta pinaiwanan.\"（爸爸，",
+          "elapsed_ms": 29567,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 1.0,
+              "has_quiz": 0.0,
+              "quiz_meaningful": 0.0,
+              "has_review": 1.0,
+              "structure": 0.6666666666666666,
+              "has_culture": 1.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.517
+            },
+            "details": {
+              "taught_words_found": [
+                "kina",
+                "kama",
+                "媽媽",
+                "爸爸"
+              ],
+              "taught_words_missing": [],
+              "quiz_detected": false
+            }
+          }
+        },
+        {
+          "id": "M04",
+          "reply": "",
+          "elapsed_ms": 26906,
+          "evaluation": {
+            "scores": {
+              "word_coverage": 0.0,
+              "has_quiz": 0.0,
+              "quiz_meaningful": 0.0,
+              "has_review": 1.0,
+              "structure": 0.0,
+              "has_culture": 0.0,
+              "no_tool_leak": 0.0,
+              "composite": 0.1
+            },
+            "details": {
+              "taught_words_found": [],
+              "taught_words_missing": [
+                "水",
+                "火",
+                "山",
+                "zaljum",
+                "qaciljay",
+                "gadu"
+              ],
+              "quiz_detected": false
+            }
+          }
+        }
+      ]
+    }
+  }
+}

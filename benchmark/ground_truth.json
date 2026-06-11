@@ -1,0 +1,580 @@
+{
+  "_meta": {
+    "version": "2.0",
+    "description": "LEAF Benchmark v2.0 Ground Truth — corpus-verified",
+    "total_questions": 20
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "input": "「你好」的排灣語怎麼說？",
+      "word": "你好",
+      "accepted_answers": [
+        "djavadjavai",
+        "djavadjavay"
+      ],
+      "preferred": "djavadjavai",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "djavadjavai",
+          "is_preferred": true,
+          "meanings": [
+            "ä½ åå¥½",
+            "ä½ å¥½",
+            "å¤§å®¶å¥½",
+            "你們好",
+            "你好",
+            "大家好",
+            "好；辛苦了"
+          ],
+          "corpus_count": 7,
+          "sample_sources": [
+            "custom",
+            "custom",
+            "custom"
+          ]
+        },
+        {
+          "variant": "djavadjavay",
+          "is_preferred": false,
+          "meanings": [
+            "ååèª",
+            "妳好"
+          ],
+          "corpus_count": 2,
+          "sample_sources": [
+            "custom",
+            "klokah_d23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "input": "謝謝用排灣語怎麼說？",
+      "word": "謝謝",
+      "accepted_answers": [
+        "masalu"
+      ],
+      "preferred": "masalu",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "masalu",
+          "is_preferred": true,
+          "meanings": [
+            "ç¸ä¿¡ï¼è¬è¬",
+            "è¬è¬",
+            "相信",
+            "相信；謝謝",
+            "謝謝"
+          ],
+          "corpus_count": 5,
+          "sample_sources": [
+            "conversation",
+            "custom",
+            "vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "input": "水的排灣語是什麼？",
+      "word": "水",
+      "accepted_answers": [
+        "zaljum"
+      ],
+      "preferred": "zaljum",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "zaljum",
+          "is_preferred": true,
+          "meanings": [
+            "水"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "input": "排灣語的吃怎麼說？",
+      "word": "吃",
+      "accepted_answers": [
+        "keman"
+      ],
+      "preferred": "keman",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "keman",
+          "is_preferred": true,
+          "meanings": [
+            "å",
+            "å(æ±è¥¿)",
+            "åé£¯",
+            "吃",
+            "吃(東西)",
+            "吃飯"
+          ],
+          "corpus_count": 6,
+          "sample_sources": [
+            "conversation",
+            "speech",
+            "custom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "input": "太陽的排灣語是什麼？",
+      "word": "太陽",
+      "accepted_answers": [
+        "qadaw"
+      ],
+      "preferred": "qadaw",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "qadaw",
+          "is_preferred": true,
+          "meanings": [
+            "undefined",
+            "一天",
+            "天",
+            "天 日",
+            "天(太陽)",
+            "太陽",
+            "太陽/天",
+            "太陽天",
+            "日天太陽",
+            "日子；天"
+          ],
+          "corpus_count": 10,
+          "sample_sources": [
+            "conversation",
+            "speech",
+            "custom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "input": "月亮的族語怎麼說？",
+      "word": "月亮",
+      "accepted_answers": [
+        "qiljas"
+      ],
+      "preferred": "qiljas",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "qiljas",
+          "is_preferred": true,
+          "meanings": [
+            "月亮"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "input": "排灣語的手怎麼說？",
+      "word": "手",
+      "accepted_answers": [
+        "lima"
+      ],
+      "preferred": "lima",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "lima",
+          "is_preferred": true,
+          "meanings": [
+            "4",
+            "5",
+            "五",
+            "五 / 手",
+            "五、",
+            "五個",
+            "五朵",
+            "五根",
+            "五顆",
+            "手",
+            "手、"
+          ],
+          "corpus_count": 11,
+          "sample_sources": [
+            "alphabet",
+            "vocabulary",
+            "speech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "input": "眼睛的排灣語是什麼？",
+      "word": "眼睛",
+      "accepted_answers": [
+        "maca"
+      ],
+      "preferred": "maca",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "maca",
+          "is_preferred": true,
+          "meanings": [
+            "眼睛"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "input": "火的排灣語怎麼說？",
+      "word": "火",
+      "accepted_answers": [
+        "sapuy",
+        "sapui"
+      ],
+      "preferred": "sapuy",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "sapuy",
+          "is_preferred": true,
+          "meanings": [
+            "火"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "vocabulary"
+          ]
+        },
+        {
+          "variant": "sapui",
+          "is_preferred": false,
+          "meanings": [
+            "火"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "custom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "input": "星星用排灣語怎麼說？",
+      "word": "星星",
+      "accepted_answers": [
+        "vitjuqan"
+      ],
+      "preferred": "vitjuqan",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "vitjuqan",
+          "is_preferred": true,
+          "meanings": [
+            "星星"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "input": "母親的排灣語怎麼說？",
+      "word": "母親",
+      "accepted_answers": [
+        "kina"
+      ],
+      "preferred": "kina",
+      "difficulty": "medium",
+      "corpus_evidence": [
+        {
+          "variant": "kina",
+          "is_preferred": true,
+          "meanings": [
+            "undefined",
+            "ä»éº¼",
+            "æ¯è¦ª",
+            "什麼",
+            "媽",
+            "媽媽",
+            "媽媽:",
+            "採",
+            "是否",
+            "最",
+            "母親",
+            "阿姨"
+          ],
+          "corpus_count": 13,
+          "sample_sources": [
+            "vocabulary",
+            "nine",
+            "nine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "input": "父親的族語是什麼？",
+      "word": "父親",
+      "accepted_answers": [
+        "kama"
+      ],
+      "preferred": "kama",
+      "difficulty": "medium",
+      "corpus_evidence": [
+        {
+          "variant": "kama",
+          "is_preferred": true,
+          "meanings": [
+            "ç¶è¦ª",
+            "ç¶è¦ªã",
+            "叔叔",
+            "湯鍋",
+            "煮飯鍋",
+            "父親",
+            "父親、",
+            "爸爸",
+            "虛詞",
+            "飯鍋"
+          ],
+          "corpus_count": 11,
+          "sample_sources": [
+            "vocabulary",
+            "nine",
+            "vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "input": "孩子的排灣語怎麼說？",
+      "word": "孩子",
+      "accepted_answers": [
+        "aljak"
+      ],
+      "preferred": "aljak",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "aljak",
+          "is_preferred": true,
+          "meanings": [
+            "å­©å­",
+            "孩子"
+          ],
+          "corpus_count": 2,
+          "sample_sources": [
+            "klokah_d23",
+            "ebook情境式族語教材"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "input": "房子的排灣語是什麼？",
+      "word": "房子",
+      "accepted_answers": [
+        "umaq"
+      ],
+      "preferred": "umaq",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "umaq",
+          "is_preferred": true,
+          "meanings": [
+            "undefined",
+            "å®¶",
+            "å®¶å±",
+            "家",
+            "家屋"
+          ],
+          "corpus_count": 5,
+          "sample_sources": [
+            "alphabet",
+            "conversation",
+            "klokah_d23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "input": "道路的排灣語怎麼說？",
+      "word": "道路",
+      "accepted_answers": [
+        "djalan"
+      ],
+      "preferred": "djalan",
+      "difficulty": "medium",
+      "corpus_evidence": [
+        {
+          "variant": "djalan",
+          "is_preferred": true,
+          "meanings": [
+            "道路"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "input": "人的排灣語是什麼？",
+      "word": "人",
+      "accepted_answers": [
+        "caucau"
+      ],
+      "preferred": "caucau",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "caucau",
+          "is_preferred": true,
+          "meanings": [
+            "undefined"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "klokah_d23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "input": "朋友的族語怎麼說？",
+      "word": "朋友",
+      "accepted_answers": [
+        "drangi"
+      ],
+      "preferred": "drangi",
+      "difficulty": "medium",
+      "corpus_evidence": [
+        {
+          "variant": "drangi",
+          "is_preferred": true,
+          "meanings": [
+            "å¥³çæå"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "klokah_d23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "input": "山的排灣語怎麼說？",
+      "word": "山",
+      "accepted_answers": [
+        "gadu"
+      ],
+      "preferred": "gadu",
+      "difficulty": "medium",
+      "corpus_evidence": [
+        {
+          "variant": "gadu",
+          "is_preferred": true,
+          "meanings": [
+            "å±±ä¸",
+            "山",
+            "山上",
+            "山間"
+          ],
+          "corpus_count": 4,
+          "sample_sources": [
+            "alphabet",
+            "custom",
+            "custom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "input": "名字用排灣語怎麼說？",
+      "word": "名字",
+      "accepted_answers": [
+        "ngadan"
+      ],
+      "preferred": "ngadan",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "ngadan",
+          "is_preferred": true,
+          "meanings": [
+            "åå­"
+          ],
+          "corpus_count": 1,
+          "sample_sources": [
+            "klokah_d23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "input": "狗的排灣語是什麼？",
+      "word": "狗",
+      "accepted_answers": [
+        "vatu"
+      ],
+      "preferred": "vatu",
+      "difficulty": "easy",
+      "corpus_evidence": [
+        {
+          "variant": "vatu",
+          "is_preferred": true,
+          "meanings": [
+            "undefined",
+            "小狗",
+            "狗"
+          ],
+          "corpus_count": 3,
+          "sample_sources": [
+            "custom",
+            "vocabulary",
+            "klokah_d23"
+          ]
+        }
+      ]
+    }
+  ]
+}

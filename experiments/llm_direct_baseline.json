@@ -1,0 +1,1922 @@
+{
+  "metadata": {
+    "timestamp": "2026-06-03T23:17:40.620375",
+    "model": "glm-4-flash",
+    "test_size": 50,
+    "repeat": 3,
+    "method": "llm_direct",
+    "description": "LLM 直翻 baseline，不經過任何 RAG/Core Vocab/Agent"
+  },
+  "summary": {
+    "avg_accuracy": 4.0,
+    "runs": [
+      {
+        "run": 1,
+        "accuracy": 4.0,
+        "correct": 2,
+        "wrong": 47,
+        "not_found": 1
+      },
+      {
+        "run": 2,
+        "accuracy": 4.0,
+        "correct": 2,
+        "wrong": 47,
+        "not_found": 1
+      },
+      {
+        "run": 3,
+        "accuracy": 4.0,
+        "correct": 2,
+        "wrong": 47,
+        "not_found": 1
+      }
+    ],
+    "leaf_control": 79.16666666666666,
+    "improvement": 75.17
+  },
+  "word_accuracy": {
+    "你好": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "謝謝": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "再見": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "對不起": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "請": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "是": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "不是": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "有": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "沒有": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "在": {
+      "correct": 3,
+      "total": 3,
+      "rate": 100.0
+    },
+    "我": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "你": {
+      "correct": 3,
+      "total": 3,
+      "rate": 100.0
+    },
+    "他": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "我們": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "你們": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "爸爸": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "媽媽": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "爺爺": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "奶奶": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "朋友": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "水": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "山": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "海": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "太陽": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "月亮": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "雨": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "風": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "火": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "石頭": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "樹": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "狗": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "豬": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "雞": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "魚": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "鳥": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "眼睛": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "嘴巴": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "手": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "腳": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "頭": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "吃": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "喝": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "睡覺": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "去": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "來": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "紅色": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "白色": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "黑色": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "大": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    },
+    "小": {
+      "correct": 0,
+      "total": 3,
+      "rate": 0.0
+    }
+  },
+  "details": [
+    {
+      "run": 1,
+      "correct": 2,
+      "wrong": 47,
+      "not_found": 1,
+      "total": 50,
+      "accuracy": 4.0,
+      "details": [
+        {
+          "run": 1,
+          "chinese": "你好",
+          "reply": "您好：Bakau\n你好：Bakau maan",
+          "matched": false,
+          "klokah_count": 21,
+          "candidates": [
+            "您好：Bakau"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "謝謝",
+          "reply": "kakarang",
+          "matched": false,
+          "klokah_count": 32,
+          "candidates": [
+            "kakarang"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "再見",
+          "reply": "biraan, biran",
+          "matched": false,
+          "klokah_count": 16,
+          "candidates": [
+            "biraan",
+            "biran"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "對不起",
+          "reply": "kakitakar",
+          "matched": false,
+          "klokah_count": 0,
+          "candidates": [
+            "kakitakar"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "請",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 128,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "是",
+          "reply": "kā, kiā",
+          "matched": false,
+          "klokah_count": 856,
+          "candidates": [
+            "kā",
+            "kiā"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "不是",
+          "reply": "kayal kawaw",
+          "matched": false,
+          "klokah_count": 73,
+          "candidates": [
+            "kayal kawaw"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "有",
+          "reply": "有：有、有著、有著、有著",
+          "matched": false,
+          "klokah_count": 800,
+          "candidates": [
+            "有：有",
+            "有著",
+            "有著",
+            "有著"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "沒有",
+          "reply": "無有",
+          "matched": false,
+          "klokah_count": 145,
+          "candidates": [
+            "無有"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "在",
+          "reply": "i",
+          "matched": true,
+          "klokah_count": 593,
+          "candidates": [
+            "i"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "我",
+          "reply": "nu",
+          "matched": false,
+          "klokah_count": 1046,
+          "candidates": [
+            "nu"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "你",
+          "reply": "nu, i",
+          "matched": true,
+          "klokah_count": 613,
+          "candidates": [
+            "nu",
+            "i"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "他",
+          "reply": "kiyā",
+          "matched": false,
+          "klokah_count": 400,
+          "candidates": [
+            "kiyā"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "我們",
+          "reply": "nuwut, nuwutun, nuwutan",
+          "matched": false,
+          "klokah_count": 296,
+          "candidates": [
+            "nuwut",
+            "nuwutun",
+            "nuwutan"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "你們",
+          "reply": "kakit",
+          "matched": false,
+          "klokah_count": 83,
+          "candidates": [
+            "kakit"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "爸爸",
+          "reply": "阿爸",
+          "matched": false,
+          "klokah_count": 55,
+          "candidates": [
+            "阿爸"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "媽媽",
+          "reply": "māmá",
+          "matched": false,
+          "klokah_count": 55,
+          "candidates": [
+            "māmá"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "爺爺",
+          "reply": "阿公",
+          "matched": false,
+          "klokah_count": 22,
+          "candidates": [
+            "阿公"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "奶奶",
+          "reply": "baka, bakaan",
+          "matched": false,
+          "klokah_count": 30,
+          "candidates": [
+            "baka",
+            "bakaan"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "朋友",
+          "reply": "kiyung, kiyungan",
+          "matched": false,
+          "klokah_count": 75,
+          "candidates": [
+            "kiyung",
+            "kiyungan"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "水",
+          "reply": "tawas",
+          "matched": false,
+          "klokah_count": 129,
+          "candidates": [
+            "tawas"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "山",
+          "reply": "tadii",
+          "matched": false,
+          "klokah_count": 159,
+          "candidates": [
+            "tadii"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "海",
+          "reply": "海：tawali, tawal, tawalay",
+          "matched": false,
+          "klokah_count": 104,
+          "candidates": [
+            "海：tawali",
+            "tawal",
+            "tawalay"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "太陽",
+          "reply": "tawian, tawianan",
+          "matched": false,
+          "klokah_count": 60,
+          "candidates": [
+            "tawian",
+            "tawianan"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "月亮",
+          "reply": "gaya",
+          "matched": false,
+          "klokah_count": 30,
+          "candidates": [
+            "gaya"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "雨",
+          "reply": "gaya",
+          "matched": false,
+          "klokah_count": 131,
+          "candidates": [
+            "gaya"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "風",
+          "reply": "風: 風、風吹",
+          "matched": false,
+          "klokah_count": 99,
+          "candidates": [
+            "風: 風",
+            "風吹"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "火",
+          "reply": "kawas",
+          "matched": false,
+          "klokah_count": 43,
+          "candidates": [
+            "kawas"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "石頭",
+          "reply": "tawasang",
+          "matched": false,
+          "klokah_count": 15,
+          "candidates": [
+            "tawasang"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "樹",
+          "reply": "tawu, tawuq",
+          "matched": false,
+          "klokah_count": 84,
+          "candidates": [
+            "tawu",
+            "tawuq"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "狗",
+          "reply": "kakak, kaka",
+          "matched": false,
+          "klokah_count": 52,
+          "candidates": [
+            "kakak",
+            "kaka"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "豬",
+          "reply": "kakak",
+          "matched": false,
+          "klokah_count": 47,
+          "candidates": [
+            "kakak"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "雞",
+          "reply": "ki, kai",
+          "matched": false,
+          "klokah_count": 51,
+          "candidates": [
+            "ki",
+            "kai"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "魚",
+          "reply": "kiyā, kiyāw, kiyāwā",
+          "matched": false,
+          "klokah_count": 139,
+          "candidates": [
+            "kiyā",
+            "kiyāw",
+            "kiyāwā"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "鳥",
+          "reply": "kakak, kawak",
+          "matched": false,
+          "klokah_count": 53,
+          "candidates": [
+            "kakak",
+            "kawak"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "眼睛",
+          "reply": "kakakak",
+          "matched": false,
+          "klokah_count": 37,
+          "candidates": [
+            "kakakak"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "嘴巴",
+          "reply": "kakit",
+          "matched": false,
+          "klokah_count": 17,
+          "candidates": [
+            "kakit"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "手",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 91,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "腳",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 55,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "頭",
+          "reply": "kakak, kawak",
+          "matched": false,
+          "klokah_count": 218,
+          "candidates": [
+            "kakak",
+            "kawak"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "吃",
+          "reply": "kiy, kiyu",
+          "matched": false,
+          "klokah_count": 186,
+          "candidates": [
+            "kiy",
+            "kiyu"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "喝",
+          "reply": "kiyam, kiyam, kiyam, kiyam, kiyam",
+          "matched": false,
+          "klokah_count": 37,
+          "candidates": [
+            "kiyam",
+            "kiyam",
+            "kiyam",
+            "kiyam",
+            "kiyam"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "睡覺",
+          "reply": "kakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakak",
+          "matched": false,
+          "klokah_count": 44,
+          "candidates": [
+            "kakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakak"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "去",
+          "reply": "kiyā, kiyān, kiyānā, kiyānān",
+          "matched": false,
+          "klokah_count": 443,
+          "candidates": [
+            "kiyā",
+            "kiyān",
+            "kiyānā",
+            "kiyānān"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "來",
+          "reply": "kang",
+          "matched": false,
+          "klokah_count": 540,
+          "candidates": [
+            "kang"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "紅色",
+          "reply": "hong-si, hong-si-ta",
+          "matched": false,
+          "klokah_count": 23,
+          "candidates": [
+            "hong-si",
+            "hong-si-ta"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "白色",
+          "reply": "kakit",
+          "matched": false,
+          "klokah_count": 21,
+          "candidates": [
+            "kakit"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "黑色",
+          "reply": "kiyān, kiyānān",
+          "matched": false,
+          "klokah_count": 24,
+          "candidates": [
+            "kiyān",
+            "kiyānān"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "大",
+          "reply": "tawrang",
+          "matched": false,
+          "klokah_count": 243,
+          "candidates": [
+            "tawrang"
+          ]
+        },
+        {
+          "run": 1,
+          "chinese": "小",
+          "reply": "kiyāt, kiyt, kiyat, kiyat, kiyat",
+          "matched": false,
+          "klokah_count": 196,
+          "candidates": [
+            "kiyāt",
+            "kiyt",
+            "kiyat",
+            "kiyat",
+            "kiyat"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "correct": 2,
+      "wrong": 47,
+      "not_found": 1,
+      "total": 50,
+      "accuracy": 4.0,
+      "details": [
+        {
+          "run": 2,
+          "chinese": "你好",
+          "reply": "您好：Bakau\n你好：Bakau maan",
+          "matched": false,
+          "klokah_count": 21,
+          "candidates": [
+            "您好：Bakau"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "謝謝",
+          "reply": "kakarang",
+          "matched": false,
+          "klokah_count": 32,
+          "candidates": [
+            "kakarang"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "再見",
+          "reply": "biraan, biran",
+          "matched": false,
+          "klokah_count": 16,
+          "candidates": [
+            "biraan",
+            "biran"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "對不起",
+          "reply": "kakitakar",
+          "matched": false,
+          "klokah_count": 0,
+          "candidates": [
+            "kakitakar"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "請",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 128,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "是",
+          "reply": "kakusha",
+          "matched": false,
+          "klokah_count": 856,
+          "candidates": [
+            "kakusha"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "不是",
+          "reply": "kakaw",
+          "matched": false,
+          "klokah_count": 73,
+          "candidates": [
+            "kakaw"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "有",
+          "reply": "有：有、有著、有著來",
+          "matched": false,
+          "klokah_count": 800,
+          "candidates": [
+            "有：有",
+            "有著",
+            "有著來"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "沒有",
+          "reply": "無、無有",
+          "matched": false,
+          "klokah_count": 145,
+          "candidates": [
+            "無",
+            "無有"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "在",
+          "reply": "i",
+          "matched": true,
+          "klokah_count": 593,
+          "candidates": [
+            "i"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "我",
+          "reply": "nu",
+          "matched": false,
+          "klokah_count": 1046,
+          "candidates": [
+            "nu"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "你",
+          "reply": "nu, i",
+          "matched": true,
+          "klokah_count": 613,
+          "candidates": [
+            "nu",
+            "i"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "他",
+          "reply": "kiyā",
+          "matched": false,
+          "klokah_count": 400,
+          "candidates": [
+            "kiyā"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "我們",
+          "reply": "nuwut, nuwutut",
+          "matched": false,
+          "klokah_count": 296,
+          "candidates": [
+            "nuwut",
+            "nuwutut"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "你們",
+          "reply": "nuwan, nuwanan",
+          "matched": false,
+          "klokah_count": 83,
+          "candidates": [
+            "nuwan",
+            "nuwanan"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "爸爸",
+          "reply": "阿爸",
+          "matched": false,
+          "klokah_count": 55,
+          "candidates": [
+            "阿爸"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "媽媽",
+          "reply": "māma",
+          "matched": false,
+          "klokah_count": 55,
+          "candidates": [
+            "māma"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "爺爺",
+          "reply": "阿公",
+          "matched": false,
+          "klokah_count": 22,
+          "candidates": [
+            "阿公"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "奶奶",
+          "reply": "kakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakak",
+          "matched": false,
+          "klokah_count": 30,
+          "candidates": [
+            "kakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakak"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "朋友",
+          "reply": "kiyung, kiyungan",
+          "matched": false,
+          "klokah_count": 75,
+          "candidates": [
+            "kiyung",
+            "kiyungan"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "水",
+          "reply": "tawas",
+          "matched": false,
+          "klokah_count": 129,
+          "candidates": [
+            "tawas"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "山",
+          "reply": "tadii",
+          "matched": false,
+          "klokah_count": 159,
+          "candidates": [
+            "tadii"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "海",
+          "reply": "海：kakarang, kawakarang",
+          "matched": false,
+          "klokah_count": 104,
+          "candidates": [
+            "海：kakarang",
+            "kawakarang"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "太陽",
+          "reply": "tawian, tawianan",
+          "matched": false,
+          "klokah_count": 60,
+          "candidates": [
+            "tawian",
+            "tawianan"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "月亮",
+          "reply": "gaya",
+          "matched": false,
+          "klokah_count": 30,
+          "candidates": [
+            "gaya"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "雨",
+          "reply": "gaya",
+          "matched": false,
+          "klokah_count": 131,
+          "candidates": [
+            "gaya"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "風",
+          "reply": "風: 风hunac、風hunacan、風hunacan、風hunacan、風hunacan",
+          "matched": false,
+          "klokah_count": 99,
+          "candidates": [
+            "風: 风hunac",
+            "風hunacan",
+            "風hunacan",
+            "風hunacan",
+            "風hunacan"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "火",
+          "reply": "kawas",
+          "matched": false,
+          "klokah_count": 43,
+          "candidates": [
+            "kawas"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "石頭",
+          "reply": "tawas",
+          "matched": false,
+          "klokah_count": 15,
+          "candidates": [
+            "tawas"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "樹",
+          "reply": "tawas",
+          "matched": false,
+          "klokah_count": 84,
+          "candidates": [
+            "tawas"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "狗",
+          "reply": "kakak, kaka",
+          "matched": false,
+          "klokah_count": 52,
+          "candidates": [
+            "kakak",
+            "kaka"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "豬",
+          "reply": "kakakak",
+          "matched": false,
+          "klokah_count": 47,
+          "candidates": [
+            "kakakak"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "雞",
+          "reply": "kiy, kiyu",
+          "matched": false,
+          "klokah_count": 51,
+          "candidates": [
+            "kiy",
+            "kiyu"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "魚",
+          "reply": "kiyā, kiyāw, kiyāwā",
+          "matched": false,
+          "klokah_count": 139,
+          "candidates": [
+            "kiyā",
+            "kiyāw",
+            "kiyāwā"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "鳥",
+          "reply": "kakalang",
+          "matched": false,
+          "klokah_count": 53,
+          "candidates": [
+            "kakalang"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "眼睛",
+          "reply": "kakakak",
+          "matched": false,
+          "klokah_count": 37,
+          "candidates": [
+            "kakakak"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "嘴巴",
+          "reply": "kakit",
+          "matched": false,
+          "klokah_count": 17,
+          "candidates": [
+            "kakit"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "手",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 91,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "腳",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 55,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "頭",
+          "reply": "kakak, kawak",
+          "matched": false,
+          "klokah_count": 218,
+          "candidates": [
+            "kakak",
+            "kawak"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "吃",
+          "reply": "kiy, kiyu",
+          "matched": false,
+          "klokah_count": 186,
+          "candidates": [
+            "kiy",
+            "kiyu"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "喝",
+          "reply": "kiyam, kiyam, kiyam, kiyam, kiyam",
+          "matched": false,
+          "klokah_count": 37,
+          "candidates": [
+            "kiyam",
+            "kiyam",
+            "kiyam",
+            "kiyam",
+            "kiyam"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "睡覺",
+          "reply": "kakaw",
+          "matched": false,
+          "klokah_count": 44,
+          "candidates": [
+            "kakaw"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "去",
+          "reply": "kiyā, kiyān, kiyānā, kiyānān",
+          "matched": false,
+          "klokah_count": 443,
+          "candidates": [
+            "kiyā",
+            "kiyān",
+            "kiyānā",
+            "kiyānān"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "來",
+          "reply": "kang",
+          "matched": false,
+          "klokah_count": 540,
+          "candidates": [
+            "kang"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "紅色",
+          "reply": "hong-si, hong-si-ta",
+          "matched": false,
+          "klokah_count": 23,
+          "candidates": [
+            "hong-si",
+            "hong-si-ta"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "白色",
+          "reply": "kakit",
+          "matched": false,
+          "klokah_count": 21,
+          "candidates": [
+            "kakit"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "黑色",
+          "reply": "kiyān, kiyānān",
+          "matched": false,
+          "klokah_count": 24,
+          "candidates": [
+            "kiyān",
+            "kiyānān"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "大",
+          "reply": "tu̍t, tuk, tuk-tuk",
+          "matched": false,
+          "klokah_count": 243,
+          "candidates": [
+            "tu̍t",
+            "tuk",
+            "tuk-tuk"
+          ]
+        },
+        {
+          "run": 2,
+          "chinese": "小",
+          "reply": "kiyāt, kiyat, kiyat, kiyat, kiyat",
+          "matched": false,
+          "klokah_count": 196,
+          "candidates": [
+            "kiyāt",
+            "kiyat",
+            "kiyat",
+            "kiyat",
+            "kiyat"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "correct": 2,
+      "wrong": 47,
+      "not_found": 1,
+      "total": 50,
+      "accuracy": 4.0,
+      "details": [
+        {
+          "run": 3,
+          "chinese": "你好",
+          "reply": "您好：Bulih\n\n你好：Bulih\n\n您好：Bulih",
+          "matched": false,
+          "klokah_count": 21,
+          "candidates": [
+            "您好：Bulih"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "謝謝",
+          "reply": "kakarang",
+          "matched": false,
+          "klokah_count": 32,
+          "candidates": [
+            "kakarang"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "再見",
+          "reply": "biraan, biran",
+          "matched": false,
+          "klokah_count": 16,
+          "candidates": [
+            "biraan",
+            "biran"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "對不起",
+          "reply": "kakitakar",
+          "matched": false,
+          "klokah_count": 0,
+          "candidates": [
+            "kakitakar"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "請",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 128,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "是",
+          "reply": "kā, kiā",
+          "matched": false,
+          "klokah_count": 856,
+          "candidates": [
+            "kā",
+            "kiā"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "不是",
+          "reply": "kakaw",
+          "matched": false,
+          "klokah_count": 73,
+          "candidates": [
+            "kakaw"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "有",
+          "reply": "有：有、有著、有著、有著",
+          "matched": false,
+          "klokah_count": 800,
+          "candidates": [
+            "有：有",
+            "有著",
+            "有著",
+            "有著"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "沒有",
+          "reply": "無有",
+          "matched": false,
+          "klokah_count": 145,
+          "candidates": [
+            "無有"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "在",
+          "reply": "i",
+          "matched": true,
+          "klokah_count": 593,
+          "candidates": [
+            "i"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "我",
+          "reply": "nu",
+          "matched": false,
+          "klokah_count": 1046,
+          "candidates": [
+            "nu"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "你",
+          "reply": "nu, i",
+          "matched": true,
+          "klokah_count": 613,
+          "candidates": [
+            "nu",
+            "i"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "他",
+          "reply": "kiyā",
+          "matched": false,
+          "klokah_count": 400,
+          "candidates": [
+            "kiyā"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "我們",
+          "reply": "nuwut, nuwutut",
+          "matched": false,
+          "klokah_count": 296,
+          "candidates": [
+            "nuwut",
+            "nuwutut"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "你們",
+          "reply": "nuwan, nuwanan",
+          "matched": false,
+          "klokah_count": 83,
+          "candidates": [
+            "nuwan",
+            "nuwanan"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "爸爸",
+          "reply": "阿爸",
+          "matched": false,
+          "klokah_count": 55,
+          "candidates": [
+            "阿爸"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "媽媽",
+          "reply": "māmá",
+          "matched": false,
+          "klokah_count": 55,
+          "candidates": [
+            "māmá"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "爺爺",
+          "reply": "阿公、阿公仔",
+          "matched": false,
+          "klokah_count": 22,
+          "candidates": [
+            "阿公",
+            "阿公仔"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "奶奶",
+          "reply": "kakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakak",
+          "matched": false,
+          "klokah_count": 30,
+          "candidates": [
+            "kakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakakak"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "朋友",
+          "reply": "kiyung, kiyungan",
+          "matched": false,
+          "klokah_count": 75,
+          "candidates": [
+            "kiyung",
+            "kiyungan"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "水",
+          "reply": "tawas",
+          "matched": false,
+          "klokah_count": 129,
+          "candidates": [
+            "tawas"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "山",
+          "reply": "tadi",
+          "matched": false,
+          "klokah_count": 159,
+          "candidates": [
+            "tadi"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "海",
+          "reply": "海：tawali, tawal, tawalay",
+          "matched": false,
+          "klokah_count": 104,
+          "candidates": [
+            "海：tawali",
+            "tawal",
+            "tawalay"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "太陽",
+          "reply": "tawian, tawianan",
+          "matched": false,
+          "klokah_count": 60,
+          "candidates": [
+            "tawian",
+            "tawianan"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "月亮",
+          "reply": "gaya",
+          "matched": false,
+          "klokah_count": 30,
+          "candidates": [
+            "gaya"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "雨",
+          "reply": "gaya",
+          "matched": false,
+          "klokah_count": 131,
+          "candidates": [
+            "gaya"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "風",
+          "reply": "風: kawaw",
+          "matched": false,
+          "klokah_count": 99,
+          "candidates": [
+            "風: kawaw"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "火",
+          "reply": "kawas",
+          "matched": false,
+          "klokah_count": 43,
+          "candidates": [
+            "kawas"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "石頭",
+          "reply": "tawasang",
+          "matched": false,
+          "klokah_count": 15,
+          "candidates": [
+            "tawasang"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "樹",
+          "reply": "tawas",
+          "matched": false,
+          "klokah_count": 84,
+          "candidates": [
+            "tawas"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "狗",
+          "reply": "kakak, kaka",
+          "matched": false,
+          "klokah_count": 52,
+          "candidates": [
+            "kakak",
+            "kaka"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "豬",
+          "reply": "kakak",
+          "matched": false,
+          "klokah_count": 47,
+          "candidates": [
+            "kakak"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "雞",
+          "reply": "ki, kai",
+          "matched": false,
+          "klokah_count": 51,
+          "candidates": [
+            "ki",
+            "kai"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "魚",
+          "reply": "kiyā, kiyāw, kiyāwā",
+          "matched": false,
+          "klokah_count": 139,
+          "candidates": [
+            "kiyā",
+            "kiyāw",
+            "kiyāwā"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "鳥",
+          "reply": "kakalang",
+          "matched": false,
+          "klokah_count": 53,
+          "candidates": [
+            "kakalang"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "眼睛",
+          "reply": "kakakut",
+          "matched": false,
+          "klokah_count": 37,
+          "candidates": [
+            "kakakut"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "嘴巴",
+          "reply": "kakit",
+          "matched": false,
+          "klokah_count": 17,
+          "candidates": [
+            "kakit"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "手",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 91,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "腳",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 55,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "頭",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 218,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "吃",
+          "reply": "kiy, kiyu",
+          "matched": false,
+          "klokah_count": 186,
+          "candidates": [
+            "kiy",
+            "kiyu"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "喝",
+          "reply": "kiyam, kiyam, kiyam, kiyam, kiyam",
+          "matched": false,
+          "klokah_count": 37,
+          "candidates": [
+            "kiyam",
+            "kiyam",
+            "kiyam",
+            "kiyam",
+            "kiyam"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "睡覺",
+          "reply": "kakaw",
+          "matched": false,
+          "klokah_count": 44,
+          "candidates": [
+            "kakaw"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "去",
+          "reply": "kiyā, kiyān, kiyānā, kiyānān",
+          "matched": false,
+          "klokah_count": 443,
+          "candidates": [
+            "kiyā",
+            "kiyān",
+            "kiyānā",
+            "kiyānān"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "來",
+          "reply": "kakar",
+          "matched": false,
+          "klokah_count": 540,
+          "candidates": [
+            "kakar"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "紅色",
+          "reply": "hong-si, hong-si-ki",
+          "matched": false,
+          "klokah_count": 23,
+          "candidates": [
+            "hong-si",
+            "hong-si-ki"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "白色",
+          "reply": "kakit",
+          "matched": false,
+          "klokah_count": 21,
+          "candidates": [
+            "kakit"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "黑色",
+          "reply": "kiyung",
+          "matched": false,
+          "klokah_count": 24,
+          "candidates": [
+            "kiyung"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "大",
+          "reply": "tawas\n\ntawas, tawas, tawas",
+          "matched": false,
+          "klokah_count": 243,
+          "candidates": [
+            "tawas"
+          ]
+        },
+        {
+          "run": 3,
+          "chinese": "小",
+          "reply": "kiyāt, kiyat, kiyat, kiyat, kiyat",
+          "matched": false,
+          "klokah_count": 196,
+          "candidates": [
+            "kiyāt",
+            "kiyat",
+            "kiyat",
+            "kiyat",
+            "kiyat"
+          ]
+        }
+      ]
+    }
+  ]
+}

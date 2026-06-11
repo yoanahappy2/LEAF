@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "timestamp": "2026-06-08T19:05:42.736093",
+    "model": "glm-4-flash"
+  },
+  "react_error_diagnosis": [
+    {
+      "id": "q06",
+      "target": "月亮",
+      "type": "query_drift",
+      "sa_react_tools": [
+        "translate({\"text\": \"月亮的族語怎麼說\"})"
+      ],
+      "reply": "很抱歉，我無法找到月亮的族語的翻譯。您可以嘗試使用其他工具或資源來查找相關信息。"
+    },
+    {
+      "id": "q12",
+      "target": "父親",
+      "type": "query_drift",
+      "sa_react_tools": [
+        "translate({\"text\": \"父親的族語是什麼？\"})"
+      ],
+      "reply": "很抱歉，我無法直接翻譯這個問題。我可以嘗試使用排灣語語料庫中的搜索功能來查找相關信息。請問您能否提供更多關於這個問題的背景信息？"
+    },
+    {
+      "id": "q13",
+      "target": "孩子",
+      "type": "query_drift",
+      "sa_react_tools": [
+        "translate({\"text\": \"孩子的\", \"direction\": \"c2p\"})",
+        "translate({\"text\": \"小孩的\", \"direction\": \"c2p\"})",
+        "translate({\"text\": \"小孩子\", \"direction\": \"c2p\"})"
+      ],
+      "reply": "translate\n{\"text\": \"小孩子\", \"direction\": \"c2p\"}"
+    },
+    {
+      "id": "q14",
+      "target": "房子",
+      "type": "reReact_saved",
+      "tools": [
+        "translate({\"text\": \"房子的排灣語是什麼？\", \"direction\": \"c2p\"})",
+        "translate({\"text\": \"房子\", \"direction\": \"c2p\"})"
+      ]
+    },
+    {
+      "id": "q17",
+      "target": "朋友",
+      "type": "query_drift",
+      "sa_react_tools": [
+        "translate({\"text\": \"朋友的族語怎麼說\"})",
+        "translate({\"text\": \"朋友的話語怎麼說\"})",
+        "translate({\"text\": \"朋友的話語是什麼語言\"})"
+      ],
+      "reply": "朋友：kakak\n的：tiku\n族語：kakak tiku"
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+[
+  {
+    "question_id": "q11",
+    "input": "母親的排灣語怎麼說？",
+    "target": "母親",
+    "accepted_answers": [
+      "kina"
+    ],
+    "preferred": "kina",
+    "start_time": "2026-06-04T23:17:06.675498",
+    "turns": [],
+    "reply": "\n母親的排灣語是「tjina」。",
+    "elapsed_seconds": 26.3,
+    "intercepted_messages": [
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "translate",
+          "params": {
+            "text": "母親",
+            "direction": "c2p"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "translate",
+          "status": "completed",
+          "data": {
+            "input": "母親",
+            "translation": "tjina",
+            "direction": "c2p",
+            "method": "exact",
+            "confidence": "medium"
+          },
+          "confidence": 0.7
+        }
+      }
+    ],
+    "evaluation": {
+      "correct": false,
+      "score": 0.0,
+      "matched": null
+    },
+    "end_time": "2026-06-04T23:17:32.974563"
+  },
+  {
+    "question_id": "q12",
+    "input": "父親的族語是什麼？",
+    "target": "父親",
+    "accepted_answers": [
+      "kama"
+    ],
+    "preferred": "kama",
+    "start_time": "2026-06-04T23:17:32.974621",
+    "turns": [],
+    "reply": "\n父親的排灣語是「tama」。",
+    "elapsed_seconds": 3.2,
+    "intercepted_messages": [
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "translate",
+          "params": {
+            "text": "父親",
+            "direction": "c2p"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "translate",
+          "status": "completed",
+          "data": {
+            "input": "父親",
+            "translation": "tama",
+            "direction": "c2p",
+            "method": "exact",
+            "confidence": "medium"
+          },
+          "confidence": 0.7
+        }
+      }
+    ],
+    "evaluation": {
+      "correct": false,
+      "score": 0.0,
+      "matched": null
+    },
+    "end_time": "2026-06-04T23:17:36.204955"
+  },
+  {
+    "question_id": "q14",
+    "input": "房子的排灣語是什麼？",
+    "target": "房子",
+    "accepted_answers": [
+      "umaq"
+    ],
+    "preferred": "umaq",
+    "start_time": "2026-06-04T23:17:36.205002",
+    "turns": [],
+    "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key><arg_value>房屋</arg_value>\n</tool_call>",
+    "elapsed_seconds": 18.7,
+    "intercepted_messages": [
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "translate",
+          "params": {
+            "text": "房子",
+            "direction": "c2p"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "translate",
+          "status": "completed",
+          "data": {
+            "input": "房子",
+            "translation": "",
+            "direction": "c2p",
+            "method": "rag_llm",
+            "confidence": "medium"
+          },
+          "confidence": 0.7
+        }
+      },
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "rag_search",
+          "params": {
+            "query": "房子 house"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "rag_search",
+          "status": "completed",
+          "data": {
+            "query": "房子 house",
+            "results": [
+              {
+                "paiwan": "aljak",
+                "chinese": "孩子",
+                "similarity": 0.931,
+                "intent": "general"
+              },
+              {
+                "paiwan": "haku",
+                "chinese": "箱 ( 子 )",
+                "similarity": 0.93,
+                "intent": "general"
+              },
+              {
+                "paiwan": "cukui",
+                "chinese": "桌子",
+                "similarity": 0.928,
+                "intent": "general"
+              },
+              {
+                "paiwan": "drail",
+                "chinese": "猴子",
+                "similarity": 0.926,
+                "intent": "vocabulary"
+              },
+              {
+                "paiwan": "saseqetjan",
+                "chinese": "櫃子",
+                "similarity": 0.924,
+                "intent": "general"
+              }
+            ],
+            "count": 5
+          },
+          "confidence": 0.93
+        }
+      },
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "rag_search",
+          "params": {
+            "query": "house"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "rag_search",
+          "status": "completed",
+          "data": {
+            "query": "house",
+            "results": [
+              {
+                "paiwan": "mainu",
+                "chinese": "åªè£¡",
+                "similarity": 0.863,
+                "intent": "general"
+              },
+              {
+                "paiwan": "mainu",
+                "chinese": "å»åª",
+                "similarity": 0.858,
+                "intent": "general"
+              },
+              {
+                "paiwan": "la",
+                "chinese": "in",
+                "similarity": 0.857,
+                "intent": "general"
+              },
+              {
+                "paiwan": "a",
+                "chinese": "çåª",
+                "similarity": 0.853,
+                "intent": "general"
+              },
+              {
+                "paiwan": "ui",
+                "chinese": "å",
+                "similarity": 0.85,
+                "intent": "general"
+              }
+            ],
+            "count": 5
+          },
+          "confidence": 0.86
+        }
+      }
+    ],
+    "evaluation": {
+      "correct": false,
+      "score": 0.0,
+      "matched": null
+    },
+    "end_time": "2026-06-04T23:17:54.887685"
+  },
+  {
+    "question_id": "q16",
+    "input": "人的排灣語是什麼？",
+    "target": "人",
+    "accepted_answers": [
+      "caucau"
+    ],
+    "preferred": "caucau",
+    "start_time": "2026-06-04T23:17:54.887745",
+    "turns": [],
+    "reply": "\n<tool_call>lookup\n<arg_key>term</arg_key>\n<arg_value>caucau</arg_value>\n</tool_call>",
+    "elapsed_seconds": 13.3,
+    "intercepted_messages": [
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "rag_search",
+          "params": {
+            "query": "人"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "rag_search",
+          "status": "completed",
+          "data": {
+            "query": "人",
+            "results": [
+              {
+                "paiwan": "malje tapuluq amen, izua anan a kakaizuavan?",
+                "chinese": "我們有10個人，還有空位嗎？",
+                "similarity": 0.9,
+                "intent": "general"
+              },
+              {
+                "paiwan": "iya, manu cemekemekelj a temulutulu tjanusun penayuanauanan i tjumaq.",
+                "chinese": "原來是有家人在教你說族語。",
+                "similarity": 0.9,
+                "intent": "general"
+              },
+              {
+                "paiwan": "nu kinemenem sun, kisun a namakuda a caucau?",
+                "chinese": "你覺得自己是一個怎樣的人？",
+                "similarity": 0.9,
+                "intent": "general"
+              },
+              {
+                "paiwan": "mapida a supu a caucau na kacalisian a penuljat?",
+                "chinese": "那原住民的總人口大約多少呢？",
+                "similarity": 0.9,
+                "intent": "general"
+              },
+              {
+                "paiwan": "ui, na seman pazangal a nia cemekemekelj ta penayuanan.",
+                "chinese": "是的，我們家人都很重視說族語。",
+                "similarity": 0.9,
+                "intent": "general"
+              }
+            ],
+            "count": 5
+          },
+          "confidence": 0.9
+        }
+      },
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "translate",
+          "params": {
+            "text": "caucau",
+            "direction": "p2c"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "translate",
+          "status": "completed",
+          "data": {
+            "input": "caucau",
+            "translation": "",
+            "direction": "p2c",
+            "method": "rag_llm",
+            "confidence": "medium"
+          },
+          "confidence": 0.7
+        }
+      },
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "translate",
+          "params": {
+            "text": "人",
+            "direction": "c2p"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "translate",
+          "status": "completed",
+          "data": {
+            "input": "人",
+            "translation": "",
+            "direction": "c2p",
+            "method": "rag_llm",
+            "confidence": "medium"
+          },
+          "confidence": 0.7
+        }
+      }
+    ],
+    "evaluation": {
+      "correct": true,
+      "score": 1.0,
+      "matched": "caucau"
+    },
+    "end_time": "2026-06-04T23:18:08.178512"
+  },
+  {
+    "question_id": "q18",
+    "input": "山的排灣語怎麼說？",
+    "target": "山",
+    "accepted_answers": [
+      "gadu"
+    ],
+    "preferred": "gadu",
+    "start_time": "2026-06-04T23:18:08.178577",
+    "turns": [],
+    "reply": "\n山的排灣語是「qungiljaw」。",
+    "elapsed_seconds": 3.7,
+    "intercepted_messages": [
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "translate",
+          "params": {
+            "text": "山",
+            "direction": "c2p"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "translate",
+          "status": "completed",
+          "data": {
+            "input": "山",
+            "translation": "qungiljaw",
+            "direction": "c2p",
+            "method": "exact",
+            "confidence": "medium"
+          },
+          "confidence": 0.7
+        }
+      }
+    ],
+    "evaluation": {
+      "correct": false,
+      "score": 0.0,
+      "matched": null
+    },
+    "end_time": "2026-06-04T23:18:11.927799"
+  },
+  {
+    "question_id": "q19",
+    "input": "名字用排灣語怎麼說？",
+    "target": "名字",
+    "accepted_answers": [
+      "ngadan"
+    ],
+    "preferred": "ngadan",
+    "start_time": "2026-06-04T23:18:11.927841",
+    "turns": [],
+    "reply": "\n<tool_call>lookup\n<arg_key>term</arg_key>\n<arg_value>ngadan</arg_value>\n</tool_call>",
+    "elapsed_seconds": 19.9,
+    "intercepted_messages": [
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "translate",
+          "params": {
+            "text": "名字",
+            "direction": "c2p"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "translate",
+          "status": "completed",
+          "data": {
+            "input": "名字",
+            "translation": "",
+            "direction": "c2p",
+            "method": "rag_llm",
+            "confidence": "medium"
+          },
+          "confidence": 0.7
+        }
+      },
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "rag_search",
+          "params": {
+            "query": "名字 name"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "rag_search",
+          "status": "completed",
+          "data": {
+            "query": "名字 name",
+            "results": [
+              {
+                "paiwan": "garuljigulj",
+                "chinese": "家族名",
+                "similarity": 0.934,
+                "intent": "general"
+              },
+              {
+                "paiwan": "zuga",
+                "chinese": "畫（名詞）",
+                "similarity": 0.931,
+                "intent": "general"
+              },
+              {
+                "paiwan": "mavaliu",
+                "chinese": "家族名",
+                "similarity": 0.93,
+                "intent": "general"
+              },
+              {
+                "paiwan": "garuljegulj",
+                "chinese": "家族名",
+                "similarity": 0.927,
+                "intent": "general"
+              },
+              {
+                "paiwan": "lja drvaniyaw",
+                "chinese": "家族名",
+                "similarity": 0.922,
+                "intent": "general"
+              }
+            ],
+            "count": 5
+          },
+          "confidence": 0.93
+        }
+      },
+      {
+        "from": "orchestrator",
+        "to": "knowledge",
+        "type": "task_assign",
+        "payload": {
+          "task": "rag_search",
+          "params": {
+            "query": "個人名稱 personal name"
+          }
+        }
+      },
+      {
+        "from": "knowledge",
+        "to": "orchestrator",
+        "type": "task_result",
+        "payload": {
+          "task": "rag_search",
+          "status": "completed",
+          "data": {
+            "query": "個人名稱 personal name",
+            "results": [
+              {
+                "paiwan": "tima su ngadan?",
+                "chinese": "A:你的名字是什麼?",
+                "similarity": 0.921,
+                "intent": "general"
+              },
+              {
+                "paiwan": "tima a ngadan nimadju?",
+                "chinese": "A:他的名字是什麼?",
+                "similarity": 0.919,
+                "intent": "general"
+              },
+              {
+                "paiwan": "garuljigulj",
+                "chinese": "家族名",
+                "similarity": 0.919,
+                "intent": "general"
+              },
+              {
+                "paiwan": "mavaliu",
+                "chinese": "家族名",
+                "similarity": 0.919,
+                "intent": "general"
+              },
+              {
+                "paiwan": "tima tima su ngadan.",
+                "chinese": "請問你的名字?",
+                "similarity": 0.918,
+                "intent": "general"
+              }
+            ],
+            "count": 5
+          },
+          "confidence": 0.92
+        }
+      }
+    ],
+    "evaluation": {
+      "correct": true,
+      "score": 1.0,
+      "matched": "ngadan"
+    },
+    "end_time": "2026-06-04T23:18:31.782422"
+  }
+]

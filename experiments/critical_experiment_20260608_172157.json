@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "experiment": "critical_single_vs_multi",
+    "timestamp": "2026-06-08T17:16:32.230493",
+    "model": "glm-4-flash",
+    "test_count": 20,
+    "description": "控制變因實驗：Single Agent + ReAct (translate/rag_search/lookup) vs Multi-Agent + ReAct (Orchestrator 全工具)"
+  },
+  "single_agent_react": {
+    "name": "single_agent_react",
+    "model": "glm-4-flash",
+    "temperature": 0.3,
+    "max_react_turns": 5,
+    "tools": [
+      "translate",
+      "rag_search",
+      "lookup"
+    ],
+    "accuracy": 0.6,
+    "avg_score": 0.58,
+    "correct": 12,
+    "total": 20,
+    "timestamp": "2026-06-08T17:21:57.743940",
+    "results": [
+      {
+        "id": "q01",
+        "target": "你好",
+        "input": "「你好」的排灣語怎麼說？",
+        "reply": "djavadjavay",
+        "tool_calls": [
+          "translate({\"text\": \"你好\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "variant",
+        "correct": true,
+        "score": 0.8,
+        "detail": "Variant: 'djavadjavay' in ['djavadjavai', 'djavadjavay']"
+      },
+      {
+        "id": "q02",
+        "target": "謝謝",
+        "input": "謝謝用排灣語怎麼說？",
+        "reply": "masalu",
+        "tool_calls": [
+          "translate({\"text\": \"謝謝\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'masalu'"
+      },
+      {
+        "id": "q03",
+        "target": "水",
+        "input": "水的排灣語是什麼？",
+        "reply": "zaljum",
+        "tool_calls": [
+          "translate({\"text\": \"水\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'zaljum'"
+      },
+      {
+        "id": "q04",
+        "target": "吃",
+        "input": "排灣語的吃怎麼說？",
+        "reply": "keman",
+        "tool_calls": [
+          "translate({\"text\": \"吃\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'keman'"
+      },
+      {
+        "id": "q05",
+        "target": "太陽",
+        "input": "太陽的排灣語是什麼？",
+        "reply": "qadaw",
+        "tool_calls": [
+          "translate({\"text\": \"太陽\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'qadaw'"
+      },
+      {
+        "id": "q06",
+        "target": "月亮",
+        "input": "月亮的族語怎麼說？",
+        "reply": "translate\n{\"text\": \"月亮的\", \"direction\": \"c2p\"}",
+        "tool_calls": [
+          "translate({\"text\": \"月亮的\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"月亮\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"月亮的\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "none",
+        "correct": false,
+        "score": 0.0,
+        "detail": "No match. Candidates: ['translate', 'text', 'direction'], Expected: ['qiljas']"
+      },
+      {
+        "id": "q07",
+        "target": "手",
+        "input": "排灣語的手怎麼說？",
+        "reply": "lima",
+        "tool_calls": [
+          "translate({\"text\": \"手\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'lima'"
+      },
+      {
+        "id": "q08",
+        "target": "眼睛",
+        "input": "眼睛的排灣語是什麼？",
+        "reply": "maca",
+        "tool_calls": [
+          "translate({\"text\": \"眼睛\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'maca'"
+      },
+      {
+        "id": "q09",
+        "target": "火",
+        "input": "火的排灣語怎麼說？",
+        "reply": "sapui",
+        "tool_calls": [
+          "translate({\"text\": \"火\"})"
+        ],
+        "match_level": "variant",
+        "correct": true,
+        "score": 0.8,
+        "detail": "Variant: 'sapui' in ['sapuy', 'sapui']"
+      },
+      {
+        "id": "q10",
+        "target": "星星",
+        "input": "星星用排灣語怎麼說？",
+        "reply": "vitjuqan",
+        "tool_calls": [
+          "translate({\"text\": \"星星\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'vitjuqan'"
+      },
+      {
+        "id": "q11",
+        "target": "母親",
+        "input": "母親的排灣語怎麼說？",
+        "reply": "kina",
+        "tool_calls": [
+          "translate({\"text\": \"母親\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'kina'"
+      },
+      {
+        "id": "q12",
+        "target": "父親",
+        "input": "父親的族語是什麼？",
+        "reply": "很抱歉，我無法直接翻譯這個問題。我建議您使用其他工具或資源來查找答案。",
+        "tool_calls": [
+          "translate({\"text\": \"父親的族語是什麼？\"})"
+        ],
+        "match_level": "none",
+        "correct": false,
+        "score": 0.0,
+        "detail": "No match. Candidates: [], Expected: ['kama']"
+      },
+      {
+        "id": "q13",
+        "target": "孩子",
+        "input": "孩子的排灣語怎麼說？",
+        "reply": "translate\n{\"text\": \"小孩子\", \"direction\": \"c2p\"}",
+        "tool_calls": [
+          "translate({\"text\": \"孩子的\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"小孩子\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"兒童\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "none",
+        "correct": false,
+        "score": 0.0,
+        "detail": "No match. Candidates: ['translate', 'text', 'direction'], Expected: ['aljak']"
+      },
+      {
+        "id": "q14",
+        "target": "房子",
+        "input": "房子的排灣語是什麼？",
+        "reply": "translate\n{\"text\": \"房屋\", \"direction\": \"c2p\"}",
+        "tool_calls": [
+          "translate({\"text\": \"房子\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"房子\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"房屋\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "none",
+        "correct": false,
+        "score": 0.0,
+        "detail": "No match. Candidates: ['translate', 'text', 'direction'], Expected: ['umaq']"
+      },
+      {
+        "id": "q15",
+        "target": "道路",
+        "input": "道路的排灣語怎麼說？",
+        "reply": "djalan",
+        "tool_calls": [
+          "translate({\"text\": \"道路\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'djalan'"
+      },
+      {
+        "id": "q16",
+        "target": "人",
+        "input": "人的排灣語是什麼？",
+        "reply": "malje tapuluq amen",
+        "tool_calls": [
+          "translate({\"text\": \"人的\"})",
+          "translate({\"text\": \"人\"})",
+          "rag_search({\"query\": \"人\"})"
+        ],
+        "match_level": "none",
+        "correct": false,
+        "score": 0.0,
+        "detail": "No match. Candidates: ['malje', 'tapuluq', 'amen'], Expected: ['caucau']"
+      },
+      {
+        "id": "q17",
+        "target": "朋友",
+        "input": "朋友的族語怎麼說？",
+        "reply": "palaq",
+        "tool_calls": [
+          "translate({\"text\": \"朋友的族語怎麼說？\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"朋友的族語\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"朋友的話語\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "none",
+        "correct": false,
+        "score": 0.0,
+        "detail": "No match. Candidates: ['palaq'], Expected: ['drangi']"
+      },
+      {
+        "id": "q18",
+        "target": "山",
+        "input": "山的排灣語怎麼說？",
+        "reply": "qungiljaw",
+        "tool_calls": [
+          "translate({\"text\": \"山\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "none",
+        "correct": false,
+        "score": 0.0,
+        "detail": "No match. Candidates: ['qungiljaw'], Expected: ['gadu']"
+      },
+      {
+        "id": "q19",
+        "target": "名字",
+        "input": "名字用排灣語怎麼說？",
+        "reply": "姓名",
+        "tool_calls": [
+          "translate({\"text\": \"名字\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"名字\", \"direction\": \"c2p\"})",
+          "translate({\"text\": \"姓名\", \"direction\": \"c2p\"})"
+        ],
+        "match_level": "none",
+        "correct": false,
+        "score": 0.0,
+        "detail": "No match. Candidates: [], Expected: ['ngadan']"
+      },
+      {
+        "id": "q20",
+        "target": "狗",
+        "input": "狗的排灣語是什麼？",
+        "reply": "vatu",
+        "tool_calls": [
+          "translate({\"text\": \"狗\"})"
+        ],
+        "match_level": "exact",
+        "correct": true,
+        "score": 1.0,
+        "detail": "Exact: 'vatu'"
+      }
+    ]
+  }
+}

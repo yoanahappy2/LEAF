@@ -1,0 +1,790 @@
+{
+  "summary": {
+    "total": 50,
+    "correct": 38,
+    "partial": 0,
+    "wrong": 0,
+    "not_found": 12,
+    "accuracy": "100.0%"
+  },
+  "details": [
+    {
+      "chinese": "不我不是學生",
+      "our_paiwan": "iniinika ken a situ",
+      "klokah_results": [
+        {
+          "paiwan": "iniinika ken a situ",
+          "chinese": "不我不是學生"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "糾結在一起",
+      "our_paiwan": "mapa-pali-palic",
+      "klokah_results": [
+        {
+          "paiwan": "mapa-pali-palic",
+          "chinese": "糾結在一起"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "家族名",
+      "our_paiwan": "garuljigulj",
+      "klokah_results": [
+        {
+          "paiwan": "mavaliu",
+          "chinese": "家族名"
+        },
+        {
+          "paiwan": "garuljigulj",
+          "chinese": "家族名"
+        },
+        {
+          "paiwan": "lja diling",
+          "chinese": "家族名"
+        },
+        {
+          "paiwan": "lja druvaniyaw",
+          "chinese": "家族名"
+        },
+        {
+          "paiwan": "lja drvaniyaw",
+          "chinese": "家族名"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "羊",
+      "our_paiwan": "sizi",
+      "klokah_results": [
+        {
+          "paiwan": "sizi",
+          "chinese": "羊"
+        },
+        {
+          "paiwan": "sizi",
+          "chinese": "羊"
+        },
+        {
+          "paiwan": "sizi",
+          "chinese": "山羊"
+        },
+        {
+          "paiwan": "sizi",
+          "chinese": "羊、"
+        },
+        {
+          "paiwan": "sizi cu",
+          "chinese": "這是羊"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "æä»¥",
+      "our_paiwan": "manasika",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "大多數",
+      "our_paiwan": "tjaliaw",
+      "klokah_results": [
+        {
+          "paiwan": "tjaliaw",
+          "chinese": "大多數"
+        },
+        {
+          "paiwan": "tjatjuruvu",
+          "chinese": "大多數"
+        },
+        {
+          "paiwan": "tjatjuruvu",
+          "chinese": "大多數"
+        },
+        {
+          "paiwan": "tjatjuruvu",
+          "chinese": "大多數"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "小刀",
+      "our_paiwan": "siqunu",
+      "klokah_results": [
+        {
+          "paiwan": "siqunu",
+          "chinese": "小刀"
+        },
+        {
+          "paiwan": "siqunu",
+          "chinese": "小刀"
+        },
+        {
+          "paiwan": "temilu；temilju",
+          "chinese": "(1)把小刀放入刀鞘裡·(2)使用砧板"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "撫養長大",
+      "our_paiwan": "papeqacain",
+      "klokah_results": [
+        {
+          "paiwan": "papeqacain",
+          "chinese": "撫養長大"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "[è]",
+      "our_paiwan": "ta",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "吵醒你了",
+      "our_paiwan": "nama-mingaw sun",
+      "klokah_results": [
+        {
+          "paiwan": "nama-mingaw sun",
+          "chinese": "吵醒你了"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "å°ä¾",
+      "our_paiwan": "pinangetjezan",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "家",
+      "our_paiwan": "umaq",
+      "klokah_results": [
+        {
+          "paiwan": "siubay",
+          "chinese": "店家"
+        },
+        {
+          "paiwan": "tjumaq",
+          "chinese": "家裡"
+        },
+        {
+          "paiwan": "umaq",
+          "chinese": "家屋"
+        },
+        {
+          "paiwan": "cemekemekelj",
+          "chinese": "家庭"
+        },
+        {
+          "paiwan": "sematjumaq",
+          "chinese": "回家"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "一個月",
+      "our_paiwan": "taqiljasan",
+      "klokah_results": [
+        {
+          "paiwan": "izua ta qiljas anga, ini a maumaumalj a kinacavacavan nimadju.",
+          "chinese": "一個月了，但她的病時好時壞，沒有改變。"
+        },
+        {
+          "paiwan": "taqiljasan",
+          "chinese": "一個月"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "試試看",
+      "our_paiwan": "kiqayam",
+      "klokah_results": [
+        {
+          "paiwan": "kilaut",
+          "chinese": "試試看；指觀察情勢的發展"
+        },
+        {
+          "paiwan": "kiqayam",
+          "chinese": "試試看"
+        },
+        {
+          "paiwan": "paqaqayamai",
+          "chinese": "試試看"
+        },
+        {
+          "paiwan": "paqayam",
+          "chinese": "試試看"
+        },
+        {
+          "paiwan": "paqayamai",
+          "chinese": "試試看"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "å¥½å",
+      "our_paiwan": "sasanguaqan",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "一閃一閃",
+      "our_paiwan": "galiljegiljegilj",
+      "klokah_results": [
+        {
+          "paiwan": "galiljegiljegilj",
+          "chinese": "一閃一閃"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "å«",
+      "our_paiwan": "a",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "每一",
+      "our_paiwan": "ljemita",
+      "klokah_results": [
+        {
+          "paiwan": "sika pitju a qiljas nu ljemita ta cavilj.",
+          "chinese": "是在每一年的七月。"
+        },
+        {
+          "paiwan": "ayatua, namatemalji a patarevan nua maljian a kalevelevan.",
+          "chinese": "因為每一個季節都有它不同的意義。"
+        },
+        {
+          "paiwan": "ljemita",
+          "chinese": "每一"
+        },
+        {
+          "paiwan": "ljemita",
+          "chinese": "每一個"
+        },
+        {
+          "paiwan": "ljemita",
+          "chinese": "每一天"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "é½æ",
+      "our_paiwan": "tjara",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "å¨å®¶",
+      "our_paiwan": "tjumaq",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "多樣",
+      "our_paiwan": "lialaivan",
+      "klokah_results": [
+        {
+          "paiwan": "lialaivan",
+          "chinese": "多樣"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "一群女生朋友",
+      "our_paiwan": "maredravadrava",
+      "klokah_results": [
+        {
+          "paiwan": "maredravadrava",
+          "chinese": "一群女生朋友"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "火車(日語)",
+      "our_paiwan": "Kisia",
+      "klokah_results": [
+        {
+          "paiwan": "kisia",
+          "chinese": "火車(日語)"
+        },
+        {
+          "paiwan": "Kisia",
+          "chinese": "火車(日語)"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "我們將吃飯",
+      "our_paiwan": "uri keman amen",
+      "klokah_results": [
+        {
+          "paiwan": "uri keman amen",
+          "chinese": "我們將吃飯"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "沒關係",
+      "our_paiwan": "kumayan",
+      "klokah_results": [
+        {
+          "paiwan": "pumayan",
+          "chinese": "沒關係"
+        },
+        {
+          "paiwan": "inika makuda.",
+          "chinese": "沒關係。"
+        },
+        {
+          "paiwan": "pumayan",
+          "chinese": "沒關係"
+        },
+        {
+          "paiwan": "kumayan",
+          "chinese": "沒關係"
+        },
+        {
+          "paiwan": "pumayan",
+          "chinese": "沒關係"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "大腿",
+      "our_paiwan": "Djapalj",
+      "klokah_results": [
+        {
+          "paiwan": "djapalj",
+          "chinese": "大腿"
+        },
+        {
+          "paiwan": "djapalj",
+          "chinese": "大腿"
+        },
+        {
+          "paiwan": "Djapalj",
+          "chinese": "大腿"
+        },
+        {
+          "paiwan": "djapalj",
+          "chinese": "大腿"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "一直",
+      "our_paiwan": "kamayan",
+      "klokah_results": [
+        {
+          "paiwan": "cemalivalivat",
+          "chinese": "一直經過"
+        },
+        {
+          "paiwan": "imazamaza",
+          "chinese": "一直"
+        },
+        {
+          "paiwan": "kamayan",
+          "chinese": "一直"
+        },
+        {
+          "paiwan": "na",
+          "chinese": "一直"
+        },
+        {
+          "paiwan": "pusalasaladj",
+          "chinese": "一直幫忙"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "猴子",
+      "our_paiwan": "drail",
+      "klokah_results": [
+        {
+          "paiwan": "drail",
+          "chinese": "猴子"
+        },
+        {
+          "paiwan": "drail",
+          "chinese": "猴子"
+        },
+        {
+          "paiwan": "pagidigidi",
+          "chinese": "猴子"
+        },
+        {
+          "paiwan": "pagidigidi",
+          "chinese": "猴子"
+        },
+        {
+          "paiwan": "pagidigidi",
+          "chinese": "猴子"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "去哪裡",
+      "our_paiwan": "semainu",
+      "klokah_results": [
+        {
+          "paiwan": "ui, sa semainu sun a kivangavang?",
+          "chinese": "好的。請問想去哪裡呢？"
+        },
+        {
+          "paiwan": "nasemainu sun a ka tjaisangas a niciubi?",
+          "chinese": "上週日你去哪裡玩？"
+        },
+        {
+          "paiwan": "uri sema inu sun?",
+          "chinese": "你要去哪裡？"
+        },
+        {
+          "paiwan": "semainu",
+          "chinese": "去哪裡"
+        },
+        {
+          "paiwan": "semainu sun",
+          "chinese": "你要去哪裡"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "費力、吃力",
+      "our_paiwan": "nalemuljai",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "這樣看來",
+      "our_paiwan": "kipapacun",
+      "klokah_results": [
+        {
+          "paiwan": "kipapacun",
+          "chinese": "這樣看來"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "用來做",
+      "our_paiwan": "sisan",
+      "klokah_results": [
+        {
+          "paiwan": "sisan",
+          "chinese": "用來做..."
+        },
+        {
+          "paiwan": "sisan",
+          "chinese": "用來做"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "該看",
+      "our_paiwan": "sipacun",
+      "klokah_results": [
+        {
+          "paiwan": "sipacun",
+          "chinese": "該看"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "大多數",
+      "our_paiwan": "tjatjuruvu",
+      "klokah_results": [
+        {
+          "paiwan": "tjaliaw",
+          "chinese": "大多數"
+        },
+        {
+          "paiwan": "tjatjuruvu",
+          "chinese": "大多數"
+        },
+        {
+          "paiwan": "tjatjuruvu",
+          "chinese": "大多數"
+        },
+        {
+          "paiwan": "tjatjuruvu",
+          "chinese": "大多數"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "å±¬",
+      "our_paiwan": "na",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "你們做這",
+      "our_paiwan": "alangu cu",
+      "klokah_results": [
+        {
+          "paiwan": "alangu cu",
+          "chinese": "你們做這"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "一件",
+      "our_paiwan": "ita",
+      "klokah_results": [
+        {
+          "paiwan": "ita",
+          "chinese": "一件"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "å",
+      "our_paiwan": "a",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "我的",
+      "our_paiwan": "tjaku",
+      "klokah_results": [
+        {
+          "paiwan": "aicu ku drangi ti sakengel.",
+          "chinese": "這是我的朋友sakengel。"
+        },
+        {
+          "paiwan": "maculja ken aravac, izua kakanen?",
+          "chinese": "我的肚子好餓，有東西可以吃嗎？"
+        },
+        {
+          "paiwan": "ti savan a ku ngadan, pai saqumaqanu.",
+          "chinese": "我的名字是savan，請進。"
+        },
+        {
+          "paiwan": "tjengelay aken a kemavekav.",
+          "chinese": "我的興趣是游泳。"
+        },
+        {
+          "paiwan": "tjengelay aken a semasing.",
+          "chinese": "我的興趣是攝影。"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "出來",
+      "our_paiwan": "patjevutaing",
+      "klokah_results": [
+        {
+          "paiwan": "cemedas",
+          "chinese": "出來"
+        },
+        {
+          "paiwan": "cemedasanga qadaw",
+          "chinese": "太陽出來了"
+        },
+        {
+          "paiwan": "minqut a anga vitjuqan",
+          "chinese": "星星出來了嗎"
+        },
+        {
+          "paiwan": "minqutanga qiljas",
+          "chinese": "月亮出來了"
+        },
+        {
+          "paiwan": "na cemedasanga qadaw",
+          "chinese": "太陽出來了嗎"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "看見",
+      "our_paiwan": "pacunan",
+      "klokah_results": [
+        {
+          "paiwan": "aicu nia rupacuanan a kudamunu",
+          "chinese": "我們常常看見這些(水果)"
+        },
+        {
+          "paiwan": "kipapacuni",
+          "chinese": "看見"
+        },
+        {
+          "paiwan": "pacun",
+          "chinese": "看見"
+        },
+        {
+          "paiwan": "pacunan",
+          "chinese": "看見"
+        },
+        {
+          "paiwan": "pinacunan",
+          "chinese": "看見"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "各一份",
+      "our_paiwan": "patjaraitaitavu",
+      "klokah_results": [
+        {
+          "paiwan": "patjaraitaitavu",
+          "chinese": "各一份"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "åªè¦",
+      "our_paiwan": "kana",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "是",
+      "our_paiwan": "a",
+      "klokah_results": [
+        {
+          "paiwan": "aicu",
+          "chinese": "這是"
+        },
+        {
+          "paiwan": "iya",
+          "chinese": "是喔"
+        },
+        {
+          "paiwan": "ti...aken",
+          "chinese": "我是..."
+        },
+        {
+          "paiwan": "namaya ken",
+          "chinese": "我也是"
+        },
+        {
+          "paiwan": "senema sun",
+          "chinese": "你是哪裡人"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "ä»å",
+      "our_paiwan": "tiamadju",
+      "klokah_results": [],
+      "verdict": "not_found"
+    },
+    {
+      "chinese": "把出來",
+      "our_paiwan": "patjevuta",
+      "klokah_results": [
+        {
+          "paiwan": "patjevuta",
+          "chinese": "把出來"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "看看",
+      "our_paiwan": "pacunay",
+      "klokah_results": [
+        {
+          "paiwan": "ui angata, tja atazuavaw numaya.",
+          "chinese": "也好，到時候再看看吧！"
+        },
+        {
+          "paiwan": "pacunay",
+          "chinese": "看看"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "點火",
+      "our_paiwan": "papudjek",
+      "klokah_results": [
+        {
+          "paiwan": "temedev",
+          "chinese": "點火"
+        },
+        {
+          "paiwan": "papudjek",
+          "chinese": "點火"
+        },
+        {
+          "paiwan": "temedev",
+          "chinese": "點火"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "正在來",
+      "our_paiwan": "mangetjengtjez",
+      "klokah_results": [
+        {
+          "paiwan": "mangetjengtjez",
+          "chinese": "正在來"
+        },
+        {
+          "paiwan": "mangtjengtjez",
+          "chinese": "正在來"
+        }
+      ],
+      "verdict": "correct"
+    },
+    {
+      "chinese": "正好",
+      "our_paiwan": "pacengceng",
+      "klokah_results": [
+        {
+          "paiwan": "cengceng",
+          "chinese": "正好"
+        },
+        {
+          "paiwan": "pacengceng",
+          "chinese": "正好"
+        },
+        {
+          "paiwan": "sepacengceng",
+          "chinese": "正好"
+        }
+      ],
+      "verdict": "correct"
+    }
+  ]
+}

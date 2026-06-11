@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "timestamp": "2026-06-08T19:31:29.444578",
+    "model": "glm-4-flash"
+  },
+  "multi_no_routing": {
+    "name": "multi_no_routing",
+    "correct": 19,
+    "total": 20,
+    "accuracy": 0.95,
+    "results": [
+      {
+        "id": "q01",
+        "target": "你好",
+        "correct": true,
+        "match_level": "variant",
+        "reply": "\n「你好」的排灣語是「djavadjavay」！"
+      },
+      {
+        "id": "q02",
+        "target": "謝謝",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「謝謝」的排灣語是「masalu」。"
+      },
+      {
+        "id": "q03",
+        "target": "水",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「水」的排灣語是「zaljum」。"
+      },
+      {
+        "id": "q04",
+        "target": "吃",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「吃」的排灣語是「keman」。"
+      },
+      {
+        "id": "q05",
+        "target": "太陽",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「太陽」的排灣語是「qadaw」。"
+      },
+      {
+        "id": "q06",
+        "target": "月亮",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「月亮」的排灣語是「qiljas」。"
+      },
+      {
+        "id": "q07",
+        "target": "手",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「手」的排灣語是「lima」。"
+      },
+      {
+        "id": "q08",
+        "target": "眼睛",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「眼睛」的排灣語是「maca」。"
+      },
+      {
+        "id": "q09",
+        "target": "火",
+        "correct": true,
+        "match_level": "variant",
+        "reply": "\n「火」的排灣語是「sapui」。"
+      },
+      {
+        "id": "q10",
+        "target": "星星",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「星星」的排灣語是「vitjuqan」。"
+      },
+      {
+        "id": "q11",
+        "target": "母親",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「母親」的排灣語是「kina」。"
+      },
+      {
+        "id": "q12",
+        "target": "父親",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「父親」的排灣語是「kama」。"
+      },
+      {
+        "id": "q13",
+        "target": "孩子",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「孩子」的排灣語是「aljak」。"
+      },
+      {
+        "id": "q14",
+        "target": "房子",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「房子」的排灣語是「umaq」。"
+      },
+      {
+        "id": "q15",
+        "target": "道路",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「道路」的排灣語是「djalan」。"
+      },
+      {
+        "id": "q16",
+        "target": "人",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「人」的排灣語是「caucau」。"
+      },
+      {
+        "id": "q17",
+        "target": "朋友",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「朋友」的排灣語是「drangi」。"
+      },
+      {
+        "id": "q18",
+        "target": "山",
+        "correct": false,
+        "match_level": "none",
+        "reply": "\n「山」的排灣語是「qungiljaw」。"
+      },
+      {
+        "id": "q19",
+        "target": "名字",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「名字」的排灣語是「ngadan」。\n\n例如：\n- 我的名字是 savan：ti savan a ku ngadan\n- 我叫 sakinu：ti sakinu a ku ngadan"
+      },
+      {
+        "id": "q20",
+        "target": "狗",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n「狗」的排灣語是「vatu」。"
+      }
+    ]
+  }
+}

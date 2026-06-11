@@ -1,0 +1,272 @@
+[
+  {
+    "paiwan": "vuvu a vavayan",
+    "chinese": "祖母/女性長輩",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "padjalijm timadju?",
+    "chinese": "那個人很勤勞嗎？",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "ngiyau",
+    "chinese": "貓",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "iku",
+    "chinese": "尾巴",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "maya kilavaran!",
+    "chinese": "別說話！",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "qerepus",
+    "chinese": "雲",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "tima zua a uqaljay?",
+    "chinese": "那個男人是誰？",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "calinga",
+    "chinese": "耳朵",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "tisun",
+    "chinese": "你",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s01"
+  },
+  {
+    "paiwan": "pacuno a sasiq a mangtjengtjez",
+    "chinese": "你看吧！螞蟻正爬進來",
+    "source": "corpus",
+    "category": "poetry",
+    "intent": "poetry",
+    "grammar_note": "pacuno = 「你看」，sasiq = 「螞蟻」，mangtjengtjez = 「爬進來」"
+  },
+  {
+    "paiwan": "dridri",
+    "chinese": "豬",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "qimudaqudjalj anga",
+    "chinese": "已經在下雨了",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "pacunan",
+    "chinese": "再見",
+    "source": "corpus",
+    "category": "greeting",
+    "intent": "farewell",
+    "grammar_note": "較正式的道別用語"
+  },
+  {
+    "paiwan": "maledep",
+    "chinese": "日落",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "tima zua?",
+    "chinese": "那個人是誰？",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "azuwa",
+    "chinese": "那個",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s01"
+  },
+  {
+    "paiwan": "niyamadju",
+    "chinese": "他們的",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s01"
+  },
+  {
+    "paiwan": "qacang",
+    "chinese": "豬",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "zung",
+    "chinese": "雷",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "a sinipapungadan tu paiwan a caucau nuaya",
+    "chinese": "排灣族的名稱是經過研究而定的",
+    "source": "corpus",
+    "category": "culture",
+    "intent": "culture",
+    "grammar_note": "sinipapungadan = 「被命名的」"
+  },
+  {
+    "paiwan": "pida su qadupu?",
+    "chinese": "你有幾本書？",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "a kinaizuavan nua paiwan a caucau i pasa tjalja navanavaljan ta taiwan",
+    "chinese": "排灣族分布於台灣南端",
+    "source": "corpus",
+    "category": "culture",
+    "intent": "culture",
+    "grammar_note": "kinaizuavan = 「居住地」，navanavaljan = 「南方」"
+  },
+  {
+    "paiwan": "makudakuda",
+    "chinese": "何時(未發生)",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s01"
+  },
+  {
+    "paiwan": "ini, ku kina timadju.",
+    "chinese": "不，她是我媽媽。",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "tiyamadju",
+    "chinese": "他們",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s01"
+  },
+  {
+    "paiwan": "na tarivak mun.",
+    "chinese": "同學好（老師說）",
+    "source": "corpus",
+    "category": "greeting",
+    "intent": "greeting",
+    "grammar_note": "mun 為「你們」（複數）"
+  },
+  {
+    "paiwan": "luni",
+    "chinese": "地震",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "pida milingan a su sipaceged nu kadjamadjaman?",
+    "chinese": "你早上幾點鐘起床？",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "a kinaizuavan nua paiwan a caucau i pasa tjalja navanavaljan ta taiwan",
+    "chinese": "排湾族分布于台湾南端",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "aicu a kai, mavan a sinipadjadjaljudjaljun nua caucau",
+    "chinese": "这个语言是人们传承下来的",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "qadaw",
+    "chinese": "太陽",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "kalevelevan",
+    "chinese": "天空",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "ita",
+    "chinese": "一",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s01"
+  },
+  {
+    "paiwan": "meljay",
+    "chinese": "雨停",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s03"
+  },
+  {
+    "paiwan": "padjalim timadju?",
+    "chinese": "那個人很勤勞嗎？",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "ainu a ku inpic?",
+    "chinese": "我的筆在哪裡？",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "sepatj",
+    "chinese": "四",
+    "source": "csv",
+    "category": "csv",
+    "speaker": "s01"
+  },
+  {
+    "paiwan": "kemaljava ti tjuku?",
+    "chinese": "是秋姑在等待？",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "tjakudain! nu tisun a suqelam tjanuaken",
+    "chinese": "我該怎麼做呢我的愛人",
+    "source": "phrases",
+    "category": "phrases"
+  },
+  {
+    "paiwan": "su sinsi timadju?",
+    "chinese": "她是你的老師嗎？",
+    "source": "phrases",
+    "category": "phrases"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "results": {
+    "llm_direct": {
+      "accuracy": 0.0,
+      "avg_score": 0.0,
+      "correct": 0,
+      "total": 20
+    },
+    "rag_only": {
+      "accuracy": 0.7,
+      "avg_score": 0.6799999999999999,
+      "correct": 14,
+      "total": 20
+    },
+    "single_agent": {
+      "accuracy": 0.7,
+      "avg_score": 0.6799999999999999,
+      "correct": 14,
+      "total": 20
+    },
+    "multi_agent": {
+      "accuracy": 0.85,
+      "avg_score": 0.8300000000000001,
+      "correct": 17,
+      "total": 20
+    }
+  },
+  "ma_rescued": 3,
+  "all_failed": 3,
+  "all_correct": 14
+}

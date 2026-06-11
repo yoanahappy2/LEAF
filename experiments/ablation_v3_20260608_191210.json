@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "timestamp": "2026-06-08T19:09:44.866587",
+    "model": "glm-4-flash"
+  },
+  "multi_sa_prompt": {
+    "name": "multi_sa_prompt",
+    "correct": 18,
+    "total": 20,
+    "accuracy": 0.9,
+    "results": [
+      {
+        "id": "q01",
+        "target": "你好",
+        "correct": true,
+        "match_level": "variant",
+        "reply": "\ndjavadjavay"
+      },
+      {
+        "id": "q02",
+        "target": "謝謝",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\nmasalu"
+      },
+      {
+        "id": "q03",
+        "target": "水",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\nzaljum"
+      },
+      {
+        "id": "q04",
+        "target": "吃",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\nkeman"
+      },
+      {
+        "id": "q05",
+        "target": "太陽",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n太陽的排灣語是 qadaw"
+      },
+      {
+        "id": "q06",
+        "target": "月亮",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\nqiljas"
+      },
+      {
+        "id": "q07",
+        "target": "手",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\nlima"
+      },
+      {
+        "id": "q08",
+        "target": "眼睛",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n眼睛的排灣語是 maca"
+      },
+      {
+        "id": "q09",
+        "target": "火",
+        "correct": true,
+        "match_level": "variant",
+        "reply": "\n火的排灣語是 sapui"
+      },
+      {
+        "id": "q10",
+        "target": "星星",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n星星的排灣語是 vitjuqan"
+      },
+      {
+        "id": "q11",
+        "target": "母親",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n母親的排灣語是 kina"
+      },
+      {
+        "id": "q12",
+        "target": "父親",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n父親的排灣語是 kama"
+      },
+      {
+        "id": "q13",
+        "target": "孩子",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n孩子的排灣語是 aljak"
+      },
+      {
+        "id": "q14",
+        "target": "房子",
+        "correct": false,
+        "match_level": "none",
+        "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>住宅 居住</arg_value>\n</tool_call>"
+      },
+      {
+        "id": "q15",
+        "target": "道路",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n道路的排灣語是 djalan"
+      },
+      {
+        "id": "q16",
+        "target": "人",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n人的排灣語是 caucau"
+      },
+      {
+        "id": "q17",
+        "target": "朋友",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n朋友的排灣語是 drangi"
+      },
+      {
+        "id": "q18",
+        "target": "山",
+        "correct": false,
+        "match_level": "none",
+        "reply": "\n山的排灣語是 qungiljaw"
+      },
+      {
+        "id": "q19",
+        "target": "名字",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\nngadan"
+      },
+      {
+        "id": "q20",
+        "target": "狗",
+        "correct": true,
+        "match_level": "exact",
+        "reply": "\n狗的排灣語是 vatu"
+      }
+    ]
+  }
+}

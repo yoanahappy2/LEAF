@@ -1,0 +1,1743 @@
+{
+  "experiments": {
+    "Full": {
+      "correct": 39,
+      "wrong": 9,
+      "not_found": 2,
+      "total": 50,
+      "accuracy": 81.25
+    },
+    "NoVerify": {
+      "correct": 39,
+      "wrong": 9,
+      "not_found": 2,
+      "total": 50,
+      "accuracy": 81.25
+    },
+    "NoGrammar": {
+      "correct": 37,
+      "wrong": 11,
+      "not_found": 2,
+      "total": 50,
+      "accuracy": 77.08333333333334
+    },
+    "ExactOnly": {
+      "correct": 34,
+      "wrong": 14,
+      "not_found": 2,
+      "total": 50,
+      "accuracy": 70.83333333333334
+    },
+    "ZeroShot": {
+      "correct": 7,
+      "wrong": 41,
+      "not_found": 2,
+      "total": 50,
+      "accuracy": 14.6
+    }
+  },
+  "details": {
+    "Full": [
+      {
+        "chinese": "你好",
+        "translation": "aiyanga",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "謝謝",
+        "translation": "masalu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "再見",
+        "translation": "pacunan",
+        "verdict": "wrong",
+        "method": "exact"
+      },
+      {
+        "chinese": "對不起",
+        "translation": "masaala",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "請",
+        "translation": "masa",
+        "verdict": "partial",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "是",
+        "translation": "a",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "不是",
+        "translation": "ini",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "有",
+        "translation": "izua",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "沒有",
+        "translation": "neka",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "在",
+        "translation": "i",
+        "verdict": "not_found",
+        "method": "exact"
+      },
+      {
+        "chinese": "我",
+        "translation": "u",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "你",
+        "translation": "tisun / sun",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "他",
+        "translation": "timadju",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "我們",
+        "translation": "itjen",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "你們",
+        "translation": "mun",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "爸爸",
+        "translation": "kama",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "媽媽",
+        "translation": "kina",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "爺爺",
+        "translation": "tjai tua",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "奶奶",
+        "translation": "vuvu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "朋友",
+        "translation": "mangilang",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "水",
+        "translation": "zaljum",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "山",
+        "translation": "gadu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "海",
+        "translation": "ljavek",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "太陽",
+        "translation": "qadaw",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "月亮",
+        "translation": "qiljas",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "雨",
+        "translation": "qudjalj",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "風",
+        "translation": "vali",
+        "verdict": "not_found",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "火",
+        "translation": "sapui",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "石頭",
+        "translation": "tjagulj",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "樹",
+        "translation": "kasiw",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "狗",
+        "translation": "vatu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "豬",
+        "translation": "qacang",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "雞",
+        "translation": "vuyu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "魚",
+        "translation": "ciqaw",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "鳥",
+        "translation": "qayaqayam",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "眼睛",
+        "translation": "a",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "嘴巴",
+        "translation": "pinaqivu",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "手",
+        "translation": "lima",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "腳",
+        "translation": "tjai tua",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "頭",
+        "translation": "qulu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "吃",
+        "translation": "keman",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "喝",
+        "translation": "temekel",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "睡覺",
+        "translation": "taqed",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "去",
+        "translation": "vaik",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "來",
+        "translation": "idu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "紅色",
+        "translation": "kawawu",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "白色",
+        "translation": "mawqadaw",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "黑色",
+        "translation": "kawawu",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "大",
+        "translation": "kudral",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "小",
+        "translation": "kedri",
+        "verdict": "correct",
+        "method": "exact"
+      }
+    ],
+    "NoVerify": [
+      {
+        "chinese": "你好",
+        "translation": "aiyanga",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "謝謝",
+        "translation": "masalu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "再見",
+        "translation": "pacunan",
+        "verdict": "wrong",
+        "method": "exact"
+      },
+      {
+        "chinese": "對不起",
+        "translation": "masaala",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "請",
+        "translation": "masa",
+        "verdict": "partial",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "是",
+        "translation": "a",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "不是",
+        "translation": "ini",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "有",
+        "translation": "izua",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "沒有",
+        "translation": "neka",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "在",
+        "translation": "i",
+        "verdict": "not_found",
+        "method": "exact"
+      },
+      {
+        "chinese": "我",
+        "translation": "u",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "你",
+        "translation": "tisun / sun",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "他",
+        "translation": "timadju",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "我們",
+        "translation": "itjen",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "你們",
+        "translation": "mun",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "爸爸",
+        "translation": "kama",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "媽媽",
+        "translation": "kina",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "爺爺",
+        "translation": "tjai tua",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "奶奶",
+        "translation": "vuvu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "朋友",
+        "translation": "mangilang",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "水",
+        "translation": "zaljum",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "山",
+        "translation": "gadu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "海",
+        "translation": "ljavek",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "太陽",
+        "translation": "qadaw",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "月亮",
+        "translation": "qiljas",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "雨",
+        "translation": "qudjalj",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "風",
+        "translation": "vali",
+        "verdict": "not_found",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "火",
+        "translation": "sapui",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "石頭",
+        "translation": "tjagulj",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "樹",
+        "translation": "kasiw",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "狗",
+        "translation": "vatu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "豬",
+        "translation": "qacang",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "雞",
+        "translation": "vuyu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "魚",
+        "translation": "ciqaw",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "鳥",
+        "translation": "qayaqayam",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "眼睛",
+        "translation": "a",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "嘴巴",
+        "translation": "pinaqan",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "手",
+        "translation": "lima",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "腳",
+        "translation": "tjai tua",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "頭",
+        "translation": "qulu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "吃",
+        "translation": "keman",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "喝",
+        "translation": "temekel",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "睡覺",
+        "translation": "taqed",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "去",
+        "translation": "vaik",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "來",
+        "translation": "idu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "紅色",
+        "translation": "kawawu",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "白色",
+        "translation": "mawqadaw",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "黑色",
+        "translation": "kawawu",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "大",
+        "translation": "kudral",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "小",
+        "translation": "kedri",
+        "verdict": "correct",
+        "method": "exact"
+      }
+    ],
+    "NoGrammar": [
+      {
+        "chinese": "你好",
+        "translation": "aiyanga",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "謝謝",
+        "translation": "masalu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "再見",
+        "translation": "pacunan",
+        "verdict": "wrong",
+        "method": "exact"
+      },
+      {
+        "chinese": "對不起",
+        "translation": "kakarang",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "請",
+        "translation": "請：kadya",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "是",
+        "translation": "a",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "不是",
+        "translation": "ini",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "有",
+        "translation": "izua su",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "沒有",
+        "translation": "neka",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "在",
+        "translation": "i",
+        "verdict": "not_found",
+        "method": "exact"
+      },
+      {
+        "chinese": "我",
+        "translation": "u",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "你",
+        "translation": "tisun / sun",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "他",
+        "translation": "timadju",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "我們",
+        "translation": "itjen",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "你們",
+        "translation": "mun",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "爸爸",
+        "translation": "kama",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "媽媽",
+        "translation": "kina",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "爺爺",
+        "translation": "kakavu",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "奶奶",
+        "translation": "vuvu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "朋友",
+        "translation": "anakaw",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "水",
+        "translation": "zaljum",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "山",
+        "translation": "gadu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "海",
+        "translation": "ljavek",
+        "verdict": "correct",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "太陽",
+        "translation": "qadaw",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "月亮",
+        "translation": "qiljas",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "雨",
+        "translation": "qudjalj",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "風",
+        "translation": "kavuavuan",
+        "verdict": "not_found",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "火",
+        "translation": "sapui",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "石頭",
+        "translation": "kaciljay",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "樹",
+        "translation": "tjenglay",
+        "verdict": "partial",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "狗",
+        "translation": "vatu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "豬",
+        "translation": "qacang",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "雞",
+        "translation": "vuyu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "魚",
+        "translation": "ciqaw",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "鳥",
+        "translation": "qayaqayam",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "眼睛",
+        "translation": "a",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "嘴巴",
+        "translation": "kawaw",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "手",
+        "translation": "lima",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "腳",
+        "translation": "kacac",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "頭",
+        "translation": "qulu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "吃",
+        "translation": "keman",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "喝",
+        "translation": "temekel",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "睡覺",
+        "translation": "taqed",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "去",
+        "translation": "vaik",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "來",
+        "translation": "idu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "紅色",
+        "translation": "kawawu",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "白色",
+        "translation": "mawqadaw",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "黑色",
+        "translation": "kawawu",
+        "verdict": "wrong",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "大",
+        "translation": "kudral",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "小",
+        "translation": "kedri",
+        "verdict": "correct",
+        "method": "exact"
+      }
+    ],
+    "ExactOnly": [
+      {
+        "chinese": "你好",
+        "translation": "aiyanga",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "謝謝",
+        "translation": "masalu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "再見",
+        "translation": "pacunan",
+        "verdict": "wrong",
+        "method": "exact"
+      },
+      {
+        "chinese": "對不起",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "請",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "是",
+        "translation": "a",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "不是",
+        "translation": "ini",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "有",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "沒有",
+        "translation": "neka",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "在",
+        "translation": "i",
+        "verdict": "not_found",
+        "method": "exact"
+      },
+      {
+        "chinese": "我",
+        "translation": "u",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "你",
+        "translation": "tisun / sun",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "他",
+        "translation": "timadju",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "我們",
+        "translation": "itjen",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "你們",
+        "translation": "mun",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "爸爸",
+        "translation": "kama",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "媽媽",
+        "translation": "kina",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "爺爺",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "奶奶",
+        "translation": "vuvu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "朋友",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "水",
+        "translation": "zaljum",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "山",
+        "translation": "gadu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "海",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "太陽",
+        "translation": "qadaw",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "月亮",
+        "translation": "qiljas",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "雨",
+        "translation": "qudjalj",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "風",
+        "translation": "[NONE]",
+        "verdict": "not_found",
+        "method": "none"
+      },
+      {
+        "chinese": "火",
+        "translation": "sapui",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "石頭",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "樹",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "狗",
+        "translation": "vatu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "豬",
+        "translation": "qacang",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "雞",
+        "translation": "vuyu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "魚",
+        "translation": "ciqaw",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "鳥",
+        "translation": "qayaqayam",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "眼睛",
+        "translation": "a",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "嘴巴",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "手",
+        "translation": "lima",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "腳",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "頭",
+        "translation": "qulu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "吃",
+        "translation": "keman",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "喝",
+        "translation": "temekel",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "睡覺",
+        "translation": "taqed",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "去",
+        "translation": "vaik",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "來",
+        "translation": "idu",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "紅色",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "白色",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "黑色",
+        "translation": "[NONE]",
+        "verdict": "wrong",
+        "method": "none"
+      },
+      {
+        "chinese": "大",
+        "translation": "kudral",
+        "verdict": "correct",
+        "method": "exact"
+      },
+      {
+        "chinese": "小",
+        "translation": "kedri",
+        "verdict": "correct",
+        "method": "exact"
+      }
+    ],
+    "ZeroShot": [
+      {
+        "chinese": "你好",
+        "translation": "哈囉",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "ui, masalu! ti sakinu aken, na kitjaula a kemasi ta tunghua a daigaku na kacalisian a kakituluan.",
+          "na tarivak sun?",
+          "na tarivak sun?"
+        ]
+      },
+      {
+        "chinese": "謝謝",
+        "translation": "謝謝 → 阿謝",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "masalu",
+          "masalu aravac tjanusun",
+          "ui, masalu! ti sakinu aken, na kitjaula a kemasi ta tunghua a daigaku na kacalisian a kakituluan."
+        ]
+      },
+      {
+        "chinese": "再見",
+        "translation": "再見：再見",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "vaikanga ken",
+          "vaik anga aken!",
+          "ui, sau anga!"
+        ]
+      },
+      {
+        "chinese": "對不起",
+        "translation": "對不起 → 亂亂",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "djavadjavai, tu maqati sun a pusaladj tjanuaken?",
+          "djavadjvay",
+          "itjen"
+        ]
+      },
+      {
+        "chinese": "請",
+        "translation": "請",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "sa qumaqanu",
+          "saqumaqanu",
+          "qiladju"
+        ]
+      },
+      {
+        "chinese": "是",
+        "translation": "是：kā",
+        "verdict": "partial",
+        "klokah_top3": [
+          "ui",
+          "aicu",
+          "iya"
+        ]
+      },
+      {
+        "chinese": "不是",
+        "translation": "無意",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "ini",
+          "inika macaqu aravac, ljakua nu i tjumaq penayuanauanan amen.",
+          "nanguaq lja, ljakua ini ka macaqu aravac."
+        ]
+      },
+      {
+        "chinese": "有",
+        "translation": "有：有（有）",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "neka",
+          "izua anan",
+          "inika makuda"
+        ]
+      },
+      {
+        "chinese": "沒有",
+        "translation": "無",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "neka",
+          "inika makuda",
+          "izua ta qiljas anga, ini a maumaumalj a kinacavacavan nimadju."
+        ]
+      },
+      {
+        "chinese": "在",
+        "translation": "在：在裡",
+        "verdict": "not_found",
+        "klokah_top3": []
+      },
+      {
+        "chinese": "我",
+        "translation": "亻我",
+        "verdict": "partial",
+        "klokah_top3": [
+          "ti...aken",
+          "namaya ken",
+          "aya ken"
+        ]
+      },
+      {
+        "chinese": "你",
+        "translation": "亂亂",
+        "verdict": "partial",
+        "klokah_top3": [
+          "patjara tisun",
+          "su",
+          "tjanumun"
+        ]
+      },
+      {
+        "chinese": "他",
+        "translation": "hia",
+        "verdict": "partial",
+        "klokah_top3": [
+          "timadju",
+          "zuma",
+          "tiamadju"
+        ]
+      },
+      {
+        "chinese": "我們",
+        "translation": "我們：gaga",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "itjen",
+          "ari numaya",
+          "nia"
+        ]
+      },
+      {
+        "chinese": "你們",
+        "translation": "亻汝",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "nu",
+          "kavalanga mun",
+          "mun"
+        ]
+      },
+      {
+        "chinese": "爸爸",
+        "translation": "阿爸",
+        "verdict": "partial",
+        "klokah_top3": [
+          "kama",
+          "kama",
+          ""
+        ]
+      },
+      {
+        "chinese": "媽媽",
+        "translation": "媽媽 → 母母",
+        "verdict": "partial",
+        "klokah_top3": [
+          "kina",
+          "kina",
+          "tjalja tjengelayan aken a keman ta qemu a qavai katua pinilaulj."
+        ]
+      },
+      {
+        "chinese": "爺爺",
+        "translation": "阿公",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "uri vaik aen/aken nu tiyav a paljilji tjai vuvu a u’aljai/uqaljai",
+          "vuvu",
+          "vuvu"
+        ]
+      },
+      {
+        "chinese": "奶奶",
+        "translation": "阿嬤",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "i tjumaq/tjuma’ mun kati vuvu",
+          "vuvu",
+          "vuvu"
+        ]
+      },
+      {
+        "chinese": "朋友",
+        "translation": "友伴",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "drangi",
+          "sudju",
+          "qali"
+        ]
+      },
+      {
+        "chinese": "水",
+        "translation": "tawr",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "zaljum",
+          "zineliulj",
+          "ui angata, maqati papetarivak ta kinacavacavan, sarenguaq uta nu pabeqebeqen a tja kinacavacavan i taladj ta zaljum."
+        ]
+      },
+      {
+        "chinese": "山",
+        "translation": "山：tawalang",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "gadu",
+          "kinananguaqan nua gadu",
+          "babulayan aravac a gadu i taiwan."
+        ]
+      },
+      {
+        "chinese": "海",
+        "translation": "海：海（Hai）",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "hakaidu",
+          "sa sema dripung i hakaidu.",
+          "na sema dripung i hakaidu amen a tacemekemekeljan a kivangavang."
+        ]
+      },
+      {
+        "chinese": "太陽",
+        "translation": "太陽：Tawian",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "qadaw",
+          "qadaw",
+          "ini, na qemadawanga."
+        ]
+      },
+      {
+        "chinese": "月亮",
+        "translation": "月娘",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "qiljas",
+          "qiljas",
+          "bulay a qiljas"
+        ]
+      },
+      {
+        "chinese": "雨",
+        "translation": "rau",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "ljinay",
+          "qudjaqudjaljan",
+          "na qudjaqudjaljan."
+        ]
+      },
+      {
+        "chinese": "風",
+        "translation": "風：風（Fēng）",
+        "verdict": "not_found",
+        "klokah_top3": []
+      },
+      {
+        "chinese": "火",
+        "translation": "火：kawaw",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "kisia",
+          "kisiaba",
+          "nanguaq paka ta basu itjen, manu tja tjengelai sun maka kisia?"
+        ]
+      },
+      {
+        "chinese": "石頭",
+        "translation": "石頭：gala",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "kaljuvuljuvung",
+          "kaljuvuljuvung",
+          "qaciljay"
+        ]
+      },
+      {
+        "chinese": "樹",
+        "translation": "樹：tawu",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "drakes",
+          "puk",
+          "kiljauljaung"
+        ]
+      },
+      {
+        "chinese": "狗",
+        "translation": "kakak",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "vatu",
+          "vatu",
+          "pida vatu naicu a kakedrian?"
+        ]
+      },
+      {
+        "chinese": "豬",
+        "translation": "豬：kawaw",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "qinapiljan",
+          "izua ciqaw vuljaw, cinavu, qinapiljan namaka tjengelangelai tua mangtjengetjez. uri nu pavavalain.",
+          "tja qemuin ta zaljum sa pivavaven ta ngat, pizuaven anan ta supiq katua na puqalem a vutjulj, sa tja kesain."
+        ]
+      },
+      {
+        "chinese": "雞",
+        "translation": "gāi",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "vuyu",
+          "vuyu",
+          "alili"
+        ]
+      },
+      {
+        "chinese": "魚",
+        "translation": "魚：gala",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "ciqaw",
+          "vuljaw",
+          "ciqaw"
+        ]
+      },
+      {
+        "chinese": "鳥",
+        "translation": "烏",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "qayaqayam",
+          "pacavalj",
+          "i pacavalj a kunkuan."
+        ]
+      },
+      {
+        "chinese": "眼睛",
+        "translation": "gala",
+        "verdict": "partial",
+        "klokah_top3": [
+          "maca",
+          "maca",
+          "saqetju a ku maca."
+        ]
+      },
+      {
+        "chinese": "嘴巴",
+        "translation": "gagil",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "angalj",
+          "angalj",
+          "angalj"
+        ]
+      },
+      {
+        "chinese": "手",
+        "translation": "tawu",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "lima",
+          "cabcab",
+          "matjatjiatjiak"
+        ]
+      },
+      {
+        "chinese": "腳",
+        "translation": "kakut",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "galjaugavan",
+          "zidingsia",
+          "maqati itjen kisedjam ta utubay tu  zidingsia a kemasi kisiaba, sa itjen a kivangavangavan a djemaladjalan."
+        ]
+      },
+      {
+        "chinese": "頭",
+        "translation": "頭：kawaw",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "tjemeqang",
+          "mamazangiljan",
+          "malingalingac"
+        ]
+      },
+      {
+        "chinese": "吃",
+        "translation": "kih",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "sanguaq",
+          "sakeman ta...",
+          "keman"
+        ]
+      },
+      {
+        "chinese": "喝",
+        "translation": "kakalang",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "temekel",
+          "kenevauwa",
+          "makatekel"
+        ]
+      },
+      {
+        "chinese": "睡覺",
+        "translation": "tawaw",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "taqed",
+          "taqed",
+          "pida milingan a su sikataqed nu qezemezemetj?"
+        ]
+      },
+      {
+        "chinese": "去",
+        "translation": "去：kih",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "sau",
+          "veliu",
+          "sema"
+        ]
+      },
+      {
+        "chinese": "來",
+        "translation": "來來",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "idu",
+          "idan",
+          "sisan"
+        ]
+      },
+      {
+        "chinese": "紅色",
+        "translation": "hong-si",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "qudjidjilj a kava nimadju?",
+          "qudjidjilj a kava nimadju?",
+          "qudjidjilj a kava nimadju?"
+        ]
+      },
+      {
+        "chinese": "白色",
+        "translation": "白克",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "ini, vuteqiteqilj a kava nimadju.",
+          "ini, vuteqiteqilj a kava nimadju.",
+          "a su tuki vuteqiteqilj；a su tuki vute’ite’ilj"
+        ]
+      },
+      {
+        "chinese": "黑色",
+        "translation": "黑色：黑色",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "qecengecengl a su ngiaw?",
+          "ui, qecengecengl a ku ngiaw.",
+          "qecengecengl a su ngiaw?"
+        ]
+      },
+      {
+        "chinese": "大",
+        "translation": "大：大",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "djapalj",
+          "daigak",
+          "pacavalj"
+        ]
+      },
+      {
+        "chinese": "小",
+        "translation": "小：小（hau）",
+        "verdict": "wrong",
+        "klokah_top3": [
+          "qavay",
+          "vaqu",
+          "siqunu"
+        ]
+      }
+    ]
+  }
+}

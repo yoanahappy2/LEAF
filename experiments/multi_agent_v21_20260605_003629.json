@@ -1,0 +1,428 @@
+[
+  {
+    "id": "ma01",
+    "type": "learning_path",
+    "input": "我想學排灣語的家人稱呼，請幫我設計學習計畫並推薦下一個該學的詞",
+    "reply": "\n我需要先了解您的學習進度，才能為您設計合適的學習計畫。請提供您的用戶ID，這樣我就能查看您目前的學習狀況並推薦最適合的下一個詞彙。",
+    "elapsed_seconds": 4.0,
+    "agents_invoked": [],
+    "agents_expected": [
+      "knowledge",
+      "teaching"
+    ],
+    "agents_ok": false,
+    "tools_called": [],
+    "messages_log": [],
+    "error": null
+  },
+  {
+    "id": "ma02",
+    "type": "quality_review",
+    "input": "我查到「母親」的排灣語是 tjina，「父親」是 tama，這對嗎？如果不對請修正",
+    "reply": "\n正確！你查到的很準確：\n\n- 「母親」的排灣語是 tjina ✓\n- 「父親」的排灣語是 tama ✓\n\n這兩個詞的翻譯都是正確的。",
+    "elapsed_seconds": 20.0,
+    "agents_invoked": [
+      "knowledge"
+    ],
+    "agents_expected": [
+      "knowledge",
+      "quality"
+    ],
+    "agents_ok": false,
+    "tools_called": [
+      {
+        "agent": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "tjina",
+          "direction": "p2c"
+        }
+      },
+      {
+        "agent": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "tama",
+          "direction": "p2c"
+        }
+      }
+    ],
+    "messages_log": [
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "tjina",
+          "direction": "p2c"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "knowledge",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'input': 'tjina', 'translation': '母親', 'direction': 'p2c', 'method': 'exact', 'confidence': 'medium"
+      },
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "tama",
+          "direction": "p2c"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "knowledge",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'input': 'tama', 'translation': '父親', 'direction': 'p2c', 'method': 'exact', 'confidence': 'medium'"
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "ma03",
+    "type": "quiz_generation",
+    "input": "我已經學了 kina（母親）、kama（父親）、aljak（孩子），請出題考我",
+    "reply": "\n好的！我來為你出題測驗已學的詞彙：\n\n**測驗題目：**\n\n1. 「母親」的排灣語是什麼？\n2. 「父親」的排灣語是什麼？\n3. 「孩子」的排灣語是什麼？\n4. kina 的中文意思？\n5. aljak 的中文意思？\n\n請回答這些題目，我會幫你檢查答案是否正確！",
+    "elapsed_seconds": 8.9,
+    "agents_invoked": [
+      "teaching"
+    ],
+    "agents_expected": [
+      "knowledge",
+      "teaching"
+    ],
+    "agents_ok": false,
+    "tools_called": [
+      {
+        "agent": "teaching",
+        "task": "record_learning",
+        "params": {
+          "user_id": "user",
+          "word": "kina",
+          "result": "learned"
+        }
+      },
+      {
+        "agent": "teaching",
+        "task": "record_learning",
+        "params": {
+          "user_id": "user",
+          "word": "kama",
+          "result": "learned"
+        }
+      },
+      {
+        "agent": "teaching",
+        "task": "record_learning",
+        "params": {
+          "user_id": "user",
+          "word": "aljak",
+          "result": "learned"
+        }
+      }
+    ],
+    "messages_log": [
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "teaching",
+        "task": "record_learning",
+        "params": {
+          "user_id": "user",
+          "word": "kina",
+          "result": "learned"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "teaching",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'user_id': 'user', 'word': 'kina', 'result': 'learned'}"
+      },
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "teaching",
+        "task": "record_learning",
+        "params": {
+          "user_id": "user",
+          "word": "kama",
+          "result": "learned"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "teaching",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'user_id': 'user', 'word': 'kama', 'result': 'learned'}"
+      },
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "teaching",
+        "task": "record_learning",
+        "params": {
+          "user_id": "user",
+          "word": "aljak",
+          "result": "learned"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "teaching",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'user_id': 'user', 'word': 'aljak', 'result': 'learned'}"
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "ma04",
+    "type": "cross_validation",
+    "input": "幫我翻譯「你好」成排灣語，然後驗證翻譯是否正確",
+    "reply": "\n根據翻譯結果，「你好」的排灣語是「djavadjavay」，但品質評估只得到0.64分，未通過驗證。目前資料庫中沒有找到更準確的問候語翻譯。建議您可以嘗試使用其他問候方式，或者提供更多上下文讓我幫您查詢更合適的表達方式。",
+    "elapsed_seconds": 23.7,
+    "agents_invoked": [
+      "knowledge",
+      "quality"
+    ],
+    "agents_expected": [
+      "knowledge",
+      "quality"
+    ],
+    "agents_ok": true,
+    "tools_called": [
+      {
+        "agent": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "你好",
+          "direction": "c2p"
+        }
+      },
+      {
+        "agent": "quality",
+        "task": "review_translation",
+        "params": {
+          "original": "你好",
+          "translation": "djavadjavay",
+          "direction": "c2p"
+        }
+      },
+      {
+        "agent": "knowledge",
+        "task": "rag_search",
+        "params": {
+          "query": "你好 排灣語 問候語",
+          "top_k": 5
+        }
+      }
+    ],
+    "messages_log": [
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "你好",
+          "direction": "c2p"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "knowledge",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'input': '你好', 'translation': 'djavadjavay', 'direction': 'c2p', 'method': 'exact', 'confidence': '"
+      },
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "quality",
+        "task": "review_translation",
+        "params": {
+          "original": "你好",
+          "translation": "djavadjavay",
+          "direction": "c2p"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "quality",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'passed': False, 'score': 0.64, 'method': 'rule+llm', 'checks': {'has_content': True, 'length_reaso"
+      },
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "knowledge",
+        "task": "rag_search",
+        "params": {
+          "query": "你好 排灣語 問候語",
+          "top_k": 5
+        }
+      },
+      {
+        "direction": "response",
+        "from": "knowledge",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'query': '你好 排灣語 問候語', 'results': [{'paiwan': 'a', 'chinese': '虛詞；語助詞', 'similarity': 0.966, 'inten"
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "ma05",
+    "type": "full_pipeline",
+    "input": "我想學排灣語的問候語。請教我怎麼說「你好」和「謝謝」，然後出題考我，最後驗證我的答案對不對",
+    "reply": "\n好的！讓我教你排灣語的問候語：\n\n**你好**：djavadjavay\n**謝謝**：masalu\n\n現在讓我出題考考你：\n\n1. 「你好」用排灣語怎麼說？\n2. 「謝謝」用排灣語怎麼說？\n\n請告訴我你的答案，我會幫你驗證對不對！",
+    "elapsed_seconds": 7.6,
+    "agents_invoked": [
+      "knowledge"
+    ],
+    "agents_expected": [
+      "knowledge",
+      "quality",
+      "teaching"
+    ],
+    "agents_ok": false,
+    "tools_called": [
+      {
+        "agent": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "你好",
+          "direction": "c2p"
+        }
+      },
+      {
+        "agent": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "謝謝",
+          "direction": "c2p"
+        }
+      }
+    ],
+    "messages_log": [
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "你好",
+          "direction": "c2p"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "knowledge",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'input': '你好', 'translation': 'djavadjavay', 'direction': 'c2p', 'method': 'exact', 'confidence': '"
+      },
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "謝謝",
+          "direction": "c2p"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "knowledge",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'input': '謝謝', 'translation': 'masalu', 'direction': 'c2p', 'method': 'exact', 'confidence': 'mediu"
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": "ma06",
+    "type": "error_correction",
+    "input": "我朋友說「你好」的排灣語是 masalu，這對嗎？如果不對請告訴我正確答案",
+    "reply": "\n你朋友說錯了！「masalu」的意思是「謝謝」，不是「你好」。\n\n「你好」的正確排灣語是「djavadjavay」。\n\n記住：masalu = 謝謝，djavadjavay = 你好 ✨",
+    "elapsed_seconds": 7.9,
+    "agents_invoked": [
+      "knowledge"
+    ],
+    "agents_expected": [
+      "knowledge",
+      "quality"
+    ],
+    "agents_ok": false,
+    "tools_called": [
+      {
+        "agent": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "masalu",
+          "direction": "p2c"
+        }
+      },
+      {
+        "agent": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "你好",
+          "direction": "c2p"
+        }
+      }
+    ],
+    "messages_log": [
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "masalu",
+          "direction": "p2c"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "knowledge",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'input': 'masalu', 'translation': '謝謝', 'direction': 'p2c', 'method': 'exact', 'confidence': 'mediu"
+      },
+      {
+        "direction": "dispatch",
+        "from": "orchestrator",
+        "to": "knowledge",
+        "task": "translate",
+        "params": {
+          "text": "你好",
+          "direction": "c2p"
+        }
+      },
+      {
+        "direction": "response",
+        "from": "knowledge",
+        "to": "orchestrator",
+        "status": "completed",
+        "data_preview": "{'input': '你好', 'translation': 'djavadjavay', 'direction': 'c2p', 'method': 'exact', 'confidence': '"
+      }
+    ],
+    "error": null
+  }
+]

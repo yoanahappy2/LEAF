@@ -1,0 +1,4162 @@
+{
+  "metadata": {
+    "source": "臺灣南島語言叢書9 排灣語語法概論",
+    "author": "張秀絹 (齊莉莎)",
+    "publisher": "原住民族委員會",
+    "total_examples": 252,
+    "total_vocab": 0,
+    "categories": {
+      "word_order": {
+        "name": "基本詞序 (VSO)",
+        "count": 37
+      },
+      "case_pronouns": {
+        "name": "格位標記與代名詞",
+        "count": 18
+      },
+      "focus_tam": {
+        "name": "焦點與時貌系統",
+        "count": 37
+      },
+      "existential": {
+        "name": "存在句/所有句/方位句",
+        "count": 5
+      },
+      "imperative": {
+        "name": "祈使句",
+        "count": 17
+      },
+      "causative": {
+        "name": "使動句",
+        "count": 13
+      },
+      "negation": {
+        "name": "否定句",
+        "count": 9
+      },
+      "questions": {
+        "name": "疑問句",
+        "count": 15
+      },
+      "serial_verb": {
+        "name": "連動結構",
+        "count": 12
+      },
+      "complement": {
+        "name": "補述結構",
+        "count": 12
+      },
+      "modification": {
+        "name": "修飾結構",
+        "count": 27
+      },
+      "coordination": {
+        "name": "並列結構",
+        "count": 16
+      },
+      "other_structures": {
+        "name": "其他結構",
+        "count": 32
+      }
+    }
+  },
+  "examples": [
+    {
+      "id": "(3-9)",
+      "page": 53,
+      "paiwan": "a. vavayan 「女性」 + a + vatu 「狗」 =「母狗」",
+      "chinese": "a. vavayan 「女性」 + a + vatu 「狗」 =「母狗」",
+      "morphology": "b. uqaljay「男性」 + a + vatu 「狗」 = 「公狗」",
+      "gloss": ""
+    },
+    {
+      "id": "(3-10)",
+      "page": 53,
+      "paiwan": "a. alju「糖」 + na + hana 「花」  = 「花蜜」",
+      "chinese": "a. alju「糖」 + na + hana 「花」  = 「花蜜」",
+      "morphology": "b. alju「糖」  + na + tjainan 「蜜蜂」  = 「蜂蜜」",
+      "gloss": ""
+    },
+    {
+      "id": "(4-1)",
+      "page": 61,
+      "paiwan": "’eman ta vurati ti zepulj.",
+      "chinese": "吃<主事焦點 > 斜格 地瓜 主格 人名",
+      "morphology": "’<em>an    ta   vurati ti   zepulj",
+      "gloss": "吃<主事焦點 > 斜格 地瓜 主格 人名"
+    },
+    {
+      "id": "(4-2)",
+      "page": 61,
+      "paiwan": "sipa’an a vurati tjai zepulj.",
+      "chinese": "受惠焦點 -給吃 主格 地瓜 斜格 人名",
+      "morphology": "si-pa ’an     a   vurati tjai  zepulj",
+      "gloss": "受惠焦點 -給吃 主格 地瓜 斜格 人名"
+    },
+    {
+      "id": "(4-3)",
+      "page": 61,
+      "paiwan": "’eman ta vurati ti zepulj.",
+      "chinese": "吃<主事焦點 > 主格 人名 斜格 地瓜",
+      "morphology": "’<em>an    ti   zepulj  ta   vurati",
+      "gloss": "吃<主事焦點 > 主格 人名 斜格 地瓜"
+    },
+    {
+      "id": "(4-4)",
+      "page": 61,
+      "paiwan": "問：tima na ’eman ta vasa ?",
+      "chinese": "主格 -誰 完成貌 -吃<主事焦點 > 斜格 地瓜",
+      "morphology": "ti-ima   na-’<em>an       ta   vasa",
+      "gloss": "主格 -誰 完成貌 -吃<主事焦點 > 斜格 地瓜"
+    },
+    {
+      "id": "(4-5)",
+      "page": 62,
+      "paiwan": "’ema’ana’en ta vurati.",
+      "chinese": "重疊 <主事焦點 >-吃=我.主格  斜格 地瓜",
+      "morphology": "’<em>a- ’an=a’en        ta   vurati",
+      "gloss": "重疊 <主事焦點 >-吃=我.主格  斜格 地瓜"
+    },
+    {
+      "id": "(4-6)",
+      "page": 62,
+      "paiwan": "’uvengtjen a quvalj nimadju.",
+      "chinese": "我.屬格 =綁-受事焦點  主格 頭髮 她的",
+      "morphology": "’u=vengtj-en       a   quvalj nimadju",
+      "gloss": "我.屬格 =綁-受事焦點  主格 頭髮 她的"
+    },
+    {
+      "id": "(4-7)",
+      "page": 62,
+      "paiwan": "inia’en a macaqu a ’emesa ta ciqav .",
+      "chinese": "否定詞 =我.主格  連繫詞 會.主事焦點  連繫詞 煮<主事焦點 >",
+      "morphology": "inia=a’en     a    macaqu    a    ’<em>esa",
+      "gloss": "否定詞 =我.主格  連繫詞 會.主事焦點  連繫詞 煮<主事焦點 >"
+    },
+    {
+      "id": "(4-8)",
+      "page": 62,
+      "paiwan": "和（4-9）。否定祈使句則將祈使否定詞maya「別；不要」放在祈使句",
+      "chinese": "和（4-9）。否定祈使句則將祈使否定詞maya「別；不要」放在祈使句",
+      "morphology": "動詞的前面。例如（4-10）和（4-1 1）。",
+      "gloss": ""
+    },
+    {
+      "id": "(4-8)",
+      "page": 62,
+      "paiwan": "vai’u!",
+      "chinese": "離開 -命令",
+      "morphology": "vai’-u",
+      "gloss": "離開 -命令"
+    },
+    {
+      "id": "(4-9)",
+      "page": 62,
+      "paiwan": "idan a sulaqulj!",
+      "chinese": "來-工具焦點 .祈使  主格   你的 =書",
+      "morphology": "id-an        a   su=laqulj!",
+      "gloss": "來-工具焦點 .祈使  主格   你的 =書"
+    },
+    {
+      "id": "(4-10)",
+      "page": 63,
+      "paiwan": "maya qemaung!",
+      "chinese": "否定詞 哭<主事焦點 >",
+      "morphology": "maya  q<em>aung",
+      "gloss": "否定詞 哭<主事焦點 >"
+    },
+    {
+      "id": "(4-12)",
+      "page": 63,
+      "paiwan": "tima na ’eman ta su ’in(e)sa?11",
+      "chinese": "主格 -誰 完成貌 -吃<主事焦點 > 斜格 你的 =飯",
+      "morphology": "ti-ima na-’<em>an        ta   su=’in(e)sa",
+      "gloss": "主格 -誰 完成貌 -吃<主事焦點 > 斜格 你的 =飯"
+    },
+    {
+      "id": "(4-13)",
+      "page": 63,
+      "paiwan": "qemauqaung a sualja ’?",
+      "chinese": "重疊 <主事焦點 >哭  主格 你的 =小孩",
+      "morphology": "q<em>au-qaung    a   su=alja ’",
+      "gloss": "重疊 <主事焦點 >哭  主格 你的 =小孩"
+    },
+    {
+      "id": "(4-14)",
+      "page": 63,
+      "paiwan": "a qemauqaung a sualja ’?",
+      "chinese": "疑問助詞 重疊 <主事焦點 >哭  主格 你的 =小孩",
+      "morphology": "a      q<em>au-qaung    a   su=alja ’",
+      "gloss": "疑問助詞 重疊 <主事焦點 >哭  主格 你的 =小孩"
+    },
+    {
+      "id": "(4-15)",
+      "page": 64,
+      "paiwan": "izua gimeng imaza.",
+      "chinese": "有  主格 學校  在-這裡",
+      "morphology": "izua  a   gimeng13 i-maza",
+      "gloss": "有  主格 學校  在-這裡"
+    },
+    {
+      "id": "(4-16)",
+      "page": 64,
+      "paiwan": "ne’a nu gimeng imaza.",
+      "chinese": "有  NU  學校  在-這裡",
+      "morphology": "ne’a  nu  gimeng  i-maza",
+      "gloss": "有  NU  學校  在-這裡"
+    },
+    {
+      "id": "(4-17)",
+      "page": 64,
+      "paiwan": "a icu a vurati, ’inacananga na kulavav .",
+      "chinese": "主格 這 連繫詞 地瓜  咬-處所焦點 -完成貌 屬格 老鼠",
+      "morphology": "a    icu a    vurati,  ’<in>ac-an-anga    na    kulavav .",
+      "gloss": "主格 這 連繫詞 地瓜  咬-處所焦點 -完成貌 屬格 老鼠"
+    },
+    {
+      "id": "(4-18)",
+      "page": 65,
+      "paiwan": "是很好的句子，而（4-19）是",
+      "chinese": "是很好的句子，而（4-19）是",
+      "morphology": "不好的句子：",
+      "gloss": ""
+    },
+    {
+      "id": "(4-18)",
+      "page": 65,
+      "paiwan": "vuqavuqalj a ’itung.",
+      "chinese": "白色的  連繫詞 衣服",
+      "morphology": "vuqavuqalj a    ’itung",
+      "gloss": "白色的  連繫詞 衣服"
+    },
+    {
+      "id": "(4-19)",
+      "page": 65,
+      "paiwan": "?? ’itung a vuqavuqalj.",
+      "chinese": "衣服  連繫詞 白色的",
+      "morphology": "’itung  a    vuqavuqalj",
+      "gloss": "衣服  連繫詞 白色的"
+    },
+    {
+      "id": "(4-20)",
+      "page": 65,
+      "paiwan": "bulabulay a ’uitung.",
+      "chinese": "漂亮   主格 我的 =衣服",
+      "morphology": "bulabulay  a   ’u=’itung",
+      "gloss": "漂亮   主格 我的 =衣服"
+    },
+    {
+      "id": "(4-21)",
+      "page": 65,
+      "paiwan": "bulabulay a su ’itung.",
+      "chinese": "漂亮   主格 你的 =衣服",
+      "morphology": "bulabulay a   su=’itung",
+      "gloss": "漂亮   主格 你的 =衣服"
+    },
+    {
+      "id": "(4-22)",
+      "page": 65,
+      "paiwan": "bulabulay a ’itung nimadju.",
+      "chinese": "漂亮   主格 衣服 他的",
+      "morphology": "bulabulay a   ’itung nimadju",
+      "gloss": "漂亮   主格 衣服 他的"
+    },
+    {
+      "id": "(4-23)",
+      "page": 66,
+      "paiwan": "bulabulay a nia ’en a ’itung.",
+      "chinese": "漂亮   主格 我的 連繫詞 衣服",
+      "morphology": "bulabulay a   nia’en a    ’itung",
+      "gloss": "漂亮   主格 我的 連繫詞 衣服"
+    },
+    {
+      "id": "(4-24)",
+      "page": 66,
+      "paiwan": "bulabulay a nisun a ’itung.",
+      "chinese": "漂亮   主格 你的 連繫詞 衣服",
+      "morphology": "bulabulay a   nisun a    ’itung",
+      "gloss": "漂亮   主格 你的 連繫詞 衣服"
+    },
+    {
+      "id": "(4-25)",
+      "page": 66,
+      "paiwan": "bulabulay a nimadju a ’itung.",
+      "chinese": "漂亮   主格 他的  連繫詞 衣服",
+      "morphology": "bulabu lay a   nimadju a    ’itung",
+      "gloss": "漂亮   主格 他的  連繫詞 衣服"
+    },
+    {
+      "id": "(4-26)",
+      "page": 67,
+      "paiwan": "sinsi ti zepulj.",
+      "chinese": "老師 主格 人名",
+      "morphology": "sinsi  ti   zepulj.",
+      "gloss": "老師 主格 人名"
+    },
+    {
+      "id": "(4-27)",
+      "page": 67,
+      "paiwan": "maljiqaljan ti kai.",
+      "chinese": "外地人   主格 人名",
+      "morphology": "maljiqaljan  ti   kai.",
+      "gloss": "外地人   主格 人名"
+    },
+    {
+      "id": "(4-28)",
+      "page": 67,
+      "paiwan": "ti zepulja ’en",
+      "chinese": "主格 人名 =我.主格",
+      "morphology": "ti    zepulj=a ’en",
+      "gloss": "主格 人名 =我.主格"
+    },
+    {
+      "id": "(4-29)",
+      "page": 67,
+      "paiwan": "’usalasaladj ti tjuvi.",
+      "chinese": "我的 =朋友   主格 人名",
+      "morphology": "’u=salasaladj  ti   tjuvi",
+      "gloss": "我的 =朋友   主格 人名"
+    },
+    {
+      "id": "(4-30)",
+      "page": 68,
+      "paiwan": "qemaung a alja ’ nimadju.",
+      "chinese": "哭<主事焦點 >  主格 小孩 她的",
+      "morphology": "q<em>aung    a   alja’  nimadju",
+      "gloss": "哭<主事焦點 >  主格 小孩 她的"
+    },
+    {
+      "id": "(4-31)",
+      "page": 68,
+      "paiwan": "mavetuanga ’en.",
+      "chinese": "飽.主事焦點 -完成貌 =我.主格",
+      "morphology": "mavetu-anga=a ’en",
+      "gloss": "飽.主事焦點 -完成貌 =我.主格"
+    },
+    {
+      "id": "(4-32)",
+      "page": 68,
+      "paiwan": "nataqed a ’ina.",
+      "chinese": "完成貌 -睡覺 .主事焦點 主格 媽媽",
+      "morphology": "na-taqed        a   ’ina",
+      "gloss": "完成貌 -睡覺 .主事焦點 主格 媽媽"
+    },
+    {
+      "id": "(4-33)",
+      "page": 69,
+      "paiwan": "na’emananga ta vaqu a a ’edrian.",
+      "chinese": "完成貌 -吃<主事焦點 >  斜格 小米 主格 小孩子",
+      "morphology": "na-’<em>an-anga    ta   vaqu  a   a’edrian",
+      "gloss": "完成貌 -吃<主事焦點 >  斜格 小米 主格 小孩子"
+    },
+    {
+      "id": "(4-34)",
+      "page": 69,
+      "paiwan": "句中，vutjulj「肉」是語意上的受事者，所以出",
+      "chinese": "句中，vutjulj「肉」是語意上的受事者，所以出",
+      "morphology": "現在語意上的主事者 ’ama 「爸爸」之前：",
+      "gloss": ""
+    },
+    {
+      "id": "(4-34)",
+      "page": 69,
+      "paiwan": "’anen a zua vutjulj ni ’ama.",
+      "chinese": "吃-受事焦點  主格 那 肉   屬格 爸爸",
+      "morphology": "’an-en     a   zua vutjulj  ni   ’ama",
+      "gloss": "吃-受事焦點  主格 那 肉   屬格 爸爸"
+    },
+    {
+      "id": "(4-35)",
+      "page": 69,
+      "paiwan": "sipavay a kulavav na uqaljay ta vavayan.",
+      "chinese": "工具焦點 -給  主格 老鼠  屬格 男人  斜格 女人",
+      "morphology": "si-pavay    a   kulavav na   uqaljay  ta   vavayan.",
+      "gloss": "工具焦點 -給  主格 老鼠  屬格 男人  斜格 女人"
+    },
+    {
+      "id": "(5-1)",
+      "page": 71,
+      "paiwan": "ti：人名（含親屬名稱）單數的主格標記",
+      "chinese": "吃<主事焦點 > 斜格 豬肉  主格 人名",
+      "morphology": "a. ’ema’an ta vutjulj ti kui.",
+      "gloss": "’<em>a ’an    ta   vutjulj  ti   kui"
+    },
+    {
+      "id": "(5-2)",
+      "page": 72,
+      "paiwan": "tia：人名（含親屬名稱）複數的主格標記",
+      "chinese": "完成貌 -打<主事焦點 >  主格 人名 斜格 人名",
+      "morphology": "a. na ’emelem tia kai tjai tjuvi.",
+      "gloss": "na-’<em>elem      tia  kai  tjai  tjuvi."
+    },
+    {
+      "id": "(5-3)",
+      "page": 72,
+      "paiwan": "a：非人名的主格標記",
+      "chinese": "重疊 <主事焦點 >-吃  斜格 橘子  主格 那 女人",
+      "morphology": "a. ’ema’an ta tjanes a zua vavayan.",
+      "gloss": "’<em>a- ’an      ta   tjianes  a   zua vavayan"
+    },
+    {
+      "id": "(5-4)",
+      "page": 73,
+      "paiwan": "a.sini ’uang ta vavuy ca ’edrian ni kui.",
+      "chinese": "工具焦點槍  斜格 山豬 這 小孩  屬格 人名",
+      "morphology": "sini-’uang   ta   vavuy ca  ’edrian  ni   kui",
+      "gloss": "工具焦點槍  斜格 山豬 這 小孩  屬格 人名"
+    },
+    {
+      "id": "(5-5)",
+      "page": 73,
+      "paiwan": "a. tjenglay tjai kui ti ’ama.",
+      "chinese": "喜歡 .主事焦點 斜格 人名 主格 爸爸",
+      "morphology": "tjenglay     tjai  kui  ti   ’ama",
+      "gloss": "喜歡 .主事焦點 斜格 人名 主格 爸爸"
+    },
+    {
+      "id": "(5-6)",
+      "page": 74,
+      "paiwan": "標示非主事者焦點句中的主事者",
+      "chinese": "吃-受事焦點 主格 那  豬肉  屬格 爸爸",
+      "morphology": "a. ’anen a zua vutjulj ni ’ama.",
+      "gloss": "’an-en    a   zua  vutjulj  ni   ’ama"
+    },
+    {
+      "id": "(5-7)",
+      "page": 75,
+      "paiwan": "標示名詞組中的擁有者名詞組（領屬成分）",
+      "chinese": "湯匙   所有格 人名",
+      "morphology": "a. ’izing ni tjuvi",
+      "gloss": "’izing  ni    tjuvi"
+    },
+    {
+      "id": "(5-8)",
+      "page": 77,
+      "paiwan": "a. ’emeljanga ’en tjaimadju.",
+      "chinese": "<主事焦點 >認識 =我.主格 他.斜格",
+      "morphology": "’<em>eljang 動詞=a’en    tjaimadju.",
+      "gloss": "<主事焦點 >認識 =我.主格 他.斜格"
+    },
+    {
+      "id": "(5-9)",
+      "page": 77,
+      "paiwan": "a. na ’emelema ’en tjanusun.",
+      "chinese": "完成貌 -打<主事焦點 >我.主格 你.斜格",
+      "morphology": "na-’<em>elem=a’en 主事者     tjanusun.",
+      "gloss": "完成貌 -打<主事焦點 >我.主格 你.斜格"
+    },
+    {
+      "id": "(5-10)",
+      "page": 78,
+      "paiwan": "a. ’usu’inelem.",
+      "chinese": "我.屬格 =你.主格 =打<受事焦點 >",
+      "morphology": "’u=su= ’<in>elem",
+      "gloss": "我.屬格 =你.主格 =打<受事焦點 >"
+    },
+    {
+      "id": "(5-12)",
+      "page": 79,
+      "paiwan": "a. iniyana 'e ’an ta vurati.",
+      "chinese": "沒-還   我.主格 =吃  斜格 地瓜",
+      "morphology": "iniya-anan 'e-’an     ta   vurati",
+      "gloss": "沒-還   我.主格 =吃  斜格 地瓜"
+    },
+    {
+      "id": "(5-13)",
+      "page": 80,
+      "paiwan": "問：tima na ’emelem tjai kai?",
+      "chinese": "主格 -誰  完成 -打<主事焦點 >  斜格 人名",
+      "morphology": "ti- ima   na-’<em>elem      tjai  kai?",
+      "gloss": "主格 -誰  完成 -打<主事焦點 >  斜格 人名"
+    },
+    {
+      "id": "(5-14)",
+      "page": 80,
+      "paiwan": "a. ’i ’usu’elemi.",
+      "chinese": "會 我.屬格 =你.主格 =打-受事焦點",
+      "morphology": "’i  ’u=su= ’elem-i",
+      "gloss": "會 我.屬格 =你.主格 =打-受事焦點"
+    },
+    {
+      "id": "(5-15)",
+      "page": 80,
+      "paiwan": "a.’inan a vurati nimadju.",
+      "chinese": "吃<受事焦點 >  主格 地瓜  他.屬格",
+      "morphology": "’<in>an     a   vurati  nimadju",
+      "gloss": "吃<受事焦點 >  主格 地瓜  他.屬格"
+    },
+    {
+      "id": "(5-16)",
+      "page": 81,
+      "paiwan": "a. ’emi’im timadju tjanusun",
+      "chinese": "找<主事焦點 >  他.主格  你.斜格",
+      "morphology": "’<em>i ’im    timadju  tjanusun 受事者",
+      "gloss": "找<主事焦點 >  他.主格  你.斜格"
+    },
+    {
+      "id": "(5-17)",
+      "page": 81,
+      "paiwan": "a. tia ’en, sinsia ’en.",
+      "chinese": "我.中性格  老師 =我.主格",
+      "morphology": "tia’en    sinsi=a ’en",
+      "gloss": "我.中性格  老師 =我.主格"
+    },
+    {
+      "id": "(5-19)",
+      "page": 83,
+      "paiwan": "a. vurati a icu.",
+      "chinese": "地瓜 主格 這",
+      "morphology": "vurati a   icu",
+      "gloss": "地瓜 主格 這"
+    },
+    {
+      "id": "(5-22)",
+      "page": 83,
+      "paiwan": "a. mare ’a ’usalasaladj a zua.",
+      "chinese": "們   我的 -同伴  主格 那",
+      "morphology": "mare ’a  ’u-salasaladj a   zua",
+      "gloss": "們   我的 -同伴  主格 那"
+    },
+    {
+      "id": "(6-1)",
+      "page": 86,
+      "paiwan": "qemauqaung ca ’edrian.",
+      "chinese": "重疊 <主焦 >-哭  這 小孩",
+      "morphology": "q<em>au-qaung  ca  ’edrian",
+      "gloss": "重疊 <主焦 >-哭  這 小孩"
+    },
+    {
+      "id": "(6-2)",
+      "page": 86,
+      "paiwan": "se ’ulilj timadju.",
+      "chinese": "跌倒 .主焦 他",
+      "morphology": "se'ulilj   timadju",
+      "gloss": "跌倒 .主焦 他"
+    },
+    {
+      "id": "(6-3)",
+      "page": 86,
+      "paiwan": "namigacalj ivavav ta qaciljay a ’edrian.",
+      "chinese": "完成貌 -站.主焦  在-上  斜格 石頭  主格 小孩",
+      "morphology": "na-migacalj    i-vavav ta   qaciljay a   ’edrian",
+      "gloss": "完成貌 -站.主焦  在-上  斜格 石頭  主格 小孩"
+    },
+    {
+      "id": "(6-4)",
+      "page": 86,
+      "paiwan": "a. teme ’e te’el ta zaljum timadju.",
+      "chinese": "重疊 <主焦 >-喝  斜格 水   他",
+      "morphology": "t<em>e ’e- te’el   ta   zaljum  timadju",
+      "gloss": "重疊 <主焦 >-喝  斜格 水   他"
+    },
+    {
+      "id": "(6-5)",
+      "page": 87,
+      "paiwan": "vinuljuq ta qaciljay a qezung niamadju nimadju.",
+      "chinese": "丟<受焦 > 斜格 石頭  主格 窗戶  他們的  他",
+      "morphology": "v<in>uljuq ta   qaciljay a   qezung  niamadju  nimadju",
+      "gloss": "丟<受焦 > 斜格 石頭  主格 窗戶  他們的  他"
+    },
+    {
+      "id": "(6-6)",
+      "page": 87,
+      "paiwan": "a. ’uinalap tatiav a paysu i yubinkiuku.",
+      "chinese": "我.屬格 =<受焦 >拿  昨天 主格 錢  在-郵局",
+      "morphology": "’u=<in>alap      tatiav a   paysu i-yubinkiuku",
+      "gloss": "我.屬格 =<受焦 >拿  昨天 主格 錢  在-郵局"
+    },
+    {
+      "id": "(6-7)",
+      "page": 87,
+      "paiwan": "a. ’upinuljatanga a ’ucen gel.",
+      "chinese": "我.屬格 =全部 <受焦 >-完成貌  主格 我的 =午餐",
+      "morphology": "’u=p<in>uljat-anga       a   ’u=cengel",
+      "gloss": "我.屬格 =全部 <受焦 >-完成貌  主格 我的 =午餐"
+    },
+    {
+      "id": "(6-8)",
+      "page": 87,
+      "paiwan": "’uinalapan  tatiav ta paysu a iyubinkiuku.",
+      "chinese": "我.屬格 =<處焦 >拿 昨天 斜格 錢  主格 在-郵局",
+      "morphology": "’u=<in>alap-an    tatiav ta   paysu a   i-yubinkiuku",
+      "gloss": "我.屬格 =<處焦 >拿 昨天 斜格 錢  主格 在-郵局"
+    },
+    {
+      "id": "(6-9)",
+      "page": 87,
+      "paiwan": "cavuan ta ciqav a cekui nimadju.",
+      "chinese": "包-處焦 斜格 魚  主格 桌子 他.屬格",
+      "morphology": "cavu-an  ta   ciqav a   cekui nimadju",
+      "gloss": "包-處焦 斜格 魚  主格 桌子 他.屬格"
+    },
+    {
+      "id": "(6-10)",
+      "page": 88,
+      "paiwan": "cine ’avan a puvuratian ni zepulj nimadju.",
+      "chinese": "偷-處焦    主格 地瓜園  的 人名  他.屬格",
+      "morphology": "c<in>e ’av-an  a   puvuratian ni  zepulj  nimadju",
+      "gloss": "偷-處焦    主格 地瓜園  的 人名  他.屬格"
+    },
+    {
+      "id": "(6-12)",
+      "page": 88,
+      "paiwan": "a. sivuljuq ta qezung a qaciljay niamadju nimadju.",
+      "chinese": "工具焦 -丟  斜格 窗戶  主格 石頭  他們的  他.屬格",
+      "morphology": "si-vuljuq   ta   qezung  a   qaciljay niamadju  nimadju",
+      "gloss": "工具焦 -丟  斜格 窗戶  主格 石頭  他們的  他.屬格"
+    },
+    {
+      "id": "(6-13)",
+      "page": 89,
+      "paiwan": "a.’ema ’an ta vutjulj sa cavucavu ta ciqav ti kai.",
+      "chinese": "重疊 <主焦 >-吃  斜格 肉   和 重疊 -包.主焦 斜格 魚",
+      "morphology": "’<em>a- ’an    ta   vutjulj  sa  cavu-cavu   ta   ciqav",
+      "gloss": "重疊 <主焦 >-吃  斜格 肉   和 重疊 -包.主焦 斜格 魚"
+    },
+    {
+      "id": "(6-14)",
+      "page": 89,
+      "paiwan": "a. ’ema ’an ta vutjulj sa cavucavui a ciqav ni kai.",
+      "chinese": "重疊 <主焦 >-吃  斜格 肉  和 重疊 -包-受焦 主格 魚",
+      "morphology": "’<em>a - ’an    ta   vutjulj sa  cavu-cavu-i   a   ciqav",
+      "gloss": "重疊 <主焦 >-吃  斜格 肉  和 重疊 -包-受焦 主格 魚"
+    },
+    {
+      "id": "(6-15)",
+      "page": 90,
+      "paiwan": "a. ’ema ’an ta vutjulj sa cavucavuan a laqulj ta ciqav ni kai.",
+      "chinese": "重疊 <主焦 >-吃  斜格 肉   和 重疊 -包-工焦 主格 紙",
+      "morphology": "’<em>a ’an    ta   vutjulj  sa  cavu-cavu-an  a   laqulj",
+      "gloss": "重疊 <主焦 >-吃  斜格 肉   和 重疊 -包-工焦 主格 紙"
+    },
+    {
+      "id": "(6-16)",
+      "page": 90,
+      "paiwan": "iniyana cavu ta ciqav timadju.",
+      "chinese": "還沒  包.主焦  斜格 魚  他.主格",
+      "morphology": "iniyana cavu    ta   ciqav timadju.",
+      "gloss": "還沒  包.主焦  斜格 魚  他.主格"
+    },
+    {
+      "id": "(6-17)",
+      "page": 90,
+      "paiwan": "iniyana cavui a ciqav nimadju.",
+      "chinese": "還沒  包-受焦  主格 魚  他.屬格",
+      "morphology": "iniyana cavu-i   a   ciqav nimadju",
+      "gloss": "還沒  包-受焦  主格 魚  他.屬格"
+    },
+    {
+      "id": "(6-18)",
+      "page": 90,
+      "paiwan": "iniyana cavuan ta ciqav nimadju ti kai.",
+      "chinese": "還沒  包-受惠焦  斜格 魚  他.屬格  主格 人名",
+      "morphology": "iniyana cavu-an   ta   ciqav nimadju  ti   kai",
+      "gloss": "還沒  包-受惠焦  斜格 魚  他.屬格  主格 人名"
+    },
+    {
+      "id": "(6-19)",
+      "page": 90,
+      "paiwan": "iniyana cavu-an ta ciqav a laqulj nimadju.",
+      "chinese": "還沒  包-工焦  斜格 魚  主格 紙  他.屬格",
+      "morphology": "iniyana cavu-an  ta   ciqav a   laqulj nimadju",
+      "gloss": "還沒  包-工焦  斜格 魚  主格 紙  他.屬格"
+    },
+    {
+      "id": "(6-20)",
+      "page": 91,
+      "paiwan": "iniyana cavuan ta ciqav a cekui nimadju.",
+      "chinese": "還沒  包-處焦  斜格 魚  主格 桌子 他.屬格",
+      "morphology": "iniyana cavu-an  ta   ciqav a   cekui nimadju",
+      "gloss": "還沒  包-處焦  斜格 魚  主格 桌子 他.屬格"
+    },
+    {
+      "id": "(6-21)",
+      "page": 91,
+      "paiwan": "’i cemavuanga timadju ta ciqav .",
+      "chinese": "會 包<主焦 >-完成  他.主格  斜格 魚",
+      "morphology": "’i c<em>avu-anga  timadju  ta   ciqav",
+      "gloss": "會 包<主焦 >-完成  他.主格  斜格 魚"
+    },
+    {
+      "id": "(6-22)",
+      "page": 91,
+      "paiwan": "’i ’u’elemi timadju.",
+      "chinese": "會 我.屬格 -打-受焦  他.主格",
+      "morphology": "’i ’u-’elem-i      timadju",
+      "gloss": "會 我.屬格 -打-受焦  他.主格"
+    },
+    {
+      "id": "(6-23)",
+      "page": 91,
+      "paiwan": "’i ’usicavuanga ta ciqav timadju.",
+      "chinese": "會 我.屬格 -受惠焦 -包-完成 斜格 魚  他.主格",
+      "morphology": "’i ’u-si- cavu-anga      ta   ciqav timadju",
+      "gloss": "會 我.屬格 -受惠焦 -包-完成 斜格 魚  他.主格"
+    },
+    {
+      "id": "(6-24)",
+      "page": 91,
+      "paiwan": "’i ’usi’elem a ’elem tjanusun.",
+      "chinese": "會 我.屬格 -工焦 -打  主格 棍子  你.斜格",
+      "morphology": "’i ’u-si-’elem      a   ’elem tjanusun",
+      "gloss": "會 我.屬格 -工焦 -打  主格 棍子  你.斜格"
+    },
+    {
+      "id": "(6-25)",
+      "page": 93,
+      "paiwan": "主事焦點",
+      "chinese": "喜歡 .主焦  斜格 小孩 主格 爸爸",
+      "morphology": "a. tjenglay ta alja ’ ti ’ama.",
+      "gloss": "tjenglay   ta   alja’  ti   ’ama"
+    },
+    {
+      "id": "(6-26)",
+      "page": 94,
+      "paiwan": "主事焦點",
+      "chinese": "哭<主焦 >   主格 小孩 她的  現在",
+      "morphology": "a. qemaung a alja ’nimadju tucu.",
+      "gloss": "q<em>aung  a   alja’  nimadju tucu"
+    },
+    {
+      "id": "(6-27)",
+      "page": 94,
+      "paiwan": "受事焦點",
+      "chinese": "包-受事焦點  主格 魚  斜格 爺爺 屬格 媽媽",
+      "morphology": "a. cavuin a ciqav tjai vuvu ni ’ina.",
+      "gloss": "cavu-in    a   ciqav tjai  vuvu ni   ’ina"
+    },
+    {
+      "id": "(6-28)",
+      "page": 95,
+      "paiwan": "受惠焦點",
+      "chinese": "受惠焦 -包  斜格 魚  主格 爺爺 屬格 媽媽",
+      "morphology": "a. sicavu ta ciqav ti vuvu ni ’ina.",
+      "gloss": "si-cavu   ta    ciqav ti    vuvu ni   ’ina"
+    },
+    {
+      "id": "(6-29)",
+      "page": 95,
+      "paiwan": "處所焦點",
+      "chinese": "我.屬格 =拿-處焦 斜格 錢  主格 在 郵局",
+      "morphology": "a. ’ualapan ta paysu a i yubinkiuku.",
+      "gloss": "’u=alap-an       ta      paysu a      i   yubinkiuku"
+    },
+    {
+      "id": "(6-30)",
+      "page": 95,
+      "paiwan": "實現貌：標示過去的經驗",
+      "chinese": "完成貌 -哭<主焦 >  主格 小孩 她的",
+      "morphology": "a. naqemaung a alja ’nimadju.",
+      "gloss": "na-q<em>aun g    a   alja’  nimadju"
+    },
+    {
+      "id": "(6-31)",
+      "page": 96,
+      "paiwan": "實現貌：標示目前的狀態，是來自某個過去事件所產生的結果",
+      "chinese": "完成貌 -睡覺 .主焦點 主格 媽媽",
+      "morphology": "a. nataqed a ’ina.",
+      "gloss": "na-taqed       a   ’ina."
+    },
+    {
+      "id": "(6-32)",
+      "page": 96,
+      "paiwan": "實現貌：標示一個過去發生的事件，其結果持續到目前",
+      "chinese": "熟.主焦 -完成貌 這.主格",
+      "morphology": "a. malumanga cu.",
+      "gloss": "malum-ang a   cu."
+    },
+    {
+      "id": "(6-33)",
+      "page": 96,
+      "paiwan": "非實現貌：習慣性的事件",
+      "chinese": "非實現貌 -哭  主格 小孩 她的",
+      "morphology": "a. ruqaung a alja ’ nimadju.",
+      "gloss": "ru-qaung    a   alja’  nimadju"
+    },
+    {
+      "id": "(6-34)",
+      "page": 97,
+      "paiwan": "非實現貌：習慣性的事件",
+      "chinese": "重疊 <受焦 >-吻  主格 那 小孩  屬格 女人",
+      "morphology": "a. sinangusangutj a zua ’edrian na vavayan",
+      "gloss": "s<in>angu-sangutj  a   zua ’edrian  na   vavayan"
+    },
+    {
+      "id": "(6-35)",
+      "page": 97,
+      "paiwan": "非實現貌：正在發生的事件",
+      "chinese": "重疊 <主焦 >-包 斜格 魚  斜格 爺爺 主格 媽媽",
+      "morphology": "a. cemavucavu ta ciqav tjai vuvu ti ’ina.",
+      "gloss": "c<em>avu -cavu  ta   ciqav tjai  vuvu ti   ’ina"
+    },
+    {
+      "id": "(6-36)",
+      "page": 97,
+      "paiwan": "非實現貌：持續的狀態",
+      "chinese": "完成貌 -重疊 -睡覺 .主焦  主格 媽媽",
+      "morphology": "a. nataqetaqed a ’ina.",
+      "gloss": "na-taqe-taqed       a   ’ina"
+    },
+    {
+      "id": "(6-37)",
+      "page": 98,
+      "paiwan": "非實現貌：未來才會發生的事件",
+      "chinese": "助動詞 哭<主焦 >  主格 小孩 她的",
+      "morphology": "a. uri qemaung a alja ’ nimadju.",
+      "gloss": "uri   q<em>aung  a   alja’  nimadju."
+    },
+    {
+      "id": "(6-38)",
+      "page": 98,
+      "paiwan": "a. nataqedanga a ’ina.",
+      "chinese": "完成貌 -睡覺 .主焦 -完成貌  主格 媽媽",
+      "morphology": "na-taqed-anga        a   ’ina",
+      "gloss": "完成貌 -睡覺 .主焦 -完成貌  主格 媽媽"
+    },
+    {
+      "id": "(7-1)",
+      "page": 102,
+      "paiwan": "a. 存在句",
+      "chinese": "有  主格 樹  在-旁邊   斜格 房子",
+      "morphology": "izua a ’asiv iljaqediqedi ta umaq.",
+      "gloss": "izua a   ’asiv  i-ljaqediqedi ta   umaq."
+    },
+    {
+      "id": "(7-2)",
+      "page": 102,
+      "paiwan": "a. idradrui a nataqed a lumamad.",
+      "chinese": "在-搖籃 主格 完成 -睡  連繫詞 嬰兒",
+      "morphology": "i-dradrui a   na-taqed  a    lumamad",
+      "gloss": "在-搖籃 主格 完成 -睡  連繫詞 嬰兒"
+    },
+    {
+      "id": "(7-3)",
+      "page": 103,
+      "paiwan": "idradruia ’en a nataqed.",
+      "chinese": "在-搖籃 =我.主格  連繫詞 完成 -睡",
+      "morphology": "i-dradrui=a ’en    a    na-taqed.",
+      "gloss": "在-搖籃 =我.主格  連繫詞 完成 -睡"
+    },
+    {
+      "id": "(7-4)",
+      "page": 103,
+      "paiwan": "a. itacekui ivavav a lalagav .",
+      "chinese": "在-斜格 -桌子  在-上面  主格 蒼蠅",
+      "morphology": "i-ta-cekui    i-vavav  a   lalagav",
+      "gloss": "在-斜格 -桌子  在-上面  主格 蒼蠅"
+    },
+    {
+      "id": "(7-5)",
+      "page": 103,
+      "paiwan": "a. 存在句",
+      "chinese": "沒有   樹  在-旁邊   斜格 房子",
+      "morphology": "ne’a nu ’asiv iljaqediqedi ta umaq.",
+      "gloss": "ne’a nu  ’asiv  i-ljaqediqedi ta   umaq."
+    },
+    {
+      "id": "(8-1)",
+      "page": 106,
+      "paiwan": "a. ekelju!",
+      "chinese": "跑.主事焦點",
+      "morphology": "ekelj-u",
+      "gloss": "跑.主事焦點"
+    },
+    {
+      "id": "(8-2)",
+      "page": 106,
+      "paiwan": "a. samazau!",
+      "chinese": "來這裡 .主事焦點 .命令",
+      "morphology": "samaza-u",
+      "gloss": "來這裡 .主事焦點 .命令"
+    },
+    {
+      "id": "(8-3)",
+      "page": 106,
+      "paiwan": "’ani ta ’insa!",
+      "chinese": "吃-主事焦點 .命令  斜格 飯",
+      "morphology": "’an-i        ta   ’insa",
+      "gloss": "吃-主事焦點 .命令  斜格 飯"
+    },
+    {
+      "id": "(8-4)",
+      "page": 107,
+      "paiwan": "tja’anav ca vasa!",
+      "chinese": "我們 .包含 .屬格 =吃-受事焦點 .規勸  主格 芋頭",
+      "morphology": "tja=’an-av              ca   vasa",
+      "gloss": "我們 .包含 .屬格 =吃-受事焦點 .規勸  主格 芋頭"
+    },
+    {
+      "id": "(8-5)",
+      "page": 107,
+      "paiwan": "nia’anav ca vasa!",
+      "chinese": "我們 .排除 .屬格 =吃-受事焦點 .規勸  主格 芋頭",
+      "morphology": "nia=’an-av              ca   vasa",
+      "gloss": "我們 .排除 .屬格 =吃-受事焦點 .規勸  主格 芋頭"
+    },
+    {
+      "id": "(8-6)",
+      "page": 107,
+      "paiwan": "a. pacun-u a zua kuka tui uqaljay manu vavayan!",
+      "chinese": "看-受事焦點 .命令  主格 那 雞  是否 男   還是 女",
+      "morphology": "pacun-u       a   zua kuka   tui  uqaljay  manu vavayan",
+      "gloss": "看-受事焦點 .命令  主格 那 雞  是否 男   還是 女"
+    },
+    {
+      "id": "(8-7)",
+      "page": 107,
+      "paiwan": "tja’anav ca vasa!",
+      "chinese": "我們 .包含 .屬格 =吃-受處焦 .規勸  主格 芋頭",
+      "morphology": "tja=’an-av             ca   vasa",
+      "gloss": "我們 .包含 .屬格 =吃-受處焦 .規勸  主格 芋頭"
+    },
+    {
+      "id": "(8-8)",
+      "page": 108,
+      "paiwan": "’upangaljav!",
+      "chinese": "我.屬格 =分配 -受事處所焦點 .規勸",
+      "morphology": "’u=pangalj-av",
+      "gloss": "我.屬格 =分配 -受事處所焦點 .規勸"
+    },
+    {
+      "id": "(8-9)",
+      "page": 108,
+      "paiwan": "saneljacengan aicu a siqunu!",
+      "chinese": "切菜 -工具焦點 .祈使  主格 這 連繫詞 刀子",
+      "morphology": "saneljaceng-an     a   icu a    siqunu",
+      "gloss": "切菜 -工具焦點 .祈使  主格 這 連繫詞 刀子"
+    },
+    {
+      "id": "(8-10)",
+      "page": 108,
+      "paiwan": "’esaan ta ’a’anen a sualja ’!",
+      "chinese": "煮-受惠焦點 .祈使  斜格 食物  主格 你的 =小孩",
+      "morphology": "’esa-an        ta   ’a’anen a   su=alja ’",
+      "gloss": "煮-受惠焦點 .祈使  斜格 食物  主格 你的 =小孩"
+    },
+    {
+      "id": "(8-12)",
+      "page": 108,
+      "paiwan": "tjasi ’iljiva ’an a tja ’inacavacavan",
+      "chinese": "我們 .包含 .屬格 =工具焦 .規勸 -照顧 -工具焦 .規勸 主格",
+      "morphology": "tja=si- ’iljiva ’-an                 a",
+      "gloss": "我們 .包含 .屬格 =工具焦 .規勸 -照顧 -工具焦 .規勸 主格"
+    },
+    {
+      "id": "(8-13)",
+      "page": 109,
+      "paiwan": "maya qivu a paqeteleng!",
+      "chinese": "別  說話 .祈使  連繫詞 隨便",
+      "morphology": "maya qivu     a    paqeteleng",
+      "gloss": "別  說話 .祈使  連繫詞 隨便"
+    },
+    {
+      "id": "(8-14)",
+      "page": 109,
+      "paiwan": "maya ’iladenga",
+      "chinese": "別  聽.祈使",
+      "morphology": "maya ’iladenga",
+      "gloss": "別  聽.祈使"
+    },
+    {
+      "id": "(8-15)",
+      "page": 109,
+      "paiwan": "maya ’eman ta vurati!",
+      "chinese": "別  吃<主事焦點 .祈使 > 斜格 地瓜",
+      "morphology": "maya ’<em>an       ta   vurati",
+      "gloss": "別  吃<主事焦點 .祈使 > 斜格 地瓜"
+    },
+    {
+      "id": "(8-16)",
+      "page": 109,
+      "paiwan": "a. maya cemavu a ciqav!",
+      "chinese": "別  包<受事焦點 .祈使 > 主格 魚",
+      "morphology": "maya c<em>avu      a   ciqav",
+      "gloss": "別  包<受事焦點 .祈使 > 主格 魚"
+    },
+    {
+      "id": "(8-17)",
+      "page": 110,
+      "paiwan": "a. maya cemavu ta ciqav ti kai.",
+      "chinese": "別  包<受惠焦點 .祈使 > 斜格 魚  主格 人名",
+      "morphology": "maya c<em>avu      ta   ciqav ti   kai",
+      "gloss": "別  包<受惠焦點 .祈使 > 斜格 魚  主格 人名"
+    },
+    {
+      "id": "(8-18)",
+      "page": 110,
+      "paiwan": "maya cemavu a laqulj ta ciqav!",
+      "chinese": "別  包<工具焦點 .祈使 > 主格 紙  斜格 魚",
+      "morphology": "maya c<em>avu      a   laqulj ta   ciqav",
+      "gloss": "別  包<工具焦點 .祈使 > 主格 紙  斜格 魚"
+    },
+    {
+      "id": "(9-1)",
+      "page": 111,
+      "paiwan": "a. ’ema’an ta cemel a gung.",
+      "chinese": "吃<主事焦點 >重疊 -吃  斜格 草  主格 牛",
+      "morphology": "’<em>a- ’an       ta   cemel a   gung.",
+      "gloss": "吃<主事焦點 >重疊 -吃  斜格 草  主格 牛"
+    },
+    {
+      "id": "(9-2)",
+      "page": 111,
+      "paiwan": "uri cemulju tua zua qacang ti kai.",
+      "chinese": "要 宰殺 <主事焦點 >宰殺  斜格 那 豬   主格 人名",
+      "morphology": "uri c<em>ulju       tua  zua qacang  ti   kai.",
+      "gloss": "要 宰殺 <主事焦點 >宰殺  斜格 那 豬   主格 人名"
+    },
+    {
+      "id": "(9-3)",
+      "page": 112,
+      "paiwan": "pulapulavena ’en nimadju.",
+      "chinese": "重疊 -灌醉 -受焦   他.屬格",
+      "morphology": "pula-pulav-en=a ’en  nimadju",
+      "gloss": "重疊 -灌醉 -受焦   他.屬格"
+    },
+    {
+      "id": "(9-4)",
+      "page": 112,
+      "paiwan": "a. mayaa ’en a lemaing.",
+      "chinese": "不要 =我.主格  連繫詞 追<主事焦點 >",
+      "morphology": "maya=a ’en   a    l<em>aing .",
+      "gloss": "不要 =我.主格  連繫詞 追<主事焦點 >"
+    },
+    {
+      "id": "(9-6)",
+      "page": 112,
+      "paiwan": "到（9-7）也是受事",
+      "chinese": "工具焦點使動動詞，（9-9b）的pina’acan「使\u0001咬」是（9-9a）’emac「咬」的處所",
+      "morphology": "焦點使動動詞的例句，而（9-8b）的sipa’ac「使\u0001咬」是（9-8a） ’emac「咬」的",
+      "gloss": "工具焦點使動動詞，（9-9b）的pina’acan「使\u0001咬」是（9-9a）’emac「咬」的處所"
+    },
+    {
+      "id": "(9-5)",
+      "page": 112,
+      "paiwan": "a. tjumaqa ’en nu vece ’adan a qadav .",
+      "chinese": "回家 .主事焦點 =我.主格 當 中間   連繫詞 日子",
+      "morphology": "tjumaq=a ’en       nu vece’adan a    qadav",
+      "gloss": "回家 .主事焦點 =我.主格 當 中間   連繫詞 日子"
+    },
+    {
+      "id": "(9-6)",
+      "page": 113,
+      "paiwan": "a. legelegelegena ’en nimadju.",
+      "chinese": "搖-重疊 -受焦 =我.主格 他.屬格",
+      "morphology": "le-gele-geleg-en=a ’en   nimadju.",
+      "gloss": "搖-重疊 -受焦 =我.主格 他.屬格"
+    },
+    {
+      "id": "(9-7)",
+      "page": 113,
+      "paiwan": "a. caqiljabana ’en nimadju.",
+      "chinese": "用手掌打 -處焦 =我.主格  他.屬格",
+      "morphology": "caqiljab-an=a ’en      nimadju.",
+      "gloss": "用手掌打 -處焦 =我.主格  他.屬格"
+    },
+    {
+      "id": "(9-8)",
+      "page": 113,
+      "paiwan": "a. ’ema’ac ta cuqelalj a zua vatu.",
+      "chinese": "重疊 <主事焦點 >-咬  斜格 骨頭  主格 那 狗",
+      "morphology": "’<em>a- ’ac      ta   cuqelalj a   zua vatu",
+      "gloss": "重疊 <主事焦點 >-咬  斜格 骨頭  主格 那 狗"
+    },
+    {
+      "id": "(9-9)",
+      "page": 113,
+      "paiwan": "a. ’emac ta caucau a vavuy .",
+      "chinese": "咬<主事焦點 > 斜格 人   主格 山豬",
+      "morphology": "’<em>ac    ta   caucau  a   vavuy .",
+      "gloss": "咬<主事焦點 > 斜格 人   主格 山豬"
+    },
+    {
+      "id": "(9-10)",
+      "page": 114,
+      "paiwan": "pa’acu a vatu tjai zepulj!",
+      "chinese": "使動 -咬-命令 主格 狗  斜格 人名",
+      "morphology": "pa-’ac-u    a   vatu  tjai  zepulj!",
+      "gloss": "使動 -咬-命令 主格 狗  斜格 人名"
+    },
+    {
+      "id": "(9-12)",
+      "page": 114,
+      "paiwan": "pa’acan ti zepulj tjai tjuvi!",
+      "chinese": "使動 -咬-命令 主格 人名  斜格 人名",
+      "morphology": "pa-’ac-an    ti   zepulj  tjai  tjuvi!",
+      "gloss": "使動 -咬-命令 主格 人名  斜格 人名"
+    },
+    {
+      "id": "(9-14)",
+      "page": 115,
+      "paiwan": "使動動詞 +使動者 +被使動者 +其他動詞",
+      "chinese": "我.屬格 =強迫  主格 人名 連繫詞 去台北",
+      "morphology": "’upapaqadiljan ti kai a semataihuku.",
+      "gloss": "’u=papaqadiljan  ti   kai  a    semataihuku."
+    },
+    {
+      "id": "(10-1)",
+      "page": 118,
+      "paiwan": "a. sinsi ti zepulj.",
+      "chinese": "老師 主格 人名",
+      "morphology": "sinsi  ti   zepulj",
+      "gloss": "老師 主格 人名"
+    },
+    {
+      "id": "(10-2)",
+      "page": 118,
+      "paiwan": "主事焦點",
+      "chinese": "打<主事焦點 >  斜格 小孩  主格 老人",
+      "morphology": "a. ’emelem ta ’edrian a ramaljeng.",
+      "gloss": "’<em>elem    ta   ’edrian  a   ramaljeng"
+    },
+    {
+      "id": "(10-3)",
+      "page": 118,
+      "paiwan": "a. ’elemen na ramaljeng a ’edrian.",
+      "chinese": "打-受事焦點  屬格 老人   主格 小孩",
+      "morphology": "’elem-en    na   ramaljeng a   ’edrian",
+      "gloss": "打-受事焦點  屬格 老人   主格 小孩"
+    },
+    {
+      "id": "(10-4)",
+      "page": 119,
+      "paiwan": "a. si’esa a alja ’ na ’ina.",
+      "chinese": "受惠焦點 -煮  主格 小孩 屬格 媽媽",
+      "morphology": "si-’esa     a   alja’  na   ’ina",
+      "gloss": "受惠焦點 -煮  主格 小孩 屬格 媽媽"
+    },
+    {
+      "id": "(10-5)",
+      "page": 119,
+      "paiwan": "a. aladji a ’eman ta cemel.",
+      "chinese": "不需要 連繫詞 吃<主事焦點 > 斜格 藥",
+      "morphology": "aladji  a    ’<em>an    ta   cemel",
+      "gloss": "不需要 連繫詞 吃<主事焦點 > 斜格 藥"
+    },
+    {
+      "id": "(10-6)",
+      "page": 120,
+      "paiwan": "a. ne ’a nu gimeng imaza.",
+      "chinese": "否定詞 學校  在-這裡",
+      "morphology": "ne’a nu  gimeng i-maza",
+      "gloss": "否定詞 學校  在-這裡"
+    },
+    {
+      "id": "(10-7)",
+      "page": 120,
+      "paiwan": "iniya ne ’a nu supaysu.",
+      "chinese": "不是 沒有  你的 =錢",
+      "morphology": "iniya ne’a nu  su=paysu.",
+      "gloss": "不是 沒有  你的 =錢"
+    },
+    {
+      "id": "(10-8)",
+      "page": 120,
+      "paiwan": "a. maya qemaljup!",
+      "chinese": "否定詞 打獵",
+      "morphology": "maya  q<em>aljup",
+      "gloss": "否定詞 打獵"
+    },
+    {
+      "id": "(10-9)",
+      "page": 121,
+      "paiwan": "a. 問：uri vai ’esun a semataihuku?",
+      "chinese": "要  去 -你   連繫詞 臺北",
+      "morphology": "uri vai’-esun  a    semataihuku",
+      "gloss": "要  去 -你   連繫詞 臺北"
+    },
+    {
+      "id": "(11-1)",
+      "page": 123,
+      "paiwan": "a. a su ’ama timadju?",
+      "chinese": "疑問助詞 你.屬格 =爸爸 他. 主格",
+      "morphology": "a     su=’ama    timadju",
+      "gloss": "疑問助詞 你.屬格 =爸爸 他. 主格"
+    },
+    {
+      "id": "(11-1)",
+      "page": 124,
+      "paiwan": "e. su’ama timadju?",
+      "chinese": "你.屬格 =爸爸 他.主格",
+      "morphology": "su=’ama    timadju",
+      "gloss": "你.屬格 =爸爸 他.主格"
+    },
+    {
+      "id": "(11-2)",
+      "page": 126,
+      "paiwan": "a. su ’ama timadju manu susinsi timadju?",
+      "chinese": "你.屬格 =爸爸 他.主格 或  你.屬格 =老師 他. 主格",
+      "morphology": "su=’ama    timadju manu su=sinsi    timadju",
+      "gloss": "你.屬格 =爸爸 他.主格 或  你.屬格 =老師 他. 主格"
+    },
+    {
+      "id": "(11-2)",
+      "page": 129,
+      "paiwan": "o. su ’ama timadju manu susinsi?",
+      "chinese": "你.屬格 =爸爸 他.主格 或  你.屬格 =老師",
+      "morphology": "su=’ama    timadju manu su=sinsi",
+      "gloss": "你.屬格 =爸爸 他.主格 或  你.屬格 =老師"
+    },
+    {
+      "id": "(11-3)",
+      "page": 131,
+      "paiwan": "a. timasun?",
+      "chinese": "主格 誰=你.主格",
+      "morphology": "ti   ima=sun",
+      "gloss": "主格 誰=你.主格"
+    },
+    {
+      "id": "(11-3)",
+      "page": 132,
+      "paiwan": "g. tima pinavelian ta laqulj nimadju?",
+      "chinese": "主格 誰 連繫詞 賣<受事焦點 >賣  斜格 書  他.屬格",
+      "morphology": "ti   ima a    p<in>avelian    ta   laqulj nimadju",
+      "gloss": "主格 誰 連繫詞 賣<受事焦點 >賣  斜格 書  他.屬格"
+    },
+    {
+      "id": "(11-3)",
+      "page": 132,
+      "paiwan": "i. nima cu a laqulj?",
+      "chinese": "屬格 誰 這 連繫詞 書",
+      "morphology": "ni   ima cu  a    laqulj",
+      "gloss": "屬格 誰 這 連繫詞 書"
+    },
+    {
+      "id": "(11-4)",
+      "page": 132,
+      "paiwan": "a. anema cu?",
+      "chinese": "主格 甚麼 這",
+      "morphology": "a   nema cu",
+      "gloss": "主格 甚麼 這"
+    },
+    {
+      "id": "(11-5)",
+      "page": 133,
+      "paiwan": "a. tjainu a suvatu?",
+      "chinese": "斜格 哪一個 連繫詞 你.屬格 =狗",
+      "morphology": "tja  inu   a    su=vatu",
+      "gloss": "斜格 哪一個 連繫詞 你.屬格 =狗"
+    },
+    {
+      "id": "(11-6)",
+      "page": 134,
+      "paiwan": "a. ma ’uda ca timadju? auwa ru ’invawa aravac!",
+      "chinese": "MA-怎麼 這個 他    為什麼 常 喝酒 <受事焦點 >喝酒",
+      "morphology": "ma’-uda  ca   timadju?  auwa  ru  ’<in>vawa",
+      "gloss": "MA-怎麼 這個 他    為什麼 常 喝酒 <受事焦點 >喝酒"
+    },
+    {
+      "id": "(11-7)",
+      "page": 135,
+      "paiwan": "a. auwa pisangs-esun?",
+      "chinese": "為甚麼 讓開 .主事焦點 =你.主格",
+      "morphology": "auwa  pisangas=esun?",
+      "gloss": "為甚麼 讓開 .主事焦點 =你.主格"
+    },
+    {
+      "id": "(11-8)",
+      "page": 136,
+      "paiwan": "a. pa ’apidasun?",
+      "chinese": "要多少 =你.主格",
+      "morphology": "pa’apida=sun",
+      "gloss": "要多少 =你.主格"
+    },
+    {
+      "id": "(11-9)",
+      "page": 137,
+      "paiwan": "a. a’ pa’ama’uda’udasun?",
+      "chinese": "要多少（量） -重疊 -要多少（量） =你.主格",
+      "morphology": "pa’ama- ’uda-’uda=sun",
+      "gloss": "要多少（量） -重疊 -要多少（量） =你.主格"
+    },
+    {
+      "id": "(11-10)",
+      "page": 138,
+      "paiwan": "a. izainu a suumaq?",
+      "chinese": "在-那-哪裡 連繫詞 你.屬格 =家",
+      "morphology": "i-za-inu   a    su=umaq",
+      "gloss": "在-那-哪裡 連繫詞 你.屬格 =家"
+    },
+    {
+      "id": "(11-11)",
+      "page": 139,
+      "paiwan": "a. ma ’uda’uda ta pisangasesun?",
+      "chinese": "何時     當 讓開 =你.主格",
+      "morphology": "ma’uda’uda  ta  pisangas=esun",
+      "gloss": "何時     當 讓開 =你.主格"
+    },
+    {
+      "id": "(12-1)",
+      "page": 141,
+      "paiwan": "a. vai ’a’en a veneli ta ciqav .",
+      "chinese": "去=我.主格 連繫詞 買<主焦 >  斜格 魚",
+      "morphology": "vai’=a’en   a    v<en>eli   ta   ciqav .",
+      "gloss": "去=我.主格 連繫詞 買<主焦 >  斜格 魚"
+    },
+    {
+      "id": "(12-2)",
+      "page": 144,
+      "paiwan": "a. semagade a qemaljup ti tjuvi.",
+      "chinese": "去山上 <主焦 >  連繫詞 打獵 <主焦 >  主格 人名",
+      "morphology": "s<em>agade   a    q<em>aljup   ti   tjuvi",
+      "gloss": "去山上 <主焦 >  連繫詞 打獵 <主焦 >  主格 人名"
+    },
+    {
+      "id": "(12-3)",
+      "page": 144,
+      "paiwan": "a. djemavac a tjumaq ti kai.",
+      "chinese": "走路 <主焦 >  連繫詞 回家 .主焦 主格 人名",
+      "morphology": "dj<em>avac   a    tjumaq   ti   kai",
+      "gloss": "走路 <主焦 >  連繫詞 回家 .主焦 主格 人名"
+    },
+    {
+      "id": "(12-4)",
+      "page": 144,
+      "paiwan": "a. djaljav a mekelj ti kai.",
+      "chinese": "快.主焦  連繫詞 主焦 -跑  主格 人名",
+      "morphology": "djaljav   a    mekelj   ti   kai",
+      "gloss": "快.主焦  連繫詞 主焦 -跑  主格 人名"
+    },
+    {
+      "id": "(12-5)",
+      "page": 145,
+      "paiwan": "macaqu a ’emave ’av ti kai.",
+      "chinese": "會.主焦  連繫詞 游泳 <主焦 >  主格 人名",
+      "morphology": "macaqu  a    ’<em>ave ’av  ti   kai.",
+      "gloss": "會.主焦  連繫詞 游泳 <主焦 >  主格 人名"
+    },
+    {
+      "id": "(12-6)",
+      "page": 145,
+      "paiwan": "a. migacaljamen a ’eman",
+      "chinese": "主焦 .站=我們 .排除 .主格 連繫詞 <主焦 >吃",
+      "morphology": "migacalj-amen       a    ’<em>an",
+      "gloss": "主焦 .站=我們 .排除 .主格 連繫詞 <主焦 >吃"
+    },
+    {
+      "id": "(12-7)",
+      "page": 145,
+      "paiwan": "a. putjeluangaa ’en a se misic tu ca cekui.",
+      "chinese": "三次 -完成 =我.主格  連繫詞 擦< 主焦 >  斜格 這 桌子",
+      "morphology": "putjelu-anga=a ’en   a    s<em>isic  tu   ca  cekui.",
+      "gloss": "三次 -完成 =我.主格  連繫詞 擦< 主焦 >  斜格 這 桌子"
+    },
+    {
+      "id": "(12-8)",
+      "page": 145,
+      "paiwan": "qemecapa ’en a ’eman ta djamay",
+      "chinese": "筷子夾 <主焦 >=我.主格  連繫詞 吃<主焦 >  斜格 菜",
+      "morphology": "qemecap=a ’en       a    ’<em>an   ta   djamay",
+      "gloss": "筷子夾 <主焦 >=我.主格  連繫詞 吃<主焦 >  斜格 菜"
+    },
+    {
+      "id": "(12-9)",
+      "page": 145,
+      "paiwan": "a. patagilja ’en a ’itulu tu ca laqulj.",
+      "chinese": "開始 .主焦 =我.主格  連繫詞 學習 .主焦  斜格 這 書",
+      "morphology": "patagilj=a ’en     a    ’itulu    tu   ca  laqulj.",
+      "gloss": "開始 .主焦 =我.主格  連繫詞 學習 .主焦  斜格 這 書"
+    },
+    {
+      "id": "(12-10)",
+      "page": 146,
+      "paiwan": "a. maru ’utj-a’en a veneci ’.",
+      "chinese": "害怕 .主焦 =我.主格 連繫詞 寫<主焦 >",
+      "morphology": "maru ’utj=a ’en    a    v<en>eci ’.",
+      "gloss": "害怕 .主焦 =我.主格 連繫詞 寫<主焦 >"
+    },
+    {
+      "id": "(12-12)",
+      "page": 146,
+      "paiwan": "tjadjalava ’en a mekelj tjanusun.",
+      "chinese": "比較快 =我.主格  連繫詞 主焦 -跑  你.受格",
+      "morphology": "tjadjalav-a ’en   a    m-ekelj  tjanusun.",
+      "gloss": "比較快 =我.主格  連繫詞 主焦 -跑  你.受格"
+    },
+    {
+      "id": "(12-13)",
+      "page": 146,
+      "paiwan": "djina ’adja’an a ’emapala ’ a paljing nimadju.",
+      "chinese": "踢<完成 >-處所焦  連繫詞 破壞 <主焦 >  主格 門   他.屬格",
+      "morphology": "dj<in>a ’adja’-an   a    ’<em>apala ’  a   paljing  nimadju.",
+      "gloss": "踢<完成 >-處所焦  連繫詞 破壞 <主焦 >  主格 門   他.屬格"
+    },
+    {
+      "id": "(13-1)",
+      "page": 147,
+      "paiwan": "a. nalemangdaanga ’en ta susenay .",
+      "chinese": "完成 -聽<主焦 >-完成 =我.主格  斜格 你的 =歌",
+      "morphology": "na-l<em>angda-anga=a ’en     ta   su=senay .",
+      "gloss": "完成 -聽<主焦 >-完成 =我.主格  斜格 你的 =歌"
+    },
+    {
+      "id": "(13-2)",
+      "page": 147,
+      "paiwan": "a. lemangdaa ’en tu semenasenaysun.",
+      "chinese": "聽<主焦 >=我.主格    重疊 <主焦 >-唱歌 =你.主格",
+      "morphology": "l<em>angda=a ’en   tu  s<em>ena-senay=sun.",
+      "gloss": "聽<主焦 >=我.主格    重疊 <主焦 >-唱歌 =你.主格"
+    },
+    {
+      "id": "(13-3)",
+      "page": 148,
+      "paiwan": "，tu引導一個子",
+      "chinese": "，tu引導一個子",
+      "morphology": "句當動詞 pacun「看」的補語：",
+      "gloss": ""
+    },
+    {
+      "id": "(13-3)",
+      "page": 148,
+      "paiwan": "pacunsun tu vaivai’ a ’emin ta ’ipusaladjen a ’i’arivuan timadju, awa iniya",
+      "chinese": "看.主焦 =你.主格   重疊 -去.主焦 連繫詞 找<主焦 >   斜格",
+      "morphology": "suqecengen timadju?",
+      "gloss": "pacun=sun    tu  vai-vai ’    a    ’<em>in   ta"
+    },
+    {
+      "id": "(13-4)",
+      "page": 148,
+      "paiwan": "a. ’upacunan timadju a ’ema’an ta ’insa.",
+      "chinese": "我.屬格 =看-處焦  他.主格  連繫詞 重疊 <主焦 >-吃   斜格",
+      "morphology": "’u=pacun-an    timadju   a    關係子句 [’<em>a- ’an  ta",
+      "gloss": "我.屬格 =看-處焦  他.主格  連繫詞 重疊 <主焦 >-吃   斜格"
+    },
+    {
+      "id": "(13-5)",
+      "page": 149,
+      "paiwan": "a. pacun a ’a’edrian ta matjanitjani a vatu.",
+      "chinese": "看.主焦 主格 小孩   當 掉下去 -重疊  主格 狗",
+      "morphology": "pacun  a   ’a’edrian  ta  ma-tjani-tjani  a   vatu.",
+      "gloss": "看.主焦 主格 小孩   當 掉下去 -重疊  主格 狗"
+    },
+    {
+      "id": "(13-6)",
+      "page": 149,
+      "paiwan": "a. masalua ’en tjaimadju.",
+      "chinese": "相信 =我.主格 他.斜格",
+      "morphology": "masalu=a ’en  tjaimadju.",
+      "gloss": "相信 =我.主格 他.斜格"
+    },
+    {
+      "id": "(13-7)",
+      "page": 149,
+      "paiwan": "a. masalua ’en tu naceme ’av ta paysu timadju.",
+      "chinese": "相信 =我.主格   完成 -偷<主焦 > 斜格 錢  他.主格",
+      "morphology": "masalu=a ’en  tu  na-c<em>e ’av   ta   paysu timadju.",
+      "gloss": "相信 =我.主格   完成 -偷<主焦 > 斜格 錢  他.主格"
+    },
+    {
+      "id": "(13-8)",
+      "page": 150,
+      "paiwan": "a.  patevela ti kai ta ’ama nimadju a mayatucu, “irua’en a ’emelemanga a",
+      "chinese": "回答 .主焦 主格 人名 斜格 爸爸 他的  連繫詞 這樣",
+      "morphology": "paqeteleng ta caucau. ”",
+      "gloss": "patevela  ti   kai  ta   ’ama nimadju a    mayatucu,"
+    },
+    {
+      "id": "(13-9)",
+      "page": 151,
+      "paiwan": "a. ’ivadaq tjai kai timadju tui maainu a sematjana ’asia.",
+      "chinese": "問.主焦 斜格 人名 他.主格 是否  到哪裡 連繫詞",
+      "morphology": "’ivadaq tjai  kai  timadju tui  maainu  a",
+      "gloss": "問.主焦 斜格 人名 他.主格 是否  到哪裡 連繫詞"
+    },
+    {
+      "id": "(13-10)",
+      "page": 151,
+      "paiwan": "a. sau, paysuu aya ti ’ama.",
+      "chinese": "去-祈使 舂小米 -祈使  說.主焦  主格 爸爸",
+      "morphology": "sa-u   paysu-u    aya    ti   ’ama.",
+      "gloss": "去-祈使 舂小米 -祈使  說.主焦  主格 爸爸"
+    },
+    {
+      "id": "(13-12)",
+      "page": 152,
+      "paiwan": "aligu uri sipavay nimadju tjanua ’en ayaa ’en.",
+      "chinese": "以為 將要 工具焦 -給  他.屬格  我.斜格  說.主焦 =我.主格",
+      "morphology": "aligu uri  si-pavay   nimadju  tjanua ’en  aya=a ’en.",
+      "gloss": "以為 將要 工具焦 -給  他.屬格  我.斜格  說.主焦 =我.主格"
+    },
+    {
+      "id": "(14-1)",
+      "page": 153,
+      "paiwan": "a. nama ’apala ’anga a ’uvineli a mumu ta ’adjaman.",
+      "chinese": "完成 -壞-完成   主格 我.屬格 =買<受焦>  連繫詞 蓮霧",
+      "morphology": "na-ma ’apala ’-anga  a   ’u=v<in>eli      a    mumu",
+      "gloss": "完成 -壞-完成   主格 我.屬格 =買<受焦>  連繫詞 蓮霧"
+    },
+    {
+      "id": "(14-2)",
+      "page": 154,
+      "paiwan": "se’ulilj a naqemudjidjilj ta ’itung a ’edrian.",
+      "chinese": "跌倒  主格 完成紅色 <主焦 >   斜格 衣服 連繫詞 小孩",
+      "morphology": "se’ulilj  a   na-q<em>udjidjilj  ta   ’itung a    ’edrian",
+      "gloss": "跌倒  主格 完成紅色 <主焦 >   斜格 衣服 連繫詞 小孩"
+    },
+    {
+      "id": "(14-3)",
+      "page": 154,
+      "paiwan": "qemaung a za naveneli ta ’itung a uqaljay .",
+      "chinese": "哭<主焦 >  主格 那 完成買 <主焦 >  斜格 衣服 主格 男人",
+      "morphology": "q<em>aung  a   za  na-v<en>eli    ta   ’itung a   uqaljay .",
+      "gloss": "哭<主焦 >  主格 那 完成買 <主焦 >  斜格 衣服 主格 男人"
+    },
+    {
+      "id": "(14-4)",
+      "page": 154,
+      "paiwan": "’elemen ti kai na za ’emesa ’esa a vavayan.",
+      "chinese": "打-受焦  主格 人名 屬格 那 重疊 <主焦 >-哭  主格 女人",
+      "morphology": "’elem-en  ti   kai  na   za  ’<em>esa- ’esa   a   vavayan.",
+      "gloss": "打-受焦  主格 人名 屬格 那 重疊 <主焦 >-哭  主格 女人"
+    },
+    {
+      "id": "(14-5)",
+      "page": 154,
+      "paiwan": "nama ’apala ’anga a za vasa a ’inan ni k ai.",
+      "chinese": "完成 -壞-完成   主格 那 芋頭 連繫詞 吃<受焦 > 屬格 人名",
+      "morphology": "na-ma ’apala ’-anga  a   za  vasa  a    ’<in>an  ni   kai.",
+      "gloss": "完成 -壞-完成   主格 那 芋頭 連繫詞 吃<受焦 > 屬格 人名"
+    },
+    {
+      "id": "(14-6)",
+      "page": 155,
+      "paiwan": "’upinacunan a za ’inelem ni kai a ’edrian.",
+      "chinese": "我.屬格 =看<完成 >-處所 主格 那 打<受焦 > 屬格 人名 主格",
+      "morphology": "’u=p<in>acun-an     a   za  ’<in>elem ni   kai  a",
+      "gloss": "我.屬格 =看<完成 >-處所 主格 那 打<受焦 > 屬格 人名 主格"
+    },
+    {
+      "id": "(14-7)",
+      "page": 155,
+      "paiwan": "djiniljanganga a uri sivaljes ta ’asiv a valjes ni kai.",
+      "chinese": "生鏽 <受焦 >-完成 主格 要 工具焦 -砍  斜格 樹  連繫詞",
+      "morphology": "dj<in>iljang-anga  a   uri si-valjes   ta   ’asiv  a",
+      "gloss": "生鏽 <受焦 >-完成 主格 要 工具焦 -砍  斜格 樹  連繫詞"
+    },
+    {
+      "id": "(14-8)",
+      "page": 155,
+      "paiwan": "至（14-10），或是出現在當中心語是專有名詞時，",
+      "chinese": "至（14-10），或是出現在當中心語是專有名詞時，",
+      "morphology": "例如（14-11）到（14-14），因為專有名詞一般來說指稱較為明確，聽話者不需",
+      "gloss": "要藉著關係子句所提供的訊息來辨識中心語所指涉的對象。"
+    },
+    {
+      "id": "(14-8)",
+      "page": 155,
+      "paiwan": "’upacunansun a qemauqaung.",
+      "chinese": "我.屬格 -看-處焦 =你.主格 連繫詞 重疊 <主焦 >哭",
+      "morphology": "’u=pacun-an=sun      a    q<em>au-qaung.",
+      "gloss": "我.屬格 -看-處焦 =你.主格 連繫詞 重疊 <主焦 >哭"
+    },
+    {
+      "id": "(14-9)",
+      "page": 155,
+      "paiwan": "’upacunan tim adju a ’ema’an ta ’insa.",
+      "chinese": "我.屬格 =看-處焦  他.主格 連繫詞 哭-重疊 <主焦 > 斜格 食物",
+      "morphology": "’u=pacun-an    timadju a    ’<em>a- ’an    ta   ’insa.",
+      "gloss": "我.屬格 =看-處焦  他.主格 連繫詞 哭-重疊 <主焦 > 斜格 食物"
+    },
+    {
+      "id": "(14-10)",
+      "page": 156,
+      "paiwan": "’upacunan a ’edrian, a naqiqilja ’ ipatekuteku ta qarengan.",
+      "chinese": "我.屬格 =看-處焦  主格 小孩  連繫詞 完成 -藏",
+      "morphology": "’u=pacun-an     a   ’edrian, a    na-qiqilja",
+      "gloss": "我.屬格 =看-處焦  主格 小孩  連繫詞 完成 -藏"
+    },
+    {
+      "id": "(14-12)",
+      "page": 156,
+      "paiwan": "mavengelayanga ti kai, a naqemiladj iljaqediqedi tjanua ’en.",
+      "chinese": "懷孕 -完成    主格 人名 連繫詞 完成 -坐<主焦 >",
+      "morphology": "mavengelay-anga  ti   kai,  a    na-q<em>iladj",
+      "gloss": "懷孕 -完成    主格 人名 連繫詞 完成 -坐<主焦 >"
+    },
+    {
+      "id": "(14-13)",
+      "page": 156,
+      "paiwan": "mangetjez ti kai, a ’u’inelem tatiav .",
+      "chinese": "來.主焦  主格 人名 連繫詞 我.屬格 =打<受焦 >  昨天",
+      "morphology": "mangetjez  ti   kai,  a    ’u=’<in>elem     tatiav .",
+      "gloss": "來.主焦  主格 人名 連繫詞 我.屬格 =打<受焦 >  昨天"
+    },
+    {
+      "id": "(14-14)",
+      "page": 156,
+      "paiwan": "tjengelaya ’en tjai kai, a su ’inelem tatiav .",
+      "chinese": "喜歡 =我.主格  斜格 人名 連繫詞 你.屬格 =<受焦 >打  昨天",
+      "morphology": "tjengelay=a ’en  tjai  kai,  a    su=’<in>elem     tatiav .",
+      "gloss": "喜歡 =我.主格  斜格 人名 連繫詞 你.屬格 =<受焦 >打  昨天"
+    },
+    {
+      "id": "(14-15)",
+      "page": 157,
+      "paiwan": "和（14-16），而nu指未來或經常發生的事件，主要子句和",
+      "chinese": "和（14-16），而nu指未來或經常發生的事件，主要子句和",
+      "morphology": "副詞子句事件發生的先後次序可以透過動詞的詞綴、動貌標記或pasusangs「之",
+      "gloss": "前」這個動詞來表達，例句如下："
+    },
+    {
+      "id": "(14-15)",
+      "page": 157,
+      "paiwan": "ta mangetjeza ’en, vai ’anga timadju.",
+      "chinese": "當 來.主焦 =我.主格 去-完成  他.主格",
+      "morphology": "ta mangetjez=a ’en,   vai’-anga  timadju.",
+      "gloss": "當 來.主焦 =我.主格 去-完成  他.主格"
+    },
+    {
+      "id": "(14-16)",
+      "page": 157,
+      "paiwan": "a mangetjeza ’en, vai ’anga timadju.",
+      "chinese": "當 來.主焦 =我.主格 去-完成  他.主格",
+      "morphology": "a mangetjez=a ’en,   vai’-anga  timadju.",
+      "gloss": "當 來.主焦 =我.主格 去-完成  他.主格"
+    },
+    {
+      "id": "(14-17)",
+      "page": 157,
+      "paiwan": "ta mangetjeza ’en a pasusangas, qemudjalj.",
+      "chinese": "當 來.主焦 =我.主格 連繫詞 之前    下雨 <主焦 >",
+      "morphology": "ta mangetjez=a ’en   a    pasusangas,  q<em>udjalj.",
+      "gloss": "當 來.主焦 =我.主格 連繫詞 之前    下雨 <主焦 >"
+    },
+    {
+      "id": "(14-18)",
+      "page": 157,
+      "paiwan": "ta ma ’a’elem ta alja ’ ti kai, vai ’anga.",
+      "chinese": "當 打完    斜格 小孩 主格 人名 去-完成",
+      "morphology": "ta ma’a’elem  ta   alja’  ti   kai,  vai’-anga.",
+      "gloss": "當 打完    斜格 小孩 主格 人名 去-完成"
+    },
+    {
+      "id": "(14-19)",
+      "page": 157,
+      "paiwan": "ta ’emesa ’esa ti zepulj, pacucuna ’en ta laqulj.",
+      "chinese": "當 重疊 <主焦 >-煮飯 =我.主格 主格 人名 看.主焦 -重疊 =我.主格",
+      "morphology": "ta ’<em>esa- ’esa       ti   zepulj, pa-cu-cun=a ’en",
+      "gloss": "當 重疊 <主焦 >-煮飯 =我.主格 主格 人名 看.主焦 -重疊 =我.主格"
+    },
+    {
+      "id": "(14-20)",
+      "page": 158,
+      "paiwan": "ta semenaya ’en , iyugiyugianga ti aki.",
+      "chinese": "當唱歌 <主焦 >=我.主格 重疊 -跳舞 -完成 主格 人名",
+      "morphology": "ta s<em>enay=a ’en,    iyugi-yugi-anga  ti   kai.",
+      "gloss": "當唱歌 <主焦 >=我.主格 重疊 -跳舞 -完成 主格 人名"
+    },
+    {
+      "id": "(14-21)",
+      "page": 158,
+      "paiwan": "nu ’emesa ’esa ti zepulj, pacucuna ’en ta laqulj.",
+      "chinese": "當 重疊 <主焦 >-煮飯 =我.主格 主格 人名 看.主焦 -重疊 =我.主格",
+      "morphology": "nu ’<em>esa- ’esa       ti   zepulj, pa-cu-cun=a ’en",
+      "gloss": "當 重疊 <主焦 >-煮飯 =我.主格 主格 人名 看.主焦 -重疊 =我.主格"
+    },
+    {
+      "id": "(14-22)",
+      "page": 158,
+      "paiwan": "nu mangtjez-anga ti kai, i ’ en a ’emesa.",
+      "chinese": "當 來.主焦 -完成 主格 人名 會=我.主格 連繫詞 煮<主焦 >",
+      "morphology": "nu mangtjez-anga ti   kai,  i-’en     a    ’<em>esa.",
+      "gloss": "當 來.主焦 -完成 主格 人名 會=我.主格 連繫詞 煮<主焦 >"
+    },
+    {
+      "id": "(14-23)",
+      "page": 158,
+      "paiwan": "qemudjalj ta ’ema’anitjen (ta vasa).",
+      "chinese": "下雨 <主焦 > 當 重疊 <主焦 >吃=我們 .主格  斜格 芋頭",
+      "morphology": "q<em>udjalj  ta  ’<em>a ’an=itjen       (ta  vasa).",
+      "gloss": "下雨 <主焦 > 當 重疊 <主焦 >吃=我們 .主格  斜格 芋頭"
+    },
+    {
+      "id": "(14-24)",
+      "page": 158,
+      "paiwan": "nu ru ’isuzelian, venala a ’inacavacavan.",
+      "chinese": "如果  多休息   健康  主格 身體",
+      "morphology": "nu   ru’isuzelian,  venala  a   ’inacavacavan.",
+      "gloss": "如果  多休息   健康  主格 身體"
+    },
+    {
+      "id": "(14-25)",
+      "page": 159,
+      "paiwan": "nu izua ’upaysu taicavilj, i ’uvinelianga aza umaq.",
+      "chinese": "如果  有  我.屬格 =錢 去年  會 屬格 =買<受焦 > 主格",
+      "morphology": "nu   izua  ’u=paysu   taicavilj, i  ’u=v<in>eli-anga a",
+      "gloss": "如果  有  我.屬格 =錢 去年  會 屬格 =買<受焦 > 主格"
+    },
+    {
+      "id": "(14-26)",
+      "page": 159,
+      "paiwan": "maru ’utj ta vavuy ti tjuvi, aza ’inacaanga timadju.",
+      "chinese": "怕    斜格 山豬 主格 人名 因為 咬< 受焦 >-完成 他.主格",
+      "morphology": "maru ’utj ta   vavuy ti   tjuvi, aza  ’<in>aca-anga   timadju.",
+      "gloss": "怕    斜格 山豬 主格 人名 因為 咬< 受焦 >-完成 他.主格"
+    },
+    {
+      "id": "(15-1)",
+      "page": 161,
+      "paiwan": "a. ti ima-ima itjumaq tjanumun?",
+      "chinese": "主格 .單數 重疊 -誰  在家  你們 .斜格",
+      "morphology": "ti     ima-ima  itjum aq tjanumun?",
+      "gloss": "主格 .單數 重疊 -誰  在家  你們 .斜格"
+    },
+    {
+      "id": "(15-2)",
+      "page": 162,
+      "paiwan": "a zua a nemanga a zangaq, a mare ’a ’uang, sipaisapitjan ta za kaka.",
+      "chinese": "那  連繫詞 東西  連繫詞 項鍊  連繫詞 些   槍",
+      "morphology": "a zua a    nemanga a    zangaq, a    mare ’a  ’uang,",
+      "gloss": "那  連繫詞 東西  連繫詞 項鍊  連繫詞 些   槍"
+    },
+    {
+      "id": "(15-2)",
+      "page": 162,
+      "paiwan": "也是一樣，其名詞組zangaq和 mare’a ’uang 中間並沒有並列",
+      "chinese": "在排灣語裡，人們有時會用伴同結構來代替並列結構，名詞組的伴同結構",
+      "morphology": "連接詞，它們直接並列放在一起。",
+      "gloss": "在排灣語裡，人們有時會用伴同結構來代替並列結構，名詞組的伴同結構"
+    },
+    {
+      "id": "(15-4)",
+      "page": 162,
+      "paiwan": "、 （15-5）、（15-6）和（15-7），但肯定句時沒有並列",
+      "chinese": "、 （15-5）、（15-6）和（15-7），但肯定句時沒有並列",
+      "morphology": "連接詞，而是把動詞組直接並列放在一起，例如（15-3）的 sau和paysuu：",
+      "gloss": ""
+    },
+    {
+      "id": "(15-3)",
+      "page": 162,
+      "paiwan": "sau, paysuu aya ti ’ama.",
+      "chinese": "去-祈使 搗小米 -祈使  說.主焦 主格 爸爸",
+      "morphology": "sa-u paysu-u      aya   ti   ’ama.",
+      "gloss": "去-祈使 搗小米 -祈使  說.主焦 主格 爸爸"
+    },
+    {
+      "id": "(15-4)",
+      "page": 162,
+      "paiwan": "iniya teme ’el ta zaljum sa ’a iniya ’eman ta qavay timadju.",
+      "chinese": "不  喝<主焦 >  斜格 水   和  不  吃<主焦 >  斜格",
+      "morphology": "iniya t<em>e ’el  ta   zaljum  sa’a  iniya ’<em>an   ta",
+      "gloss": "不  喝<主焦 >  斜格 水   和  不  吃<主焦 >  斜格"
+    },
+    {
+      "id": "(15-5)",
+      "page": 163,
+      "paiwan": "iniya tine ’el a zaljum sa ’a iniya ’inan a qavay nimadju.",
+      "chinese": "不  喝<受焦 >  主格 水   和  不  吃<受焦 >  主格",
+      "morphology": "iniya t<in>e ’el   a   zaljum  sa’a  iniya ’<in>-an   a",
+      "gloss": "不  喝<受焦 >  主格 水   和  不  吃<受焦 >  主格"
+    },
+    {
+      "id": "(15-6)",
+      "page": 163,
+      "paiwan": "iniya ’ema’an ta qavay sa ’a iniya teme ’ete’el ta zaljum timadju.",
+      "chinese": "沒  重疊 <主焦 >吃  斜格 肉圓 和  沒  重疊 <主焦 >喝",
+      "morphology": "iniya ’<em>a- ’an    ta   qavay sa’a  iniya t<em>e ’e-te’el",
+      "gloss": "沒  重疊 <主焦 >吃  斜格 肉圓 和  沒  重疊 <主焦 >喝"
+    },
+    {
+      "id": "(15-7)",
+      "page": 163,
+      "paiwan": "iniya m azeli sa ’a iniya madudu timadju.",
+      "chinese": "不  累   和  不  生氣  他.主格",
+      "morphology": "iniya mazeli  sa’a  iniya madudu timadju.",
+      "gloss": "不  累   和  不  生氣  他.主格"
+    },
+    {
+      "id": "(15-8)",
+      "page": 163,
+      "paiwan": "iniyaa ’en a mazeli, iniyaa ’en a madudu.",
+      "chinese": "不=我.主格 連繫詞 累   不=我.主格 連繫詞 生氣",
+      "morphology": "iniya=a ’en  a    mazeli,  iniya=a ’en  a    madudu.",
+      "gloss": "不=我.主格 連繫詞 累   不=我.主格 連繫詞 生氣"
+    },
+    {
+      "id": "(15-9)",
+      "page": 163,
+      "paiwan": "iniya mazeli timadju sa ’a iniyaa ’en a madudu.",
+      "chinese": "不  累.主焦  他.主格  和  不=我.主格 連繫詞 生氣 . 主焦",
+      "morphology": "iniya mazeli   timadju  sa’a  iniya=a ’en  a    madudu.",
+      "gloss": "不  累.主焦  他.主格  和  不=我.主格 連繫詞 生氣 . 主焦"
+    },
+    {
+      "id": "(15-10)",
+      "page": 164,
+      "paiwan": "iniyamen a mazeli sa ’a iniyamen a madudu a madrusa.",
+      "chinese": "不=我們 .主格  連繫詞 累   和  不=我們 .主格 連繫詞",
+      "morphology": "iniya=men    a    mazeli  sa’a  iniya=men   a",
+      "gloss": "不=我們 .主格  連繫詞 累   和  不=我們 .主格 連繫詞"
+    },
+    {
+      "id": "(15-12)",
+      "page": 164,
+      "paiwan": "iniya mazeli timadju, ini yaa ’en a madudu.",
+      "chinese": "不   累.主焦  他.主格  不=我.主格 連繫詞 生氣 . 主焦",
+      "morphology": "iniya  mazeli    timadju,   iniya=a ’en   a     madudu.",
+      "gloss": "不   累.主焦  他.主格  不=我.主格 連繫詞 生氣 . 主焦"
+    },
+    {
+      "id": "(15-13)",
+      "page": 164,
+      "paiwan": "tjainu a su ’anen, vurati, vasa, manu qaqilj?",
+      "chinese": "哪一個  連繫詞 你.屬格 =吃-受焦  地瓜    芋頭 或    山藥",
+      "morphology": "tjainu   a     su= ’an-en,     vurati,  vasa, manu qaqilj?",
+      "gloss": "哪一個  連繫詞 你.屬格 =吃-受焦  地瓜    芋頭 或    山藥"
+    },
+    {
+      "id": "(15-14)",
+      "page": 164,
+      "paiwan": "a nema susengsengan nu qazemetj, venci ’, pacun  ta laqulj manu vai’ a casav",
+      "chinese": "疑問詞  什麼 你.屬格 =工作 今晚    寫<主焦 >  看.主焦",
+      "morphology": "a ’ivangavang?",
+      "gloss": "a    nema su=sengsengan nu qazemetj, v<en>ci ’,   pacun"
+    },
+    {
+      "id": "(15-15)",
+      "page": 165,
+      "paiwan": "teme ’ete’el ta zaljum manu teme ’ete’el ta vawa ti tjuvi?",
+      "chinese": "重疊 <主焦 >-喝  斜格 水   或  重疊 <主焦 >-喝  斜格",
+      "morphology": "t<em>e ’e-te’el   ta   zaljum  manu t<em>e ’e-te’el   ta",
+      "gloss": "重疊 <主焦 >-喝  斜格 水   或  重疊 <主焦 >-喝  斜格"
+    },
+    {
+      "id": "(16-2)",
+      "page": 167,
+      "paiwan": "的’a ta ’u’itung， （3） 伴同詞組一定是包含在所修飾的名",
+      "chinese": "的’a ta ’u’itung， （3） 伴同詞組一定是包含在所修飾的名",
+      "morphology": "詞中的一部份，例句如下：",
+      "gloss": ""
+    },
+    {
+      "id": "(16-1)",
+      "page": 167,
+      "paiwan": "a. tjengelay tiya tjuvi ’a ti kai a ’eman ta veljevelje",
+      "chinese": "喜歡 .主焦 主格 .複數 人名 與 主格 .單數  人名 連繫詞",
+      "morphology": "tjengelay  tiya    tjuvi  ’a  ti      kai  a",
+      "gloss": "喜歡 .主焦 主格 .複數 人名 與 主格 .單數  人名 連繫詞"
+    },
+    {
+      "id": "(16-2)",
+      "page": 167,
+      "paiwan": "namaungaianga a ’ukasui ’a ta ’u’itung.",
+      "chinese": "完成 -髒-完成  主格 我的褲子 與 斜格 我的衣服",
+      "morphology": "na-maungai-anga a   ’u=kasui  ’a  ta   ’u=’itung.",
+      "gloss": "完成 -髒-完成  主格 我的褲子 與 斜格 我的衣服"
+    },
+    {
+      "id": "(16-3)",
+      "page": 168,
+      "paiwan": "djemangudjangus sa ’a’ac ta lima a vavuy .",
+      "chinese": "重疊 <主焦 >-嗅   一面 重疊 -咬.主焦 .虛擬  斜格 手  主格",
+      "morphology": "dj<em>angu-djangus  sa   ’a-’ac        ta   lima  a",
+      "gloss": "重疊 <主焦 >-嗅   一面 重疊 -咬.主焦 .虛擬  斜格 手  主格"
+    },
+    {
+      "id": "(16-4)",
+      "page": 168,
+      "paiwan": "’ema’an ta qavay sa te ’ete’el ta zaljum timadju.",
+      "chinese": "重疊 <主焦 >-吃 斜格 肉圓 一面 重疊 -喝.主焦 .虛擬  斜格",
+      "morphology": "’<em>a- ’an    ta   qavay sa   te’e-te’el       ta",
+      "gloss": "重疊 <主焦 >-吃 斜格 肉圓 一面 重疊 -喝.主焦 .虛擬  斜格"
+    },
+    {
+      "id": "(16-5)",
+      "page": 168,
+      "paiwan": "’ema’ana’en ta qavay sa ’ete’ete’el ta zaljum.",
+      "chinese": "重疊 <主焦 >-吃=我.主格 斜格 肉圓  一面",
+      "morphology": "’<em>a- ’an=a ’en     ta   qavay  sa",
+      "gloss": "重疊 <主焦 >-吃=我.主格 斜格 肉圓  一面"
+    },
+    {
+      "id": "(16-6)",
+      "page": 168,
+      "paiwan": "teme ’el ta zaljum sa ’an ta qavay timadju.",
+      "chinese": "喝<主焦 >  斜格 水   也 吃.主焦 .虛擬 斜格 肉圓 他.主格",
+      "morphology": "t<em>e ’el  ta   zaljum  sa  ’an      ta   qavay timadju.",
+      "gloss": "喝<主焦 >  斜格 水   也 吃.主焦 .虛擬 斜格 肉圓 他.主格"
+    },
+    {
+      "id": "(16-7)",
+      "page": 168,
+      "paiwan": "teme ’ela’en ta zaljum sa ’e’an ta qavay .",
+      "chinese": "喝<主焦 >=我.主格  斜格 水   也",
+      "morphology": "t<em>e ’el=a’en    ta   zaljum  sa",
+      "gloss": "喝<主焦 >=我.主格  斜格 水   也"
+    },
+    {
+      "id": "(16-8)",
+      "page": 169,
+      "paiwan": "a. djemangus sana ’ac ta lima a vavuy .",
+      "chinese": "嗅<主焦 >  然後 咬.主焦 .虛擬 斜格 手  主格 山豬",
+      "morphology": "dj<em>angus sana  ’ac      ta   lima  a   vavuy .",
+      "gloss": "嗅<主焦 >  然後 咬.主焦 .虛擬 斜格 手  主格 山豬"
+    },
+    {
+      "id": "(16-9)",
+      "page": 169,
+      "paiwan": "saigu tu saigu ti tjuvi a penayuanan.",
+      "chinese": "會  tu  會  主格 人名 連繫詞 說排灣語 <主焦 >",
+      "morphology": "saigu tu  saigu ti   tjuvi  a    p<en>ayuanan.",
+      "gloss": "會  tu  會  主格 人名 連繫詞 說排灣語 <主焦 >"
+    },
+    {
+      "id": "(16-10)",
+      "page": 169,
+      "paiwan": "masalu tu masalu ta supinangtjezan.",
+      "chinese": "感謝  tu  感謝  斜格 你的 =到來",
+      "morphology": "masalu tu  masalu  ta   su=pinangtjezan.",
+      "gloss": "感謝  tu  感謝  斜格 你的 =到來"
+    },
+    {
+      "id": "(16-12)",
+      "page": 170,
+      "paiwan": "’eman tu ’eman timadju ta vasa.",
+      "chinese": "吃<主焦 > tu  吃<主焦 > 他.主格  斜格 芋頭",
+      "morphology": "’<em>an  tu  ’<em>an  timadju  ta   vasa.",
+      "gloss": "吃<主焦 > tu  吃<主焦 > 他.主格  斜格 芋頭"
+    },
+    {
+      "id": "(16-13)",
+      "page": 170,
+      "paiwan": "vinca tu vinca timadju.",
+      "chinese": "說謊 <受焦 .完成 >  tu  說謊 <受焦 .完成 > 他.主格",
+      "morphology": "v<in>ca       tu  v<in>ca      timadju.",
+      "gloss": "說謊 <受焦 .完成 >  tu  說謊 <受焦 .完成 > 他.主格"
+    },
+    {
+      "id": "(16-14)",
+      "page": 170,
+      "paiwan": "’inanan tu ’inanan ca vasa ni zepulj.",
+      "chinese": "吃<完成 >處焦 tu  吃<完成>處焦  這.主格 芋頭 屬格 人名",
+      "morphology": "’<in>an-an   tu  ’<in>an-an    ca    vasa  ni   zepulj.",
+      "gloss": "吃<完成 >處焦 tu  吃<完成>處焦  這.主格 芋頭 屬格 人名"
+    },
+    {
+      "id": "(16-15)",
+      "page": 170,
+      "paiwan": "si’an tu si ’an ca ’izing ni zepulj.",
+      "chinese": "工具焦 -吃 tu  工具焦 -吃  這.主格  湯匙 屬格 人名",
+      "morphology": "si-’an    tu  si-’an    ca     ’izing ni   zepulj.",
+      "gloss": "工具焦 -吃 tu  工具焦 -吃  這.主格  湯匙 屬格 人名"
+    },
+    {
+      "id": "(16-17)",
+      "page": 170,
+      "paiwan": "和（16-18）的 a’en，例句如下：",
+      "chinese": "和（16-18）的 a’en，例句如下：",
+      "morphology": "",
+      "gloss": ""
+    },
+    {
+      "id": "(16-16)",
+      "page": 170,
+      "paiwan": "’uvinca tu vinca timadju.",
+      "chinese": "我.屬格 說謊 <受焦 .完成 > tu  說謊 <受焦 .完成 > 他.主格",
+      "morphology": "’u=vinca tu vinca timadju.",
+      "gloss": "’u    v<in>ca      tu  v<in>ca      timadju."
+    },
+    {
+      "id": "(16-17)",
+      "page": 170,
+      "paiwan": "’emana ’en tu ’eman ta vasa.",
+      "chinese": "吃<主焦 >=我.主格 tu 吃<主焦 >  斜格 芋頭",
+      "morphology": "’<em>an=a ’en    tu ’<em>an   ta   vasa.",
+      "gloss": "吃<主焦 >=我.主格 tu 吃<主焦 >  斜格 芋頭"
+    },
+    {
+      "id": "(16-18)",
+      "page": 171,
+      "paiwan": "’eman tu ’emana ’en ta vasa.",
+      "chinese": "吃<主焦 > tu  吃<主焦 >=我.主格  斜格 芋頭",
+      "morphology": "’<em>an  tu  ’<em>an =a’en    ta   vasa.",
+      "gloss": "吃<主焦 > tu  吃<主焦 >=我.主格  斜格 芋頭"
+    },
+    {
+      "id": "(16-19)",
+      "page": 171,
+      "paiwan": "tjavaleljevelj ti kai.",
+      "chinese": "比較 -漂亮  主格 人名",
+      "morphology": "tja-valeljevelj ti   kai.",
+      "gloss": "比較 -漂亮  主格 人名"
+    },
+    {
+      "id": "(16-20)",
+      "page": 171,
+      "paiwan": "tjavaleljevelj ti kai tjai cemedas.",
+      "chinese": "比較 -漂亮  主格 人名 斜格 人名",
+      "morphology": "tja-valeljevelj ti   kai  tjai  cemedas.",
+      "gloss": "比較 -漂亮  主格 人名 斜格 人名"
+    },
+    {
+      "id": "(16-21)",
+      "page": 171,
+      "paiwan": "tjakedri a ’ucavilj",
+      "chinese": "比較 -少 主格 我的 =年紀",
+      "morphology": "tja-kedri a   ’u=cavilj.",
+      "gloss": "比較 -少 主格 我的 =年紀"
+    },
+    {
+      "id": "(16-22)",
+      "page": 171,
+      "paiwan": "tjakedri tu tjelu a cavilj a ’ucavilj tjaimadju",
+      "chinese": "比較 -少 tu  三  連繫詞 歲  主格 我的 =年紀  他.斜格",
+      "morphology": "tja-kedri tu  tjelu  a    cavilj a   ’u=cavilj   tjaimadju",
+      "gloss": "比較 -少 tu  三  連繫詞 歲  主格 我的 =年紀  他.斜格"
+    },
+    {
+      "id": "(16-23)",
+      "page": 171,
+      "paiwan": "tjagemaljua ’en tu tjelu a zikangan a mangtjez tjaimadju.",
+      "chinese": "比較 -慢<主焦 >=我.主格  tu  三  連繫詞 小時   連繫詞",
+      "morphology": "tja-g<em>alju=a ’en     tu  tjelu  a    zikangan  a",
+      "gloss": "比較 -慢<主焦 >=我.主格  tu  三  連繫詞 小時   連繫詞"
+    },
+    {
+      "id": "(16-24)",
+      "page": 172,
+      "paiwan": "tjasangasa ’en tu tjelu a zikangan a mangtjez tjaimadju.",
+      "chinese": "比較 -慢<主焦 >=我.主格  tu  三  連繫詞 小時   連繫詞",
+      "morphology": "tja-sangas=a ’en       tu  tjelu  a    zikangan  a",
+      "gloss": "比較 -慢<主焦 >=我.主格  tu  三  連繫詞 小時   連繫詞"
+    },
+    {
+      "id": "(16-25)",
+      "page": 172,
+      "paiwan": "tjasemuliava ’en tjai kai.",
+      "chinese": "比較 -吃多 <主焦 >=我.主格  斜格 人名",
+      "morphology": "tja-s<em>uliav=a ’en      tjai  kai.",
+      "gloss": "比較 -吃多 <主焦 >=我.主格  斜格 人名"
+    },
+    {
+      "id": "(16-26)",
+      "page": 172,
+      "paiwan": "tjagemalju a mangtjez ti kai tjai cemedas.",
+      "chinese": "比較 -慢<主焦 >  連繫詞 來.主焦  主格 人名 斜格 人名",
+      "morphology": "tja-g<em>alju   a    mangtjez  ti   kai  tjai  cemedas.",
+      "gloss": "比較 -慢<主焦 >  連繫詞 來.主焦  主格 人名 斜格 人名"
+    },
+    {
+      "id": "(16-27)",
+      "page": 172,
+      "paiwan": "aligu ’inananga na vatu a kuka ayaa ’en.",
+      "chinese": "aligu  吃<受焦 >-完成  屬格 狗  主格 雞  aya=我.主格",
+      "morphology": "aligu  ’<in>an-anga   na   vatu  a   kuka  aya=a ’en.",
+      "gloss": "aligu  吃<受焦 >-完成  屬格 狗  主格 雞  aya=我.主格"
+    },
+    {
+      "id": "(16-28)",
+      "page": 173,
+      "paiwan": "aligu tisun ayaa ’en, manu iniya tisun.",
+      "chinese": "aligu  你  aya=我.主格  結果 不是 你",
+      "morphology": "aligu  tisun  aya=a ’en,    manu iniya tisun.",
+      "gloss": "aligu  你  aya=我.主格  結果 不是 你"
+    },
+    {
+      "id": "(16-29)",
+      "page": 173,
+      "paiwan": "aligu na ’emananga timadju ayaa ’en, manu iniyaanan.",
+      "chinese": "aligu  完成 -吃<主焦 >-完成  他.主格  aya =我.主格 結果",
+      "morphology": "aligu  na-’<em>an-anga    timadju  aya=a ’en,    manu",
+      "gloss": "aligu  完成 -吃<主焦 >-完成  他.主格  aya =我.主格 結果"
+    },
+    {
+      "id": "(16-30)",
+      "page": 173,
+      "paiwan": "aligu vatu a ’eman ta ’upinaquzip a kuka ayaa ’en.",
+      "chinese": "aligu  狗  連繫詞 吃<主焦 >  斜格 我.屬格 =養<受焦 >",
+      "morphology": "aligu  vatu  a    ’<em>an   ta   ’u=p<in>aquzip.",
+      "gloss": "aligu  狗  連繫詞 吃<主焦 >  斜格 我.屬格 =養<受焦 >"
+    },
+    {
+      "id": "(16-31)",
+      "page": 173,
+      "paiwan": "sitece ’e a pi ’inacavacavan a palalj, aligu qayaqayama ’en aya timadju.",
+      "chinese": "工具焦 -插 連繫詞 放身上     主格 翅膀",
+      "morphology": "si-tece ’e  a    pi’inacavacavan  a   palalj,",
+      "gloss": "工具焦 -插 連繫詞 放身上     主格 翅膀"
+    }
+  ],
+  "classified": {
+    "word_order": {
+      "name": "基本詞序 (VSO)",
+      "count": 37,
+      "examples": [
+        {
+          "id": "(4-1)",
+          "page": 61,
+          "paiwan": "’eman ta vurati ti zepulj.",
+          "chinese": "吃<主事焦點 > 斜格 地瓜 主格 人名",
+          "morphology": "’<em>an    ta   vurati ti   zepulj",
+          "gloss": "吃<主事焦點 > 斜格 地瓜 主格 人名"
+        },
+        {
+          "id": "(4-2)",
+          "page": 61,
+          "paiwan": "sipa’an a vurati tjai zepulj.",
+          "chinese": "受惠焦點 -給吃 主格 地瓜 斜格 人名",
+          "morphology": "si-pa ’an     a   vurati tjai  zepulj",
+          "gloss": "受惠焦點 -給吃 主格 地瓜 斜格 人名"
+        },
+        {
+          "id": "(4-3)",
+          "page": 61,
+          "paiwan": "’eman ta vurati ti zepulj.",
+          "chinese": "吃<主事焦點 > 主格 人名 斜格 地瓜",
+          "morphology": "’<em>an    ti   zepulj  ta   vurati",
+          "gloss": "吃<主事焦點 > 主格 人名 斜格 地瓜"
+        },
+        {
+          "id": "(4-4)",
+          "page": 61,
+          "paiwan": "問：tima na ’eman ta vasa ?",
+          "chinese": "主格 -誰 完成貌 -吃<主事焦點 > 斜格 地瓜",
+          "morphology": "ti-ima   na-’<em>an       ta   vasa",
+          "gloss": "主格 -誰 完成貌 -吃<主事焦點 > 斜格 地瓜"
+        },
+        {
+          "id": "(4-5)",
+          "page": 62,
+          "paiwan": "’ema’ana’en ta vurati.",
+          "chinese": "重疊 <主事焦點 >-吃=我.主格  斜格 地瓜",
+          "morphology": "’<em>a- ’an=a’en        ta   vurati",
+          "gloss": "重疊 <主事焦點 >-吃=我.主格  斜格 地瓜"
+        },
+        {
+          "id": "(4-6)",
+          "page": 62,
+          "paiwan": "’uvengtjen a quvalj nimadju.",
+          "chinese": "我.屬格 =綁-受事焦點  主格 頭髮 她的",
+          "morphology": "’u=vengtj-en       a   quvalj nimadju",
+          "gloss": "我.屬格 =綁-受事焦點  主格 頭髮 她的"
+        },
+        {
+          "id": "(4-7)",
+          "page": 62,
+          "paiwan": "inia’en a macaqu a ’emesa ta ciqav .",
+          "chinese": "否定詞 =我.主格  連繫詞 會.主事焦點  連繫詞 煮<主事焦點 >",
+          "morphology": "inia=a’en     a    macaqu    a    ’<em>esa",
+          "gloss": "否定詞 =我.主格  連繫詞 會.主事焦點  連繫詞 煮<主事焦點 >"
+        },
+        {
+          "id": "(4-8)",
+          "page": 62,
+          "paiwan": "和（4-9）。否定祈使句則將祈使否定詞maya「別；不要」放在祈使句",
+          "chinese": "和（4-9）。否定祈使句則將祈使否定詞maya「別；不要」放在祈使句",
+          "morphology": "動詞的前面。例如（4-10）和（4-1 1）。",
+          "gloss": ""
+        },
+        {
+          "id": "(4-8)",
+          "page": 62,
+          "paiwan": "vai’u!",
+          "chinese": "離開 -命令",
+          "morphology": "vai’-u",
+          "gloss": "離開 -命令"
+        },
+        {
+          "id": "(4-9)",
+          "page": 62,
+          "paiwan": "idan a sulaqulj!",
+          "chinese": "來-工具焦點 .祈使  主格   你的 =書",
+          "morphology": "id-an        a   su=laqulj!",
+          "gloss": "來-工具焦點 .祈使  主格   你的 =書"
+        },
+        {
+          "id": "(4-10)",
+          "page": 63,
+          "paiwan": "maya qemaung!",
+          "chinese": "否定詞 哭<主事焦點 >",
+          "morphology": "maya  q<em>aung",
+          "gloss": "否定詞 哭<主事焦點 >"
+        },
+        {
+          "id": "(4-12)",
+          "page": 63,
+          "paiwan": "tima na ’eman ta su ’in(e)sa?11",
+          "chinese": "主格 -誰 完成貌 -吃<主事焦點 > 斜格 你的 =飯",
+          "morphology": "ti-ima na-’<em>an        ta   su=’in(e)sa",
+          "gloss": "主格 -誰 完成貌 -吃<主事焦點 > 斜格 你的 =飯"
+        },
+        {
+          "id": "(4-13)",
+          "page": 63,
+          "paiwan": "qemauqaung a sualja ’?",
+          "chinese": "重疊 <主事焦點 >哭  主格 你的 =小孩",
+          "morphology": "q<em>au-qaung    a   su=alja ’",
+          "gloss": "重疊 <主事焦點 >哭  主格 你的 =小孩"
+        },
+        {
+          "id": "(4-14)",
+          "page": 63,
+          "paiwan": "a qemauqaung a sualja ’?",
+          "chinese": "疑問助詞 重疊 <主事焦點 >哭  主格 你的 =小孩",
+          "morphology": "a      q<em>au-qaung    a   su=alja ’",
+          "gloss": "疑問助詞 重疊 <主事焦點 >哭  主格 你的 =小孩"
+        },
+        {
+          "id": "(4-15)",
+          "page": 64,
+          "paiwan": "izua gimeng imaza.",
+          "chinese": "有  主格 學校  在-這裡",
+          "morphology": "izua  a   gimeng13 i-maza",
+          "gloss": "有  主格 學校  在-這裡"
+        },
+        {
+          "id": "(4-16)",
+          "page": 64,
+          "paiwan": "ne’a nu gimeng imaza.",
+          "chinese": "有  NU  學校  在-這裡",
+          "morphology": "ne’a  nu  gimeng  i-maza",
+          "gloss": "有  NU  學校  在-這裡"
+        },
+        {
+          "id": "(4-17)",
+          "page": 64,
+          "paiwan": "a icu a vurati, ’inacananga na kulavav .",
+          "chinese": "主格 這 連繫詞 地瓜  咬-處所焦點 -完成貌 屬格 老鼠",
+          "morphology": "a    icu a    vurati,  ’<in>ac-an-anga    na    kulavav .",
+          "gloss": "主格 這 連繫詞 地瓜  咬-處所焦點 -完成貌 屬格 老鼠"
+        },
+        {
+          "id": "(4-18)",
+          "page": 65,
+          "paiwan": "是很好的句子，而（4-19）是",
+          "chinese": "是很好的句子，而（4-19）是",
+          "morphology": "不好的句子：",
+          "gloss": ""
+        },
+        {
+          "id": "(4-18)",
+          "page": 65,
+          "paiwan": "vuqavuqalj a ’itung.",
+          "chinese": "白色的  連繫詞 衣服",
+          "morphology": "vuqavuqalj a    ’itung",
+          "gloss": "白色的  連繫詞 衣服"
+        },
+        {
+          "id": "(4-19)",
+          "page": 65,
+          "paiwan": "?? ’itung a vuqavuqalj.",
+          "chinese": "衣服  連繫詞 白色的",
+          "morphology": "’itung  a    vuqavuqalj",
+          "gloss": "衣服  連繫詞 白色的"
+        },
+        {
+          "id": "(4-20)",
+          "page": 65,
+          "paiwan": "bulabulay a ’uitung.",
+          "chinese": "漂亮   主格 我的 =衣服",
+          "morphology": "bulabulay  a   ’u=’itung",
+          "gloss": "漂亮   主格 我的 =衣服"
+        },
+        {
+          "id": "(4-21)",
+          "page": 65,
+          "paiwan": "bulabulay a su ’itung.",
+          "chinese": "漂亮   主格 你的 =衣服",
+          "morphology": "bulabulay a   su=’itung",
+          "gloss": "漂亮   主格 你的 =衣服"
+        },
+        {
+          "id": "(4-22)",
+          "page": 65,
+          "paiwan": "bulabulay a ’itung nimadju.",
+          "chinese": "漂亮   主格 衣服 他的",
+          "morphology": "bulabulay a   ’itung nimadju",
+          "gloss": "漂亮   主格 衣服 他的"
+        },
+        {
+          "id": "(4-23)",
+          "page": 66,
+          "paiwan": "bulabulay a nia ’en a ’itung.",
+          "chinese": "漂亮   主格 我的 連繫詞 衣服",
+          "morphology": "bulabulay a   nia’en a    ’itung",
+          "gloss": "漂亮   主格 我的 連繫詞 衣服"
+        },
+        {
+          "id": "(4-24)",
+          "page": 66,
+          "paiwan": "bulabulay a nisun a ’itung.",
+          "chinese": "漂亮   主格 你的 連繫詞 衣服",
+          "morphology": "bulabulay a   nisun a    ’itung",
+          "gloss": "漂亮   主格 你的 連繫詞 衣服"
+        },
+        {
+          "id": "(4-25)",
+          "page": 66,
+          "paiwan": "bulabulay a nimadju a ’itung.",
+          "chinese": "漂亮   主格 他的  連繫詞 衣服",
+          "morphology": "bulabu lay a   nimadju a    ’itung",
+          "gloss": "漂亮   主格 他的  連繫詞 衣服"
+        },
+        {
+          "id": "(4-26)",
+          "page": 67,
+          "paiwan": "sinsi ti zepulj.",
+          "chinese": "老師 主格 人名",
+          "morphology": "sinsi  ti   zepulj.",
+          "gloss": "老師 主格 人名"
+        },
+        {
+          "id": "(4-27)",
+          "page": 67,
+          "paiwan": "maljiqaljan ti kai.",
+          "chinese": "外地人   主格 人名",
+          "morphology": "maljiqaljan  ti   kai.",
+          "gloss": "外地人   主格 人名"
+        },
+        {
+          "id": "(4-28)",
+          "page": 67,
+          "paiwan": "ti zepulja ’en",
+          "chinese": "主格 人名 =我.主格",
+          "morphology": "ti    zepulj=a ’en",
+          "gloss": "主格 人名 =我.主格"
+        },
+        {
+          "id": "(4-29)",
+          "page": 67,
+          "paiwan": "’usalasaladj ti tjuvi.",
+          "chinese": "我的 =朋友   主格 人名",
+          "morphology": "’u=salasaladj  ti   tjuvi",
+          "gloss": "我的 =朋友   主格 人名"
+        },
+        {
+          "id": "(4-30)",
+          "page": 68,
+          "paiwan": "qemaung a alja ’ nimadju.",
+          "chinese": "哭<主事焦點 >  主格 小孩 她的",
+          "morphology": "q<em>aung    a   alja’  nimadju",
+          "gloss": "哭<主事焦點 >  主格 小孩 她的"
+        },
+        {
+          "id": "(4-31)",
+          "page": 68,
+          "paiwan": "mavetuanga ’en.",
+          "chinese": "飽.主事焦點 -完成貌 =我.主格",
+          "morphology": "mavetu-anga=a ’en",
+          "gloss": "飽.主事焦點 -完成貌 =我.主格"
+        },
+        {
+          "id": "(4-32)",
+          "page": 68,
+          "paiwan": "nataqed a ’ina.",
+          "chinese": "完成貌 -睡覺 .主事焦點 主格 媽媽",
+          "morphology": "na-taqed        a   ’ina",
+          "gloss": "完成貌 -睡覺 .主事焦點 主格 媽媽"
+        },
+        {
+          "id": "(4-33)",
+          "page": 69,
+          "paiwan": "na’emananga ta vaqu a a ’edrian.",
+          "chinese": "完成貌 -吃<主事焦點 >  斜格 小米 主格 小孩子",
+          "morphology": "na-’<em>an-anga    ta   vaqu  a   a’edrian",
+          "gloss": "完成貌 -吃<主事焦點 >  斜格 小米 主格 小孩子"
+        },
+        {
+          "id": "(4-34)",
+          "page": 69,
+          "paiwan": "句中，vutjulj「肉」是語意上的受事者，所以出",
+          "chinese": "句中，vutjulj「肉」是語意上的受事者，所以出",
+          "morphology": "現在語意上的主事者 ’ama 「爸爸」之前：",
+          "gloss": ""
+        },
+        {
+          "id": "(4-34)",
+          "page": 69,
+          "paiwan": "’anen a zua vutjulj ni ’ama.",
+          "chinese": "吃-受事焦點  主格 那 肉   屬格 爸爸",
+          "morphology": "’an-en     a   zua vutjulj  ni   ’ama",
+          "gloss": "吃-受事焦點  主格 那 肉   屬格 爸爸"
+        },
+        {
+          "id": "(4-35)",
+          "page": 69,
+          "paiwan": "sipavay a kulavav na uqaljay ta vavayan.",
+          "chinese": "工具焦點 -給  主格 老鼠  屬格 男人  斜格 女人",
+          "morphology": "si-pavay    a   kulavav na   uqaljay  ta   vavayan.",
+          "gloss": "工具焦點 -給  主格 老鼠  屬格 男人  斜格 女人"
+        }
+      ]
+    },
+    "case_pronouns": {
+      "name": "格位標記與代名詞",
+      "count": 18,
+      "examples": [
+        {
+          "id": "(5-1)",
+          "page": 71,
+          "paiwan": "ti：人名（含親屬名稱）單數的主格標記",
+          "chinese": "吃<主事焦點 > 斜格 豬肉  主格 人名",
+          "morphology": "a. ’ema’an ta vutjulj ti kui.",
+          "gloss": "’<em>a ’an    ta   vutjulj  ti   kui"
+        },
+        {
+          "id": "(5-2)",
+          "page": 72,
+          "paiwan": "tia：人名（含親屬名稱）複數的主格標記",
+          "chinese": "完成貌 -打<主事焦點 >  主格 人名 斜格 人名",
+          "morphology": "a. na ’emelem tia kai tjai tjuvi.",
+          "gloss": "na-’<em>elem      tia  kai  tjai  tjuvi."
+        },
+        {
+          "id": "(5-3)",
+          "page": 72,
+          "paiwan": "a：非人名的主格標記",
+          "chinese": "重疊 <主事焦點 >-吃  斜格 橘子  主格 那 女人",
+          "morphology": "a. ’ema’an ta tjanes a zua vavayan.",
+          "gloss": "’<em>a- ’an      ta   tjianes  a   zua vavayan"
+        },
+        {
+          "id": "(5-4)",
+          "page": 73,
+          "paiwan": "a.sini ’uang ta vavuy ca ’edrian ni kui.",
+          "chinese": "工具焦點槍  斜格 山豬 這 小孩  屬格 人名",
+          "morphology": "sini-’uang   ta   vavuy ca  ’edrian  ni   kui",
+          "gloss": "工具焦點槍  斜格 山豬 這 小孩  屬格 人名"
+        },
+        {
+          "id": "(5-5)",
+          "page": 73,
+          "paiwan": "a. tjenglay tjai kui ti ’ama.",
+          "chinese": "喜歡 .主事焦點 斜格 人名 主格 爸爸",
+          "morphology": "tjenglay     tjai  kui  ti   ’ama",
+          "gloss": "喜歡 .主事焦點 斜格 人名 主格 爸爸"
+        },
+        {
+          "id": "(5-6)",
+          "page": 74,
+          "paiwan": "標示非主事者焦點句中的主事者",
+          "chinese": "吃-受事焦點 主格 那  豬肉  屬格 爸爸",
+          "morphology": "a. ’anen a zua vutjulj ni ’ama.",
+          "gloss": "’an-en    a   zua  vutjulj  ni   ’ama"
+        },
+        {
+          "id": "(5-7)",
+          "page": 75,
+          "paiwan": "標示名詞組中的擁有者名詞組（領屬成分）",
+          "chinese": "湯匙   所有格 人名",
+          "morphology": "a. ’izing ni tjuvi",
+          "gloss": "’izing  ni    tjuvi"
+        },
+        {
+          "id": "(5-8)",
+          "page": 77,
+          "paiwan": "a. ’emeljanga ’en tjaimadju.",
+          "chinese": "<主事焦點 >認識 =我.主格 他.斜格",
+          "morphology": "’<em>eljang 動詞=a’en    tjaimadju.",
+          "gloss": "<主事焦點 >認識 =我.主格 他.斜格"
+        },
+        {
+          "id": "(5-9)",
+          "page": 77,
+          "paiwan": "a. na ’emelema ’en tjanusun.",
+          "chinese": "完成貌 -打<主事焦點 >我.主格 你.斜格",
+          "morphology": "na-’<em>elem=a’en 主事者     tjanusun.",
+          "gloss": "完成貌 -打<主事焦點 >我.主格 你.斜格"
+        },
+        {
+          "id": "(5-10)",
+          "page": 78,
+          "paiwan": "a. ’usu’inelem.",
+          "chinese": "我.屬格 =你.主格 =打<受事焦點 >",
+          "morphology": "’u=su= ’<in>elem",
+          "gloss": "我.屬格 =你.主格 =打<受事焦點 >"
+        },
+        {
+          "id": "(5-12)",
+          "page": 79,
+          "paiwan": "a. iniyana 'e ’an ta vurati.",
+          "chinese": "沒-還   我.主格 =吃  斜格 地瓜",
+          "morphology": "iniya-anan 'e-’an     ta   vurati",
+          "gloss": "沒-還   我.主格 =吃  斜格 地瓜"
+        },
+        {
+          "id": "(5-13)",
+          "page": 80,
+          "paiwan": "問：tima na ’emelem tjai kai?",
+          "chinese": "主格 -誰  完成 -打<主事焦點 >  斜格 人名",
+          "morphology": "ti- ima   na-’<em>elem      tjai  kai?",
+          "gloss": "主格 -誰  完成 -打<主事焦點 >  斜格 人名"
+        },
+        {
+          "id": "(5-14)",
+          "page": 80,
+          "paiwan": "a. ’i ’usu’elemi.",
+          "chinese": "會 我.屬格 =你.主格 =打-受事焦點",
+          "morphology": "’i  ’u=su= ’elem-i",
+          "gloss": "會 我.屬格 =你.主格 =打-受事焦點"
+        },
+        {
+          "id": "(5-15)",
+          "page": 80,
+          "paiwan": "a.’inan a vurati nimadju.",
+          "chinese": "吃<受事焦點 >  主格 地瓜  他.屬格",
+          "morphology": "’<in>an     a   vurati  nimadju",
+          "gloss": "吃<受事焦點 >  主格 地瓜  他.屬格"
+        },
+        {
+          "id": "(5-16)",
+          "page": 81,
+          "paiwan": "a. ’emi’im timadju tjanusun",
+          "chinese": "找<主事焦點 >  他.主格  你.斜格",
+          "morphology": "’<em>i ’im    timadju  tjanusun 受事者",
+          "gloss": "找<主事焦點 >  他.主格  你.斜格"
+        },
+        {
+          "id": "(5-17)",
+          "page": 81,
+          "paiwan": "a. tia ’en, sinsia ’en.",
+          "chinese": "我.中性格  老師 =我.主格",
+          "morphology": "tia’en    sinsi=a ’en",
+          "gloss": "我.中性格  老師 =我.主格"
+        },
+        {
+          "id": "(5-19)",
+          "page": 83,
+          "paiwan": "a. vurati a icu.",
+          "chinese": "地瓜 主格 這",
+          "morphology": "vurati a   icu",
+          "gloss": "地瓜 主格 這"
+        },
+        {
+          "id": "(5-22)",
+          "page": 83,
+          "paiwan": "a. mare ’a ’usalasaladj a zua.",
+          "chinese": "們   我的 -同伴  主格 那",
+          "morphology": "mare ’a  ’u-salasaladj a   zua",
+          "gloss": "們   我的 -同伴  主格 那"
+        }
+      ]
+    },
+    "focus_tam": {
+      "name": "焦點與時貌系統",
+      "count": 37,
+      "examples": [
+        {
+          "id": "(6-1)",
+          "page": 86,
+          "paiwan": "qemauqaung ca ’edrian.",
+          "chinese": "重疊 <主焦 >-哭  這 小孩",
+          "morphology": "q<em>au-qaung  ca  ’edrian",
+          "gloss": "重疊 <主焦 >-哭  這 小孩"
+        },
+        {
+          "id": "(6-2)",
+          "page": 86,
+          "paiwan": "se ’ulilj timadju.",
+          "chinese": "跌倒 .主焦 他",
+          "morphology": "se'ulilj   timadju",
+          "gloss": "跌倒 .主焦 他"
+        },
+        {
+          "id": "(6-3)",
+          "page": 86,
+          "paiwan": "namigacalj ivavav ta qaciljay a ’edrian.",
+          "chinese": "完成貌 -站.主焦  在-上  斜格 石頭  主格 小孩",
+          "morphology": "na-migacalj    i-vavav ta   qaciljay a   ’edrian",
+          "gloss": "完成貌 -站.主焦  在-上  斜格 石頭  主格 小孩"
+        },
+        {
+          "id": "(6-4)",
+          "page": 86,
+          "paiwan": "a. teme ’e te’el ta zaljum timadju.",
+          "chinese": "重疊 <主焦 >-喝  斜格 水   他",
+          "morphology": "t<em>e ’e- te’el   ta   zaljum  timadju",
+          "gloss": "重疊 <主焦 >-喝  斜格 水   他"
+        },
+        {
+          "id": "(6-5)",
+          "page": 87,
+          "paiwan": "vinuljuq ta qaciljay a qezung niamadju nimadju.",
+          "chinese": "丟<受焦 > 斜格 石頭  主格 窗戶  他們的  他",
+          "morphology": "v<in>uljuq ta   qaciljay a   qezung  niamadju  nimadju",
+          "gloss": "丟<受焦 > 斜格 石頭  主格 窗戶  他們的  他"
+        },
+        {
+          "id": "(6-6)",
+          "page": 87,
+          "paiwan": "a. ’uinalap tatiav a paysu i yubinkiuku.",
+          "chinese": "我.屬格 =<受焦 >拿  昨天 主格 錢  在-郵局",
+          "morphology": "’u=<in>alap      tatiav a   paysu i-yubinkiuku",
+          "gloss": "我.屬格 =<受焦 >拿  昨天 主格 錢  在-郵局"
+        },
+        {
+          "id": "(6-7)",
+          "page": 87,
+          "paiwan": "a. ’upinuljatanga a ’ucen gel.",
+          "chinese": "我.屬格 =全部 <受焦 >-完成貌  主格 我的 =午餐",
+          "morphology": "’u=p<in>uljat-anga       a   ’u=cengel",
+          "gloss": "我.屬格 =全部 <受焦 >-完成貌  主格 我的 =午餐"
+        },
+        {
+          "id": "(6-8)",
+          "page": 87,
+          "paiwan": "’uinalapan  tatiav ta paysu a iyubinkiuku.",
+          "chinese": "我.屬格 =<處焦 >拿 昨天 斜格 錢  主格 在-郵局",
+          "morphology": "’u=<in>alap-an    tatiav ta   paysu a   i-yubinkiuku",
+          "gloss": "我.屬格 =<處焦 >拿 昨天 斜格 錢  主格 在-郵局"
+        },
+        {
+          "id": "(6-9)",
+          "page": 87,
+          "paiwan": "cavuan ta ciqav a cekui nimadju.",
+          "chinese": "包-處焦 斜格 魚  主格 桌子 他.屬格",
+          "morphology": "cavu-an  ta   ciqav a   cekui nimadju",
+          "gloss": "包-處焦 斜格 魚  主格 桌子 他.屬格"
+        },
+        {
+          "id": "(6-10)",
+          "page": 88,
+          "paiwan": "cine ’avan a puvuratian ni zepulj nimadju.",
+          "chinese": "偷-處焦    主格 地瓜園  的 人名  他.屬格",
+          "morphology": "c<in>e ’av-an  a   puvuratian ni  zepulj  nimadju",
+          "gloss": "偷-處焦    主格 地瓜園  的 人名  他.屬格"
+        },
+        {
+          "id": "(6-12)",
+          "page": 88,
+          "paiwan": "a. sivuljuq ta qezung a qaciljay niamadju nimadju.",
+          "chinese": "工具焦 -丟  斜格 窗戶  主格 石頭  他們的  他.屬格",
+          "morphology": "si-vuljuq   ta   qezung  a   qaciljay niamadju  nimadju",
+          "gloss": "工具焦 -丟  斜格 窗戶  主格 石頭  他們的  他.屬格"
+        },
+        {
+          "id": "(6-13)",
+          "page": 89,
+          "paiwan": "a.’ema ’an ta vutjulj sa cavucavu ta ciqav ti kai.",
+          "chinese": "重疊 <主焦 >-吃  斜格 肉   和 重疊 -包.主焦 斜格 魚",
+          "morphology": "’<em>a- ’an    ta   vutjulj  sa  cavu-cavu   ta   ciqav",
+          "gloss": "重疊 <主焦 >-吃  斜格 肉   和 重疊 -包.主焦 斜格 魚"
+        },
+        {
+          "id": "(6-14)",
+          "page": 89,
+          "paiwan": "a. ’ema ’an ta vutjulj sa cavucavui a ciqav ni kai.",
+          "chinese": "重疊 <主焦 >-吃  斜格 肉  和 重疊 -包-受焦 主格 魚",
+          "morphology": "’<em>a - ’an    ta   vutjulj sa  cavu-cavu-i   a   ciqav",
+          "gloss": "重疊 <主焦 >-吃  斜格 肉  和 重疊 -包-受焦 主格 魚"
+        },
+        {
+          "id": "(6-15)",
+          "page": 90,
+          "paiwan": "a. ’ema ’an ta vutjulj sa cavucavuan a laqulj ta ciqav ni kai.",
+          "chinese": "重疊 <主焦 >-吃  斜格 肉   和 重疊 -包-工焦 主格 紙",
+          "morphology": "’<em>a ’an    ta   vutjulj  sa  cavu-cavu-an  a   laqulj",
+          "gloss": "重疊 <主焦 >-吃  斜格 肉   和 重疊 -包-工焦 主格 紙"
+        },
+        {
+          "id": "(6-16)",
+          "page": 90,
+          "paiwan": "iniyana cavu ta ciqav timadju.",
+          "chinese": "還沒  包.主焦  斜格 魚  他.主格",
+          "morphology": "iniyana cavu    ta   ciqav timadju.",
+          "gloss": "還沒  包.主焦  斜格 魚  他.主格"
+        },
+        {
+          "id": "(6-17)",
+          "page": 90,
+          "paiwan": "iniyana cavui a ciqav nimadju.",
+          "chinese": "還沒  包-受焦  主格 魚  他.屬格",
+          "morphology": "iniyana cavu-i   a   ciqav nimadju",
+          "gloss": "還沒  包-受焦  主格 魚  他.屬格"
+        },
+        {
+          "id": "(6-18)",
+          "page": 90,
+          "paiwan": "iniyana cavuan ta ciqav nimadju ti kai.",
+          "chinese": "還沒  包-受惠焦  斜格 魚  他.屬格  主格 人名",
+          "morphology": "iniyana cavu-an   ta   ciqav nimadju  ti   kai",
+          "gloss": "還沒  包-受惠焦  斜格 魚  他.屬格  主格 人名"
+        },
+        {
+          "id": "(6-19)",
+          "page": 90,
+          "paiwan": "iniyana cavu-an ta ciqav a laqulj nimadju.",
+          "chinese": "還沒  包-工焦  斜格 魚  主格 紙  他.屬格",
+          "morphology": "iniyana cavu-an  ta   ciqav a   laqulj nimadju",
+          "gloss": "還沒  包-工焦  斜格 魚  主格 紙  他.屬格"
+        },
+        {
+          "id": "(6-20)",
+          "page": 91,
+          "paiwan": "iniyana cavuan ta ciqav a cekui nimadju.",
+          "chinese": "還沒  包-處焦  斜格 魚  主格 桌子 他.屬格",
+          "morphology": "iniyana cavu-an  ta   ciqav a   cekui nimadju",
+          "gloss": "還沒  包-處焦  斜格 魚  主格 桌子 他.屬格"
+        },
+        {
+          "id": "(6-21)",
+          "page": 91,
+          "paiwan": "’i cemavuanga timadju ta ciqav .",
+          "chinese": "會 包<主焦 >-完成  他.主格  斜格 魚",
+          "morphology": "’i c<em>avu-anga  timadju  ta   ciqav",
+          "gloss": "會 包<主焦 >-完成  他.主格  斜格 魚"
+        },
+        {
+          "id": "(6-22)",
+          "page": 91,
+          "paiwan": "’i ’u’elemi timadju.",
+          "chinese": "會 我.屬格 -打-受焦  他.主格",
+          "morphology": "’i ’u-’elem-i      timadju",
+          "gloss": "會 我.屬格 -打-受焦  他.主格"
+        },
+        {
+          "id": "(6-23)",
+          "page": 91,
+          "paiwan": "’i ’usicavuanga ta ciqav timadju.",
+          "chinese": "會 我.屬格 -受惠焦 -包-完成 斜格 魚  他.主格",
+          "morphology": "’i ’u-si- cavu-anga      ta   ciqav timadju",
+          "gloss": "會 我.屬格 -受惠焦 -包-完成 斜格 魚  他.主格"
+        },
+        {
+          "id": "(6-24)",
+          "page": 91,
+          "paiwan": "’i ’usi’elem a ’elem tjanusun.",
+          "chinese": "會 我.屬格 -工焦 -打  主格 棍子  你.斜格",
+          "morphology": "’i ’u-si-’elem      a   ’elem tjanusun",
+          "gloss": "會 我.屬格 -工焦 -打  主格 棍子  你.斜格"
+        },
+        {
+          "id": "(6-25)",
+          "page": 93,
+          "paiwan": "主事焦點",
+          "chinese": "喜歡 .主焦  斜格 小孩 主格 爸爸",
+          "morphology": "a. tjenglay ta alja ’ ti ’ama.",
+          "gloss": "tjenglay   ta   alja’  ti   ’ama"
+        },
+        {
+          "id": "(6-26)",
+          "page": 94,
+          "paiwan": "主事焦點",
+          "chinese": "哭<主焦 >   主格 小孩 她的  現在",
+          "morphology": "a. qemaung a alja ’nimadju tucu.",
+          "gloss": "q<em>aung  a   alja’  nimadju tucu"
+        },
+        {
+          "id": "(6-27)",
+          "page": 94,
+          "paiwan": "受事焦點",
+          "chinese": "包-受事焦點  主格 魚  斜格 爺爺 屬格 媽媽",
+          "morphology": "a. cavuin a ciqav tjai vuvu ni ’ina.",
+          "gloss": "cavu-in    a   ciqav tjai  vuvu ni   ’ina"
+        },
+        {
+          "id": "(6-28)",
+          "page": 95,
+          "paiwan": "受惠焦點",
+          "chinese": "受惠焦 -包  斜格 魚  主格 爺爺 屬格 媽媽",
+          "morphology": "a. sicavu ta ciqav ti vuvu ni ’ina.",
+          "gloss": "si-cavu   ta    ciqav ti    vuvu ni   ’ina"
+        },
+        {
+          "id": "(6-29)",
+          "page": 95,
+          "paiwan": "處所焦點",
+          "chinese": "我.屬格 =拿-處焦 斜格 錢  主格 在 郵局",
+          "morphology": "a. ’ualapan ta paysu a i yubinkiuku.",
+          "gloss": "’u=alap-an       ta      paysu a      i   yubinkiuku"
+        },
+        {
+          "id": "(6-30)",
+          "page": 95,
+          "paiwan": "實現貌：標示過去的經驗",
+          "chinese": "完成貌 -哭<主焦 >  主格 小孩 她的",
+          "morphology": "a. naqemaung a alja ’nimadju.",
+          "gloss": "na-q<em>aun g    a   alja’  nimadju"
+        },
+        {
+          "id": "(6-31)",
+          "page": 96,
+          "paiwan": "實現貌：標示目前的狀態，是來自某個過去事件所產生的結果",
+          "chinese": "完成貌 -睡覺 .主焦點 主格 媽媽",
+          "morphology": "a. nataqed a ’ina.",
+          "gloss": "na-taqed       a   ’ina."
+        },
+        {
+          "id": "(6-32)",
+          "page": 96,
+          "paiwan": "實現貌：標示一個過去發生的事件，其結果持續到目前",
+          "chinese": "熟.主焦 -完成貌 這.主格",
+          "morphology": "a. malumanga cu.",
+          "gloss": "malum-ang a   cu."
+        },
+        {
+          "id": "(6-33)",
+          "page": 96,
+          "paiwan": "非實現貌：習慣性的事件",
+          "chinese": "非實現貌 -哭  主格 小孩 她的",
+          "morphology": "a. ruqaung a alja ’ nimadju.",
+          "gloss": "ru-qaung    a   alja’  nimadju"
+        },
+        {
+          "id": "(6-34)",
+          "page": 97,
+          "paiwan": "非實現貌：習慣性的事件",
+          "chinese": "重疊 <受焦 >-吻  主格 那 小孩  屬格 女人",
+          "morphology": "a. sinangusangutj a zua ’edrian na vavayan",
+          "gloss": "s<in>angu-sangutj  a   zua ’edrian  na   vavayan"
+        },
+        {
+          "id": "(6-35)",
+          "page": 97,
+          "paiwan": "非實現貌：正在發生的事件",
+          "chinese": "重疊 <主焦 >-包 斜格 魚  斜格 爺爺 主格 媽媽",
+          "morphology": "a. cemavucavu ta ciqav tjai vuvu ti ’ina.",
+          "gloss": "c<em>avu -cavu  ta   ciqav tjai  vuvu ti   ’ina"
+        },
+        {
+          "id": "(6-36)",
+          "page": 97,
+          "paiwan": "非實現貌：持續的狀態",
+          "chinese": "完成貌 -重疊 -睡覺 .主焦  主格 媽媽",
+          "morphology": "a. nataqetaqed a ’ina.",
+          "gloss": "na-taqe-taqed       a   ’ina"
+        },
+        {
+          "id": "(6-37)",
+          "page": 98,
+          "paiwan": "非實現貌：未來才會發生的事件",
+          "chinese": "助動詞 哭<主焦 >  主格 小孩 她的",
+          "morphology": "a. uri qemaung a alja ’ nimadju.",
+          "gloss": "uri   q<em>aung  a   alja’  nimadju."
+        },
+        {
+          "id": "(6-38)",
+          "page": 98,
+          "paiwan": "a. nataqedanga a ’ina.",
+          "chinese": "完成貌 -睡覺 .主焦 -完成貌  主格 媽媽",
+          "morphology": "na-taqed-anga        a   ’ina",
+          "gloss": "完成貌 -睡覺 .主焦 -完成貌  主格 媽媽"
+        }
+      ]
+    },
+    "existential": {
+      "name": "存在句/所有句/方位句",
+      "count": 5,
+      "examples": [
+        {
+          "id": "(7-1)",
+          "page": 102,
+          "paiwan": "a. 存在句",
+          "chinese": "有  主格 樹  在-旁邊   斜格 房子",
+          "morphology": "izua a ’asiv iljaqediqedi ta umaq.",
+          "gloss": "izua a   ’asiv  i-ljaqediqedi ta   umaq."
+        },
+        {
+          "id": "(7-2)",
+          "page": 102,
+          "paiwan": "a. idradrui a nataqed a lumamad.",
+          "chinese": "在-搖籃 主格 完成 -睡  連繫詞 嬰兒",
+          "morphology": "i-dradrui a   na-taqed  a    lumamad",
+          "gloss": "在-搖籃 主格 完成 -睡  連繫詞 嬰兒"
+        },
+        {
+          "id": "(7-3)",
+          "page": 103,
+          "paiwan": "idradruia ’en a nataqed.",
+          "chinese": "在-搖籃 =我.主格  連繫詞 完成 -睡",
+          "morphology": "i-dradrui=a ’en    a    na-taqed.",
+          "gloss": "在-搖籃 =我.主格  連繫詞 完成 -睡"
+        },
+        {
+          "id": "(7-4)",
+          "page": 103,
+          "paiwan": "a. itacekui ivavav a lalagav .",
+          "chinese": "在-斜格 -桌子  在-上面  主格 蒼蠅",
+          "morphology": "i-ta-cekui    i-vavav  a   lalagav",
+          "gloss": "在-斜格 -桌子  在-上面  主格 蒼蠅"
+        },
+        {
+          "id": "(7-5)",
+          "page": 103,
+          "paiwan": "a. 存在句",
+          "chinese": "沒有   樹  在-旁邊   斜格 房子",
+          "morphology": "ne’a nu ’asiv iljaqediqedi ta umaq.",
+          "gloss": "ne’a nu  ’asiv  i-ljaqediqedi ta   umaq."
+        }
+      ]
+    },
+    "imperative": {
+      "name": "祈使句",
+      "count": 17,
+      "examples": [
+        {
+          "id": "(8-1)",
+          "page": 106,
+          "paiwan": "a. ekelju!",
+          "chinese": "跑.主事焦點",
+          "morphology": "ekelj-u",
+          "gloss": "跑.主事焦點"
+        },
+        {
+          "id": "(8-2)",
+          "page": 106,
+          "paiwan": "a. samazau!",
+          "chinese": "來這裡 .主事焦點 .命令",
+          "morphology": "samaza-u",
+          "gloss": "來這裡 .主事焦點 .命令"
+        },
+        {
+          "id": "(8-3)",
+          "page": 106,
+          "paiwan": "’ani ta ’insa!",
+          "chinese": "吃-主事焦點 .命令  斜格 飯",
+          "morphology": "’an-i        ta   ’insa",
+          "gloss": "吃-主事焦點 .命令  斜格 飯"
+        },
+        {
+          "id": "(8-4)",
+          "page": 107,
+          "paiwan": "tja’anav ca vasa!",
+          "chinese": "我們 .包含 .屬格 =吃-受事焦點 .規勸  主格 芋頭",
+          "morphology": "tja=’an-av              ca   vasa",
+          "gloss": "我們 .包含 .屬格 =吃-受事焦點 .規勸  主格 芋頭"
+        },
+        {
+          "id": "(8-5)",
+          "page": 107,
+          "paiwan": "nia’anav ca vasa!",
+          "chinese": "我們 .排除 .屬格 =吃-受事焦點 .規勸  主格 芋頭",
+          "morphology": "nia=’an-av              ca   vasa",
+          "gloss": "我們 .排除 .屬格 =吃-受事焦點 .規勸  主格 芋頭"
+        },
+        {
+          "id": "(8-6)",
+          "page": 107,
+          "paiwan": "a. pacun-u a zua kuka tui uqaljay manu vavayan!",
+          "chinese": "看-受事焦點 .命令  主格 那 雞  是否 男   還是 女",
+          "morphology": "pacun-u       a   zua kuka   tui  uqaljay  manu vavayan",
+          "gloss": "看-受事焦點 .命令  主格 那 雞  是否 男   還是 女"
+        },
+        {
+          "id": "(8-7)",
+          "page": 107,
+          "paiwan": "tja’anav ca vasa!",
+          "chinese": "我們 .包含 .屬格 =吃-受處焦 .規勸  主格 芋頭",
+          "morphology": "tja=’an-av             ca   vasa",
+          "gloss": "我們 .包含 .屬格 =吃-受處焦 .規勸  主格 芋頭"
+        },
+        {
+          "id": "(8-8)",
+          "page": 108,
+          "paiwan": "’upangaljav!",
+          "chinese": "我.屬格 =分配 -受事處所焦點 .規勸",
+          "morphology": "’u=pangalj-av",
+          "gloss": "我.屬格 =分配 -受事處所焦點 .規勸"
+        },
+        {
+          "id": "(8-9)",
+          "page": 108,
+          "paiwan": "saneljacengan aicu a siqunu!",
+          "chinese": "切菜 -工具焦點 .祈使  主格 這 連繫詞 刀子",
+          "morphology": "saneljaceng-an     a   icu a    siqunu",
+          "gloss": "切菜 -工具焦點 .祈使  主格 這 連繫詞 刀子"
+        },
+        {
+          "id": "(8-10)",
+          "page": 108,
+          "paiwan": "’esaan ta ’a’anen a sualja ’!",
+          "chinese": "煮-受惠焦點 .祈使  斜格 食物  主格 你的 =小孩",
+          "morphology": "’esa-an        ta   ’a’anen a   su=alja ’",
+          "gloss": "煮-受惠焦點 .祈使  斜格 食物  主格 你的 =小孩"
+        },
+        {
+          "id": "(8-12)",
+          "page": 108,
+          "paiwan": "tjasi ’iljiva ’an a tja ’inacavacavan",
+          "chinese": "我們 .包含 .屬格 =工具焦 .規勸 -照顧 -工具焦 .規勸 主格",
+          "morphology": "tja=si- ’iljiva ’-an                 a",
+          "gloss": "我們 .包含 .屬格 =工具焦 .規勸 -照顧 -工具焦 .規勸 主格"
+        },
+        {
+          "id": "(8-13)",
+          "page": 109,
+          "paiwan": "maya qivu a paqeteleng!",
+          "chinese": "別  說話 .祈使  連繫詞 隨便",
+          "morphology": "maya qivu     a    paqeteleng",
+          "gloss": "別  說話 .祈使  連繫詞 隨便"
+        },
+        {
+          "id": "(8-14)",
+          "page": 109,
+          "paiwan": "maya ’iladenga",
+          "chinese": "別  聽.祈使",
+          "morphology": "maya ’iladenga",
+          "gloss": "別  聽.祈使"
+        },
+        {
+          "id": "(8-15)",
+          "page": 109,
+          "paiwan": "maya ’eman ta vurati!",
+          "chinese": "別  吃<主事焦點 .祈使 > 斜格 地瓜",
+          "morphology": "maya ’<em>an       ta   vurati",
+          "gloss": "別  吃<主事焦點 .祈使 > 斜格 地瓜"
+        },
+        {
+          "id": "(8-16)",
+          "page": 109,
+          "paiwan": "a. maya cemavu a ciqav!",
+          "chinese": "別  包<受事焦點 .祈使 > 主格 魚",
+          "morphology": "maya c<em>avu      a   ciqav",
+          "gloss": "別  包<受事焦點 .祈使 > 主格 魚"
+        },
+        {
+          "id": "(8-17)",
+          "page": 110,
+          "paiwan": "a. maya cemavu ta ciqav ti kai.",
+          "chinese": "別  包<受惠焦點 .祈使 > 斜格 魚  主格 人名",
+          "morphology": "maya c<em>avu      ta   ciqav ti   kai",
+          "gloss": "別  包<受惠焦點 .祈使 > 斜格 魚  主格 人名"
+        },
+        {
+          "id": "(8-18)",
+          "page": 110,
+          "paiwan": "maya cemavu a laqulj ta ciqav!",
+          "chinese": "別  包<工具焦點 .祈使 > 主格 紙  斜格 魚",
+          "morphology": "maya c<em>avu      a   laqulj ta   ciqav",
+          "gloss": "別  包<工具焦點 .祈使 > 主格 紙  斜格 魚"
+        }
+      ]
+    },
+    "causative": {
+      "name": "使動句",
+      "count": 13,
+      "examples": [
+        {
+          "id": "(9-1)",
+          "page": 111,
+          "paiwan": "a. ’ema’an ta cemel a gung.",
+          "chinese": "吃<主事焦點 >重疊 -吃  斜格 草  主格 牛",
+          "morphology": "’<em>a- ’an       ta   cemel a   gung.",
+          "gloss": "吃<主事焦點 >重疊 -吃  斜格 草  主格 牛"
+        },
+        {
+          "id": "(9-2)",
+          "page": 111,
+          "paiwan": "uri cemulju tua zua qacang ti kai.",
+          "chinese": "要 宰殺 <主事焦點 >宰殺  斜格 那 豬   主格 人名",
+          "morphology": "uri c<em>ulju       tua  zua qacang  ti   kai.",
+          "gloss": "要 宰殺 <主事焦點 >宰殺  斜格 那 豬   主格 人名"
+        },
+        {
+          "id": "(9-3)",
+          "page": 112,
+          "paiwan": "pulapulavena ’en nimadju.",
+          "chinese": "重疊 -灌醉 -受焦   他.屬格",
+          "morphology": "pula-pulav-en=a ’en  nimadju",
+          "gloss": "重疊 -灌醉 -受焦   他.屬格"
+        },
+        {
+          "id": "(9-4)",
+          "page": 112,
+          "paiwan": "a. mayaa ’en a lemaing.",
+          "chinese": "不要 =我.主格  連繫詞 追<主事焦點 >",
+          "morphology": "maya=a ’en   a    l<em>aing .",
+          "gloss": "不要 =我.主格  連繫詞 追<主事焦點 >"
+        },
+        {
+          "id": "(9-6)",
+          "page": 112,
+          "paiwan": "到（9-7）也是受事",
+          "chinese": "工具焦點使動動詞，（9-9b）的pina’acan「使\u0001咬」是（9-9a）’emac「咬」的處所",
+          "morphology": "焦點使動動詞的例句，而（9-8b）的sipa’ac「使\u0001咬」是（9-8a） ’emac「咬」的",
+          "gloss": "工具焦點使動動詞，（9-9b）的pina’acan「使\u0001咬」是（9-9a）’emac「咬」的處所"
+        },
+        {
+          "id": "(9-5)",
+          "page": 112,
+          "paiwan": "a. tjumaqa ’en nu vece ’adan a qadav .",
+          "chinese": "回家 .主事焦點 =我.主格 當 中間   連繫詞 日子",
+          "morphology": "tjumaq=a ’en       nu vece’adan a    qadav",
+          "gloss": "回家 .主事焦點 =我.主格 當 中間   連繫詞 日子"
+        },
+        {
+          "id": "(9-6)",
+          "page": 113,
+          "paiwan": "a. legelegelegena ’en nimadju.",
+          "chinese": "搖-重疊 -受焦 =我.主格 他.屬格",
+          "morphology": "le-gele-geleg-en=a ’en   nimadju.",
+          "gloss": "搖-重疊 -受焦 =我.主格 他.屬格"
+        },
+        {
+          "id": "(9-7)",
+          "page": 113,
+          "paiwan": "a. caqiljabana ’en nimadju.",
+          "chinese": "用手掌打 -處焦 =我.主格  他.屬格",
+          "morphology": "caqiljab-an=a ’en      nimadju.",
+          "gloss": "用手掌打 -處焦 =我.主格  他.屬格"
+        },
+        {
+          "id": "(9-8)",
+          "page": 113,
+          "paiwan": "a. ’ema’ac ta cuqelalj a zua vatu.",
+          "chinese": "重疊 <主事焦點 >-咬  斜格 骨頭  主格 那 狗",
+          "morphology": "’<em>a- ’ac      ta   cuqelalj a   zua vatu",
+          "gloss": "重疊 <主事焦點 >-咬  斜格 骨頭  主格 那 狗"
+        },
+        {
+          "id": "(9-9)",
+          "page": 113,
+          "paiwan": "a. ’emac ta caucau a vavuy .",
+          "chinese": "咬<主事焦點 > 斜格 人   主格 山豬",
+          "morphology": "’<em>ac    ta   caucau  a   vavuy .",
+          "gloss": "咬<主事焦點 > 斜格 人   主格 山豬"
+        },
+        {
+          "id": "(9-10)",
+          "page": 114,
+          "paiwan": "pa’acu a vatu tjai zepulj!",
+          "chinese": "使動 -咬-命令 主格 狗  斜格 人名",
+          "morphology": "pa-’ac-u    a   vatu  tjai  zepulj!",
+          "gloss": "使動 -咬-命令 主格 狗  斜格 人名"
+        },
+        {
+          "id": "(9-12)",
+          "page": 114,
+          "paiwan": "pa’acan ti zepulj tjai tjuvi!",
+          "chinese": "使動 -咬-命令 主格 人名  斜格 人名",
+          "morphology": "pa-’ac-an    ti   zepulj  tjai  tjuvi!",
+          "gloss": "使動 -咬-命令 主格 人名  斜格 人名"
+        },
+        {
+          "id": "(9-14)",
+          "page": 115,
+          "paiwan": "使動動詞 +使動者 +被使動者 +其他動詞",
+          "chinese": "我.屬格 =強迫  主格 人名 連繫詞 去台北",
+          "morphology": "’upapaqadiljan ti kai a semataihuku.",
+          "gloss": "’u=papaqadiljan  ti   kai  a    semataihuku."
+        }
+      ]
+    },
+    "negation": {
+      "name": "否定句",
+      "count": 9,
+      "examples": [
+        {
+          "id": "(10-1)",
+          "page": 118,
+          "paiwan": "a. sinsi ti zepulj.",
+          "chinese": "老師 主格 人名",
+          "morphology": "sinsi  ti   zepulj",
+          "gloss": "老師 主格 人名"
+        },
+        {
+          "id": "(10-2)",
+          "page": 118,
+          "paiwan": "主事焦點",
+          "chinese": "打<主事焦點 >  斜格 小孩  主格 老人",
+          "morphology": "a. ’emelem ta ’edrian a ramaljeng.",
+          "gloss": "’<em>elem    ta   ’edrian  a   ramaljeng"
+        },
+        {
+          "id": "(10-3)",
+          "page": 118,
+          "paiwan": "a. ’elemen na ramaljeng a ’edrian.",
+          "chinese": "打-受事焦點  屬格 老人   主格 小孩",
+          "morphology": "’elem-en    na   ramaljeng a   ’edrian",
+          "gloss": "打-受事焦點  屬格 老人   主格 小孩"
+        },
+        {
+          "id": "(10-4)",
+          "page": 119,
+          "paiwan": "a. si’esa a alja ’ na ’ina.",
+          "chinese": "受惠焦點 -煮  主格 小孩 屬格 媽媽",
+          "morphology": "si-’esa     a   alja’  na   ’ina",
+          "gloss": "受惠焦點 -煮  主格 小孩 屬格 媽媽"
+        },
+        {
+          "id": "(10-5)",
+          "page": 119,
+          "paiwan": "a. aladji a ’eman ta cemel.",
+          "chinese": "不需要 連繫詞 吃<主事焦點 > 斜格 藥",
+          "morphology": "aladji  a    ’<em>an    ta   cemel",
+          "gloss": "不需要 連繫詞 吃<主事焦點 > 斜格 藥"
+        },
+        {
+          "id": "(10-6)",
+          "page": 120,
+          "paiwan": "a. ne ’a nu gimeng imaza.",
+          "chinese": "否定詞 學校  在-這裡",
+          "morphology": "ne’a nu  gimeng i-maza",
+          "gloss": "否定詞 學校  在-這裡"
+        },
+        {
+          "id": "(10-7)",
+          "page": 120,
+          "paiwan": "iniya ne ’a nu supaysu.",
+          "chinese": "不是 沒有  你的 =錢",
+          "morphology": "iniya ne’a nu  su=paysu.",
+          "gloss": "不是 沒有  你的 =錢"
+        },
+        {
+          "id": "(10-8)",
+          "page": 120,
+          "paiwan": "a. maya qemaljup!",
+          "chinese": "否定詞 打獵",
+          "morphology": "maya  q<em>aljup",
+          "gloss": "否定詞 打獵"
+        },
+        {
+          "id": "(10-9)",
+          "page": 121,
+          "paiwan": "a. 問：uri vai ’esun a semataihuku?",
+          "chinese": "要  去 -你   連繫詞 臺北",
+          "morphology": "uri vai’-esun  a    semataihuku",
+          "gloss": "要  去 -你   連繫詞 臺北"
+        }
+      ]
+    },
+    "questions": {
+      "name": "疑問句",
+      "count": 15,
+      "examples": [
+        {
+          "id": "(11-1)",
+          "page": 123,
+          "paiwan": "a. a su ’ama timadju?",
+          "chinese": "疑問助詞 你.屬格 =爸爸 他. 主格",
+          "morphology": "a     su=’ama    timadju",
+          "gloss": "疑問助詞 你.屬格 =爸爸 他. 主格"
+        },
+        {
+          "id": "(11-1)",
+          "page": 124,
+          "paiwan": "e. su’ama timadju?",
+          "chinese": "你.屬格 =爸爸 他.主格",
+          "morphology": "su=’ama    timadju",
+          "gloss": "你.屬格 =爸爸 他.主格"
+        },
+        {
+          "id": "(11-2)",
+          "page": 126,
+          "paiwan": "a. su ’ama timadju manu susinsi timadju?",
+          "chinese": "你.屬格 =爸爸 他.主格 或  你.屬格 =老師 他. 主格",
+          "morphology": "su=’ama    timadju manu su=sinsi    timadju",
+          "gloss": "你.屬格 =爸爸 他.主格 或  你.屬格 =老師 他. 主格"
+        },
+        {
+          "id": "(11-2)",
+          "page": 129,
+          "paiwan": "o. su ’ama timadju manu susinsi?",
+          "chinese": "你.屬格 =爸爸 他.主格 或  你.屬格 =老師",
+          "morphology": "su=’ama    timadju manu su=sinsi",
+          "gloss": "你.屬格 =爸爸 他.主格 或  你.屬格 =老師"
+        },
+        {
+          "id": "(11-3)",
+          "page": 131,
+          "paiwan": "a. timasun?",
+          "chinese": "主格 誰=你.主格",
+          "morphology": "ti   ima=sun",
+          "gloss": "主格 誰=你.主格"
+        },
+        {
+          "id": "(11-3)",
+          "page": 132,
+          "paiwan": "g. tima pinavelian ta laqulj nimadju?",
+          "chinese": "主格 誰 連繫詞 賣<受事焦點 >賣  斜格 書  他.屬格",
+          "morphology": "ti   ima a    p<in>avelian    ta   laqulj nimadju",
+          "gloss": "主格 誰 連繫詞 賣<受事焦點 >賣  斜格 書  他.屬格"
+        },
+        {
+          "id": "(11-3)",
+          "page": 132,
+          "paiwan": "i. nima cu a laqulj?",
+          "chinese": "屬格 誰 這 連繫詞 書",
+          "morphology": "ni   ima cu  a    laqulj",
+          "gloss": "屬格 誰 這 連繫詞 書"
+        },
+        {
+          "id": "(11-4)",
+          "page": 132,
+          "paiwan": "a. anema cu?",
+          "chinese": "主格 甚麼 這",
+          "morphology": "a   nema cu",
+          "gloss": "主格 甚麼 這"
+        },
+        {
+          "id": "(11-5)",
+          "page": 133,
+          "paiwan": "a. tjainu a suvatu?",
+          "chinese": "斜格 哪一個 連繫詞 你.屬格 =狗",
+          "morphology": "tja  inu   a    su=vatu",
+          "gloss": "斜格 哪一個 連繫詞 你.屬格 =狗"
+        },
+        {
+          "id": "(11-6)",
+          "page": 134,
+          "paiwan": "a. ma ’uda ca timadju? auwa ru ’invawa aravac!",
+          "chinese": "MA-怎麼 這個 他    為什麼 常 喝酒 <受事焦點 >喝酒",
+          "morphology": "ma’-uda  ca   timadju?  auwa  ru  ’<in>vawa",
+          "gloss": "MA-怎麼 這個 他    為什麼 常 喝酒 <受事焦點 >喝酒"
+        },
+        {
+          "id": "(11-7)",
+          "page": 135,
+          "paiwan": "a. auwa pisangs-esun?",
+          "chinese": "為甚麼 讓開 .主事焦點 =你.主格",
+          "morphology": "auwa  pisangas=esun?",
+          "gloss": "為甚麼 讓開 .主事焦點 =你.主格"
+        },
+        {
+          "id": "(11-8)",
+          "page": 136,
+          "paiwan": "a. pa ’apidasun?",
+          "chinese": "要多少 =你.主格",
+          "morphology": "pa’apida=sun",
+          "gloss": "要多少 =你.主格"
+        },
+        {
+          "id": "(11-9)",
+          "page": 137,
+          "paiwan": "a. a’ pa’ama’uda’udasun?",
+          "chinese": "要多少（量） -重疊 -要多少（量） =你.主格",
+          "morphology": "pa’ama- ’uda-’uda=sun",
+          "gloss": "要多少（量） -重疊 -要多少（量） =你.主格"
+        },
+        {
+          "id": "(11-10)",
+          "page": 138,
+          "paiwan": "a. izainu a suumaq?",
+          "chinese": "在-那-哪裡 連繫詞 你.屬格 =家",
+          "morphology": "i-za-inu   a    su=umaq",
+          "gloss": "在-那-哪裡 連繫詞 你.屬格 =家"
+        },
+        {
+          "id": "(11-11)",
+          "page": 139,
+          "paiwan": "a. ma ’uda’uda ta pisangasesun?",
+          "chinese": "何時     當 讓開 =你.主格",
+          "morphology": "ma’uda’uda  ta  pisangas=esun",
+          "gloss": "何時     當 讓開 =你.主格"
+        }
+      ]
+    },
+    "serial_verb": {
+      "name": "連動結構",
+      "count": 12,
+      "examples": [
+        {
+          "id": "(12-1)",
+          "page": 141,
+          "paiwan": "a. vai ’a’en a veneli ta ciqav .",
+          "chinese": "去=我.主格 連繫詞 買<主焦 >  斜格 魚",
+          "morphology": "vai’=a’en   a    v<en>eli   ta   ciqav .",
+          "gloss": "去=我.主格 連繫詞 買<主焦 >  斜格 魚"
+        },
+        {
+          "id": "(12-2)",
+          "page": 144,
+          "paiwan": "a. semagade a qemaljup ti tjuvi.",
+          "chinese": "去山上 <主焦 >  連繫詞 打獵 <主焦 >  主格 人名",
+          "morphology": "s<em>agade   a    q<em>aljup   ti   tjuvi",
+          "gloss": "去山上 <主焦 >  連繫詞 打獵 <主焦 >  主格 人名"
+        },
+        {
+          "id": "(12-3)",
+          "page": 144,
+          "paiwan": "a. djemavac a tjumaq ti kai.",
+          "chinese": "走路 <主焦 >  連繫詞 回家 .主焦 主格 人名",
+          "morphology": "dj<em>avac   a    tjumaq   ti   kai",
+          "gloss": "走路 <主焦 >  連繫詞 回家 .主焦 主格 人名"
+        },
+        {
+          "id": "(12-4)",
+          "page": 144,
+          "paiwan": "a. djaljav a mekelj ti kai.",
+          "chinese": "快.主焦  連繫詞 主焦 -跑  主格 人名",
+          "morphology": "djaljav   a    mekelj   ti   kai",
+          "gloss": "快.主焦  連繫詞 主焦 -跑  主格 人名"
+        },
+        {
+          "id": "(12-5)",
+          "page": 145,
+          "paiwan": "macaqu a ’emave ’av ti kai.",
+          "chinese": "會.主焦  連繫詞 游泳 <主焦 >  主格 人名",
+          "morphology": "macaqu  a    ’<em>ave ’av  ti   kai.",
+          "gloss": "會.主焦  連繫詞 游泳 <主焦 >  主格 人名"
+        },
+        {
+          "id": "(12-6)",
+          "page": 145,
+          "paiwan": "a. migacaljamen a ’eman",
+          "chinese": "主焦 .站=我們 .排除 .主格 連繫詞 <主焦 >吃",
+          "morphology": "migacalj-amen       a    ’<em>an",
+          "gloss": "主焦 .站=我們 .排除 .主格 連繫詞 <主焦 >吃"
+        },
+        {
+          "id": "(12-7)",
+          "page": 145,
+          "paiwan": "a. putjeluangaa ’en a se misic tu ca cekui.",
+          "chinese": "三次 -完成 =我.主格  連繫詞 擦< 主焦 >  斜格 這 桌子",
+          "morphology": "putjelu-anga=a ’en   a    s<em>isic  tu   ca  cekui.",
+          "gloss": "三次 -完成 =我.主格  連繫詞 擦< 主焦 >  斜格 這 桌子"
+        },
+        {
+          "id": "(12-8)",
+          "page": 145,
+          "paiwan": "qemecapa ’en a ’eman ta djamay",
+          "chinese": "筷子夾 <主焦 >=我.主格  連繫詞 吃<主焦 >  斜格 菜",
+          "morphology": "qemecap=a ’en       a    ’<em>an   ta   djamay",
+          "gloss": "筷子夾 <主焦 >=我.主格  連繫詞 吃<主焦 >  斜格 菜"
+        },
+        {
+          "id": "(12-9)",
+          "page": 145,
+          "paiwan": "a. patagilja ’en a ’itulu tu ca laqulj.",
+          "chinese": "開始 .主焦 =我.主格  連繫詞 學習 .主焦  斜格 這 書",
+          "morphology": "patagilj=a ’en     a    ’itulu    tu   ca  laqulj.",
+          "gloss": "開始 .主焦 =我.主格  連繫詞 學習 .主焦  斜格 這 書"
+        },
+        {
+          "id": "(12-10)",
+          "page": 146,
+          "paiwan": "a. maru ’utj-a’en a veneci ’.",
+          "chinese": "害怕 .主焦 =我.主格 連繫詞 寫<主焦 >",
+          "morphology": "maru ’utj=a ’en    a    v<en>eci ’.",
+          "gloss": "害怕 .主焦 =我.主格 連繫詞 寫<主焦 >"
+        },
+        {
+          "id": "(12-12)",
+          "page": 146,
+          "paiwan": "tjadjalava ’en a mekelj tjanusun.",
+          "chinese": "比較快 =我.主格  連繫詞 主焦 -跑  你.受格",
+          "morphology": "tjadjalav-a ’en   a    m-ekelj  tjanusun.",
+          "gloss": "比較快 =我.主格  連繫詞 主焦 -跑  你.受格"
+        },
+        {
+          "id": "(12-13)",
+          "page": 146,
+          "paiwan": "djina ’adja’an a ’emapala ’ a paljing nimadju.",
+          "chinese": "踢<完成 >-處所焦  連繫詞 破壞 <主焦 >  主格 門   他.屬格",
+          "morphology": "dj<in>a ’adja’-an   a    ’<em>apala ’  a   paljing  nimadju.",
+          "gloss": "踢<完成 >-處所焦  連繫詞 破壞 <主焦 >  主格 門   他.屬格"
+        }
+      ]
+    },
+    "complement": {
+      "name": "補述結構",
+      "count": 12,
+      "examples": [
+        {
+          "id": "(13-1)",
+          "page": 147,
+          "paiwan": "a. nalemangdaanga ’en ta susenay .",
+          "chinese": "完成 -聽<主焦 >-完成 =我.主格  斜格 你的 =歌",
+          "morphology": "na-l<em>angda-anga=a ’en     ta   su=senay .",
+          "gloss": "完成 -聽<主焦 >-完成 =我.主格  斜格 你的 =歌"
+        },
+        {
+          "id": "(13-2)",
+          "page": 147,
+          "paiwan": "a. lemangdaa ’en tu semenasenaysun.",
+          "chinese": "聽<主焦 >=我.主格    重疊 <主焦 >-唱歌 =你.主格",
+          "morphology": "l<em>angda=a ’en   tu  s<em>ena-senay=sun.",
+          "gloss": "聽<主焦 >=我.主格    重疊 <主焦 >-唱歌 =你.主格"
+        },
+        {
+          "id": "(13-3)",
+          "page": 148,
+          "paiwan": "，tu引導一個子",
+          "chinese": "，tu引導一個子",
+          "morphology": "句當動詞 pacun「看」的補語：",
+          "gloss": ""
+        },
+        {
+          "id": "(13-3)",
+          "page": 148,
+          "paiwan": "pacunsun tu vaivai’ a ’emin ta ’ipusaladjen a ’i’arivuan timadju, awa iniya",
+          "chinese": "看.主焦 =你.主格   重疊 -去.主焦 連繫詞 找<主焦 >   斜格",
+          "morphology": "suqecengen timadju?",
+          "gloss": "pacun=sun    tu  vai-vai ’    a    ’<em>in   ta"
+        },
+        {
+          "id": "(13-4)",
+          "page": 148,
+          "paiwan": "a. ’upacunan timadju a ’ema’an ta ’insa.",
+          "chinese": "我.屬格 =看-處焦  他.主格  連繫詞 重疊 <主焦 >-吃   斜格",
+          "morphology": "’u=pacun-an    timadju   a    關係子句 [’<em>a- ’an  ta",
+          "gloss": "我.屬格 =看-處焦  他.主格  連繫詞 重疊 <主焦 >-吃   斜格"
+        },
+        {
+          "id": "(13-5)",
+          "page": 149,
+          "paiwan": "a. pacun a ’a’edrian ta matjanitjani a vatu.",
+          "chinese": "看.主焦 主格 小孩   當 掉下去 -重疊  主格 狗",
+          "morphology": "pacun  a   ’a’edrian  ta  ma-tjani-tjani  a   vatu.",
+          "gloss": "看.主焦 主格 小孩   當 掉下去 -重疊  主格 狗"
+        },
+        {
+          "id": "(13-6)",
+          "page": 149,
+          "paiwan": "a. masalua ’en tjaimadju.",
+          "chinese": "相信 =我.主格 他.斜格",
+          "morphology": "masalu=a ’en  tjaimadju.",
+          "gloss": "相信 =我.主格 他.斜格"
+        },
+        {
+          "id": "(13-7)",
+          "page": 149,
+          "paiwan": "a. masalua ’en tu naceme ’av ta paysu timadju.",
+          "chinese": "相信 =我.主格   完成 -偷<主焦 > 斜格 錢  他.主格",
+          "morphology": "masalu=a ’en  tu  na-c<em>e ’av   ta   paysu timadju.",
+          "gloss": "相信 =我.主格   完成 -偷<主焦 > 斜格 錢  他.主格"
+        },
+        {
+          "id": "(13-8)",
+          "page": 150,
+          "paiwan": "a.  patevela ti kai ta ’ama nimadju a mayatucu, “irua’en a ’emelemanga a",
+          "chinese": "回答 .主焦 主格 人名 斜格 爸爸 他的  連繫詞 這樣",
+          "morphology": "paqeteleng ta caucau. ”",
+          "gloss": "patevela  ti   kai  ta   ’ama nimadju a    mayatucu,"
+        },
+        {
+          "id": "(13-9)",
+          "page": 151,
+          "paiwan": "a. ’ivadaq tjai kai timadju tui maainu a sematjana ’asia.",
+          "chinese": "問.主焦 斜格 人名 他.主格 是否  到哪裡 連繫詞",
+          "morphology": "’ivadaq tjai  kai  timadju tui  maainu  a",
+          "gloss": "問.主焦 斜格 人名 他.主格 是否  到哪裡 連繫詞"
+        },
+        {
+          "id": "(13-10)",
+          "page": 151,
+          "paiwan": "a. sau, paysuu aya ti ’ama.",
+          "chinese": "去-祈使 舂小米 -祈使  說.主焦  主格 爸爸",
+          "morphology": "sa-u   paysu-u    aya    ti   ’ama.",
+          "gloss": "去-祈使 舂小米 -祈使  說.主焦  主格 爸爸"
+        },
+        {
+          "id": "(13-12)",
+          "page": 152,
+          "paiwan": "aligu uri sipavay nimadju tjanua ’en ayaa ’en.",
+          "chinese": "以為 將要 工具焦 -給  他.屬格  我.斜格  說.主焦 =我.主格",
+          "morphology": "aligu uri  si-pavay   nimadju  tjanua ’en  aya=a ’en.",
+          "gloss": "以為 將要 工具焦 -給  他.屬格  我.斜格  說.主焦 =我.主格"
+        }
+      ]
+    },
+    "modification": {
+      "name": "修飾結構",
+      "count": 27,
+      "examples": [
+        {
+          "id": "(14-1)",
+          "page": 153,
+          "paiwan": "a. nama ’apala ’anga a ’uvineli a mumu ta ’adjaman.",
+          "chinese": "完成 -壞-完成   主格 我.屬格 =買<受焦>  連繫詞 蓮霧",
+          "morphology": "na-ma ’apala ’-anga  a   ’u=v<in>eli      a    mumu",
+          "gloss": "完成 -壞-完成   主格 我.屬格 =買<受焦>  連繫詞 蓮霧"
+        },
+        {
+          "id": "(14-2)",
+          "page": 154,
+          "paiwan": "se’ulilj a naqemudjidjilj ta ’itung a ’edrian.",
+          "chinese": "跌倒  主格 完成紅色 <主焦 >   斜格 衣服 連繫詞 小孩",
+          "morphology": "se’ulilj  a   na-q<em>udjidjilj  ta   ’itung a    ’edrian",
+          "gloss": "跌倒  主格 完成紅色 <主焦 >   斜格 衣服 連繫詞 小孩"
+        },
+        {
+          "id": "(14-3)",
+          "page": 154,
+          "paiwan": "qemaung a za naveneli ta ’itung a uqaljay .",
+          "chinese": "哭<主焦 >  主格 那 完成買 <主焦 >  斜格 衣服 主格 男人",
+          "morphology": "q<em>aung  a   za  na-v<en>eli    ta   ’itung a   uqaljay .",
+          "gloss": "哭<主焦 >  主格 那 完成買 <主焦 >  斜格 衣服 主格 男人"
+        },
+        {
+          "id": "(14-4)",
+          "page": 154,
+          "paiwan": "’elemen ti kai na za ’emesa ’esa a vavayan.",
+          "chinese": "打-受焦  主格 人名 屬格 那 重疊 <主焦 >-哭  主格 女人",
+          "morphology": "’elem-en  ti   kai  na   za  ’<em>esa- ’esa   a   vavayan.",
+          "gloss": "打-受焦  主格 人名 屬格 那 重疊 <主焦 >-哭  主格 女人"
+        },
+        {
+          "id": "(14-5)",
+          "page": 154,
+          "paiwan": "nama ’apala ’anga a za vasa a ’inan ni k ai.",
+          "chinese": "完成 -壞-完成   主格 那 芋頭 連繫詞 吃<受焦 > 屬格 人名",
+          "morphology": "na-ma ’apala ’-anga  a   za  vasa  a    ’<in>an  ni   kai.",
+          "gloss": "完成 -壞-完成   主格 那 芋頭 連繫詞 吃<受焦 > 屬格 人名"
+        },
+        {
+          "id": "(14-6)",
+          "page": 155,
+          "paiwan": "’upinacunan a za ’inelem ni kai a ’edrian.",
+          "chinese": "我.屬格 =看<完成 >-處所 主格 那 打<受焦 > 屬格 人名 主格",
+          "morphology": "’u=p<in>acun-an     a   za  ’<in>elem ni   kai  a",
+          "gloss": "我.屬格 =看<完成 >-處所 主格 那 打<受焦 > 屬格 人名 主格"
+        },
+        {
+          "id": "(14-7)",
+          "page": 155,
+          "paiwan": "djiniljanganga a uri sivaljes ta ’asiv a valjes ni kai.",
+          "chinese": "生鏽 <受焦 >-完成 主格 要 工具焦 -砍  斜格 樹  連繫詞",
+          "morphology": "dj<in>iljang-anga  a   uri si-valjes   ta   ’asiv  a",
+          "gloss": "生鏽 <受焦 >-完成 主格 要 工具焦 -砍  斜格 樹  連繫詞"
+        },
+        {
+          "id": "(14-8)",
+          "page": 155,
+          "paiwan": "至（14-10），或是出現在當中心語是專有名詞時，",
+          "chinese": "至（14-10），或是出現在當中心語是專有名詞時，",
+          "morphology": "例如（14-11）到（14-14），因為專有名詞一般來說指稱較為明確，聽話者不需",
+          "gloss": "要藉著關係子句所提供的訊息來辨識中心語所指涉的對象。"
+        },
+        {
+          "id": "(14-8)",
+          "page": 155,
+          "paiwan": "’upacunansun a qemauqaung.",
+          "chinese": "我.屬格 -看-處焦 =你.主格 連繫詞 重疊 <主焦 >哭",
+          "morphology": "’u=pacun-an=sun      a    q<em>au-qaung.",
+          "gloss": "我.屬格 -看-處焦 =你.主格 連繫詞 重疊 <主焦 >哭"
+        },
+        {
+          "id": "(14-9)",
+          "page": 155,
+          "paiwan": "’upacunan tim adju a ’ema’an ta ’insa.",
+          "chinese": "我.屬格 =看-處焦  他.主格 連繫詞 哭-重疊 <主焦 > 斜格 食物",
+          "morphology": "’u=pacun-an    timadju a    ’<em>a- ’an    ta   ’insa.",
+          "gloss": "我.屬格 =看-處焦  他.主格 連繫詞 哭-重疊 <主焦 > 斜格 食物"
+        },
+        {
+          "id": "(14-10)",
+          "page": 156,
+          "paiwan": "’upacunan a ’edrian, a naqiqilja ’ ipatekuteku ta qarengan.",
+          "chinese": "我.屬格 =看-處焦  主格 小孩  連繫詞 完成 -藏",
+          "morphology": "’u=pacun-an     a   ’edrian, a    na-qiqilja",
+          "gloss": "我.屬格 =看-處焦  主格 小孩  連繫詞 完成 -藏"
+        },
+        {
+          "id": "(14-12)",
+          "page": 156,
+          "paiwan": "mavengelayanga ti kai, a naqemiladj iljaqediqedi tjanua ’en.",
+          "chinese": "懷孕 -完成    主格 人名 連繫詞 完成 -坐<主焦 >",
+          "morphology": "mavengelay-anga  ti   kai,  a    na-q<em>iladj",
+          "gloss": "懷孕 -完成    主格 人名 連繫詞 完成 -坐<主焦 >"
+        },
+        {
+          "id": "(14-13)",
+          "page": 156,
+          "paiwan": "mangetjez ti kai, a ’u’inelem tatiav .",
+          "chinese": "來.主焦  主格 人名 連繫詞 我.屬格 =打<受焦 >  昨天",
+          "morphology": "mangetjez  ti   kai,  a    ’u=’<in>elem     tatiav .",
+          "gloss": "來.主焦  主格 人名 連繫詞 我.屬格 =打<受焦 >  昨天"
+        },
+        {
+          "id": "(14-14)",
+          "page": 156,
+          "paiwan": "tjengelaya ’en tjai kai, a su ’inelem tatiav .",
+          "chinese": "喜歡 =我.主格  斜格 人名 連繫詞 你.屬格 =<受焦 >打  昨天",
+          "morphology": "tjengelay=a ’en  tjai  kai,  a    su=’<in>elem     tatiav .",
+          "gloss": "喜歡 =我.主格  斜格 人名 連繫詞 你.屬格 =<受焦 >打  昨天"
+        },
+        {
+          "id": "(14-15)",
+          "page": 157,
+          "paiwan": "和（14-16），而nu指未來或經常發生的事件，主要子句和",
+          "chinese": "和（14-16），而nu指未來或經常發生的事件，主要子句和",
+          "morphology": "副詞子句事件發生的先後次序可以透過動詞的詞綴、動貌標記或pasusangs「之",
+          "gloss": "前」這個動詞來表達，例句如下："
+        },
+        {
+          "id": "(14-15)",
+          "page": 157,
+          "paiwan": "ta mangetjeza ’en, vai ’anga timadju.",
+          "chinese": "當 來.主焦 =我.主格 去-完成  他.主格",
+          "morphology": "ta mangetjez=a ’en,   vai’-anga  timadju.",
+          "gloss": "當 來.主焦 =我.主格 去-完成  他.主格"
+        },
+        {
+          "id": "(14-16)",
+          "page": 157,
+          "paiwan": "a mangetjeza ’en, vai ’anga timadju.",
+          "chinese": "當 來.主焦 =我.主格 去-完成  他.主格",
+          "morphology": "a mangetjez=a ’en,   vai’-anga  timadju.",
+          "gloss": "當 來.主焦 =我.主格 去-完成  他.主格"
+        },
+        {
+          "id": "(14-17)",
+          "page": 157,
+          "paiwan": "ta mangetjeza ’en a pasusangas, qemudjalj.",
+          "chinese": "當 來.主焦 =我.主格 連繫詞 之前    下雨 <主焦 >",
+          "morphology": "ta mangetjez=a ’en   a    pasusangas,  q<em>udjalj.",
+          "gloss": "當 來.主焦 =我.主格 連繫詞 之前    下雨 <主焦 >"
+        },
+        {
+          "id": "(14-18)",
+          "page": 157,
+          "paiwan": "ta ma ’a’elem ta alja ’ ti kai, vai ’anga.",
+          "chinese": "當 打完    斜格 小孩 主格 人名 去-完成",
+          "morphology": "ta ma’a’elem  ta   alja’  ti   kai,  vai’-anga.",
+          "gloss": "當 打完    斜格 小孩 主格 人名 去-完成"
+        },
+        {
+          "id": "(14-19)",
+          "page": 157,
+          "paiwan": "ta ’emesa ’esa ti zepulj, pacucuna ’en ta laqulj.",
+          "chinese": "當 重疊 <主焦 >-煮飯 =我.主格 主格 人名 看.主焦 -重疊 =我.主格",
+          "morphology": "ta ’<em>esa- ’esa       ti   zepulj, pa-cu-cun=a ’en",
+          "gloss": "當 重疊 <主焦 >-煮飯 =我.主格 主格 人名 看.主焦 -重疊 =我.主格"
+        },
+        {
+          "id": "(14-20)",
+          "page": 158,
+          "paiwan": "ta semenaya ’en , iyugiyugianga ti aki.",
+          "chinese": "當唱歌 <主焦 >=我.主格 重疊 -跳舞 -完成 主格 人名",
+          "morphology": "ta s<em>enay=a ’en,    iyugi-yugi-anga  ti   kai.",
+          "gloss": "當唱歌 <主焦 >=我.主格 重疊 -跳舞 -完成 主格 人名"
+        },
+        {
+          "id": "(14-21)",
+          "page": 158,
+          "paiwan": "nu ’emesa ’esa ti zepulj, pacucuna ’en ta laqulj.",
+          "chinese": "當 重疊 <主焦 >-煮飯 =我.主格 主格 人名 看.主焦 -重疊 =我.主格",
+          "morphology": "nu ’<em>esa- ’esa       ti   zepulj, pa-cu-cun=a ’en",
+          "gloss": "當 重疊 <主焦 >-煮飯 =我.主格 主格 人名 看.主焦 -重疊 =我.主格"
+        },
+        {
+          "id": "(14-22)",
+          "page": 158,
+          "paiwan": "nu mangtjez-anga ti kai, i ’ en a ’emesa.",
+          "chinese": "當 來.主焦 -完成 主格 人名 會=我.主格 連繫詞 煮<主焦 >",
+          "morphology": "nu mangtjez-anga ti   kai,  i-’en     a    ’<em>esa.",
+          "gloss": "當 來.主焦 -完成 主格 人名 會=我.主格 連繫詞 煮<主焦 >"
+        },
+        {
+          "id": "(14-23)",
+          "page": 158,
+          "paiwan": "qemudjalj ta ’ema’anitjen (ta vasa).",
+          "chinese": "下雨 <主焦 > 當 重疊 <主焦 >吃=我們 .主格  斜格 芋頭",
+          "morphology": "q<em>udjalj  ta  ’<em>a ’an=itjen       (ta  vasa).",
+          "gloss": "下雨 <主焦 > 當 重疊 <主焦 >吃=我們 .主格  斜格 芋頭"
+        },
+        {
+          "id": "(14-24)",
+          "page": 158,
+          "paiwan": "nu ru ’isuzelian, venala a ’inacavacavan.",
+          "chinese": "如果  多休息   健康  主格 身體",
+          "morphology": "nu   ru’isuzelian,  venala  a   ’inacavacavan.",
+          "gloss": "如果  多休息   健康  主格 身體"
+        },
+        {
+          "id": "(14-25)",
+          "page": 159,
+          "paiwan": "nu izua ’upaysu taicavilj, i ’uvinelianga aza umaq.",
+          "chinese": "如果  有  我.屬格 =錢 去年  會 屬格 =買<受焦 > 主格",
+          "morphology": "nu   izua  ’u=paysu   taicavilj, i  ’u=v<in>eli-anga a",
+          "gloss": "如果  有  我.屬格 =錢 去年  會 屬格 =買<受焦 > 主格"
+        },
+        {
+          "id": "(14-26)",
+          "page": 159,
+          "paiwan": "maru ’utj ta vavuy ti tjuvi, aza ’inacaanga timadju.",
+          "chinese": "怕    斜格 山豬 主格 人名 因為 咬< 受焦 >-完成 他.主格",
+          "morphology": "maru ’utj ta   vavuy ti   tjuvi, aza  ’<in>aca-anga   timadju.",
+          "gloss": "怕    斜格 山豬 主格 人名 因為 咬< 受焦 >-完成 他.主格"
+        }
+      ]
+    },
+    "coordination": {
+      "name": "並列結構",
+      "count": 16,
+      "examples": [
+        {
+          "id": "(15-1)",
+          "page": 161,
+          "paiwan": "a. ti ima-ima itjumaq tjanumun?",
+          "chinese": "主格 .單數 重疊 -誰  在家  你們 .斜格",
+          "morphology": "ti     ima-ima  itjum aq tjanumun?",
+          "gloss": "主格 .單數 重疊 -誰  在家  你們 .斜格"
+        },
+        {
+          "id": "(15-2)",
+          "page": 162,
+          "paiwan": "a zua a nemanga a zangaq, a mare ’a ’uang, sipaisapitjan ta za kaka.",
+          "chinese": "那  連繫詞 東西  連繫詞 項鍊  連繫詞 些   槍",
+          "morphology": "a zua a    nemanga a    zangaq, a    mare ’a  ’uang,",
+          "gloss": "那  連繫詞 東西  連繫詞 項鍊  連繫詞 些   槍"
+        },
+        {
+          "id": "(15-2)",
+          "page": 162,
+          "paiwan": "也是一樣，其名詞組zangaq和 mare’a ’uang 中間並沒有並列",
+          "chinese": "在排灣語裡，人們有時會用伴同結構來代替並列結構，名詞組的伴同結構",
+          "morphology": "連接詞，它們直接並列放在一起。",
+          "gloss": "在排灣語裡，人們有時會用伴同結構來代替並列結構，名詞組的伴同結構"
+        },
+        {
+          "id": "(15-4)",
+          "page": 162,
+          "paiwan": "、 （15-5）、（15-6）和（15-7），但肯定句時沒有並列",
+          "chinese": "、 （15-5）、（15-6）和（15-7），但肯定句時沒有並列",
+          "morphology": "連接詞，而是把動詞組直接並列放在一起，例如（15-3）的 sau和paysuu：",
+          "gloss": ""
+        },
+        {
+          "id": "(15-3)",
+          "page": 162,
+          "paiwan": "sau, paysuu aya ti ’ama.",
+          "chinese": "去-祈使 搗小米 -祈使  說.主焦 主格 爸爸",
+          "morphology": "sa-u paysu-u      aya   ti   ’ama.",
+          "gloss": "去-祈使 搗小米 -祈使  說.主焦 主格 爸爸"
+        },
+        {
+          "id": "(15-4)",
+          "page": 162,
+          "paiwan": "iniya teme ’el ta zaljum sa ’a iniya ’eman ta qavay timadju.",
+          "chinese": "不  喝<主焦 >  斜格 水   和  不  吃<主焦 >  斜格",
+          "morphology": "iniya t<em>e ’el  ta   zaljum  sa’a  iniya ’<em>an   ta",
+          "gloss": "不  喝<主焦 >  斜格 水   和  不  吃<主焦 >  斜格"
+        },
+        {
+          "id": "(15-5)",
+          "page": 163,
+          "paiwan": "iniya tine ’el a zaljum sa ’a iniya ’inan a qavay nimadju.",
+          "chinese": "不  喝<受焦 >  主格 水   和  不  吃<受焦 >  主格",
+          "morphology": "iniya t<in>e ’el   a   zaljum  sa’a  iniya ’<in>-an   a",
+          "gloss": "不  喝<受焦 >  主格 水   和  不  吃<受焦 >  主格"
+        },
+        {
+          "id": "(15-6)",
+          "page": 163,
+          "paiwan": "iniya ’ema’an ta qavay sa ’a iniya teme ’ete’el ta zaljum timadju.",
+          "chinese": "沒  重疊 <主焦 >吃  斜格 肉圓 和  沒  重疊 <主焦 >喝",
+          "morphology": "iniya ’<em>a- ’an    ta   qavay sa’a  iniya t<em>e ’e-te’el",
+          "gloss": "沒  重疊 <主焦 >吃  斜格 肉圓 和  沒  重疊 <主焦 >喝"
+        },
+        {
+          "id": "(15-7)",
+          "page": 163,
+          "paiwan": "iniya m azeli sa ’a iniya madudu timadju.",
+          "chinese": "不  累   和  不  生氣  他.主格",
+          "morphology": "iniya mazeli  sa’a  iniya madudu timadju.",
+          "gloss": "不  累   和  不  生氣  他.主格"
+        },
+        {
+          "id": "(15-8)",
+          "page": 163,
+          "paiwan": "iniyaa ’en a mazeli, iniyaa ’en a madudu.",
+          "chinese": "不=我.主格 連繫詞 累   不=我.主格 連繫詞 生氣",
+          "morphology": "iniya=a ’en  a    mazeli,  iniya=a ’en  a    madudu.",
+          "gloss": "不=我.主格 連繫詞 累   不=我.主格 連繫詞 生氣"
+        },
+        {
+          "id": "(15-9)",
+          "page": 163,
+          "paiwan": "iniya mazeli timadju sa ’a iniyaa ’en a madudu.",
+          "chinese": "不  累.主焦  他.主格  和  不=我.主格 連繫詞 生氣 . 主焦",
+          "morphology": "iniya mazeli   timadju  sa’a  iniya=a ’en  a    madudu.",
+          "gloss": "不  累.主焦  他.主格  和  不=我.主格 連繫詞 生氣 . 主焦"
+        },
+        {
+          "id": "(15-10)",
+          "page": 164,
+          "paiwan": "iniyamen a mazeli sa ’a iniyamen a madudu a madrusa.",
+          "chinese": "不=我們 .主格  連繫詞 累   和  不=我們 .主格 連繫詞",
+          "morphology": "iniya=men    a    mazeli  sa’a  iniya=men   a",
+          "gloss": "不=我們 .主格  連繫詞 累   和  不=我們 .主格 連繫詞"
+        },
+        {
+          "id": "(15-12)",
+          "page": 164,
+          "paiwan": "iniya mazeli timadju, ini yaa ’en a madudu.",
+          "chinese": "不   累.主焦  他.主格  不=我.主格 連繫詞 生氣 . 主焦",
+          "morphology": "iniya  mazeli    timadju,   iniya=a ’en   a     madudu.",
+          "gloss": "不   累.主焦  他.主格  不=我.主格 連繫詞 生氣 . 主焦"
+        },
+        {
+          "id": "(15-13)",
+          "page": 164,
+          "paiwan": "tjainu a su ’anen, vurati, vasa, manu qaqilj?",
+          "chinese": "哪一個  連繫詞 你.屬格 =吃-受焦  地瓜    芋頭 或    山藥",
+          "morphology": "tjainu   a     su= ’an-en,     vurati,  vasa, manu qaqilj?",
+          "gloss": "哪一個  連繫詞 你.屬格 =吃-受焦  地瓜    芋頭 或    山藥"
+        },
+        {
+          "id": "(15-14)",
+          "page": 164,
+          "paiwan": "a nema susengsengan nu qazemetj, venci ’, pacun  ta laqulj manu vai’ a casav",
+          "chinese": "疑問詞  什麼 你.屬格 =工作 今晚    寫<主焦 >  看.主焦",
+          "morphology": "a ’ivangavang?",
+          "gloss": "a    nema su=sengsengan nu qazemetj, v<en>ci ’,   pacun"
+        },
+        {
+          "id": "(15-15)",
+          "page": 165,
+          "paiwan": "teme ’ete’el ta zaljum manu teme ’ete’el ta vawa ti tjuvi?",
+          "chinese": "重疊 <主焦 >-喝  斜格 水   或  重疊 <主焦 >-喝  斜格",
+          "morphology": "t<em>e ’e-te’el   ta   zaljum  manu t<em>e ’e-te’el   ta",
+          "gloss": "重疊 <主焦 >-喝  斜格 水   或  重疊 <主焦 >-喝  斜格"
+        }
+      ]
+    },
+    "other_structures": {
+      "name": "其他結構",
+      "count": 32,
+      "examples": [
+        {
+          "id": "(16-2)",
+          "page": 167,
+          "paiwan": "的’a ta ’u’itung， （3） 伴同詞組一定是包含在所修飾的名",
+          "chinese": "的’a ta ’u’itung， （3） 伴同詞組一定是包含在所修飾的名",
+          "morphology": "詞中的一部份，例句如下：",
+          "gloss": ""
+        },
+        {
+          "id": "(16-1)",
+          "page": 167,
+          "paiwan": "a. tjengelay tiya tjuvi ’a ti kai a ’eman ta veljevelje",
+          "chinese": "喜歡 .主焦 主格 .複數 人名 與 主格 .單數  人名 連繫詞",
+          "morphology": "tjengelay  tiya    tjuvi  ’a  ti      kai  a",
+          "gloss": "喜歡 .主焦 主格 .複數 人名 與 主格 .單數  人名 連繫詞"
+        },
+        {
+          "id": "(16-2)",
+          "page": 167,
+          "paiwan": "namaungaianga a ’ukasui ’a ta ’u’itung.",
+          "chinese": "完成 -髒-完成  主格 我的褲子 與 斜格 我的衣服",
+          "morphology": "na-maungai-anga a   ’u=kasui  ’a  ta   ’u=’itung.",
+          "gloss": "完成 -髒-完成  主格 我的褲子 與 斜格 我的衣服"
+        },
+        {
+          "id": "(16-3)",
+          "page": 168,
+          "paiwan": "djemangudjangus sa ’a’ac ta lima a vavuy .",
+          "chinese": "重疊 <主焦 >-嗅   一面 重疊 -咬.主焦 .虛擬  斜格 手  主格",
+          "morphology": "dj<em>angu-djangus  sa   ’a-’ac        ta   lima  a",
+          "gloss": "重疊 <主焦 >-嗅   一面 重疊 -咬.主焦 .虛擬  斜格 手  主格"
+        },
+        {
+          "id": "(16-4)",
+          "page": 168,
+          "paiwan": "’ema’an ta qavay sa te ’ete’el ta zaljum timadju.",
+          "chinese": "重疊 <主焦 >-吃 斜格 肉圓 一面 重疊 -喝.主焦 .虛擬  斜格",
+          "morphology": "’<em>a- ’an    ta   qavay sa   te’e-te’el       ta",
+          "gloss": "重疊 <主焦 >-吃 斜格 肉圓 一面 重疊 -喝.主焦 .虛擬  斜格"
+        },
+        {
+          "id": "(16-5)",
+          "page": 168,
+          "paiwan": "’ema’ana’en ta qavay sa ’ete’ete’el ta zaljum.",
+          "chinese": "重疊 <主焦 >-吃=我.主格 斜格 肉圓  一面",
+          "morphology": "’<em>a- ’an=a ’en     ta   qavay  sa",
+          "gloss": "重疊 <主焦 >-吃=我.主格 斜格 肉圓  一面"
+        },
+        {
+          "id": "(16-6)",
+          "page": 168,
+          "paiwan": "teme ’el ta zaljum sa ’an ta qavay timadju.",
+          "chinese": "喝<主焦 >  斜格 水   也 吃.主焦 .虛擬 斜格 肉圓 他.主格",
+          "morphology": "t<em>e ’el  ta   zaljum  sa  ’an      ta   qavay timadju.",
+          "gloss": "喝<主焦 >  斜格 水   也 吃.主焦 .虛擬 斜格 肉圓 他.主格"
+        },
+        {
+          "id": "(16-7)",
+          "page": 168,
+          "paiwan": "teme ’ela’en ta zaljum sa ’e’an ta qavay .",
+          "chinese": "喝<主焦 >=我.主格  斜格 水   也",
+          "morphology": "t<em>e ’el=a’en    ta   zaljum  sa",
+          "gloss": "喝<主焦 >=我.主格  斜格 水   也"
+        },
+        {
+          "id": "(16-8)",
+          "page": 169,
+          "paiwan": "a. djemangus sana ’ac ta lima a vavuy .",
+          "chinese": "嗅<主焦 >  然後 咬.主焦 .虛擬 斜格 手  主格 山豬",
+          "morphology": "dj<em>angus sana  ’ac      ta   lima  a   vavuy .",
+          "gloss": "嗅<主焦 >  然後 咬.主焦 .虛擬 斜格 手  主格 山豬"
+        },
+        {
+          "id": "(16-9)",
+          "page": 169,
+          "paiwan": "saigu tu saigu ti tjuvi a penayuanan.",
+          "chinese": "會  tu  會  主格 人名 連繫詞 說排灣語 <主焦 >",
+          "morphology": "saigu tu  saigu ti   tjuvi  a    p<en>ayuanan.",
+          "gloss": "會  tu  會  主格 人名 連繫詞 說排灣語 <主焦 >"
+        },
+        {
+          "id": "(16-10)",
+          "page": 169,
+          "paiwan": "masalu tu masalu ta supinangtjezan.",
+          "chinese": "感謝  tu  感謝  斜格 你的 =到來",
+          "morphology": "masalu tu  masalu  ta   su=pinangtjezan.",
+          "gloss": "感謝  tu  感謝  斜格 你的 =到來"
+        },
+        {
+          "id": "(16-12)",
+          "page": 170,
+          "paiwan": "’eman tu ’eman timadju ta vasa.",
+          "chinese": "吃<主焦 > tu  吃<主焦 > 他.主格  斜格 芋頭",
+          "morphology": "’<em>an  tu  ’<em>an  timadju  ta   vasa.",
+          "gloss": "吃<主焦 > tu  吃<主焦 > 他.主格  斜格 芋頭"
+        },
+        {
+          "id": "(16-13)",
+          "page": 170,
+          "paiwan": "vinca tu vinca timadju.",
+          "chinese": "說謊 <受焦 .完成 >  tu  說謊 <受焦 .完成 > 他.主格",
+          "morphology": "v<in>ca       tu  v<in>ca      timadju.",
+          "gloss": "說謊 <受焦 .完成 >  tu  說謊 <受焦 .完成 > 他.主格"
+        },
+        {
+          "id": "(16-14)",
+          "page": 170,
+          "paiwan": "’inanan tu ’inanan ca vasa ni zepulj.",
+          "chinese": "吃<完成 >處焦 tu  吃<完成>處焦  這.主格 芋頭 屬格 人名",
+          "morphology": "’<in>an-an   tu  ’<in>an-an    ca    vasa  ni   zepulj.",
+          "gloss": "吃<完成 >處焦 tu  吃<完成>處焦  這.主格 芋頭 屬格 人名"
+        },
+        {
+          "id": "(16-15)",
+          "page": 170,
+          "paiwan": "si’an tu si ’an ca ’izing ni zepulj.",
+          "chinese": "工具焦 -吃 tu  工具焦 -吃  這.主格  湯匙 屬格 人名",
+          "morphology": "si-’an    tu  si-’an    ca     ’izing ni   zepulj.",
+          "gloss": "工具焦 -吃 tu  工具焦 -吃  這.主格  湯匙 屬格 人名"
+        },
+        {
+          "id": "(16-17)",
+          "page": 170,
+          "paiwan": "和（16-18）的 a’en，例句如下：",
+          "chinese": "和（16-18）的 a’en，例句如下：",
+          "morphology": "",
+          "gloss": ""
+        },
+        {
+          "id": "(16-16)",
+          "page": 170,
+          "paiwan": "’uvinca tu vinca timadju.",
+          "chinese": "我.屬格 說謊 <受焦 .完成 > tu  說謊 <受焦 .完成 > 他.主格",
+          "morphology": "’u=vinca tu vinca timadju.",
+          "gloss": "’u    v<in>ca      tu  v<in>ca      timadju."
+        },
+        {
+          "id": "(16-17)",
+          "page": 170,
+          "paiwan": "’emana ’en tu ’eman ta vasa.",
+          "chinese": "吃<主焦 >=我.主格 tu 吃<主焦 >  斜格 芋頭",
+          "morphology": "’<em>an=a ’en    tu ’<em>an   ta   vasa.",
+          "gloss": "吃<主焦 >=我.主格 tu 吃<主焦 >  斜格 芋頭"
+        },
+        {
+          "id": "(16-18)",
+          "page": 171,
+          "paiwan": "’eman tu ’emana ’en ta vasa.",
+          "chinese": "吃<主焦 > tu  吃<主焦 >=我.主格  斜格 芋頭",
+          "morphology": "’<em>an  tu  ’<em>an =a’en    ta   vasa.",
+          "gloss": "吃<主焦 > tu  吃<主焦 >=我.主格  斜格 芋頭"
+        },
+        {
+          "id": "(16-19)",
+          "page": 171,
+          "paiwan": "tjavaleljevelj ti kai.",
+          "chinese": "比較 -漂亮  主格 人名",
+          "morphology": "tja-valeljevelj ti   kai.",
+          "gloss": "比較 -漂亮  主格 人名"
+        },
+        {
+          "id": "(16-20)",
+          "page": 171,
+          "paiwan": "tjavaleljevelj ti kai tjai cemedas.",
+          "chinese": "比較 -漂亮  主格 人名 斜格 人名",
+          "morphology": "tja-valeljevelj ti   kai  tjai  cemedas.",
+          "gloss": "比較 -漂亮  主格 人名 斜格 人名"
+        },
+        {
+          "id": "(16-21)",
+          "page": 171,
+          "paiwan": "tjakedri a ’ucavilj",
+          "chinese": "比較 -少 主格 我的 =年紀",
+          "morphology": "tja-kedri a   ’u=cavilj.",
+          "gloss": "比較 -少 主格 我的 =年紀"
+        },
+        {
+          "id": "(16-22)",
+          "page": 171,
+          "paiwan": "tjakedri tu tjelu a cavilj a ’ucavilj tjaimadju",
+          "chinese": "比較 -少 tu  三  連繫詞 歲  主格 我的 =年紀  他.斜格",
+          "morphology": "tja-kedri tu  tjelu  a    cavilj a   ’u=cavilj   tjaimadju",
+          "gloss": "比較 -少 tu  三  連繫詞 歲  主格 我的 =年紀  他.斜格"
+        },
+        {
+          "id": "(16-23)",
+          "page": 171,
+          "paiwan": "tjagemaljua ’en tu tjelu a zikangan a mangtjez tjaimadju.",
+          "chinese": "比較 -慢<主焦 >=我.主格  tu  三  連繫詞 小時   連繫詞",
+          "morphology": "tja-g<em>alju=a ’en     tu  tjelu  a    zikangan  a",
+          "gloss": "比較 -慢<主焦 >=我.主格  tu  三  連繫詞 小時   連繫詞"
+        },
+        {
+          "id": "(16-24)",
+          "page": 172,
+          "paiwan": "tjasangasa ’en tu tjelu a zikangan a mangtjez tjaimadju.",
+          "chinese": "比較 -慢<主焦 >=我.主格  tu  三  連繫詞 小時   連繫詞",
+          "morphology": "tja-sangas=a ’en       tu  tjelu  a    zikangan  a",
+          "gloss": "比較 -慢<主焦 >=我.主格  tu  三  連繫詞 小時   連繫詞"
+        },
+        {
+          "id": "(16-25)",
+          "page": 172,
+          "paiwan": "tjasemuliava ’en tjai kai.",
+          "chinese": "比較 -吃多 <主焦 >=我.主格  斜格 人名",
+          "morphology": "tja-s<em>uliav=a ’en      tjai  kai.",
+          "gloss": "比較 -吃多 <主焦 >=我.主格  斜格 人名"
+        },
+        {
+          "id": "(16-26)",
+          "page": 172,
+          "paiwan": "tjagemalju a mangtjez ti kai tjai cemedas.",
+          "chinese": "比較 -慢<主焦 >  連繫詞 來.主焦  主格 人名 斜格 人名",
+          "morphology": "tja-g<em>alju   a    mangtjez  ti   kai  tjai  cemedas.",
+          "gloss": "比較 -慢<主焦 >  連繫詞 來.主焦  主格 人名 斜格 人名"
+        },
+        {
+          "id": "(16-27)",
+          "page": 172,
+          "paiwan": "aligu ’inananga na vatu a kuka ayaa ’en.",
+          "chinese": "aligu  吃<受焦 >-完成  屬格 狗  主格 雞  aya=我.主格",
+          "morphology": "aligu  ’<in>an-anga   na   vatu  a   kuka  aya=a ’en.",
+          "gloss": "aligu  吃<受焦 >-完成  屬格 狗  主格 雞  aya=我.主格"
+        },
+        {
+          "id": "(16-28)",
+          "page": 173,
+          "paiwan": "aligu tisun ayaa ’en, manu iniya tisun.",
+          "chinese": "aligu  你  aya=我.主格  結果 不是 你",
+          "morphology": "aligu  tisun  aya=a ’en,    manu iniya tisun.",
+          "gloss": "aligu  你  aya=我.主格  結果 不是 你"
+        },
+        {
+          "id": "(16-29)",
+          "page": 173,
+          "paiwan": "aligu na ’emananga timadju ayaa ’en, manu iniyaanan.",
+          "chinese": "aligu  完成 -吃<主焦 >-完成  他.主格  aya =我.主格 結果",
+          "morphology": "aligu  na-’<em>an-anga    timadju  aya=a ’en,    manu",
+          "gloss": "aligu  完成 -吃<主焦 >-完成  他.主格  aya =我.主格 結果"
+        },
+        {
+          "id": "(16-30)",
+          "page": 173,
+          "paiwan": "aligu vatu a ’eman ta ’upinaquzip a kuka ayaa ’en.",
+          "chinese": "aligu  狗  連繫詞 吃<主焦 >  斜格 我.屬格 =養<受焦 >",
+          "morphology": "aligu  vatu  a    ’<em>an   ta   ’u=p<in>aquzip.",
+          "gloss": "aligu  狗  連繫詞 吃<主焦 >  斜格 我.屬格 =養<受焦 >"
+        },
+        {
+          "id": "(16-31)",
+          "page": 173,
+          "paiwan": "sitece ’e a pi ’inacavacavan a palalj, aligu qayaqayama ’en aya timadju.",
+          "chinese": "工具焦 -插 連繫詞 放身上     主格 翅膀",
+          "morphology": "si-tece ’e  a    pi’inacavacavan  a   palalj,",
+          "gloss": "工具焦 -插 連繫詞 放身上     主格 翅膀"
+        }
+      ]
+    }
+  },
+  "vocabulary": []
+}

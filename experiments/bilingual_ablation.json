@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "timestamp": "2026-05-28T23:56:17.160132",
+    "test_size": 50,
+    "model": "glm-4-flash",
+    "paiwan_corpus": 5923,
+    "amis_corpus": 6413
+  },
+  "results": {
+    "排灣語": {
+      "Control（4層全開）": {
+        "accuracy": 79.16666666666666,
+        "correct": 38,
+        "wrong": 10,
+        "not_found": 2,
+        "llm_calls": 11
+      },
+      "Exp1：關閉CoreVocab+ExactMatch": {
+        "accuracy": 45.83333333333333,
+        "correct": 22,
+        "wrong": 26,
+        "not_found": 2,
+        "llm_calls": 50
+      },
+      "Exp2：關閉Grammar語法注入": {
+        "accuracy": 75.0,
+        "correct": 36,
+        "wrong": 12,
+        "not_found": 2,
+        "llm_calls": 11
+      },
+      "Exp3：關閉往返驗證": {
+        "accuracy": 83.33333333333334,
+        "correct": 40,
+        "wrong": 8,
+        "not_found": 2,
+        "llm_calls": 11
+      }
+    },
+    "阿美語": {
+      "Control（4層全開）": {
+        "accuracy": 73.46938775510205,
+        "correct": 36,
+        "wrong": 13,
+        "not_found": 1,
+        "llm_calls": 17
+      },
+      "Exp1：關閉CoreVocab+ExactMatch": {
+        "accuracy": 38.775510204081634,
+        "correct": 19,
+        "wrong": 30,
+        "not_found": 1,
+        "llm_calls": 50
+      },
+      "Exp2：關閉Grammar語法注入": {
+        "accuracy": 73.46938775510205,
+        "correct": 36,
+        "wrong": 13,
+        "not_found": 1,
+        "llm_calls": 17
+      },
+      "Exp3：關閉往返驗證": {
+        "accuracy": 73.46938775510205,
+        "correct": 36,
+        "wrong": 13,
+        "not_found": 1,
+        "llm_calls": 17
+      }
+    }
+  }
+}

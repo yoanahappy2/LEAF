@@ -1,0 +1,240 @@
+# ============================================================
+# LEAF Benchmark v2.1 — Multi-Agent Collaboration Tasks
+# 評審級格式：每題都有 clear agent roles，不可能只靠 RAG
+# ============================================================
+
+meta:
+  version: "2.1"
+  framework: "LEAF (Layered Evaluation & Adaptive Framework)"
+  language: "Paiwan (排灣語)"
+  model: "glm-4-flash"
+  temperature: 0.3
+  evaluation_method: "agent_invocation_check"
+  purpose: >
+    驗證 Multi-Agent 系統中每個 Agent 是否被正確觸發。
+    不是測 accuracy，而是測 agent collaboration。
+
+# ============================================================
+# Agent 定義
+# ============================================================
+
+agents:
+  knowledge:
+    role: "語言知識服務"
+    tools:
+      - translate         # 中↔排灣雙向翻譯
+      - rag_search        # 語料庫語意搜尋
+      - lookup            # 詞彙深度查詢
+      - pronunciation     # 發音查詢
+    trigger_keywords: ["怎麼說", "什麼意思", "翻譯", "發音"]
+
+  teaching:
+    role: "學習路徑服務"
+    tools:
+      - plan_learning     # 生成多步學習計畫
+      - suggest_next      # 推薦下一個學習詞彙
+      - generate_quiz     # 生成測驗題
+      - record_learning   # 記錄學習行為
+      - learning_report   # 學習進度報告
+    trigger_keywords: ["學", "教我", "計畫", "出題", "考我", "測驗", "推薦"]
+
+  quality:
+    role: "品質保證服務"
+    tools:
+      - review_translation  # 審核翻譯品質
+      - self_judge          # 目標是否達成
+      - cross_validate      # 交叉驗證
+      - review_corpus       # 語料品質審核
+    trigger_keywords: ["驗證", "判斷", "對不對", "是否正確", "修正", "檢查"]
+
+# ============================================================
+# Task 1: Learning Path Planning
+# 必須觸發 TeachingAgent
+# ============================================================
+
+- id: ma01
+  type: learning_path
+  difficulty: medium
+  title: "學習路徑規劃"
+
+  input: >
+    我剛開始學排灣語，已經會了 djavadjavay（你好）和 masalu（謝謝）。
+    請幫我設計下一階段的學習計畫，推薦我接下來應該學哪些詞。
+
+  expected_agents: [teaching, knowledge]
+  expected_tools: [suggest_next, plan_learning]
+
+  evaluation:
+    must_invoke:
+      teaching: true    # 必須觸發 TeachingAgent
+      knowledge: false  # 可選（如果 teaching 需要查詞）
+    must_NOT:
+      - "LLM 自己編學習計畫，不調用 teaching 工具"
+    success_criteria: >
+      teaching agent 的 suggest_next 或 plan_learning 被調用
+
+  why_multi_agent: >
+    RAG 無法生成學習路徑，這需要 TeachingAgent 的 plan_learning 邏輯。
+    只有 TeachingAgent 能根據用戶進度推薦下一個學習詞彙。
+
+# ============================================================
+# Task 2: Translation Quality Review
+# 必須觸發 QualityAgent（最關鍵：偵測錯誤翻譯）
+# ============================================================
+
+- id: ma02
+  type: quality_review
+  difficulty: hard
+  title: "翻譯品質審核（含錯誤偵測）"
+
+  input: >
+    我查到這些排灣語翻譯，請幫我檢查是否正確：
+    - 母親 → tjina
+    - 父親 → tama
+    - 孩子 → aljak
+
+  expected_agents: [quality, knowledge]
+  expected_tools: [review_translation, translate]
+
+  evaluation:
+    must_invoke:
+      quality: true     # 必須觸發 QualityAgent
+      knowledge: true   # 必須重新翻譯取得正確答案
+    expected_correction:
+      母親: "kina"      # tjina 是錯的
+      父親: "kama"      # tama 是錯的
+      孩子: "aljak"     # 這個是對的
+    success_criteria: >
+      1. QualityAgent 被調用做 review_translation
+      2. tjina/tama 被標記為錯誤
+      3. 最終輸出 kina/kama 作為正確答案
+
+  why_multi_agent: >
+    這是 Multi-Agent 最有價值的場景：
+    KnowledgeAgent 翻譯 → QualityAgent 審核 → 發現錯誤 → KnowledgeAgent 修正。
+    單一 Agent 無法同時「翻譯」和「審核自己的翻譯」。
+
+# ============================================================
+# Task 3: Quiz Generation
+# 必須觸發 TeachingAgent
+# ============================================================
+
+- id: ma03
+  type: quiz_generation
+  difficulty: medium
+  title: "測驗生成"
+
+  input: >
+    我已經學了 kina（母親）、kama（父親）、aljak（孩子）這三個詞。
+    請用 generate_quiz 工具幫我出題考我自己。
+
+  expected_agents: [teaching]
+  expected_tools: [generate_quiz]
+
+  evaluation:
+    must_invoke:
+      teaching: true
+    success_criteria: >
+      teaching agent 的 generate_quiz 被調用，產出結構化測驗題
+
+  why_multi_agent: >
+    測驗生成需要 TeachingAgent 的教育邏輯，不是翻譯或檢索。
+
+# ============================================================
+# Task 4: Cross-Validation（已驗證通過 ✅）
+# Knowledge + Quality 協作
+# ============================================================
+
+- id: ma04
+  type: cross_validation
+  difficulty: easy
+  title: "翻譯 + 品質驗證"
+  status: PASSED  # 2026-06-05 實驗已通過
+
+  input: >
+    請幫我翻譯「你好」成排灣語，然後用 review_translation 工具驗證翻譯是否正確。
+
+  expected_agents: [knowledge, quality]
+  expected_tools: [translate, review_translation]
+
+  evaluation:
+    must_invoke:
+      knowledge: true
+      quality: true
+    expected_translation: "djavadjavai"
+    success_criteria: >
+      1. KnowledgeAgent 做 translate
+      2. QualityAgent 做 review_translation
+      3. 兩個 Agent 都被調用
+
+  why_multi_agent: >
+    翻譯 + 驗證是經典的 Multi-Agent 分工：
+    KnowledgeAgent 負責翻譯，QualityAgent 負責審核。
+    單一 Agent 無法客觀審核自己的翻譯。
+
+  trace_verified: |
+    Tools called:
+    1. knowledge:translate("你好", c2p) → djavadjavai
+    2. quality:review_translation(original="你好", translation="djavadjavay") → score=0.64
+    3. knowledge:rag_search("你好") → 補充語料
+
+# ============================================================
+# Task 5: Full Pipeline（三 Agent 聯動）
+# ============================================================
+
+- id: ma05
+  type: full_pipeline
+  difficulty: hard
+  title: "完整學習流程（三 Agent 聯動）"
+
+  input: >
+    我想學排灣語的問候語。請執行以下步驟：
+    1. 用 translate 工具教我「你好」和「謝謝」怎麼說
+    2. 用 generate_quiz 工具出題考我
+    3. 用 review_translation 工具驗證翻譯是否正確
+
+  expected_agents: [knowledge, teaching, quality]
+  expected_tools: [translate, generate_quiz, review_translation]
+
+  evaluation:
+    must_invoke:
+      knowledge: true
+      teaching: true
+      quality: true
+    success_criteria: >
+      三個 Agent 都被調用：
+      Knowledge 翻譯 → Teaching 出題 → Quality 驗證
+
+  why_multi_agent: >
+    這是 Multi-Agent 的終極展示：
+    三個 Agent 各司其職，形成完整的學習閉環。
+    這不是單一 Agent + tools 能做到的——每個 Agent 有自己的 system prompt 和決策邏輯。
+
+# ============================================================
+# Task 6: Error Correction
+# 必須觸發 QualityAgent
+# ============================================================
+
+- id: ma06
+  type: error_correction
+  difficulty: medium
+  title: "錯誤偵測與修正"
+
+  input: >
+    我朋友告訴我「你好」的排灣語是 masalu。
+    請用 review_translation 工具驗證這個翻譯是否正確，如果不對請告訴我正確答案。
+
+  expected_agents: [quality, knowledge]
+  expected_tools: [review_translation, translate]
+
+  evaluation:
+    must_invoke:
+      quality: true
+    expected_correction: "masalu 是謝謝，你好應該是 djavadjavai"
+    success_criteria: >
+      1. QualityAgent 被調用做 review_translation
+      2. masalu 被標記為不正確的「你好」翻譯
+      3. 給出正確答案 djavadjavai
+
+  why_multi_agent: >
+    錯誤偵測需要 QualityAgent 的審核邏輯，不是翻譯能做的。

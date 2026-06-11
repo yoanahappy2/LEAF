@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "version": "2.1",
+    "description": "LEAF Benchmark v2.1 — Multi-Agent Collaboration Tasks",
+    "purpose": "強制觸發 TeachingAgent + QualityAgent + KnowledgeAgent 三方協作",
+    "rule": "每題必須涉及至少 2 個 Agent 才能完成"
+  },
+  "tasks": [
+    {
+      "id": "ma01",
+      "type": "learning_path",
+      "input": "我想學排灣語的家人稱呼，請幫我設計學習計畫並推薦下一個該學的詞",
+      "expected_agents": ["teaching", "knowledge"],
+      "expected_tools": ["plan_learning", "suggest_next"],
+      "evaluation": {
+        "method": "agent_invocation",
+        "must_invoke": ["teaching"]
+      },
+      "description": "學習路徑規劃：必須觸發 TeachingAgent 的 plan_learning 和 suggest_next"
+    },
+    {
+      "id": "ma02",
+      "type": "quality_review",
+      "input": "我查到「母親」的排灣語是 tjina，「父親」是 tama。請先用 translate 工具重新翻譯「母親」和「父親」，再用 review_translation 工具驗證 tjina 和 tama 是否正確",
+      "expected_agents": ["quality", "knowledge"],
+      "expected_tools": ["translate", "review_translation"],
+      "evaluation": {
+        "method": "agent_invocation",
+        "must_invoke": ["quality", "knowledge"],
+        "expected_correction": {
+          "母親": "kina",
+          "父親": "kama"
+        }
+      },
+      "description": "品質審核：KnowledgeAgent 翻譯取得正確答案，QualityAgent 審核 tjina/tama"
+    },
+    {
+      "id": "ma03",
+      "type": "quiz_generation",
+      "input": "我已經學了 kina（母親）、kama（父親）、aljak（孩子）。請用 generate_quiz 出題考我，然後用 translate 工具確認每題的正確答案",
+      "expected_agents": ["teaching", "knowledge"],
+      "expected_tools": ["generate_quiz", "translate"],
+      "evaluation": {
+        "method": "agent_invocation",
+        "must_invoke": ["teaching", "knowledge"]
+      },
+      "description": "測驗生成：TeachingAgent 出題，KnowledgeAgent 確認翻譯"
+    },
+    {
+      "id": "ma04",
+      "type": "cross_validation",
+      "input": "請幫我翻譯「你好」成排灣語，然後用 review_translation 工具驗證翻譯是否正確",
+      "expected_agents": ["knowledge", "quality"],
+      "expected_tools": ["translate", "review_translation"],
+      "evaluation": {
+        "method": "agent_invocation",
+        "must_invoke": ["knowledge", "quality"],
+        "expected_translation": "djavadjavai"
+      },
+      "description": "翻譯+驗證：KnowledgeAgent 翻譯，QualityAgent 審核"
+    },
+    {
+      "id": "ma05",
+      "type": "full_pipeline",
+      "input": "我想學排灣語的問候語。請教我怎麼說「你好」和「謝謝」，然後出題考我，最後驗證我的答案對不對",
+      "expected_agents": ["knowledge", "teaching", "quality"],
+      "expected_tools": ["translate", "generate_quiz", "review_translation"],
+      "evaluation": {
+        "method": "agent_invocation",
+        "must_invoke": ["knowledge", "teaching", "quality"]
+      },
+      "description": "完整學習流程：三個 Agent 全部參與"
+    },
+    {
+      "id": "ma06",
+      "type": "error_correction",
+      "input": "我朋友說「你好」的排灣語是 masalu，這對嗎？請用 review_translation 驗證，如果不對請用 translate 工具告訴我正確答案",
+      "expected_agents": ["knowledge", "quality"],
+      "expected_tools": ["translate", "review_translation"],
+      "evaluation": {
+        "method": "agent_invocation",
+        "must_invoke": ["quality", "knowledge"]
+      },
+      "description": "錯誤偵測：QualityAgent 驗證，KnowledgeAgent 給正確答案"
+    }
+  ]
+}

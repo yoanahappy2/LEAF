@@ -1,0 +1,724 @@
+{
+  "llm_direct": {
+    "name": "llm_direct",
+    "model": "glm-4-flash",
+    "temperature": 0.3,
+    "accuracy": 0.0,
+    "exact_accuracy": 0.0,
+    "correct": 0,
+    "exact_correct": 0,
+    "total": 20,
+    "results": [
+      {
+        "chinese": "你好",
+        "expected": "djavadjavai",
+        "reply": "你好 [不確定]",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'djavadjavai' or variants in reply"
+      },
+      {
+        "chinese": "謝謝",
+        "expected": "masalu",
+        "reply": "謝謝 -> 謝謝",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'masalu' or variants in reply"
+      },
+      {
+        "chinese": "再見",
+        "expected": "sadju",
+        "reply": "再見\nbiraan\n\n（此為排灣語翻譯，但請注意，排灣語並非我專業領域，因此這裡的翻譯可能不完全準確。）",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'sadju' or variants in reply"
+      },
+      {
+        "chinese": "水",
+        "expected": "zanim",
+        "reply": "水：tawtaw",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'zanim' or variants in reply"
+      },
+      {
+        "chinese": "吃",
+        "expected": "kan",
+        "reply": "[ki̍t]",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'kan' or variants in reply"
+      },
+      {
+        "chinese": "房子",
+        "expected": "umaq",
+        "reply": "hāus\n\n(這是排灣語對“房子”的常見翻譯，但請注意，排灣語有許多方言，不同地區可能使用不同的詞彙。)",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'umaq' or variants in reply"
+      },
+      {
+        "chinese": "人",
+        "expected": "caucau",
+        "reply": "人：bunun",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'caucau' or variants in reply"
+      },
+      {
+        "chinese": "眼睛",
+        "expected": "mata",
+        "reply": "[不確定]",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'mata' or variants in reply"
+      },
+      {
+        "chinese": "手",
+        "expected": "lama",
+        "reply": "[不確定]",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'lama' or variants in reply"
+      },
+      {
+        "chinese": "太陽",
+        "expected": "qadaw",
+        "reply": "tawian\n\n(注意：這裡的 \"tawian\" 是一個簡化的翻譯，因為排灣語中沒有直接對應的單詞，這裡使用的是漢語借詞。)",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'qadaw' or variants in reply"
+      },
+      {
+        "chinese": "月亮",
+        "expected": "vuralac",
+        "reply": "月娘",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'vuralac' or variants in reply"
+      },
+      {
+        "chinese": "山",
+        "expected": "garanga",
+        "reply": "bān",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'garanga' or variants in reply"
+      },
+      {
+        "chinese": "名字",
+        "expected": "ngadan",
+        "reply": "[不確定]",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'ngadan' or variants in reply"
+      },
+      {
+        "chinese": "朋友",
+        "expected": "kadu",
+        "reply": "朋儭",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'kadu' or variants in reply"
+      },
+      {
+        "chinese": "孩子",
+        "expected": "aljak",
+        "reply": "baka",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'aljak' or variants in reply"
+      },
+      {
+        "chinese": "母親",
+        "expected": "ina",
+        "reply": "[姆媽]",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'ina' or variants in reply"
+      },
+      {
+        "chinese": "父親",
+        "expected": "ama",
+        "reply": "阿爸",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'ama' or variants in reply"
+      },
+      {
+        "chinese": "一",
+        "expected": "itua",
+        "reply": "[一]",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'itua' or variants in reply"
+      },
+      {
+        "chinese": "二",
+        "expected": "drusa",
+        "reply": "二 [不確定]",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'drusa' or variants in reply"
+      },
+      {
+        "chinese": "好",
+        "expected": "tarivak",
+        "reply": "好：kakaw\n\n注意：這裡的翻譯是基於漢語“好”的常見對應排灣語詞，但排灣語是一種複雜的語言，可能存在多種表達方式。",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'tarivak' or variants in reply"
+      }
+    ]
+  },
+  "rag_only": {
+    "name": "rag_only",
+    "model": "N/A (corpus matching)",
+    "temperature": "N/A",
+    "accuracy": 0.45,
+    "correct": 9,
+    "total": 20,
+    "results": [
+      {
+        "chinese": "你好",
+        "expected": "djavadjavai",
+        "reply": "aiyanga",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'djavadjavai' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "謝謝",
+        "expected": "masalu",
+        "reply": "masalu",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'masalu' found",
+        "method": "rag"
+      },
+      {
+        "chinese": "再見",
+        "expected": "sadju",
+        "reply": "pacunan",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'sadju' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "水",
+        "expected": "zanim",
+        "reply": "zaljum",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'zanim' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "吃",
+        "expected": "kan",
+        "reply": "keman",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'kan' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "房子",
+        "expected": "umaq",
+        "reply": "ka djemaljun tua umaq nuazua uri valjaw a ti tjainan aicu a ti vavayan, manu pasa samalji a kiqazalj a pacun tuazua umaq ni tjainan. ayatua king a penuljat a sinialang. qau azua uri valjaw nimadju a ti tjainan, na mapavalit anga tu na sauqaljay a maqacuvucuvung. aicu a ti vavayan maleva aravac.",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'umaq' found",
+        "method": "rag"
+      },
+      {
+        "chinese": "人",
+        "expected": "caucau",
+        "reply": "malje tapuluq amen, izua anan a kakaizuavan?",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'caucau' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "眼睛",
+        "expected": "mata",
+        "reply": "a",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'mata' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "手",
+        "expected": "lama",
+        "reply": "lima",
+        "correct": true,
+        "match_level": "variant",
+        "detail": "Variant: 'lima' found (expected: 'lama')",
+        "method": "rag"
+      },
+      {
+        "chinese": "太陽",
+        "expected": "qadaw",
+        "reply": "qadaw",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'qadaw' found",
+        "method": "rag"
+      },
+      {
+        "chinese": "月亮",
+        "expected": "vuralac",
+        "reply": "qiljas",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'vuralac' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "山",
+        "expected": "garanga",
+        "reply": "gadu",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'garanga' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "名字",
+        "expected": "ngadan",
+        "reply": "ti savan a ku ngadan, pai saqumaqanu.",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'ngadan' found",
+        "method": "rag"
+      },
+      {
+        "chinese": "朋友",
+        "expected": "kadu",
+        "reply": "aicu ku drangi ti sakengel.",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'kadu' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "孩子",
+        "expected": "aljak",
+        "reply": "aljak",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'aljak' found",
+        "method": "rag"
+      },
+      {
+        "chinese": "母親",
+        "expected": "ina",
+        "reply": "kina",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'ina' found",
+        "method": "rag"
+      },
+      {
+        "chinese": "父親",
+        "expected": "ama",
+        "reply": "kama",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'ama' found",
+        "method": "rag"
+      },
+      {
+        "chinese": "一",
+        "expected": "itua",
+        "reply": "ita",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'itua' or variants in reply",
+        "method": "rag"
+      },
+      {
+        "chinese": "二",
+        "expected": "drusa",
+        "reply": "drusa",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'drusa' found",
+        "method": "rag"
+      },
+      {
+        "chinese": "好",
+        "expected": "tarivak",
+        "reply": "nanguaq",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'tarivak' or variants in reply",
+        "method": "rag"
+      }
+    ]
+  },
+  "single_agent": {
+    "name": "single_agent",
+    "model": "glm-4-flash",
+    "temperature": 0.3,
+    "accuracy": 0.4,
+    "correct": 8,
+    "total": 20,
+    "results": [
+      {
+        "chinese": "你好",
+        "expected": "djavadjavai",
+        "reply": "djavadjavay",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'djavadjavai' or variants in reply",
+        "method": "exact"
+      },
+      {
+        "chinese": "謝謝",
+        "expected": "masalu",
+        "reply": "masalu",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'masalu' found",
+        "method": "exact"
+      },
+      {
+        "chinese": "再見",
+        "expected": "sadju",
+        "reply": "pacunan",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'sadju' or variants in reply",
+        "method": "exact"
+      },
+      {
+        "chinese": "水",
+        "expected": "zanim",
+        "reply": "zaljum",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'zanim' or variants in reply",
+        "method": "exact"
+      },
+      {
+        "chinese": "吃",
+        "expected": "kan",
+        "reply": "keman",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'kan' or variants in reply",
+        "method": "exact"
+      },
+      {
+        "chinese": "房子",
+        "expected": "umaq",
+        "reply": "",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'umaq' or variants in reply",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "人",
+        "expected": "caucau",
+        "reply": "",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'caucau' or variants in reply",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "眼睛",
+        "expected": "mata",
+        "reply": "maca",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'mata' or variants in reply",
+        "method": "exact"
+      },
+      {
+        "chinese": "手",
+        "expected": "lama",
+        "reply": "lima",
+        "correct": true,
+        "match_level": "variant",
+        "detail": "Variant: 'lima' found (expected: 'lama')",
+        "method": "exact"
+      },
+      {
+        "chinese": "太陽",
+        "expected": "qadaw",
+        "reply": "qadaw",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'qadaw' found",
+        "method": "exact"
+      },
+      {
+        "chinese": "月亮",
+        "expected": "vuralac",
+        "reply": "qiljas",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'vuralac' or variants in reply",
+        "method": "exact"
+      },
+      {
+        "chinese": "山",
+        "expected": "garanga",
+        "reply": "qungiljaw",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'garanga' or variants in reply",
+        "method": "exact"
+      },
+      {
+        "chinese": "名字",
+        "expected": "ngadan",
+        "reply": "",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'ngadan' or variants in reply",
+        "method": "rag_llm"
+      },
+      {
+        "chinese": "朋友",
+        "expected": "kadu",
+        "reply": "drangi",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'kadu' or variants in reply",
+        "method": "exact"
+      },
+      {
+        "chinese": "孩子",
+        "expected": "aljak",
+        "reply": "aljak",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'aljak' found",
+        "method": "exact"
+      },
+      {
+        "chinese": "母親",
+        "expected": "ina",
+        "reply": "tjina",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'ina' found",
+        "method": "exact"
+      },
+      {
+        "chinese": "父親",
+        "expected": "ama",
+        "reply": "tama",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'ama' found",
+        "method": "exact"
+      },
+      {
+        "chinese": "一",
+        "expected": "itua",
+        "reply": "ita",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'itua' or variants in reply",
+        "method": "exact"
+      },
+      {
+        "chinese": "二",
+        "expected": "drusa",
+        "reply": "drusa",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'drusa' found",
+        "method": "exact"
+      },
+      {
+        "chinese": "好",
+        "expected": "tarivak",
+        "reply": "tarivak",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'tarivak' found",
+        "method": "exact"
+      }
+    ]
+  },
+  "multi_agent": {
+    "name": "multi_agent",
+    "model": "glm-4-flash",
+    "temperature": 0.3,
+    "accuracy": 0.45,
+    "correct": 9,
+    "total": 20,
+    "results": [
+      {
+        "chinese": "你好",
+        "expected": "djavadjavai",
+        "reply": "\n你好在排灣語是「djavadjavay」！",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'djavadjavai' or variants in reply"
+      },
+      {
+        "chinese": "謝謝",
+        "expected": "masalu",
+        "reply": "\n謝謝的排灣語是「masalu」。",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'masalu' found"
+      },
+      {
+        "chinese": "再見",
+        "expected": "sadju",
+        "reply": "\n再見的排灣語是「pacunan」。",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'sadju' or variants in reply"
+      },
+      {
+        "chinese": "水",
+        "expected": "zanim",
+        "reply": "\n水的排灣語是「zaljum」。",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'zanim' or variants in reply"
+      },
+      {
+        "chinese": "吃",
+        "expected": "kan",
+        "reply": "\n吃的排灣語是「keman」。",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'kan' or variants in reply"
+      },
+      {
+        "chinese": "房子",
+        "expected": "umaq",
+        "reply": "\n房子的排灣語是「umaq」。",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'umaq' found"
+      },
+      {
+        "chinese": "人",
+        "expected": "caucau",
+        "reply": "\n人的排灣語是「caucau」。",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'caucau' found"
+      },
+      {
+        "chinese": "眼睛",
+        "expected": "mata",
+        "reply": "\n眼睛的排灣語是「maca」。",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'mata' or variants in reply"
+      },
+      {
+        "chinese": "手",
+        "expected": "lama",
+        "reply": "\n手的排灣語是「lima」。",
+        "correct": true,
+        "match_level": "variant",
+        "detail": "Variant: 'lima' found (expected: 'lama')"
+      },
+      {
+        "chinese": "太陽",
+        "expected": "qadaw",
+        "reply": "\n太陽的排灣語是「qadaw」。",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'qadaw' found"
+      },
+      {
+        "chinese": "月亮",
+        "expected": "vuralac",
+        "reply": "\n月亮的排灣語是「qiljas」。",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'vuralac' or variants in reply"
+      },
+      {
+        "chinese": "山",
+        "expected": "garanga",
+        "reply": "\n山的排灣語是「qungiljaw」。",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'garanga' or variants in reply"
+      },
+      {
+        "chinese": "名字",
+        "expected": "ngadan",
+        "reply": "\n<tool_call>rag_search\n<arg_key>query</arg_key>\n<arg_value>個人名稱 personal name</arg_value>\n</tool_call>",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'ngadan' or variants in reply"
+      },
+      {
+        "chinese": "朋友",
+        "expected": "kadu",
+        "reply": "\n朋友在排灣語中是「drangi」。",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'kadu' or variants in reply"
+      },
+      {
+        "chinese": "孩子",
+        "expected": "aljak",
+        "reply": "\n孩子（aljak）",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'aljak' found"
+      },
+      {
+        "chinese": "母親",
+        "expected": "ina",
+        "reply": "\n母親的排灣語是「tjina」。",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'ina' found"
+      },
+      {
+        "chinese": "父親",
+        "expected": "ama",
+        "reply": "\n父親的排灣語是「tama」。",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'ama' found"
+      },
+      {
+        "chinese": "一",
+        "expected": "itua",
+        "reply": "\n一的排灣語是「ita」。",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'itua' or variants in reply"
+      },
+      {
+        "chinese": "二",
+        "expected": "drusa",
+        "reply": "\n二的排灣語是「drusa」。",
+        "correct": true,
+        "match_level": "exact",
+        "detail": "Exact: 'drusa' found"
+      },
+      {
+        "chinese": "好",
+        "expected": "tarivak",
+        "reply": "\n好的的排灣語是「ui.」",
+        "correct": false,
+        "match_level": "none",
+        "detail": "No match for 'tarivak' or variants in reply"
+      }
+    ]
+  }
+}

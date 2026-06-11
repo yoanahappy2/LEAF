@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "version": "2.0",
+    "description": "LEAF Benchmark v2.0 詞彙表 — 只收錄語料庫中 100% 確認的詞，每個 variant 都經過語料庫驗證",
+    "rule": "variants 只收語料庫中實際存在的拼法，不允許 LLM 生成",
+    "source": "data/merged_corpus.json (category=vocabulary)",
+    "created": "2026-06-04"
+  },
+  "你好": {
+    "variants": ["djavadjavai", "djavadjavay"],
+    "preferred": "djavadjavai",
+    "note": "語料庫兩種拼法均存在：ai/ay 結尾差異"
+  },
+  "謝謝": {
+    "variants": ["masalu"],
+    "preferred": "masalu"
+  },
+  "再見": {
+    "variants": ["pacunan"],
+    "preferred": "pacunan",
+    "note": "語料庫 pacunan=看見/看到，延伸用法=再見。sadju 不在語料庫中，已移除"
+  },
+  "水": {
+    "variants": ["zaljum"],
+    "preferred": "zaljum"
+  },
+  "吃": {
+    "variants": ["keman"],
+    "preferred": "keman",
+    "note": "語料庫 keman=吃。kan 不在語料庫中（有 kanen/kani/kanaw 但不是 kan），已移除"
+  },
+  "房子": {
+    "variants": ["umaq"],
+    "preferred": "umaq"
+  },
+  "人": {
+    "variants": ["caucau"],
+    "preferred": "caucau"
+  },
+  "眼睛": {
+    "variants": ["maca"],
+    "preferred": "maca",
+    "note": "語料庫 vocabulary: maca=眼睛。mata=到/去（不是眼睛！），已移除"
+  },
+  "手": {
+    "variants": ["lima"],
+    "preferred": "lima"
+  },
+  "太陽": {
+    "variants": ["qadaw"],
+    "preferred": "qadaw"
+  },
+  "月亮": {
+    "variants": ["qiljas"],
+    "preferred": "qiljas"
+  },
+  "山": {
+    "variants": ["gadu"],
+    "preferred": "gadu",
+    "note": "語料庫 vocabulary 條目為 gadu"
+  },
+  "名字": {
+    "variants": ["ngadan"],
+    "preferred": "ngadan"
+  },
+  "朋友": {
+    "variants": ["drangi"],
+    "preferred": "drangi",
+    "note": "語料庫 drangi=朋友。kadu 不在語料庫中，已移除"
+  },
+  "孩子": {
+    "variants": ["aljak"],
+    "preferred": "aljak"
+  },
+  "母親": {
+    "variants": ["kina"],
+    "preferred": "kina",
+    "note": "語料庫 vocabulary/custom: kina=媽媽/母親。prompt_vocab 已修正 tjina→kina。tjina 不是排灣語"
+  },
+  "父親": {
+    "variants": ["kama"],
+    "preferred": "kama",
+    "note": "語料庫 vocabulary/custom: kama=爸爸/父親。prompt_vocab 已修正 tama→kama。tama 不是排灣語"
+  },
+  "一": {
+    "variants": ["ita"],
+    "preferred": "ita"
+  },
+  "二": {
+    "variants": ["drusa"],
+    "preferred": "drusa"
+  },
+  "好": {
+    "variants": ["tarivak", "nanguaq"],
+    "preferred": "tarivak"
+  },
+  "道路": {
+    "variants": ["djalan"],
+    "preferred": "djalan"
+  },
+  "火": {
+    "variants": ["sapuy", "sapui"],
+    "preferred": "sapuy",
+    "note": "語料庫 vocabulary=sapuy, custom=sapui"
+  },
+  "狗": {
+    "variants": ["vatu"],
+    "preferred": "vatu"
+  },
+  "星星": {
+    "variants": ["vitjuqan"],
+    "preferred": "vitjuqan"
+  },
+  "下雨": {
+    "variants": ["qemudjalj"],
+    "preferred": "qemudjalj"
+  }
+}

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "q01",
+    "input": "「你好」的排灣語怎麼說？",
+    "target": "你好",
+    "difficulty": "easy",
+    "notes": "高頻問候語，RAG 應能直接命中"
+  },
+  {
+    "id": "q02",
+    "input": "謝謝用排灣語怎麼說？",
+    "target": "謝謝",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q03",
+    "input": "水的排灣語是什麼？",
+    "target": "水",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q04",
+    "input": "排灣語的吃怎麼說？",
+    "target": "吃",
+    "difficulty": "easy",
+    "notes": "詞根 kan vs 完整形 keman"
+  },
+  {
+    "id": "q05",
+    "input": "太陽的排灣語是什麼？",
+    "target": "太陽",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q06",
+    "input": "月亮的族語怎麼說？",
+    "target": "月亮",
+    "difficulty": "easy",
+    "notes": "測試 variant：qiljas vs vuralac"
+  },
+  {
+    "id": "q07",
+    "input": "排灣語的手怎麼說？",
+    "target": "手",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q08",
+    "input": "眼睛的排灣語是什麼？",
+    "target": "眼睛",
+    "difficulty": "easy",
+    "notes": "variant: mata vs maca"
+  },
+  {
+    "id": "q09",
+    "input": "火的排灣語怎麼說？",
+    "target": "火",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q10",
+    "input": "星星用排灣語怎麼說？",
+    "target": "星星",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q11",
+    "input": "母親的排灣語怎麼說？",
+    "target": "母親",
+    "difficulty": "medium",
+    "notes": "variant: kina/ina/tjina，LLM 可能輸出 kina 或 ina"
+  },
+  {
+    "id": "q12",
+    "input": "父親的族語是什麼？",
+    "target": "父親",
+    "difficulty": "medium",
+    "notes": "variant: kama/ama/tama"
+  },
+  {
+    "id": "q13",
+    "input": "孩子的排灣語怎麼說？",
+    "target": "孩子",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q14",
+    "input": "房子的排灣語是什麼？",
+    "target": "房子",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q15",
+    "input": "道路的排灣語怎麼說？",
+    "target": "道路",
+    "difficulty": "medium",
+    "notes": "djalan，語料庫中有大量例句但 vocabulary 只有這一條"
+  },
+  {
+    "id": "q16",
+    "input": "人的排灣語是什麼？",
+    "target": "人",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q17",
+    "input": "朋友的族語怎麼說？",
+    "target": "朋友",
+    "difficulty": "medium",
+    "notes": "variant: drangi/kadu"
+  },
+  {
+    "id": "q18",
+    "input": "山的排灣語怎麼說？",
+    "target": "山",
+    "difficulty": "medium",
+    "notes": "語料庫 vocabulary 為 gadu"
+  },
+  {
+    "id": "q19",
+    "input": "名字用排灣語怎麼說？",
+    "target": "名字",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q20",
+    "input": "狗的排灣語是什麼？",
+    "target": "狗",
+    "difficulty": "easy"
+  }
+]

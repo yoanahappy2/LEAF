@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "chinese": "我很想念我的家人。",
+    "expected": "sengelit aken tua u taqumaqanan.",
+    "translation": "sengelit aken tua u taqumaqanan.",
+    "method": "rag_llm",
+    "verdict": "STABLE_EXACT"
+  },
+  {
+    "id": 2,
+    "chinese": "他今天要去山上工作。",
+    "expected": "masengeseng tiamadju nusauni i gadu.",
+    "translation": "masengeseng tiamadju nusauni i gadu.",
+    "method": "rag_llm",
+    "verdict": "STABLE_EXACT"
+  },
+  {
+    "id": 3,
+    "chinese": "你們學校什麼時候開學？",
+    "expected": "nungida temagilj a temulu a nu gakku?",
+    "translation": "nungida temagilj a temulu a nu gakku?",
+    "method": "rag_llm",
+    "verdict": "STABLE_EXACT"
+  },
+  {
+    "id": 4,
+    "chinese": "請問廁所在哪裡？",
+    "expected": "inuan a palapal...",
+    "translation": "inuan a kumudan?",
+    "method": "rag_llm",
+    "verdict": "STABLE_KEYS"
+  },
+  {
+    "id": 5,
+    "chinese": "明天一起去打獵好嗎？",
+    "expected": "kina itjenan mun...",
+    "translation": "masengeseng i gadu tu i tademaw, inu?",
+    "method": "rag_llm",
+    "verdict": "CHANGED"
+  }
+]

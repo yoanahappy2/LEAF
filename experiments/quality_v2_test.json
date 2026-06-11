@@ -1,0 +1,169 @@
+{
+  "results": [
+    {
+      "original": "母親",
+      "translation": "tjina",
+      "expected_pass": false,
+      "actual_pass": false,
+      "score": 0.19,
+      "method": "rule+reverse_fail",
+      "reverse_verification": {
+        "verified": false,
+        "reverse_translation": "",
+        "match_score": 0.0,
+        "method": "empty_reverse"
+      },
+      "match": true,
+      "description": "tjina 不是排灣語「母親」（應為 kina）"
+    },
+    {
+      "original": "父親",
+      "translation": "tama",
+      "expected_pass": false,
+      "actual_pass": true,
+      "score": 0.97,
+      "method": "rule+reverse",
+      "reverse_verification": {
+        "verified": true,
+        "reverse_translation": "父親",
+        "match_score": 1.0,
+        "method": "exact"
+      },
+      "match": false,
+      "description": "tama 不是排灣語「父親」（應為 kama）"
+    },
+    {
+      "original": "你好",
+      "translation": "masalu",
+      "expected_pass": false,
+      "actual_pass": false,
+      "score": 0.19,
+      "method": "rule+reverse_fail",
+      "reverse_verification": {
+        "verified": false,
+        "reverse_translation": "謝謝",
+        "match_score": 0.0,
+        "method": "no_match"
+      },
+      "match": true,
+      "description": "masalu 是「謝謝」不是「你好」"
+    },
+    {
+      "original": "母親",
+      "translation": "kina",
+      "expected_pass": true,
+      "actual_pass": true,
+      "score": 0.91,
+      "method": "rule+reverse",
+      "reverse_verification": {
+        "verified": true,
+        "reverse_translation": "媽媽",
+        "match_score": 0.9,
+        "method": "synonym"
+      },
+      "match": true,
+      "description": "kina 是正確的「母親」"
+    },
+    {
+      "original": "父親",
+      "translation": "kama",
+      "expected_pass": true,
+      "actual_pass": true,
+      "score": 0.91,
+      "method": "rule+reverse",
+      "reverse_verification": {
+        "verified": true,
+        "reverse_translation": "爸爸",
+        "match_score": 0.9,
+        "method": "synonym"
+      },
+      "match": true,
+      "description": "kama 是正確的「父親」"
+    },
+    {
+      "original": "你好",
+      "translation": "djavadjavai",
+      "expected_pass": true,
+      "actual_pass": true,
+      "score": 0.85,
+      "method": "rule+reverse",
+      "reverse_verification": {
+        "verified": true,
+        "reverse_translation": "你們好",
+        "match_score": 0.9,
+        "method": "synonym"
+      },
+      "match": true,
+      "description": "djavadjavai 是正確的「你好」"
+    },
+    {
+      "original": "謝謝",
+      "translation": "masalu",
+      "expected_pass": true,
+      "actual_pass": true,
+      "score": 0.97,
+      "method": "rule+reverse",
+      "reverse_verification": {
+        "verified": true,
+        "reverse_translation": "謝謝",
+        "match_score": 1.0,
+        "method": "exact"
+      },
+      "match": true,
+      "description": "masalu 是正確的「謝謝」"
+    },
+    {
+      "original": "水",
+      "translation": "zaljum",
+      "expected_pass": true,
+      "actual_pass": true,
+      "score": 0.91,
+      "method": "rule+reverse",
+      "reverse_verification": {
+        "verified": true,
+        "reverse_translation": "水",
+        "match_score": 1.0,
+        "method": "exact"
+      },
+      "match": true,
+      "description": "zaljum 是正確的「水」"
+    },
+    {
+      "original": "吃",
+      "translation": "keman",
+      "expected_pass": true,
+      "actual_pass": true,
+      "score": 0.97,
+      "method": "rule+reverse",
+      "reverse_verification": {
+        "verified": true,
+        "reverse_translation": "吃",
+        "match_score": 1.0,
+        "method": "exact"
+      },
+      "match": true,
+      "description": "keman 是正確的「吃」"
+    },
+    {
+      "original": "太陽",
+      "translation": "qadaw",
+      "expected_pass": true,
+      "actual_pass": true,
+      "score": 0.97,
+      "method": "rule+reverse",
+      "reverse_verification": {
+        "verified": true,
+        "reverse_translation": "太陽",
+        "match_score": 1.0,
+        "method": "exact"
+      },
+      "match": true,
+      "description": "qadaw 是正確的「太陽」"
+    }
+  ],
+  "summary": {
+    "correct": 9,
+    "total": 10,
+    "accuracy": 0.9
+  }
+}
